@@ -1,3 +1,4 @@
+
 """
 Sample from a trained model
 """
@@ -10,6 +11,7 @@ import torch
 import tiktoken
 from typing import Optional
 from nanogpt.model import GPTConfig, GPT
+import sys
 
 BASE_DIR = "nanogpt/"
 
@@ -50,8 +52,10 @@ def add_activation_bias_to_state_dict(
     for activation_name in activation_names:
         activation_state_dict = torch.load(
             f"nanogpt/activations/{activation_dir}{activation_name}",
-            map_location=device,
+            map_location="cpu",
         )
+	#xmodel.to("cpu")
+#device
         difference_vector = activation_state_dict["difference_vector"]
         difference_vector *= activation_coefficient
         layer = activation_state_dict["layer"]
@@ -85,13 +89,17 @@ class NanoGptPlayer:
         )
         top_k = 200  # retain only the top_k most likely tokens, clamp others to have 0 probability
         seed = 1337
-        device = "cuda"  # examples: 'cpu', 'cuda', 'cuda:0', 'cuda:1', etc.
+        device = "cpu"  # examples: 'cpu', 'cuda', 'cuda:0', 'cuda:1', etc.
         # device = "cpu"
         dtype = "float16"  # 'float32' or 'bfloat16' or 'float16'
         compile = False  # use PyTorch 2.0 to compile the model to be faster
-        exec(
-            open(f"{BASE_DIR}configurator.py").read()
-        )  # overrides from command line or config file
+        configurator_path = f"{BASE_DIR}configurator.py"
+        previous_argv = sys.argv
+        sys.argv = [configurator_path]
+        try:
+            exec(open(configurator_path).read())
+        finally:
+            sys.argv = previous_argv
         # -----------------------------------------------------------------------------
 
         torch.manual_seed(seed)

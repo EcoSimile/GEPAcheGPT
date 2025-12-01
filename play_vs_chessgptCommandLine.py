@@ -1,21 +1,11 @@
+import argparse
 import openai
 import chess
-import chess.engine
 import os
 import csv
 import random
 import time
 import platform
-#chatgpt said to add this to be able to access the stockfish i install on fedora
-import os, shutil
-import chess.engine
-
-ENGINE = (shutil.which("stockfish")
-          or os.environ.get("STOCKFISH_PATH")
-          or "/usr/bin/stockfish")   # last-ditch default
-
-engine = chess.engine.SimpleEngine.popen_uci(ENGINE)
-
 
 
 # NOTE: LLAMA AND NANOGPT ARE EXPERIMENTAL PLAYERS that most people won't need to use
@@ -24,8 +14,28 @@ engine = chess.engine.SimpleEngine.popen_uci(ENGINE)
 from nanogpt.nanogpt_module import NanoGptPlayer
 import gpt_query
 
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 from dataclasses import dataclass
+
+
+# Custom board formatting so black is shown at the bottom with clear file labels.
+FILE_LABELS = "A B C D E F G H"
+
+
+def format_board_black_bottom(board: chess.Board) -> str:
+    """Render the board with rank 1 at the top so black appears at the bottom."""
+    rows: List[str] = []
+    header = "  " + FILE_LABELS
+    rows.append(header)
+    for rank in range(1, 9):
+        pieces: List[str] = []
+        for file_idx in range(8):
+            square = chess.square(file_idx, rank - 1)
+            piece = board.piece_at(square)
+            pieces.append(piece.symbol() if piece else ".")
+        rows.append(f"{rank} " + " ".join(pieces))
+    rows.append(header)
+    return "\n".join(rows)
 
 
 @dataclass
@@ -114,6 +124,40 @@ class StockfishPlayer(Player):
 
     def close(self):
         self._engine.quit()
+
+
+class HumanPlayer(Player):
+    """Simple player that prompts the local user for SAN input."""
+
+    def __init__(
+        self, name: str = "Human", resign_result: str = "0-1", show_board: bool = True
+    ):
+        self.name = name
+        self._resign_result = resign_result
+        self._show_board = show_board
+
+    def get_move(
+        self, board: chess.Board, game_state: str, temperature: float
+    ) -> Optional[str]:
+        while True:
+            if self._show_board:
+                print(format_board_black_bottom(board))
+                print()
+            user_move = input(
+                f"{self.name}, enter your move in SAN (or type 'resign'/'draw'): "
+            ).strip()
+            if not user_move:
+                print("Please enter a move such as 'Nf3'.")
+                continue
+            normalized = user_move.lower()
+            if normalized in {"resign", "quit"}:
+                return self._resign_result
+            if normalized in {"draw", "1/2-1/2"}:
+                return "1/2-1/2"
+            return user_move
+
+    def get_config(self) -> dict:
+        return {"model": self.name}
 
 
 def get_gpt_response(game_state: str, model: str, temperature: float) -> Optional[str]:
@@ -358,7 +402,7 @@ def play_turn(
     else:
         board.push(move_uci)
         game_state += move_san
-        print(move_san, end=" ")
+        print(move_san)
 
     return game_state, resignation, failed_to_find_legal_move, illegal_moves
 
@@ -446,7 +490,7 @@ def play_game(
             if board.fullmove_number != 1:
                 game_state += " "
             game_state += current_move_num
-            print(f"{current_move_num}", end="")
+            print(f"{current_move_num}")
 
             (
                 game_state,
@@ -516,26 +560,104 @@ def play_game(
         # print(game_state)
 
 
-NANOGPT = True
-RUN_FOR_ANALYSIS = True
+NANOGPT = False
+RUN_FOR_ANALYSIS = False
 MAX_MOVES = 1000
-if NANOGPT:
-    MAX_MOVES = 89  # Due to nanogpt max input length of 1024
-recording_file = "logs/determine.csv"  # default recording file. Because we are using list [player_ones], recording_file is overwritten
-player_ones = ["stockfish_16layers_ckpt_no_optimizer.pt"]
-player_ones = ["gpt-3.5-turbo-instruct"]
-player_two_recording_name = "stockfish_sweep"
-if __name__ == "__main__":
-    for player in player_ones:
-        player_one_recording_name = player
-        for i in range(11):
-            num_games = 3
-           # player_one = GPTPlayer(model=player)
-            # player_one = GPTPlayer(model="gpt-4")
-            # player_one = StockfishPlayer(skill_level=-1, play_time=0.1)
-            player_one = NanoGptPlayer(model_name="lichess_200k_bins_16layers_ckpt_with_optimizer.pt") # NanoGptPlayer(model_name=player_ones) #(model_name=player_one_recording_name)
-            player_two = StockfishPlayer(skill_level=i, play_time=0.1)
-            # player_two = GPTPlayer(model="gpt-4")
-            # player_two = GPTPlayer(model="gpt-3.5-turbo-instruct")
+recording_file = "logs/human_vs_chessgpt.csv"
+player_one_recording_name = "chessgpt"
+player_two_recording_name = "human_player"
+DEFAULT_NANOGPT_MODEL = "lichess_200k_bins_16layers_ckpt_with_optimizer.pt"
 
-            play_game(player_one, player_two, num_games)
+
+def create_ai_player(
+    opponent_type: str, gpt_model: str, nanogpt_checkpoint: str
+) -> Tuple[Player, str, bool]:
+    """Factory for the AI opponent."""
+    if opponent_type == "gpt":
+        return GPTPlayer(model=gpt_model), gpt_model, False
+    ai_player = NanoGptPlayer(model_name=nanogpt_checkpoint)
+    return ai_player, nanogpt_checkpoint, True
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Play a human vs ChessGPT using the existing evaluation loop."
+    )
+    parser.add_argument(
+        "--opponent",
+        choices=["nanogpt", "gpt"],
+        default="nanogpt",
+        help="Which ChessGPT player to face.",
+    )
+    parser.add_argument(
+        "--model",
+        default="gpt-3.5-turbo-instruct",
+        help="OpenAI model name when --opponent=gpt.",
+    )
+    parser.add_argument(
+        "--nanogpt-checkpoint",
+        default=DEFAULT_NANOGPT_MODEL,
+        help="Checkpoint filename under nanogpt/out when --opponent=nanogpt.",
+    )
+    parser.add_argument(
+        "--games",
+        type=int,
+        default=1,
+        help="Number of games to play in this session.",
+    )
+    parser.add_argument(
+        "--user-color",
+        choices=["white", "black"],
+        default="black",
+        help="Play as White or Black. Default Black faces ChessGPT as White.",
+    )
+    parser.add_argument(
+        "--user-name",
+        default="Human",
+        help="Name recorded for the human player.",
+    )
+    parser.add_argument(
+        "--record-file",
+        default=None,
+        help="Optional CSV file path for saving results (defaults to logs/human_vs_chessgpt.csv).",
+    )
+    parser.add_argument(
+        "--randomize-opening-moves",
+        type=int,
+        default=None,
+        help="Randomize the first N plies before handing control over to players.",
+    )
+    args = parser.parse_args()
+
+    ai_player, ai_label, requires_nanogpt_limit = create_ai_player(
+        args.opponent, args.model, args.nanogpt_checkpoint
+    )
+    NANOGPT = requires_nanogpt_limit
+    MAX_MOVES = 89 if NANOGPT else 1000
+
+    if args.record_file:
+        recording_file = args.record_file
+
+    if args.user_color == "white":
+        player_one = HumanPlayer(name=args.user_name, resign_result="0-1")
+        player_two = ai_player
+        player_one_recording_name = args.user_name
+        player_two_recording_name = ai_label
+    else:
+        player_one = ai_player
+        player_two = HumanPlayer(name=args.user_name, resign_result="1-0")
+        player_one_recording_name = ai_label
+        player_two_recording_name = args.user_name
+
+    print(
+        f"{args.user_name} will play as {args.user_color}. "
+        f"ChessGPT is using {'NanoGPT' if args.opponent == 'nanogpt' else args.model}."
+    )
+    print("Enter your moves in SAN (e.g., 'Nf3', 'exd5', 'O-O'). Type 'resign' to concede or 'draw' to offer a draw.")
+
+    play_game(
+        player_one,
+        player_two,
+        max_games=args.games,
+        randomize_opening_moves=args.randomize_opening_moves,
+    )
