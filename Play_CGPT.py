@@ -17,6 +17,19 @@ from play_vs_chessgptCommandLine import GPTPlayer, LegalMoveResponse, get_legal_
 
 PROMPT_PATH = os.path.join(ROOT_DIR, "gpt_inputs", "prompt.txt")
 DEFAULT_NANOGPT_MODEL = "lichess_200k_bins_16layers_ckpt_with_optimizer.pt"
+FAILURE_LOG = os.path.join(ROOT_DIR, "logs", "uci_failures.log")
+
+
+def log_failure(reason: str, board: chess.Board, game_state: str, attempts: int):
+    os.makedirs(os.path.dirname(FAILURE_LOG), exist_ok=True)
+    with open(FAILURE_LOG, "a", encoding="utf-8") as f:
+        f.write("=" * 40 + "\n")
+        f.write(f"Reason: {reason}\n")
+        f.write(f"Attempts: {attempts}\n")
+        f.write(f"FEN: {board.fen()}\n")
+        f.write("Transcript:\n")
+        f.write(game_state.strip() + "\n")
+        f.write("=" * 40 + "\n\n")
 
 
 class ChessGptUciEngine:
@@ -95,7 +108,18 @@ class ChessGptUciEngine:
             self.game_state,
             player_one=self.board.turn == chess.WHITE,
         )
-        if result.is_resignation or result.is_illegal_move or result.move_uci is None:
+        if result.move_uci is None:
+            if result.is_resignation:
+                message = "model resigned (returned game result token)"
+            elif result.is_illegal_move:
+                message = (
+                    f"model produced illegal moves for {result.attempts} attempts"
+                )
+            else:
+                message = "model failed to return a move"
+            log_failure(message, self.board.copy(), self.game_state, result.attempts)
+            print(f"info string {message}")
+            sys.stdout.flush()
             return None, None
         self._append_san_to_game_state(result.move_san)
         self.board.push(result.move_uci)
