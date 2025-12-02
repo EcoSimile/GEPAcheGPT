@@ -199,14 +199,11 @@ class NanoGptPlayer:
         x = torch.tensor(start_ids, dtype=torch.long, device=self.device)[None, ...]
         with torch.no_grad():
             with self.ctx:
-                for k in range(num_samples):
-                    y = self.model.generate(x, max_new_tokens, temperature=temperature, top_k=top_k)
+                y = self.model.generate(x, max_new_tokens, temperature=temperature, top_k=top_k)
 
-                    model_response = self.decode(y[0].tolist())
-
-        # print("model_response", model_response)
-        # model_response includes the input string
-        model_response = model_response[len(game_state) :]
+        # Decode only the newly generated tokens beyond the prompt length.
+        generated_tokens = y[0][x.shape[-1] :].tolist()
+        model_response = self.decode(generated_tokens)
         if ";" in model_response:
             model_response = model_response.split(";")[0]
         return model_response
@@ -217,6 +214,7 @@ class NanoGptPlayer:
         if not moves:
             return ""
         first_move = moves[0]
+        first_move = re.sub(r"^\d+\.(\.\.)?", "", first_move)
 
         return first_move
 

@@ -15,7 +15,9 @@ from nanogpt.nanogpt_module import NanoGptPlayer
 import gpt_query
 
 from typing import Optional, Tuple, List
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from datetime import datetime
+import logging
 
 
 # Custom board formatting so black is shown at the bottom with mirrored file labels.
@@ -38,6 +40,36 @@ def format_board_black_bottom(board: chess.Board) -> str:
     return "\n".join(rows)
 
 
+# CLI prompt logging (for side-by-side comparison with UCI)
+CLI_PROMPT_LOG = os.path.join("logs", "nanogpt_prompts_cli.log")
+logging.basicConfig(
+    filename=os.path.join("logs", "cli_debug.log"),
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+
+
+def log_prompt_cli(stage: str, board: chess.Board, game_state: str, extra: Optional[str] = None, attempts: Optional[List[str]] = None):
+    os.makedirs(os.path.dirname(CLI_PROMPT_LOG), exist_ok=True)
+    side = "white" if board.turn == chess.WHITE else "black"
+    with open(CLI_PROMPT_LOG, "a", encoding="utf-8") as f:
+        f.write("#" * 50 + "\n")
+        f.write(f"Timestamp: {datetime.now().isoformat(timespec='seconds')}\n")
+        f.write(f"Stage: {stage}\n")
+        f.write(f"Side to move: {side}\n")
+        f.write(f"FEN: {board.fen()}\n")
+        f.write(f"Transcript length: {len(game_state)}\n")
+        if extra:
+            f.write(f"Extra: {extra}\n")
+        if attempts:
+            f.write("Attempts:\n")
+            for i, a in enumerate(attempts, 1):
+                shown = a if (a is not None and str(a).strip() != "") else "[EMPTY]"
+                f.write(f"  {i}: {shown}\n")
+        f.write("Transcript:\n")
+        f.write(game_state + "\n")
+
+
 @dataclass
 class LegalMoveResponse:
     move_san: Optional[str] = None
@@ -45,6 +77,7 @@ class LegalMoveResponse:
     attempts: int = 0
     is_resignation: bool = False
     is_illegal_move: bool = False
+    attempt_history: List[str] = field(default_factory=list)
 
 
 # Define base Player class
@@ -341,6 +374,7 @@ def get_legal_move(
     """Request a move from the player and ensure it's legal."""
     move_san = None
     move_uci = None
+    attempt_history: List[str] = []
 
     for attempt in range(max_attempts):
         move_san = player.get_move(
@@ -359,6 +393,8 @@ def get_legal_move(
                     is_resignation=True,
                 )
 
+        attempt_history.append(move_san if move_san is not None else "None")
+
         try:
             move_uci = board.parse_san(move_san)
         except Exception as e:
@@ -373,19 +409,25 @@ def get_legal_move(
         if move_uci in board.legal_moves:
             if not move_san.startswith(" "):
                 move_san = " " + move_san
-            return LegalMoveResponse(move_san, move_uci, attempt)
+            return LegalMoveResponse(move_san, move_uci, attempt, attempt_history=attempt_history)
         print(f"Illegal move: {move_san}")
 
     # If we reach here, the player has made illegal moves for all attempts.
     print(f"{player} provided illegal moves for {max_attempts} attempts.")
     return LegalMoveResponse(
-        move_san=None, move_uci=None, attempts=max_attempts, is_illegal_move=True
+        move_san=None,
+        move_uci=None,
+        attempts=max_attempts,
+        is_illegal_move=True,
+        attempt_history=attempt_history,
     )
 
 
 def play_turn(
     player: Player, board: chess.Board, game_state: str, player_one: bool
 ) -> Tuple[str, bool, bool, int]:
+    # Log prompt before querying the model
+    log_prompt_cli("PROMPT", board, game_state)
     result = get_legal_move(player, board, game_state, player_one, 5)
     illegal_moves = result.attempts
     move_san = result.move_san
@@ -403,6 +445,11 @@ def play_turn(
         board.push(move_uci)
         game_state += move_san
         print(move_san)
+
+    # Log result/attempts after the query
+    uci_text = move_uci.uci() if move_uci else None
+    extra = f"resignation={resignation}, failed={failed_to_find_legal_move}, SAN={move_san}, UCI={uci_text}"
+    log_prompt_cli("RESULT" if move_uci else "FAILURE", board, game_state, extra=extra, attempts=result.attempt_history)
 
     return game_state, resignation, failed_to_find_legal_move, illegal_moves
 

@@ -4,7 +4,7 @@ import argparse
 import logging
 import os
 import sys
-from typing import List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 from datetime import datetime
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -23,6 +23,8 @@ FAILURE_LOG = os.path.join(ROOT_DIR, "logs", "uci_failures.log")
 DEBUG_LOG = os.path.join(ROOT_DIR, "logs", "uci_debug.log")
 PROMPT_LOG = os.path.join(ROOT_DIR, "logs", "nanogpt_prompts_uci.log")
 
+# Ensure log directory exists before configuring logger (avoid import-time failures)
+os.makedirs(os.path.dirname(DEBUG_LOG), exist_ok=True)
 logging.basicConfig(
     filename=DEBUG_LOG,
     level=logging.INFO,
@@ -46,7 +48,8 @@ def log_failure(
         if attempt_history:
             f.write("Attempt history:\n")
             for idx, mv in enumerate(attempt_history, 1):
-                f.write(f"  {idx}: {mv}\n")
+                shown = mv if (mv is not None and str(mv).strip() != "") else "[EMPTY]"
+                f.write(f"  {idx}: {shown}\n")
         f.write(f"Side to move: {side}\n")
         f.write(f"FEN: {board.fen()}\n")
         f.write(f"Transcript length (chars): {len(game_state)}\n")
@@ -71,7 +74,8 @@ def log_prompt_uci(stage: str, board: chess.Board, game_state: str, extra: Optio
         if attempts:
             f.write("Attempts:\n")
             for i, a in enumerate(attempts, 1):
-                f.write(f"  {i}: {a}\n")
+                shown = a if (a is not None and str(a).strip() != "") else "[EMPTY]"
+                f.write(f"  {i}: {shown}\n")
         f.write("Transcript:\n")
         f.write(game_state + "\n")
 
@@ -85,11 +89,15 @@ class ChessGptUciEngine:
         self.temperature = temperature
         self.base_prompt = self._load_prompt()
         self.board = chess.Board()
-        self.game_state = self.base_prompt
-        # Track history for reconstruction across 'position' calls
+        self.history_path = os.path.join(ROOT_DIR, "logs", "active_game_uci.json")
+        # Prompt prefix can include optional FEN headers when GUIs start from arbitrary positions
+        self.prompt_prefix = self.base_prompt
+        self.active_fen: Optional[str] = None
+        self.history_base_fen: str = chess.STARTING_FEN
         self.uci_history: List[str] = []
         self.pgn_tokens: List[str] = []  # e.g., ["1. e4 d6", "2. d4 c5"]
-        self.history_path = os.path.join(ROOT_DIR, "logs", "active_game_uci.json")
+        self.game_state = self.prompt_prefix
+        self._opening_cache: Optional[Dict[str, Tuple[List[str], List[str]]]] = None
 
     def _load_prompt(self) -> str:
         with open(PROMPT_PATH, "r") as f:
@@ -97,10 +105,39 @@ class ChessGptUciEngine:
 
     def reset(self):
         self.board.reset()
-        self.game_state = self.base_prompt
+        self.active_fen = None
+        self.prompt_prefix = self.base_prompt
+        self.history_base_fen = chess.STARTING_FEN
         self.uci_history = []
         self.pgn_tokens = []
+        self._refresh_game_state()
         # Don't delete history file here; some GUIs send 'ucinewgame' before replaying moves
+
+    def _refresh_game_state(self):
+        moves_text = " " + " ".join(self.pgn_tokens) if self.pgn_tokens else ""
+        self.game_state = self.prompt_prefix + moves_text
+
+    def _configure_prompt_for_fen(self, fen: Optional[str]):
+        if fen:
+            header = self.base_prompt.strip()
+            self.prompt_prefix = f"{header}\n[SetUp \"1\"]\n[FEN \"{fen}\"]\n\n"
+        else:
+            self.prompt_prefix = self.base_prompt
+        self.active_fen = fen
+        if not self.pgn_tokens:
+            self.game_state = self.prompt_prefix
+
+    def _initialize_from_new_fen(self, fen: str):
+        self.history_base_fen = fen
+        self._configure_prompt_for_fen(fen)
+        self.uci_history = []
+        self.pgn_tokens = []
+        self.board.set_fen(fen)
+        self._refresh_game_state()
+
+    def _prompt_fullmove_number(self, board: Optional[chess.Board] = None) -> int:
+        ref = board or self.board
+        return ref.fullmove_number
 
     def handle_position(self, tokens: List[str]):
         if not tokens:
@@ -108,6 +145,7 @@ class ChessGptUciEngine:
             return
 
         idx = 0
+        current_fen: Optional[str] = None
         token = tokens[idx]
         start_from_fen = False
         if token == "startpos":
@@ -116,10 +154,8 @@ class ChessGptUciEngine:
         elif token == "fen":
             fen_tokens = tokens[idx + 1 : idx + 7]
             fen = " ".join(fen_tokens)
+            current_fen = fen
             self.board.set_fen(fen)
-            # Do NOT inject tags or non-training text into the NanoGPT prompt.
-            # We'll try to resume from persisted history or build minimal tokens from moves only.
-            self.game_state = self.base_prompt
             idx += 7
             start_from_fen = True
         else:
@@ -128,45 +164,47 @@ class ChessGptUciEngine:
         if idx < len(tokens) and tokens[idx] == "moves":
             moves = tokens[idx + 1 :]
             logging.info("Rebuilding from moves: %s", moves)
-            self._apply_external_moves(moves, start_from_fen=start_from_fen)
+            self._apply_external_moves(
+                moves, start_from_fen=start_from_fen, fen_source=current_fen
+            )
+            self._persist_history()
         elif start_from_fen and not (idx < len(tokens) and tokens[idx] == "moves"):
             # FEN without moves – try to reconstruct just from saved history
-            self._resume_from_saved_history_if_possible()
+            if self._resume_from_saved_history_if_possible():
+                self._persist_history()
+            elif current_fen and self._bootstrap_from_opening(current_fen):
+                self._persist_history()
+            elif current_fen:
+                self._initialize_from_new_fen(current_fen)
+                self._persist_history()
 
-    def _apply_external_moves(self, moves: List[str], start_from_fen: bool = False):
+    def _apply_external_moves(
+        self,
+        moves: List[str],
+        start_from_fen: bool = False,
+        fen_source: Optional[str] = None,
+    ):
         if start_from_fen:
-            # Try to resume using saved history
             if not self._resume_from_saved_history_if_possible():
-                # No history to reconstruct; build minimal transcript from FEN context
-                logging.info("FEN resume without matching history; building minimal transcript from FEN context")
-                transcript_tokens: List[str] = []
-                current_pair: Optional[str] = None
-                for move_str in moves:
-                    move = chess.Move.from_uci(move_str)
-                    san = self.board.san(move)
-                    if current_pair is None:
-                        # Always use training-style: 'n. SAN' even if it's Black's move
-                        current_pair = f"{self.board.fullmove_number}. {san}"
-                    else:
-                        current_pair += f" {san}"
-                        transcript_tokens.append(current_pair)
-                        current_pair = None
-                    self.board.push(move)
-                if current_pair:
-                    transcript_tokens.append(current_pair)
-                if transcript_tokens:
-                    self.game_state = self.base_prompt + " " + " ".join(transcript_tokens)
-                    self.uci_history = moves.copy()
-                    self.pgn_tokens = transcript_tokens
-                    self._persist_history()
-                return
-
+                source = fen_source or self.board.fen()
+                logging.info(
+                    "Initializing new FEN context for GUI supplied position: %s", source
+                )
+                if not (source and self._bootstrap_from_opening(source)):
+                    self._initialize_from_new_fen(source)
+            else:
+                # Ensure prompt reflects any persisted fen context
+                if self.active_fen:
+                    self._configure_prompt_for_fen(self.active_fen)
         else:
             # startpos case: rebuild from scratch
             self.board.reset()
-            self.game_state = self.base_prompt
+            self.active_fen = None
+            self.history_base_fen = chess.STARTING_FEN
+            self.prompt_prefix = self.base_prompt
             self.uci_history = []
             self.pgn_tokens = []
+            self._refresh_game_state()
 
         # At this point, either we've resumed history into self.board/self.pgn_tokens
         # or we're at startpos with empty tokens. Append incoming moves to both.
@@ -183,7 +221,7 @@ class ChessGptUciEngine:
             move = chess.Move.from_uci(move_str)
             san = self.board.san(move)
             if current_pair is None:
-                current_pair = f"{self.board.fullmove_number}. {san}"
+                current_pair = f"{self._prompt_fullmove_number()}. {san}"
             else:
                 current_pair += f" {san}"
                 self.pgn_tokens.append(current_pair)
@@ -195,7 +233,7 @@ class ChessGptUciEngine:
             self.pgn_tokens.append(current_pair)
 
         # Rebuild game_state from tokens
-        self.game_state = self.base_prompt + (" " + " ".join(self.pgn_tokens) if self.pgn_tokens else "")
+        self._refresh_game_state()
         self._persist_history()
 
     def _persist_history(self):
@@ -203,7 +241,15 @@ class ChessGptUciEngine:
             os.makedirs(os.path.dirname(self.history_path), exist_ok=True)
             import json
             with open(self.history_path, "w", encoding="utf-8") as f:
-                json.dump({"uci_history": self.uci_history, "pgn_tokens": self.pgn_tokens}, f)
+                json.dump(
+                    {
+                        "uci_history": self.uci_history,
+                        "pgn_tokens": self.pgn_tokens,
+                        "history_base_fen": self.history_base_fen,
+                        "active_fen": self.active_fen,
+                    },
+                    f,
+                )
         except Exception as e:
             logging.warning("Failed to persist history: %s", e)
 
@@ -214,6 +260,13 @@ class ChessGptUciEngine:
                 data = json.load(f)
             self.uci_history = data.get("uci_history", [])
             self.pgn_tokens = data.get("pgn_tokens", [])
+            self.history_base_fen = data.get("history_base_fen", chess.STARTING_FEN)
+            self.active_fen = data.get("active_fen")
+            if self.active_fen:
+                self._configure_prompt_for_fen(self.active_fen)
+            else:
+                self.prompt_prefix = self.base_prompt
+            self._refresh_game_state()
             return bool(self.uci_history)
         except Exception:
             return False
@@ -221,35 +274,45 @@ class ChessGptUciEngine:
     def _resume_from_saved_history_if_possible(self) -> bool:
         # Attempt to rebuild from saved in-memory or persisted history so that
         # board.fen() before applying incoming moves matches the GUI-provided FEN
-        saved_moves = list(self.uci_history)
-        if not saved_moves and not self._load_history():
+        if not self.uci_history and not self._load_history():
             return False
-        # Recreate board from startpos using saved moves
-        temp = chess.Board()
+        saved_moves = list(self.uci_history)
+        # Recreate board from stored base using saved moves
+        temp = chess.Board(self.history_base_fen)
         try:
             for m in saved_moves:
                 temp.push_uci(m)
         except Exception:
             return False
         # If FENs match current board FEN, accept and rebuild state from saved tokens
-        if temp.fen() == self.board.fen():
+        if self._boards_equivalent(temp, self.board):
             self.board = temp
             # If no pgn_tokens loaded, rebuild from moves
             if not self.pgn_tokens:
-                self._rebuild_tokens_from_moves(saved_moves)
-            self.game_state = self.base_prompt + (" " + " ".join(self.pgn_tokens) if self.pgn_tokens else "")
+                self._rebuild_tokens_from_moves(saved_moves, self.history_base_fen)
+            self._refresh_game_state()
             return True
         return False
 
-    def _rebuild_tokens_from_moves(self, moves: List[str]):
+    @staticmethod
+    def _boards_equivalent(a: chess.Board, b: chess.Board) -> bool:
+        return (
+            a.board_fen() == b.board_fen()
+            and a.turn == b.turn
+            and a.castling_xfen() == b.castling_xfen()
+            and a.ep_square == b.ep_square
+        )
+
+    def _rebuild_tokens_from_moves(self, moves: List[str], start_fen: Optional[str] = None):
         self.pgn_tokens = []
-        temp = chess.Board()
+        temp = chess.Board(start_fen) if start_fen else chess.Board()
         current_pair: Optional[str] = None
         for m in moves:
             move = chess.Move.from_uci(m)
             san = temp.san(move)
             if current_pair is None:
-                current_pair = f"{temp.fullmove_number}. {san}"
+                move_no = temp.fullmove_number
+                current_pair = f"{move_no}. {san}"
             else:
                 current_pair += f" {san}"
                 self.pgn_tokens.append(current_pair)
@@ -260,9 +323,10 @@ class ChessGptUciEngine:
 
     def _append_move_number_if_needed(self):
         if self.board.turn == chess.WHITE:
-            if self.board.fullmove_number != 1:
+            move_no = self._prompt_fullmove_number()
+            if move_no != 1 or self.pgn_tokens:
                 self.game_state += " "
-            self.game_state += f"{self.board.fullmove_number}."
+            self.game_state += f"{move_no}."
         else:
             self.game_state += " "
 
@@ -300,6 +364,11 @@ class ChessGptUciEngine:
             log_prompt_uci("FAILURE", self.board, self.game_state, extra=message, attempts=result.attempt_history)
             return None, None
         self._append_san_to_game_state(result.move_san)
+        # Record JSON history before mutating the board so move numbers align
+        try:
+            self._record_engine_move(result.move_uci, result.move_san)
+        except Exception as e:
+            logging.warning("History record error: %s", e)
         self.board.push(result.move_uci)
         logging.info(
             "Engine move selected: %s (SAN %s) with transcript length %d",
@@ -309,6 +378,125 @@ class ChessGptUciEngine:
         )
         log_prompt_uci("RESULT", self.board, self.game_state, extra=f"bestmove {result.move_uci.uci()} SAN {result.move_san}")
         return result.move_uci.uci(), result.move_san
+
+    def _record_engine_move(self, move_uci: chess.Move, move_san: str):
+        """Append engine's move to persistent history and rebuild tokens."""
+        # Track UCI history
+        try:
+            uci_text = move_uci.uci()
+        except Exception:
+            uci_text = None
+        if uci_text:
+            self.uci_history.append(uci_text)
+        # Append to PGN tokens in training style
+        san_clean = move_san.strip()
+        if self.board.turn == chess.WHITE:
+            # Engine is about to play White's move
+            pair = f"{self._prompt_fullmove_number()}. {san_clean}"
+            self.pgn_tokens.append(pair)
+        else:
+            # Completing the current pair with Black's SAN
+            if self.pgn_tokens:
+                self.pgn_tokens[-1] += f" {san_clean}"
+            else:
+                self.pgn_tokens.append(
+                    f"{self._prompt_fullmove_number()}. {san_clean}"
+                )
+        # Rebuild game_state and persist
+        self._refresh_game_state()
+        self._persist_history()
+
+    def _load_opening_cache(self) -> Dict[str, Tuple[List[str], List[str]]]:
+        if self._opening_cache is not None:
+            return self._opening_cache
+        mapping: Dict[str, Tuple[List[str], List[str]]] = {}
+        path = os.path.join(ROOT_DIR, "logs", "openings.csv")
+        if not os.path.exists(path):
+            self._opening_cache = mapping
+            return mapping
+
+        def snapshot(board: chess.Board, tokens: List[str], pending: Optional[str], history: List[str]):
+            temp_tokens = list(tokens)
+            if pending:
+                temp_tokens.append(pending)
+            mapping.setdefault(board.fen(), (temp_tokens, list(history)))
+
+        with open(path, "r", encoding="utf-8") as handle:
+            for raw_line in handle:
+                line = raw_line.strip()
+                if not line or line.lower().startswith("opening"):
+                    continue
+                san_tokens: List[str] = []
+                for token in line.replace("...", " ").split():
+                    token = token.strip()
+                    if not token:
+                        continue
+                    if token.endswith("."):
+                        continue
+                    if "." in token:
+                        token = token.split(".")[-1]
+                    if not token:
+                        continue
+                    san_tokens.append(token)
+                board = chess.Board()
+                pgn_tokens: List[str] = []
+                history: List[str] = []
+                current_pair: Optional[str] = None
+                snapshot(board, pgn_tokens, current_pair, history)
+                for san in san_tokens:
+                    try:
+                        move = board.parse_san(san)
+                    except Exception:
+                        current_pair = None
+                        break
+                    if current_pair is None:
+                        current_pair = f"{board.fullmove_number}. {san}"
+                    else:
+                        current_pair += f" {san}"
+                        pgn_tokens.append(current_pair)
+                        current_pair = None
+                    board.push(move)
+                    history.append(move.uci())
+                    snapshot(board, pgn_tokens, current_pair, history)
+                if current_pair:
+                    temp_tokens = list(pgn_tokens)
+                    temp_tokens.append(current_pair)
+                    mapping.setdefault(board.fen(), (temp_tokens, list(history)))
+        self._opening_cache = mapping
+        logging.info("Loaded %d opening positions for FEN bootstrapping", len(mapping))
+        return mapping
+
+    def _lookup_opening_history(self, fen: str) -> Optional[Tuple[List[str], List[str]]]:
+        cache = self._load_opening_cache()
+        entry = cache.get(fen)
+        if not entry:
+            return None
+        tokens, history = entry
+        return list(tokens), list(history)
+
+    def _bootstrap_from_opening(self, fen: str) -> bool:
+        lookup = self._lookup_opening_history(fen)
+        if not lookup:
+            return False
+        tokens, history = lookup
+        board = chess.Board()
+        for uci in history:
+            try:
+                board.push_uci(uci)
+            except Exception:
+                return False
+        target = chess.Board(fen)
+        if not self._boards_equivalent(board, target):
+            return False
+        self.board = board
+        self.history_base_fen = chess.STARTING_FEN
+        self.prompt_prefix = self.base_prompt
+        self.active_fen = None
+        self.uci_history = history
+        self.pgn_tokens = tokens
+        self._refresh_game_state()
+        logging.info("Bootstrapped history from opening book for FEN %s", fen)
+        return True
 
     def loop(self):
         for raw_line in sys.stdin:
@@ -332,6 +520,9 @@ class ChessGptUciEngine:
             elif command == "position":
                 self.handle_position(tokens[1:])
             elif command == "go":
+                # Log who is to move and any time controls the GUI provided
+                side = "white" if self.board.turn == chess.WHITE else "black"
+                logging.info("GO: side_to_move=%s %s", side, " ".join(tokens[1:]))
                 bestmove, _ = self._get_best_move()
                 if bestmove is None:
                     print("bestmove 0000")
