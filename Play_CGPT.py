@@ -14,6 +14,8 @@ os.chdir(ROOT_DIR)
 
 import chess
 
+from engine_version import ENGINE_VERSION
+
 from nanogpt.nanogpt_module import NanoGptPlayer
 from play_vs_chessgptCommandLine import GPTPlayer, LegalMoveResponse, get_legal_move
 
@@ -593,8 +595,16 @@ if __name__ == "__main__":
         default="ChessGPT",
         help="Name reported to the GUI via the UCI 'id name' command.",
     )
+    parser.add_argument(
+        "--engine-version",
+        default=ENGINE_VERSION,
+        help="Version string stamped into logs and the UCI id name.",
+    )
     args = parser.parse_args()
 
     player, label = create_player(args.opponent, args.model, args.nanogpt_checkpoint)
-    engine = ChessGptUciEngine(player=player, engine_name=f"{args.engine_name} ({label})")
+    engine = ChessGptUciEngine(
+        player=player,
+        engine_name=f"{args.engine_name} ({label}) v{args.engine_version}",
+    )
     engine.loop()

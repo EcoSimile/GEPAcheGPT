@@ -6,10 +6,15 @@ from __future__ import annotations
 import argparse
 import datetime
 import os
+import random
 import subprocess
 import sys
 import threading
 from typing import Iterable, List, Optional
+
+import chess
+
+from engine_version import ENGINE_VERSION
 
 DEFAULT_ENGINE_CMD = [
     "/usr/bin/python3",
@@ -18,19 +23,24 @@ DEFAULT_ENGINE_CMD = [
     "nanogpt",
 ]
 DEFAULT_LOG_PATH = "/home/chriskar/chess_gpt_eval/logs/pychess_traffic.log"
+DEFAULT_FAILURE_LOG_PATH = "/home/chriskar/chess_gpt_eval/logs/uci_failures.log"
+DEFAULT_FAILED_GAME_LOG_PATH = "/home/chriskar/chess_gpt_eval/logs/uci_logger/failed_games.log"
+DEFAULT_ENGINE_VERSION = ENGINE_VERSION
 DEFAULT_ENGINE_NAME = "ChessGPT Logger"
 DEFAULT_ENGINE_AUTHOR = "ChessGPT"
 
 log_lock = threading.Lock()
 
 
-def log_line(log_path: str, prefix: str, line: str) -> None:
+def log_line(log_path: str, prefix: str, line: str) -> str:
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
     timestamp = datetime.datetime.now().isoformat(timespec="seconds")
     if not line.endswith("\n"):
         line = f"{line}\n"
+    formatted = f"{timestamp} {prefix} {line}"
     with log_lock, open(log_path, "a", encoding="utf-8") as log_file:
-        log_file.write(f"{timestamp} {prefix} {line}")
+        log_file.write(formatted)
+    return formatted
 
 
 class UciLoggingProxy:
@@ -43,15 +53,34 @@ class UciLoggingProxy:
         engine_name: str,
         engine_author: str,
         spoof_handshake: bool = True,
+        failure_log_path: str = DEFAULT_FAILURE_LOG_PATH,
+        failed_game_log_path: str = DEFAULT_FAILED_GAME_LOG_PATH,
+        engine_version: str = DEFAULT_ENGINE_VERSION,
+        illegal_san_threshold: int = 3,
     ) -> None:
         self.engine_cmd: List[str] = list(engine_cmd)
         self.log_path = log_path
+        self.failure_log_path = failure_log_path
+        self.failed_game_log_path = failed_game_log_path
+        self.engine_version = engine_version
         self.engine_name = engine_name
         self.engine_author = engine_author
         self.spoof_handshake = spoof_handshake
         self.stdout_lock = threading.Lock()
+        self.board_lock = threading.Lock()
         self.stopped = threading.Event()
         self.engine_ready = threading.Event()
+        self.current_game_events: List[str] = []
+        self.current_game_failed = False
+        self.capture_active = False
+        self.failed_game_counter = self._load_failed_game_counter()
+        self.latest_position_cmd: Optional[str] = None
+        self.latest_board: Optional[chess.Board] = None
+        self.board_at_go: Optional[chess.Board] = None
+        self.last_go_command: Optional[str] = None
+        self.current_search_id = 0
+        self.illegal_san_counter = 0
+        self.illegal_san_threshold = max(1, illegal_san_threshold)
 
         self.engine = subprocess.Popen(
             self.engine_cmd,
@@ -77,16 +106,26 @@ class UciLoggingProxy:
             self.shutdown()
 
     def _handle_gui_command(self, raw_line: str) -> None:
-        log_line(self.log_path, ">>>", raw_line)
+        logged_entry = log_line(self.log_path, ">>>", raw_line)
         stripped = raw_line.strip()
+        lower = stripped.lower()
+
+        if lower == "ucinewgame":
+            self._start_new_game(initial_entry=logged_entry)
+        else:
+            self._record_game_event(logged_entry)
+
         if not stripped:
             return
 
-        lower = stripped.lower()
         if lower == "uci":
             self._send_fake_handshake()
         elif lower == "xboard":
             self._write_gui("info string GUI requested xboard, but only UCI is supported")
+        elif lower.startswith("position"):
+            self._update_board_from_position(stripped)
+        elif lower.startswith("go"):
+            self._prepare_for_search(stripped)
 
         self._send_to_engine(raw_line)
 
@@ -136,6 +175,21 @@ class UciLoggingProxy:
         if lowered.startswith("id ") and self.spoof_handshake:
             return None
 
+        if "illegal san" in lowered:
+            self.illegal_san_counter += 1
+            if self.illegal_san_counter == 1:
+                self._log_failure_context("Engine reported illegal SAN from backend")
+            if self.illegal_san_counter >= self.illegal_san_threshold:
+                if self._emit_fallback_move("illegal san threshold reached"):
+                    return None
+
+        if lowered.startswith("bestmove"):
+            self.illegal_san_counter = 0
+            self.last_go_command = None
+            if lowered == "bestmove 0000":
+                if self._emit_fallback_move("backend resigned (bestmove 0000)"):
+                    return None
+
         passthrough_prefixes = (
             "bestmove",
             "info",
@@ -159,7 +213,8 @@ class UciLoggingProxy:
             except BrokenPipeError:
                 self.stopped.set()
                 return
-        log_line(self.log_path, "<<<", line)
+        logged_entry = log_line(self.log_path, "<<<", line)
+        self._record_game_event(logged_entry)
 
     def shutdown(self) -> None:
         if self.stopped.is_set():
@@ -179,6 +234,134 @@ class UciLoggingProxy:
         if self.stdout_thread.is_alive():
             self.stdout_thread.join(timeout=1)
 
+    def _update_board_from_position(self, command: str) -> None:
+        tokens = command.split()
+        if len(tokens) < 2:
+            return
+        board: Optional[chess.Board]
+        idx = 1
+        if tokens[idx].lower() == "startpos":
+            board = chess.Board()
+            idx += 1
+        elif tokens[idx].lower() == "fen":
+            fen_fields = tokens[idx + 1 : idx + 7]
+            if len(fen_fields) < 6:
+                return
+            fen = " ".join(fen_fields[:6])
+            try:
+                board = chess.Board(fen)
+            except ValueError:
+                return
+            idx += 7
+        else:
+            return
+
+        if idx < len(tokens) and tokens[idx].lower() == "moves":
+            idx += 1
+            for move in tokens[idx:]:
+                if not move:
+                    continue
+                try:
+                    board.push_uci(move)
+                except ValueError:
+                    try:
+                        board.push_san(move)
+                    except ValueError:
+                        self._log_failure_context(
+                            f"Failed to apply move '{move}' from position command"
+                        )
+                        break
+        with self.board_lock:
+            self.latest_board = board
+            self.latest_position_cmd = command
+
+    def _prepare_for_search(self, command: str) -> None:
+        with self.board_lock:
+            self.board_at_go = self.latest_board.copy() if self.latest_board else None
+        self.current_search_id += 1
+        self.illegal_san_counter = 0
+        self.last_go_command = command
+
+    def _log_failure_context(self, reason: str) -> None:
+        with self.board_lock:
+            board_fen = self.board_at_go.fen() if self.board_at_go else "<unknown>"
+            latest_fen = self.latest_board.fen() if self.latest_board else "<unknown>"
+            position_cmd = self.latest_position_cmd or "<none>"
+        details = (
+            f"reason={reason}; "
+            f"last_position={position_cmd}; "
+            f"board_at_go={board_fen}; "
+            f"latest_board={latest_fen}; "
+            f"last_go={self.last_go_command or '<none>'}"
+        )
+        log_line(self.failure_log_path, "!!!", details)
+
+    def _emit_fallback_move(self, reason: str) -> bool:
+        with self.board_lock:
+            board = self.board_at_go.copy() if self.board_at_go else None
+        if board is None:
+            self._log_failure_context(f"Fallback move unavailable: {reason}")
+            self._mark_current_game_failed(f"fallback unavailable: {reason}")
+            return False
+        legal_moves = list(board.legal_moves)
+        if not legal_moves:
+            self._log_failure_context(
+                f"No legal moves available while attempting fallback ({reason})"
+            )
+            self._mark_current_game_failed(f"no legal moves for fallback: {reason}")
+            return False
+        move = random.choice(legal_moves)
+        fallback_move = move.uci()
+        self._log_failure_context(f"Injecting fallback move {fallback_move}: {reason}")
+        self._write_gui(
+            f"info string fallback move {fallback_move} injected because {reason}"
+        )
+        self._write_gui(f"bestmove {fallback_move}")
+        self._mark_current_game_failed(f"fallback move {fallback_move}: {reason}")
+        return True
+
+    def _record_game_event(self, entry: Optional[str]) -> None:
+        if not self.capture_active or not entry:
+            return
+        self.current_game_events.append(entry)
+
+    def _start_new_game(self, initial_entry: Optional[str]) -> None:
+        self.current_game_events = []
+        self.current_game_failed = False
+        self.capture_active = True
+        if initial_entry:
+            self.current_game_events.append(initial_entry)
+
+    def _mark_current_game_failed(self, reason: str) -> None:
+        if not self.capture_active or self.current_game_failed or not self.current_game_events:
+            return
+        self.current_game_failed = True
+        self._persist_failed_game(reason)
+        self.capture_active = False
+
+    def _persist_failed_game(self, reason: str) -> None:
+        os.makedirs(os.path.dirname(self.failed_game_log_path), exist_ok=True)
+        timestamp = datetime.datetime.now().isoformat(timespec="seconds")
+        self.failed_game_counter += 1
+        header = (
+            f"### Failed game {self.failed_game_counter} (v{self.engine_version}) ###"
+        )
+        with open(self.failed_game_log_path, "a", encoding="utf-8") as failed_log:
+            failed_log.write(f"{header}\n")
+            failed_log.write(
+                f"{timestamp} ### failure={reason} version={self.engine_version}\n"
+            )
+            for entry in self.current_game_events:
+                failed_log.write(entry if entry.endswith("\n") else f"{entry}\n")
+            failed_log.write("\n")
+
+    def _load_failed_game_counter(self) -> int:
+        try:
+            with open(self.failed_game_log_path, "r", encoding="utf-8") as handle:
+                return sum(1 for line in handle if line.startswith("### Failed game"))
+        except FileNotFoundError:
+            return 0
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Log and proxy a UCI engine")
@@ -192,6 +375,21 @@ def parse_args() -> argparse.Namespace:
         "--log-path",
         default=DEFAULT_LOG_PATH,
         help="File used to store the transcript",
+    )
+    parser.add_argument(
+        "--failure-log",
+        default=DEFAULT_FAILURE_LOG_PATH,
+        help="Supplemental log used for illegal move diagnostics",
+    )
+    parser.add_argument(
+        "--failed-game-log",
+        default=DEFAULT_FAILED_GAME_LOG_PATH,
+        help="File that stores transcripts of failed games",
+    )
+    parser.add_argument(
+        "--engine-version",
+        default=DEFAULT_ENGINE_VERSION,
+        help="Engine version stamp recorded in failed-game logs",
     )
     parser.add_argument(
         "--engine-name",
@@ -208,6 +406,12 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Forward the backend's UCI handshake instead of spoofing it",
     )
+    parser.add_argument(
+        "--illegal-san-threshold",
+        type=int,
+        default=3,
+        help="Emit a fallback move after this many illegal SAN reports",
+    )
     return parser.parse_args()
 
 
@@ -216,9 +420,13 @@ def main() -> None:
     proxy = UciLoggingProxy(
         engine_cmd=args.engine_cmd,
         log_path=args.log_path,
+        failure_log_path=args.failure_log,
+        failed_game_log_path=args.failed_game_log,
+        engine_version=args.engine_version,
         engine_name=args.engine_name,
         engine_author=args.engine_author,
         spoof_handshake=not args.passthrough_handshake,
+        illegal_san_threshold=args.illegal_san_threshold,
     )
     proxy.run()
 
