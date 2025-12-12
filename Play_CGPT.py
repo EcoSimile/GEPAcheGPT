@@ -197,6 +197,8 @@ class ChessGptUciEngine:
             elif current_fen:
                 self._initialize_from_new_fen(current_fen)
                 self._persist_history()
+        # Always emit prompt context after any position update
+        self._emit_prompt_snapshot("position")
 
     def _apply_external_moves(
         self,
@@ -357,8 +359,32 @@ class ChessGptUciEngine:
     def _append_san_to_game_state(self, san: str):
         self.game_state += san
 
+    def _emit_prompt_snapshot(self, stage: str) -> None:
+        """Emit an info string that captures the SAN/PGN context fed to the model."""
+        pgn_text = " ".join(self.pgn_tokens) if self.pgn_tokens else "<empty>"
+        uci_text = " ".join(self.uci_history) if self.uci_history else "<empty>"
+        fen_text = self.board.fen()
+
+        def _quote(value: str) -> str:
+            return value.replace("\"", "'")
+
+        message = (
+            "info string prompt_context "
+            f"stage={stage} "
+            f"fen=\"{_quote(fen_text)}\" "
+            f"fen_only={self.fen_only_context} "
+            f"pgn=\"{_quote(pgn_text)}\" "
+            f"uci=\"{_quote(uci_text)}\""
+        )
+        try:
+            print(message)
+            sys.stdout.flush()
+        except BrokenPipeError:
+            pass
+
     def _get_best_move(self) -> Tuple[Optional[str], Optional[str]]:
         self._append_move_number_if_needed()
+        self._emit_prompt_snapshot("before-go")
         # Log the exact transcript we are about to send to NanoGPT
         log_prompt_uci("PROMPT", self.board, self.game_state)
         result: LegalMoveResponse = get_legal_move(

@@ -240,8 +240,10 @@ class UciLoggingProxy:
             return
         board: Optional[chess.Board]
         idx = 1
+        kind = "unknown"
         if tokens[idx].lower() == "startpos":
             board = chess.Board()
+            kind = "startpos"
             idx += 1
         elif tokens[idx].lower() == "fen":
             fen_fields = tokens[idx + 1 : idx + 7]
@@ -252,9 +254,14 @@ class UciLoggingProxy:
                 board = chess.Board(fen)
             except ValueError:
                 return
+            kind = "fen"
             idx += 7
         else:
             return
+
+        base_board = board.copy(stack=False)
+        applied_moves: List[str] = []
+        san_moves: List[str] = []
 
         if idx < len(tokens) and tokens[idx].lower() == "moves":
             idx += 1
@@ -262,10 +269,16 @@ class UciLoggingProxy:
                 if not move:
                     continue
                 try:
-                    board.push_uci(move)
-                except ValueError:
+                    uci_move = chess.Move.from_uci(move)
+                    san = board.san(uci_move)
+                    san_moves.append(san)
+                    applied_moves.append(move)
+                    board.push(uci_move)
+                except Exception:
                     try:
                         board.push_san(move)
+                        applied_moves.append(move)
+                        san_moves.append(move)
                     except ValueError:
                         self._log_failure_context(
                             f"Failed to apply move '{move}' from position command"
@@ -274,6 +287,8 @@ class UciLoggingProxy:
         with self.board_lock:
             self.latest_board = board
             self.latest_position_cmd = command
+
+        self._log_position_summary(kind, base_board, board, applied_moves, san_moves)
 
     def _prepare_for_search(self, command: str) -> None:
         with self.board_lock:
@@ -295,6 +310,24 @@ class UciLoggingProxy:
             f"last_go={self.last_go_command or '<none>'}"
         )
         log_line(self.failure_log_path, "!!!", details)
+
+    def _log_position_summary(
+        self,
+        kind: str,
+        base_board: Optional[chess.Board],
+        final_board: Optional[chess.Board],
+        applied_moves: List[str],
+        san_moves: List[str],
+    ) -> None:
+        base_fen = base_board.fen() if base_board else "<unknown>"
+        final_fen = final_board.fen() if final_board else "<unknown>"
+        msg = (
+            f"position_summary kind={kind} moves={len(applied_moves)} "
+            f"base_fen={base_fen} final_fen={final_fen} "
+            f"uci_moves={' '.join(applied_moves) if applied_moves else '<none>'} "
+            f"san_moves={' '.join(san_moves) if san_moves else '<none>'}"
+        )
+        log_line(self.failure_log_path, "###", msg)
 
     def _emit_fallback_move(self, reason: str) -> bool:
         with self.board_lock:
