@@ -7,6 +7,7 @@ import os
 import re
 import pickle
 from contextlib import nullcontext
+import time
 import torch
 import tiktoken
 from typing import Optional
@@ -180,6 +181,7 @@ class NanoGptPlayer:
         num_samples = 1  # number of samples to draw
         top_k = 200  # retain only the top_k most likely tokens, clamp others to have 0 probability
         max_new_tokens = 10
+        debug = os.environ.get("NANOGPT_DEBUG") is not None
 
         # Remove ["stockfish elo xxx"]\n["stockfish elo xxx"]\n\n from game_state
         # nanogpt was trained only on pgn transcripts
@@ -194,12 +196,22 @@ class NanoGptPlayer:
 
         # print("game_state", game_state)
 
+        t_start = time.time()
         start_ids = self.encode(game_state)
+        t_encode = time.time()
+        if debug:
+            print(
+                f"[NanoGPT] tokens_in={len(start_ids)} max_new_tokens={max_new_tokens} encode_time={t_encode - t_start:.3f}s",
+                flush=True,
+            )
 
         x = torch.tensor(start_ids, dtype=torch.long, device=self.device)[None, ...]
         with torch.no_grad():
             with self.ctx:
                 y = self.model.generate(x, max_new_tokens, temperature=temperature, top_k=top_k)
+        t_generate = time.time()
+        if debug:
+            print(f"[NanoGPT] generate_time={t_generate - t_encode:.3f}s", flush=True)
 
         # Decode only the newly generated tokens beyond the prompt length.
         generated_tokens = y[0][x.shape[-1] :].tolist()
