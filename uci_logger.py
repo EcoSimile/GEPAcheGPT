@@ -6,7 +6,6 @@ from __future__ import annotations
 import argparse
 import datetime
 import os
-import random
 import subprocess
 import sys
 import threading
@@ -60,7 +59,6 @@ class UciLoggingProxy:
         position_log_path: str = DEFAULT_POSITION_LOG_PATH,
         failed_game_log_path: str = DEFAULT_FAILED_GAME_LOG_PATH,
         engine_version: str = DEFAULT_ENGINE_VERSION,
-        illegal_san_threshold: int = 3,
     ) -> None:
         self.engine_cmd: List[str] = list(engine_cmd)
         self.log_path = log_path
@@ -85,7 +83,6 @@ class UciLoggingProxy:
         self.last_go_command: Optional[str] = None
         self.current_search_id = 0
         self.illegal_san_counter = 0
-        self.illegal_san_threshold = max(1, illegal_san_threshold)
 
         self.engine = subprocess.Popen(
             self.engine_cmd,
@@ -184,16 +181,14 @@ class UciLoggingProxy:
             self.illegal_san_counter += 1
             if self.illegal_san_counter == 1:
                 self._log_failure_context("Engine reported illegal SAN from backend")
-            if self.illegal_san_counter >= self.illegal_san_threshold:
-                if self._emit_fallback_move("illegal san threshold reached"):
-                    return None
+                self._mark_current_game_failed("illegal SAN reported by backend")
 
         if lowered.startswith("bestmove"):
             self.illegal_san_counter = 0
             self.last_go_command = None
             if lowered == "bestmove 0000":
-                if self._emit_fallback_move("backend resigned (bestmove 0000)"):
-                    return None
+                self._log_failure_context("backend returned bestmove 0000")
+                self._mark_current_game_failed("backend returned bestmove 0000")
 
         passthrough_prefixes = (
             "bestmove",
@@ -336,30 +331,6 @@ class UciLoggingProxy:
         )
         log_line(self.position_log_path, "###", msg)
 
-    def _emit_fallback_move(self, reason: str) -> bool:
-        with self.board_lock:
-            board = self.board_at_go.copy() if self.board_at_go else None
-        if board is None:
-            self._log_failure_context(f"Fallback move unavailable: {reason}")
-            self._mark_current_game_failed(f"fallback unavailable: {reason}")
-            return False
-        legal_moves = list(board.legal_moves)
-        if not legal_moves:
-            self._log_failure_context(
-                f"No legal moves available while attempting fallback ({reason})"
-            )
-            self._mark_current_game_failed(f"no legal moves for fallback: {reason}")
-            return False
-        move = random.choice(legal_moves)
-        fallback_move = move.uci()
-        self._log_failure_context(f"Injecting fallback move {fallback_move}: {reason}")
-        self._write_gui(
-            f"info string fallback move {fallback_move} injected because {reason}"
-        )
-        self._write_gui(f"bestmove {fallback_move}")
-        self._mark_current_game_failed(f"fallback move {fallback_move}: {reason}")
-        return True
-
     def _record_game_event(self, entry: Optional[str]) -> None:
         if not self.capture_active or not entry:
             return
@@ -451,12 +422,6 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Forward the backend's UCI handshake instead of spoofing it",
     )
-    parser.add_argument(
-        "--illegal-san-threshold",
-        type=int,
-        default=3,
-        help="Emit a fallback move after this many illegal SAN reports",
-    )
     return parser.parse_args()
 
 
@@ -472,7 +437,6 @@ def main() -> None:
         engine_name=args.engine_name,
         engine_author=args.engine_author,
         spoof_handshake=not args.passthrough_handshake,
-        illegal_san_threshold=args.illegal_san_threshold,
     )
     proxy.run()
 
