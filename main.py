@@ -477,7 +477,7 @@ def play_turn(
 ) -> Tuple[str, bool, bool, int]:
     max_move_time = None
     if player_one and isinstance(player, NanoGptPlayer):
-        max_move_time = 10.0  # fail fast if NanoGPT hangs
+        max_move_time = 30.0  # fail fast if NanoGPT hangs
     result = get_legal_move(player, board, game_state, player_one, 5, max_move_time)
     illegal_moves = result.attempts
     move_san = result.move_san
