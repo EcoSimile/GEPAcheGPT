@@ -429,26 +429,23 @@ def parse_score(val: str) -> Optional[float]:
 def get_player_titles_and_time(
     player_one: Player, player_two: Player
 ) -> Tuple[str, str, Optional[float], Optional[float]]:
-    player_one_config = player_one.get_config()
-    player_two_config = player_two.get_config()
+    def describe_player(p: Player):
+        cfg = p.get_config()
+        if "model" in cfg:  # GPT / NanoGPT side
+            model = cfg.get("model", "ChessGPT")
+            # If it's a path, strip directory/extension for readability.
+            base = os.path.basename(str(model))
+            if base.endswith(".pt"):
+                base = base[:-3]
+            return f"ChessGPT ({base})", None
+        # Stockfish side
+        skill = cfg.get("skill_level", "?")
+        return f"Stockfish level {skill}", cfg.get("play_time")
 
-    # For player one
-    if "model" in player_one_config:
-        player_one_title = player_one_config["model"]
-        player_one_time = None
-    else:
-        player_one_title = f"Stockfish {player_one_config['skill_level']}"
-        player_one_time = player_one_config["play_time"]
+    p1_title, p1_time = describe_player(player_one)
+    p2_title, p2_time = describe_player(player_two)
 
-    # For player two
-    if "model" in player_two_config:
-        player_two_title = player_two_config["model"]
-        player_two_time = None
-    else:
-        player_two_title = f"Stockfish {player_two_config['skill_level']}"
-        player_two_time = player_two_config["play_time"]
-
-    return (player_one_title, player_two_title, player_one_time, player_two_time)
+    return (p1_title, p2_title, p1_time, p2_time)
 
 
 def initialize_game_with_opening(
@@ -848,7 +845,7 @@ player_two_recording_name = os.environ.get(
     "PLAYER_TWO_RECORDING_NAME", "stockfish_level_4_2s"
 )
 if __name__ == "__main__":
-    num_games = 70
+    num_games = 35
     player_one = NanoGptPlayer(
         model_name="lichess_200k_bins_16layers_ckpt_with_optimizer.pt"
     )
