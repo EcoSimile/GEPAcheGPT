@@ -1,0 +1,3484 @@
+2025-12-18 21:05:15,412 [INFO] RECV: uci
+2025-12-18 21:05:15,412 [INFO] RECV: isready
+2025-12-18 21:05:15,413 [INFO] RECV: ucinewgame
+2025-12-18 21:05:15,927 [INFO] RECV: position startpos
+2025-12-18 21:05:15,927 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:05:15,927 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:05:17,017 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-18 21:05:25,834 [INFO] RECV: position startpos moves e2e4 d7d6
+2025-12-18 21:05:25,834 [INFO] Rebuilding from moves: ['e2e4', 'd7d6']
+2025-12-18 21:05:25,835 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:05:25,835 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:05:32,259 [INFO] Engine move selected: d2d4 (SAN  d4) with transcript length 61
+2025-12-18 21:05:34,610 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5
+2025-12-18 21:05:34,610 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5']
+2025-12-18 21:05:34,611 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:05:34,611 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:05:39,766 [INFO] Engine move selected: d4c5 (SAN  dxc5) with transcript length 72
+2025-12-18 21:06:34,565 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5
+2025-12-18 21:06:34,565 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5']
+2025-12-18 21:06:34,569 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:06:34,569 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:06:42,193 [INFO] Engine move selected: b1c3 (SAN  Nc3) with transcript length 84
+2025-12-18 21:06:46,133 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5
+2025-12-18 21:06:46,133 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5']
+2025-12-18 21:06:46,139 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:06:46,139 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:06:52,031 [INFO] Engine move selected: c1e3 (SAN  Be3) with transcript length 96
+2025-12-18 21:07:08,448 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7
+2025-12-18 21:07:08,448 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7']
+2025-12-18 21:07:08,451 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:08,451 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:16,719 [INFO] Engine move selected: g1f3 (SAN  Nf3) with transcript length 107
+2025-12-18 21:07:18,279 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6
+2025-12-18 21:07:18,279 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6']
+2025-12-18 21:07:18,280 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:18,280 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:29,728 [INFO] Engine move selected: f1d3 (SAN  Bd3) with transcript length 118
+2025-12-18 21:07:36,306 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6
+2025-12-18 21:07:36,306 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6']
+2025-12-18 21:07:36,308 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:36,308 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:41,563 [INFO] Engine move selected: e1g1 (SAN  O-O) with transcript length 129
+2025-12-18 21:07:43,889 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6
+2025-12-18 21:07:43,889 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6']
+2025-12-18 21:07:43,892 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:43,892 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:45,146 [INFO] Engine move selected: f3d4 (SAN  Nd4) with transcript length 139
+2025-12-18 21:07:59,304 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4
+2025-12-18 21:07:59,305 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4']
+2025-12-18 21:07:59,309 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:07:59,309 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:06,117 [INFO] Engine move selected: d3c4 (SAN  Bxc4) with transcript length 152
+2025-12-18 21:08:07,124 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4 d3c4 c7c4
+2025-12-18 21:08:07,125 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4', 'd3c4', 'c7c4']
+2025-12-18 21:08:07,132 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:07,132 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:14,711 [INFO] Engine move selected: d1d3 (SAN  Qd3) with transcript length 165
+2025-12-18 21:08:26,864 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4 d3c4 c7c4 d1d3 c4d3
+2025-12-18 21:08:26,864 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4', 'd3c4', 'c7c4', 'd1d3', 'c4d3']
+2025-12-18 21:08:26,866 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:26,866 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:36,644 [INFO] Engine move selected: c2d3 (SAN  cxd3) with transcript length 179
+2025-12-18 21:08:40,204 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4 d3c4 c7c4 d1d3 c4d3 c2d3 f8g7
+2025-12-18 21:08:40,204 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4', 'd3c4', 'c7c4', 'd1d3', 'c4d3', 'c2d3', 'f8g7']
+2025-12-18 21:08:40,206 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:40,206 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:49,278 [INFO] Engine move selected: d4b5 (SAN  Ndb5) with transcript length 192
+2025-12-18 21:08:54,425 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4 d3c4 c7c4 d1d3 c4d3 c2d3 f8g7 d4b5 e8g8
+2025-12-18 21:08:54,425 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4', 'd3c4', 'c7c4', 'd1d3', 'c4d3', 'c2d3', 'f8g7', 'd4b5', 'e8g8']
+2025-12-18 21:08:54,428 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:08:54,428 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:09:04,101 [INFO] Engine move selected: b5c7 (SAN  Nc7) with transcript length 204
+2025-12-18 21:09:16,003 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4 d3c4 c7c4 d1d3 c4d3 c2d3 f8g7 d4b5 e8g8 b5c7 b8c6
+2025-12-18 21:09:16,004 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4', 'd3c4', 'c7c4', 'd1d3', 'c4d3', 'c2d3', 'f8g7', 'd4b5', 'e8g8', 'b5c7', 'b8c6']
+2025-12-18 21:09:16,005 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:09:16,005 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:09:27,217 [INFO] Engine move selected: c7a8 (SAN  Nxa8) with transcript length 217
+2025-12-18 21:09:28,378 [INFO] RECV: position startpos moves e2e4 d7d6 d2d4 c7c5 d4c5 d8a5 b1c3 a5c5 c1e3 c5c7 g1f3 c8e6 f1d3 g8f6 e1g1 g7g6 f3d4 e6c4 d3c4 c7c4 d1d3 c4d3 c2d3 f8g7 d4b5 e8g8 b5c7 b8c6 c7a8 f8a8
+2025-12-18 21:09:28,378 [INFO] Rebuilding from moves: ['e2e4', 'd7d6', 'd2d4', 'c7c5', 'd4c5', 'd8a5', 'b1c3', 'a5c5', 'c1e3', 'c5c7', 'g1f3', 'c8e6', 'f1d3', 'g8f6', 'e1g1', 'g7g6', 'f3d4', 'e6c4', 'd3c4', 'c7c4', 'd1d3', 'c4d3', 'c2d3', 'f8g7', 'd4b5', 'e8g8', 'b5c7', 'b8c6', 'c7a8', 'f8a8']
+2025-12-18 21:09:28,385 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:09:28,385 [INFO] GO: side_to_move=white wtime 60000 winc 0 btime 60000 binc 0
+2025-12-18 21:09:39,526 [INFO] Engine move selected: a1c1 (SAN  Rac1) with transcript length 231
+2025-12-20 21:38:47,669 [INFO] RECV: uci
+2025-12-20 21:38:47,669 [INFO] RECV: isready
+2025-12-20 21:38:47,670 [INFO] RECV: ucinewgame
+2025-12-20 21:39:07,078 [INFO] RECV: position fen rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3 moves g1f3
+2025-12-20 21:39:07,079 [INFO] Rebuilding from moves: ['g1f3']
+2025-12-20 21:39:07,081 [INFO] Initializing new FEN context for GUI supplied position: rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3
+2025-12-20 21:39:21,033 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-20 21:39:21,035 [INFO] RECV: go wtime 286237 winc 0 btime 299517 binc 0
+2025-12-20 21:39:21,035 [INFO] GO: side_to_move=black wtime 286237 winc 0 btime 299517 binc 0
+2025-12-25 22:02:15,608 [INFO] RECV: uci
+2025-12-25 22:02:15,611 [INFO] RECV: isready
+2025-12-25 22:02:15,616 [INFO] RECV: ucinewgame
+2025-12-25 22:02:15,616 [INFO] RECV: stop
+2025-12-25 22:02:15,616 [INFO] RECV: position startpos
+2025-12-25 22:02:15,616 [INFO] RECV: go infinite
+2025-12-25 22:02:15,616 [INFO] GO: side_to_move=white infinite
+2025-12-25 22:02:15,878 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-25 22:02:15,879 [INFO] RECV: stop
+2025-12-25 22:02:15,880 [INFO] RECV: stop
+2025-12-25 22:02:15,880 [INFO] RECV: position fen rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-12-25 22:02:46,660 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-25 22:02:46,662 [INFO] RECV: go infinite
+2025-12-25 22:02:46,662 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:02:52,171 [INFO] RECV: stop
+2025-12-25 22:02:52,171 [INFO] RECV: stop
+2025-12-25 22:02:52,171 [INFO] RECV: stop
+2025-12-25 22:02:52,171 [INFO] RECV: stop
+2025-12-25 22:02:52,173 [INFO] RECV: stop
+2025-12-25 22:02:52,174 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-25 22:02:52,175 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-25 22:02:52,175 [INFO] RECV: go infinite
+2025-12-25 22:02:52,175 [INFO] GO: side_to_move=white infinite
+2025-12-25 22:02:52,474 [INFO] Engine move selected: d2d4 (SAN  d4) with transcript length 61
+2025-12-25 22:02:52,475 [INFO] RECV: stop
+2025-12-25 22:02:52,476 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-25 22:02:52,477 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-25 22:02:52,477 [INFO] RECV: go infinite
+2025-12-25 22:02:52,477 [INFO] GO: side_to_move=white infinite
+2025-12-25 22:02:52,793 [INFO] Engine move selected: d2d4 (SAN  d4) with transcript length 61
+2025-12-25 22:02:58,175 [INFO] RECV: stop
+2025-12-25 22:02:58,175 [INFO] RECV: stop
+2025-12-25 22:03:29,566 [INFO] RECV: stop
+2025-12-25 22:03:29,566 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2
+2025-12-25 22:03:29,569 [INFO] RECV: go infinite
+2025-12-25 22:03:29,570 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:03:35,758 [INFO] RECV: stop
+2025-12-25 22:03:35,758 [INFO] RECV: stop
+2025-12-25 22:03:35,762 [INFO] RECV: stop
+2025-12-25 22:03:35,763 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2
+2025-12-25 22:03:35,766 [INFO] RECV: go infinite
+2025-12-25 22:03:35,766 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:03:41,776 [INFO] RECV: stop
+2025-12-25 22:03:44,521 [INFO] RECV: stop
+2025-12-25 22:03:44,522 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3
+2025-12-25 22:03:44,524 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/3p4/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3
+2025-12-25 22:03:44,524 [INFO] RECV: go infinite
+2025-12-25 22:03:44,524 [INFO] GO: side_to_move=white infinite
+2025-12-25 22:03:45,092 [INFO] Engine move selected: d4c5 (SAN  dxc5) with transcript length 72
+2025-12-25 22:03:45,094 [INFO] RECV: stop
+2025-12-25 22:03:45,094 [INFO] RECV: stop
+2025-12-25 22:03:45,094 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3
+2025-12-25 22:03:45,096 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/3p4/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3
+2025-12-25 22:03:45,096 [INFO] RECV: go infinite
+2025-12-25 22:03:45,097 [INFO] GO: side_to_move=white infinite
+2025-12-25 22:03:45,943 [INFO] Engine move selected: d4c5 (SAN  dxc5) with transcript length 72
+2025-12-25 22:03:50,506 [INFO] RECV: stop
+2025-12-25 22:03:51,094 [INFO] RECV: stop
+2025-12-25 22:04:15,997 [INFO] RECV: stop
+2025-12-25 22:04:15,998 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3
+2025-12-25 22:04:16,001 [INFO] RECV: go infinite
+2025-12-25 22:04:16,001 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:04:22,767 [INFO] RECV: stop
+2025-12-25 22:04:22,767 [INFO] RECV: stop
+2025-12-25 22:04:23,239 [INFO] RECV: stop
+2025-12-25 22:04:23,240 [INFO] RECV: stop
+2025-12-25 22:04:23,242 [INFO] RECV: stop
+2025-12-25 22:04:23,243 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3
+2025-12-25 22:04:23,245 [INFO] RECV: go infinite
+2025-12-25 22:04:23,245 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:04:30,341 [INFO] RECV: stop
+2025-12-25 22:04:30,341 [INFO] RECV: stop
+2025-12-25 22:04:30,341 [INFO] RECV: stop
+2025-12-25 22:04:30,341 [INFO] RECV: stop
+2025-12-25 22:04:30,341 [INFO] RECV: stop
+2025-12-25 22:04:30,344 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/8/3pP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4
+2025-12-25 22:04:30,345 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/3p4/8/3pP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4
+2025-12-25 22:04:30,345 [INFO] RECV: go infinite
+2025-12-25 22:04:30,345 [INFO] GO: side_to_move=white infinite
+2025-12-25 22:04:30,821 [INFO] Engine move selected: d1d4 (SAN  Qxd4) with transcript length 84
+2025-12-25 22:06:26,797 [INFO] RECV: stop
+2025-12-25 22:06:26,798 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/8/3QP3/2N5/PPP2PPP/R1B1KBNR b KQkq - 0 4
+2025-12-25 22:06:26,800 [INFO] RECV: go infinite
+2025-12-25 22:06:26,801 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:06:27,580 [INFO] Engine move selected: b8c6 (SAN  Nc6) with transcript length 88
+2025-12-25 22:06:27,581 [INFO] RECV: stop
+2025-12-25 22:06:27,583 [INFO] RECV: stop
+2025-12-25 22:06:27,583 [INFO] RECV: position fen rnbqkbnr/pp2pppp/3p4/8/3QP3/2N5/PPP2PPP/R1B1KBNR b KQkq - 0 4
+2025-12-25 22:06:27,584 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/3p4/8/3QP3/2N5/PPP2PPP/R1B1KBNR b KQkq - 0 4
+2025-12-25 22:06:27,584 [INFO] RECV: go infinite
+2025-12-25 22:06:27,584 [INFO] GO: side_to_move=black infinite
+2025-12-25 22:06:28,074 [INFO] Engine move selected: b8c6 (SAN  Nc6) with transcript length 88
+2025-12-25 22:06:32,774 [INFO] RECV: stop
+2025-12-25 22:06:33,583 [INFO] RECV: stop
+2025-12-26 20:03:21,558 [INFO] RECV: uci
+2025-12-26 20:03:21,564 [INFO] RECV: isready
+2025-12-26 20:03:21,567 [INFO] RECV: ucinewgame
+2025-12-26 20:03:21,568 [INFO] RECV: stop
+2025-12-26 20:03:21,568 [INFO] RECV: position startpos
+2025-12-26 20:03:21,568 [INFO] RECV: go infinite
+2025-12-26 20:03:21,568 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:03:22,331 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 20:03:22,331 [INFO] RECV: stop
+2025-12-26 20:03:22,333 [INFO] RECV: stop
+2025-12-26 20:03:22,333 [INFO] RECV: position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 20:03:53,317 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:03:53,318 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 20:03:53,319 [INFO] RECV: go infinite
+2025-12-26 20:03:53,319 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:03:53,771 [INFO] Engine move selected: b1c3 (SAN  Nc3) with transcript length 71
+2025-12-26 20:03:53,771 [INFO] RECV: stop
+2025-12-26 20:03:53,771 [INFO] RECV: stop
+2025-12-26 20:03:53,771 [INFO] RECV: stop
+2025-12-26 20:03:53,771 [INFO] RECV: stop
+2025-12-26 20:03:53,771 [INFO] RECV: stop
+2025-12-26 20:03:53,772 [INFO] RECV: stop
+2025-12-26 20:03:53,772 [INFO] RECV: stop
+2025-12-26 20:03:53,772 [INFO] RECV: stop
+2025-12-26 20:03:53,772 [INFO] RECV: stop
+2025-12-26 20:03:53,774 [INFO] RECV: stop
+2025-12-26 20:03:53,775 [INFO] RECV: position fen rnbqkbnr/pp2pppp/2p5/3p2B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26 20:03:53,777 [INFO] RECV: go infinite
+2025-12-26 20:03:53,777 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:04:00,514 [INFO] RECV: stop
+2025-12-26 20:04:00,514 [INFO] RECV: stop
+2025-12-26 20:04:00,514 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,515 [INFO] RECV: stop
+2025-12-26 20:04:00,518 [INFO] RECV: position fen rnb1kbnr/pp2pppp/2p5/6q1/2pP4/2N1P3/PP3PPP/R2QKBNR w KQkq - 0 6
+2025-12-26 20:04:00,521 [INFO] RECV: go infinite
+2025-12-26 20:04:00,521 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:05:05,702 [INFO] RECV: uci
+2025-12-26 20:05:05,704 [INFO] RECV: isready
+2025-12-26 20:05:05,707 [INFO] RECV: ucinewgame
+2025-12-26 20:05:05,708 [INFO] RECV: stop
+2025-12-26 20:05:05,708 [INFO] RECV: position startpos
+2025-12-26 20:05:05,708 [INFO] RECV: go infinite
+2025-12-26 20:05:05,708 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:05:06,277 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 20:05:06,278 [INFO] RECV: stop
+2025-12-26 20:05:06,280 [INFO] RECV: stop
+2025-12-26 20:05:06,280 [INFO] RECV: position fen rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2
+2025-12-26 20:05:39,239 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:05:39,242 [INFO] RECV: go infinite
+2025-12-26 20:05:39,242 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:05:46,024 [INFO] Engine move selected: b1a3 (SAN  Nxa3) with transcript length 237
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,025 [INFO] RECV: stop
+2025-12-26 20:05:46,032 [INFO] RECV: stop
+2025-12-26 20:05:46,032 [INFO] RECV: position fen rnbqkbnr/ppppp1pp/8/5pB1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2
+2025-12-26 20:05:46,035 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/ppppp1pp/8/5pB1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2
+2025-12-26 20:05:46,035 [INFO] RECV: go infinite
+2025-12-26 20:05:46,036 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,720 [INFO] RECV: stop
+2025-12-26 20:05:50,725 [INFO] RECV: position fen r1bqkb1r/1pp5/p1nppn1p/5pp1/2BP4/4PNB1/PPP2PPP/RN1Q1RK1 w kq - 2 9
+2025-12-26 20:05:50,728 [INFO] RECV: go infinite
+2025-12-26 20:05:50,728 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,198 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,201 [INFO] RECV: stop
+2025-12-26 20:06:00,202 [INFO] RECV: stop
+2025-12-26 20:06:00,202 [INFO] RECV: position fen r1bqkb1r/1pp5/p1nppn1p/5pp1/2BP4/2N1PNB1/PPP2PPP/R2Q1RK1 b kq - 3 9
+2025-12-26 20:06:00,204 [INFO] RECV: go infinite
+2025-12-26 20:06:00,205 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:06:07,264 [INFO] RECV: stop
+2025-12-26 20:06:07,264 [INFO] RECV: stop
+2025-12-26 20:06:07,264 [INFO] RECV: stop
+2025-12-26 20:06:07,264 [INFO] RECV: stop
+2025-12-26 20:06:07,264 [INFO] RECV: stop
+2025-12-26 20:06:07,266 [INFO] RECV: position fen r1bqkb1r/1pp1n3/p2ppn1p/5pp1/2BP4/2N1PNB1/PPP2PPP/R2Q1RK1 w kq - 4 10
+2025-12-26 20:06:07,269 [INFO] RECV: go infinite
+2025-12-26 20:06:07,269 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:06:18,094 [INFO] RECV: stop
+2025-12-26 20:06:18,094 [INFO] RECV: stop
+2025-12-26 20:06:18,094 [INFO] RECV: stop
+2025-12-26 20:06:18,097 [INFO] RECV: stop
+2025-12-26 20:06:18,097 [INFO] RECV: position fen r1bqkb1r/1pp1n3/p2ppn1p/5pp1/2BP4/2N1PNB1/PPPQ1PPP/R4RK1 b kq - 5 10
+2025-12-26 20:06:18,099 [INFO] RECV: go infinite
+2025-12-26 20:06:18,099 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:06:24,070 [INFO] RECV: stop
+2025-12-26 20:06:24,070 [INFO] RECV: stop
+2025-12-26 20:06:24,075 [INFO] RECV: position fen r1bqkb1r/2p1n3/p2ppn1p/1p3pp1/2BP4/2N1PNB1/PPPQ1PPP/R4RK1 w kq - 0 11
+2025-12-26 20:06:24,079 [INFO] RECV: go infinite
+2025-12-26 20:06:24,079 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:06:33,662 [INFO] RECV: stop
+2025-12-26 20:06:33,662 [INFO] RECV: stop
+2025-12-26 20:06:33,662 [INFO] RECV: stop
+2025-12-26 20:06:33,662 [INFO] RECV: stop
+2025-12-26 20:06:33,662 [INFO] RECV: stop
+2025-12-26 20:06:33,662 [INFO] RECV: stop
+2025-12-26 20:06:33,665 [INFO] RECV: stop
+2025-12-26 20:06:33,665 [INFO] RECV: position fen r1bqkb1r/2p1n3/p2ppn1p/1p3pp1/3P4/2NBPNB1/PPPQ1PPP/R4RK1 b kq - 1 11
+2025-12-26 20:06:33,667 [INFO] RECV: go infinite
+2025-12-26 20:06:33,667 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:06:42,524 [INFO] RECV: stop
+2025-12-26 20:06:42,524 [INFO] RECV: stop
+2025-12-26 20:06:42,524 [INFO] RECV: stop
+2025-12-26 20:06:42,524 [INFO] RECV: stop
+2025-12-26 20:06:42,524 [INFO] RECV: stop
+2025-12-26 20:06:42,524 [INFO] RECV: stop
+2025-12-26 20:06:42,526 [INFO] RECV: stop
+2025-12-26 20:06:42,526 [INFO] RECV: stop
+2025-12-26 20:06:42,526 [INFO] RECV: stop
+2025-12-26 20:06:42,526 [INFO] RECV: stop
+2025-12-26 20:06:42,534 [INFO] RECV: position fen r1b1kb1r/2pqn3/p2ppn1p/1p3pp1/3P4/2NBPNB1/PPPQ1PPP/R4RK1 w kq - 2 12
+2025-12-26 20:06:42,537 [INFO] RECV: go infinite
+2025-12-26 20:06:42,537 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,973 [INFO] RECV: stop
+2025-12-26 20:06:52,974 [INFO] RECV: position fen r1b1k2r/2pqn1b1/3ppn1p/pP3pp1/3P4/2NBPNB1/1PPQ1PPP/R4RK1 w kq - 0 14
+2025-12-26 20:06:52,977 [INFO] RECV: go infinite
+2025-12-26 20:06:52,977 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:07:04,051 [INFO] RECV: stop
+2025-12-26 20:07:04,052 [INFO] RECV: position fen r1b1k2r/2pqn1b1/3ppn1p/pP3pp1/3P4/3BPNB1/1PPQNPPP/R4RK1 b kq - 1 14
+2025-12-26 20:07:04,055 [INFO] RECV: go infinite
+2025-12-26 20:07:04,056 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:07:14,858 [INFO] RECV: stop
+2025-12-26 20:07:14,858 [INFO] RECV: stop
+2025-12-26 20:07:14,858 [INFO] RECV: stop
+2025-12-26 20:07:14,858 [INFO] RECV: stop
+2025-12-26 20:07:14,858 [INFO] RECV: stop
+2025-12-26 20:07:14,858 [INFO] RECV: stop
+2025-12-26 20:07:14,863 [INFO] RECV: stop
+2025-12-26 20:07:14,864 [INFO] RECV: position fen r1b1k2r/2pqn1b1/3ppn1p/pP3pp1/3P4/3BPNB1/1PPQNPPP/R4RK1 b kq - 1 14
+2025-12-26 20:07:14,867 [INFO] RECV: go infinite
+2025-12-26 20:07:14,867 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,680 [INFO] RECV: stop
+2025-12-26 20:07:24,683 [INFO] RECV: position fen 2b2rk1/2pqn1b1/3ppn1p/rP3pp1/3P4/3BPNB1/1PPQNPPP/5RK1 w - - 0 16
+2025-12-26 20:07:24,685 [INFO] RECV: go infinite
+2025-12-26 20:07:24,685 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:07:33,245 [INFO] RECV: stop
+2025-12-26 20:07:33,245 [INFO] RECV: stop
+2025-12-26 20:07:33,245 [INFO] RECV: stop
+2025-12-26 20:07:33,245 [INFO] RECV: stop
+2025-12-26 20:07:33,245 [INFO] RECV: stop
+2025-12-26 20:07:33,245 [INFO] RECV: stop
+2025-12-26 20:07:33,247 [INFO] RECV: position fen 2b2rk1/2pq2b1/3ppnnp/QP3pp1/3P4/3BPNB1/1PP1NPPP/5RK1 w - - 1 17
+2025-12-26 20:07:33,249 [INFO] RECV: go infinite
+2025-12-26 20:07:33,249 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:07:57,378 [INFO] RECV: stop
+2025-12-26 20:07:57,379 [INFO] RECV: position fen 2b2rk1/2pq2b1/3ppnnp/QP3pp1/3P4/3BPNBP/1PP1NPP1/5RK1 b - - 0 17
+2025-12-26 20:07:57,382 [INFO] RECV: go infinite
+2025-12-26 20:07:57,383 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:08:06,503 [INFO] RECV: stop
+2025-12-26 20:08:06,504 [INFO] RECV: stop
+2025-12-26 20:08:06,504 [INFO] RECV: stop
+2025-12-26 20:08:06,504 [INFO] RECV: stop
+2025-12-26 20:08:06,506 [INFO] RECV: stop
+2025-12-26 20:08:06,506 [INFO] RECV: position fen 2b2rk1/2pq2b1/3ppnnp/QP3pp1/3P4/3BPNBP/1PP1NPP1/5RK1 b - - 0 17
+2025-12-26 20:08:06,508 [INFO] RECV: go infinite
+2025-12-26 20:08:06,508 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:08:15,895 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,896 [INFO] RECV: stop
+2025-12-26 20:08:15,899 [INFO] RECV: position fen 2b2r1k/2pq2b1/3ppnnp/QP3pp1/3P4/3BPNBP/1PP1NPP1/5RK1 w - - 1 18
+2025-12-26 20:08:15,902 [INFO] RECV: go infinite
+2025-12-26 20:08:15,902 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:08:26,377 [INFO] RECV: stop
+2025-12-26 20:08:26,377 [INFO] RECV: stop
+2025-12-26 20:08:26,377 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,378 [INFO] RECV: stop
+2025-12-26 20:08:26,381 [INFO] RECV: position fen 2br3k/3q2b1/1Q1ppnnp/5pp1/3P4/3BPNBP/1PP1NPP1/5RK1 w - - 1 20
+2025-12-26 20:08:26,384 [INFO] RECV: go infinite
+2025-12-26 20:08:26,384 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:08:37,083 [INFO] RECV: stop
+2025-12-26 20:08:37,083 [INFO] RECV: stop
+2025-12-26 20:08:37,083 [INFO] RECV: stop
+2025-12-26 20:08:37,085 [INFO] RECV: stop
+2025-12-26 20:08:37,085 [INFO] RECV: position fen 2br3k/3q2b1/1Q1ppnnp/5pp1/2PP4/3BPNBP/1P2NPP1/5RK1 b - - 0 20
+2025-12-26 20:08:37,088 [INFO] RECV: go infinite
+2025-12-26 20:08:37,088 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,008 [INFO] RECV: stop
+2025-12-26 20:08:46,011 [INFO] RECV: position fen 2brq2k/6b1/1Q1ppnnp/5pp1/2PP4/3BPNBP/1P2NPP1/5RK1 w - - 1 21
+2025-12-26 20:08:46,013 [INFO] RECV: go infinite
+2025-12-26 20:08:46,013 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:08:55,948 [INFO] RECV: stop
+2025-12-26 20:08:55,948 [INFO] RECV: stop
+2025-12-26 20:08:55,948 [INFO] RECV: stop
+2025-12-26 20:08:55,948 [INFO] RECV: stop
+2025-12-26 20:08:55,948 [INFO] RECV: stop
+2025-12-26 20:08:55,948 [INFO] RECV: stop
+2025-12-26 20:08:55,950 [INFO] RECV: position fen 2brq2k/6b1/1Q1p1nnp/2P1ppp1/3P4/3BPNBP/1P2NPP1/5RK1 w - - 0 22
+2025-12-26 20:08:55,953 [INFO] RECV: go infinite
+2025-12-26 20:08:55,953 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:09:21,181 [INFO] RECV: stop
+2025-12-26 20:09:21,187 [INFO] RECV: position fen 2brq2k/6b1/1Q1P1nnp/4ppp1/3P4/3BPNBP/1P2NPP1/5RK1 b - - 0 22
+2025-12-26 20:09:21,196 [INFO] RECV: go infinite
+2025-12-26 20:09:21,196 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:09:30,429 [INFO] RECV: stop
+2025-12-26 20:09:30,429 [INFO] RECV: stop
+2025-12-26 20:09:30,429 [INFO] RECV: stop
+2025-12-26 20:09:30,429 [INFO] RECV: stop
+2025-12-26 20:09:30,433 [INFO] RECV: stop
+2025-12-26 20:09:30,433 [INFO] RECV: position fen 2brq2k/6b1/1Q1P1nnp/4ppp1/3P4/3BPNBP/1P2NPP1/5RK1 b - - 0 22
+2025-12-26 20:09:30,435 [INFO] RECV: go infinite
+2025-12-26 20:09:30,435 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:09:38,555 [INFO] RECV: stop
+2025-12-26 20:09:38,555 [INFO] RECV: stop
+2025-12-26 20:09:38,555 [INFO] RECV: stop
+2025-12-26 20:09:38,555 [INFO] RECV: stop
+2025-12-26 20:09:38,555 [INFO] RECV: stop
+2025-12-26 20:09:38,557 [INFO] RECV: position fen 2brq2k/3n2b1/1Q1P2np/4ppp1/3P4/3BPNBP/1P2NPP1/5RK1 w - - 1 23
+2025-12-26 20:09:38,562 [INFO] RECV: go infinite
+2025-12-26 20:09:38,563 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:10:11,085 [INFO] RECV: stop
+2025-12-26 20:10:11,085 [INFO] RECV: position fen 2brq2k/3n2b1/3P2np/4ppp1/1Q1P4/3BPNBP/1P2NPP1/5RK1 b - - 2 23
+2025-12-26 20:10:11,088 [INFO] RECV: go infinite
+2025-12-26 20:10:11,088 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:10:18,982 [INFO] RECV: stop
+2025-12-26 20:10:18,982 [INFO] RECV: stop
+2025-12-26 20:10:18,982 [INFO] RECV: stop
+2025-12-26 20:10:18,982 [INFO] RECV: stop
+2025-12-26 20:10:18,985 [INFO] RECV: stop
+2025-12-26 20:10:18,985 [INFO] RECV: position fen 2brq2k/3n2b1/3P2np/4ppp1/1Q1P4/3BPNBP/1P2NPP1/5RK1 b - - 2 23
+2025-12-26 20:10:18,987 [INFO] RECV: go infinite
+2025-12-26 20:10:18,987 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:10:25,847 [INFO] RECV: stop
+2025-12-26 20:10:25,847 [INFO] RECV: stop
+2025-12-26 20:10:25,847 [INFO] RECV: stop
+2025-12-26 20:10:25,847 [INFO] RECV: stop
+2025-12-26 20:10:25,847 [INFO] RECV: stop
+2025-12-26 20:10:25,848 [INFO] RECV: position fen 2brq2k/3n2b1/3P2np/5pp1/1Q1Pp3/3BPNBP/1P2NPP1/5RK1 w - - 0 24
+2025-12-26 20:10:25,851 [INFO] RECV: go infinite
+2025-12-26 20:10:25,851 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:10:51,506 [INFO] RECV: stop
+2025-12-26 20:10:51,542 [INFO] RECV: position fen 2brq2k/3n2b1/3P2np/5pp1/1Q1PB3/4PNBP/1P2NPP1/5RK1 b - - 0 24
+2025-12-26 20:10:51,578 [INFO] RECV: go infinite
+2025-12-26 20:10:51,579 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:11:01,147 [INFO] RECV: stop
+2025-12-26 20:11:01,147 [INFO] RECV: stop
+2025-12-26 20:11:01,147 [INFO] RECV: stop
+2025-12-26 20:11:01,147 [INFO] RECV: stop
+2025-12-26 20:11:01,152 [INFO] RECV: stop
+2025-12-26 20:11:01,152 [INFO] RECV: position fen 2brq2k/3n2b1/3P2np/5pp1/1Q1PB3/4PNBP/1P2NPP1/5RK1 b - - 0 24
+2025-12-26 20:11:01,155 [INFO] RECV: go infinite
+2025-12-26 20:11:01,155 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:11:08,869 [INFO] RECV: stop
+2025-12-26 20:11:08,869 [INFO] RECV: stop
+2025-12-26 20:11:08,869 [INFO] RECV: stop
+2025-12-26 20:11:08,869 [INFO] RECV: stop
+2025-12-26 20:11:08,869 [INFO] RECV: stop
+2025-12-26 20:11:08,871 [INFO] RECV: position fen 2br3k/3n2b1/3P2np/5pp1/1Q1Pq3/4PNBP/1P2NPP1/5RK1 w - - 0 25
+2025-12-26 20:11:08,874 [INFO] RECV: go infinite
+2025-12-26 20:11:08,874 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:12:55,710 [INFO] RECV: stop
+2025-12-26 20:12:55,713 [INFO] RECV: position fen 2br3k/3n2b1/3P2np/Q4pp1/3Pq3/4PNBP/1P2NPP1/5RK1 b - - 1 25
+2025-12-26 20:12:55,716 [INFO] RECV: go infinite
+2025-12-26 20:12:55,716 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:13:05,488 [INFO] RECV: stop
+2025-12-26 20:13:05,490 [INFO] RECV: stop
+2025-12-26 20:13:05,490 [INFO] RECV: stop
+2025-12-26 20:13:05,490 [INFO] RECV: stop
+2025-12-26 20:13:05,493 [INFO] RECV: stop
+2025-12-26 20:13:05,494 [INFO] RECV: position fen 2br3k/3n2b1/3P2np/Q4pp1/3Pq3/4PNBP/1P2NPP1/5RK1 b - - 1 25
+2025-12-26 20:13:05,496 [INFO] RECV: go infinite
+2025-12-26 20:13:05,496 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:13:14,304 [INFO] RECV: stop
+2025-12-26 20:13:14,304 [INFO] RECV: stop
+2025-12-26 20:13:14,304 [INFO] RECV: stop
+2025-12-26 20:13:14,304 [INFO] RECV: stop
+2025-12-26 20:13:14,304 [INFO] RECV: stop
+2025-12-26 20:13:14,308 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3Pq3/4PNBP/1P2NPP1/5RK1 w - - 2 26
+2025-12-26 20:13:14,310 [INFO] RECV: go infinite
+2025-12-26 20:13:14,310 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:13:26,979 [INFO] RECV: stop
+2025-12-26 20:13:26,997 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3Pq3/4P1BP/1P1NNPP1/5RK1 b - - 3 26
+2025-12-26 20:13:27,014 [INFO] RECV: go infinite
+2025-12-26 20:13:27,014 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:13:38,466 [INFO] RECV: stop
+2025-12-26 20:13:38,467 [INFO] RECV: stop
+2025-12-26 20:13:38,468 [INFO] RECV: stop
+2025-12-26 20:13:38,468 [INFO] RECV: stop
+2025-12-26 20:13:38,470 [INFO] RECV: stop
+2025-12-26 20:13:38,470 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3Pq3/4P1BP/1P1NNPP1/5RK1 b - - 3 26
+2025-12-26 20:13:38,473 [INFO] RECV: go infinite
+2025-12-26 20:13:38,473 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:13:47,946 [INFO] RECV: stop
+2025-12-26 20:13:47,947 [INFO] RECV: stop
+2025-12-26 20:13:47,947 [INFO] RECV: stop
+2025-12-26 20:13:47,947 [INFO] RECV: stop
+2025-12-26 20:13:47,947 [INFO] RECV: stop
+2025-12-26 20:13:47,949 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3P4/3qP1BP/1P1NNPP1/5RK1 w - - 4 27
+2025-12-26 20:13:47,952 [INFO] RECV: go infinite
+2025-12-26 20:13:47,952 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:13:59,710 [INFO] RECV: stop
+2025-12-26 20:13:59,710 [INFO] RECV: stop
+2025-12-26 20:13:59,710 [INFO] RECV: stop
+2025-12-26 20:13:59,713 [INFO] RECV: stop
+2025-12-26 20:13:59,713 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3P4/3qP1BP/1P1N1PP1/2N2RK1 b - - 5 27
+2025-12-26 20:13:59,715 [INFO] RECV: go infinite
+2025-12-26 20:13:59,716 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:14:10,218 [INFO] RECV: stop
+2025-12-26 20:14:10,218 [INFO] RECV: stop
+2025-12-26 20:14:10,218 [INFO] RECV: stop
+2025-12-26 20:14:10,218 [INFO] RECV: stop
+2025-12-26 20:14:10,218 [INFO] RECV: stop
+2025-12-26 20:14:10,219 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3P4/4P1BP/1PqN1PP1/2N2RK1 w - - 6 28
+2025-12-26 20:14:10,221 [INFO] RECV: go infinite
+2025-12-26 20:14:10,221 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:14:21,226 [INFO] RECV: stop
+2025-12-26 20:14:21,226 [INFO] RECV: stop
+2025-12-26 20:14:21,226 [INFO] RECV: stop
+2025-12-26 20:14:21,229 [INFO] RECV: stop
+2025-12-26 20:14:21,229 [INFO] RECV: position fen 2b1r2k/3n2b1/3P2np/Q4pp1/3P4/1P2P1BP/2qN1PP1/2N2RK1 b - - 0 28
+2025-12-26 20:14:21,232 [INFO] RECV: go infinite
+2025-12-26 20:14:21,232 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:14:31,669 [INFO] RECV: stop
+2025-12-26 20:14:31,669 [INFO] RECV: stop
+2025-12-26 20:14:31,670 [INFO] RECV: stop
+2025-12-26 20:14:31,670 [INFO] RECV: stop
+2025-12-26 20:14:31,670 [INFO] RECV: stop
+2025-12-26 20:14:31,671 [INFO] RECV: position fen 2b2r1k/3n2b1/3P2np/Q4pp1/3P4/1P2P1BP/2qN1PP1/2N2RK1 w - - 1 29
+2025-12-26 20:14:31,674 [INFO] RECV: go infinite
+2025-12-26 20:14:31,674 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:15:17,145 [INFO] RECV: stop
+2025-12-26 20:15:17,146 [INFO] RECV: position fen 2b2r1k/3n2b1/3P2np/Q4pp1/3P4/1P2PNBP/2q2PP1/2N2RK1 b - - 2 29
+2025-12-26 20:15:17,148 [INFO] RECV: go infinite
+2025-12-26 20:15:17,148 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:15:27,829 [INFO] RECV: stop
+2025-12-26 20:15:27,829 [INFO] RECV: stop
+2025-12-26 20:15:27,829 [INFO] RECV: stop
+2025-12-26 20:15:27,829 [INFO] RECV: stop
+2025-12-26 20:15:27,831 [INFO] RECV: stop
+2025-12-26 20:15:27,832 [INFO] RECV: position fen 2b2r1k/3n2b1/3P2np/Q4pp1/3P4/1P2PNBP/2q2PP1/2N2RK1 b - - 2 29
+2025-12-26 20:15:27,834 [INFO] RECV: go infinite
+2025-12-26 20:15:27,834 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,550 [INFO] RECV: stop
+2025-12-26 20:15:38,553 [INFO] RECV: position fen 2b2r1k/3n2b1/3P2np/Q5p1/3P1p2/1P2PNBP/2q2PP1/2N2RK1 w - - 0 30
+2025-12-26 20:15:38,555 [INFO] RECV: go infinite
+2025-12-26 20:15:38,555 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:15:47,876 [INFO] RECV: stop
+2025-12-26 20:15:47,877 [INFO] RECV: stop
+2025-12-26 20:15:47,877 [INFO] RECV: stop
+2025-12-26 20:15:47,877 [INFO] RECV: stop
+2025-12-26 20:15:47,877 [INFO] RECV: stop
+2025-12-26 20:15:47,877 [INFO] RECV: stop
+2025-12-26 20:15:47,878 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P1n2/1P3NBP/2q2PP1/2N2RK1 w - - 0 31
+2025-12-26 20:15:47,881 [INFO] RECV: go infinite
+2025-12-26 20:15:47,881 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:16:51,235 [INFO] RECV: stop
+2025-12-26 20:16:51,257 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/1Q4p1/3P1n2/1P3NBP/2q2PP1/2N2RK1 b - - 1 31
+2025-12-26 20:16:51,262 [INFO] RECV: go infinite
+2025-12-26 20:16:51,262 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:17:04,710 [INFO] RECV: stop
+2025-12-26 20:17:04,710 [INFO] RECV: stop
+2025-12-26 20:17:04,710 [INFO] RECV: stop
+2025-12-26 20:17:04,710 [INFO] RECV: stop
+2025-12-26 20:17:04,710 [INFO] RECV: stop
+2025-12-26 20:17:04,710 [INFO] RECV: stop
+2025-12-26 20:17:04,713 [INFO] RECV: stop
+2025-12-26 20:17:04,714 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/1Q4p1/3P1n2/1P3NBP/2q2PP1/2N2RK1 b - - 1 31
+2025-12-26 20:17:04,717 [INFO] RECV: go infinite
+2025-12-26 20:17:04,717 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:17:15,752 [INFO] RECV: stop
+2025-12-26 20:17:15,752 [INFO] RECV: stop
+2025-12-26 20:17:15,752 [INFO] RECV: stop
+2025-12-26 20:17:15,752 [INFO] RECV: stop
+2025-12-26 20:17:15,752 [INFO] RECV: stop
+2025-12-26 20:17:15,752 [INFO] RECV: stop
+2025-12-26 20:17:15,753 [INFO] RECV: stop
+2025-12-26 20:17:15,753 [INFO] RECV: stop
+2025-12-26 20:17:15,753 [INFO] RECV: stop
+2025-12-26 20:17:15,754 [INFO] RECV: position fen 2b4k/3n2b1/3P3p/1Q4p1/3P4/1P3rBP/2q2P2/2N2RK1 w - - 0 33
+2025-12-26 20:17:15,757 [INFO] RECV: go infinite
+2025-12-26 20:17:15,757 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:18:16,812 [INFO] RECV: stop
+2025-12-26 20:18:16,816 [INFO] RECV: position fen 2b4k/3n2b1/3P3p/1Q4p1/3P4/1P3rBP/2q1NP2/5RK1 b - - 1 33
+2025-12-26 20:18:16,821 [INFO] RECV: go infinite
+2025-12-26 20:18:16,822 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:18:29,534 [INFO] RECV: stop
+2025-12-26 20:18:29,534 [INFO] RECV: stop
+2025-12-26 20:18:29,534 [INFO] RECV: stop
+2025-12-26 20:18:29,534 [INFO] RECV: stop
+2025-12-26 20:18:29,539 [INFO] RECV: stop
+2025-12-26 20:18:29,539 [INFO] RECV: position fen 2b4k/3n2b1/3P3p/1Q4p1/3P4/1P3rBP/2q1NP2/5RK1 b - - 1 33
+2025-12-26 20:18:29,542 [INFO] RECV: go infinite
+2025-12-26 20:18:29,542 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:18:39,873 [INFO] RECV: stop
+2025-12-26 20:18:39,873 [INFO] RECV: stop
+2025-12-26 20:18:39,873 [INFO] RECV: stop
+2025-12-26 20:18:39,873 [INFO] RECV: stop
+2025-12-26 20:18:39,873 [INFO] RECV: stop
+2025-12-26 20:18:39,875 [INFO] RECV: position fen 2b4k/3n2b1/3P3p/1Q4p1/3P4/1q3rBP/4NP2/5RK1 w - - 0 34
+2025-12-26 20:18:39,877 [INFO] RECV: go infinite
+2025-12-26 20:18:39,877 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:19:24,831 [INFO] RECV: stop
+2025-12-26 20:19:24,832 [INFO] RECV: position fen 2b4k/3n2b1/3P3p/Q5p1/3P4/1q3rBP/4NP2/5RK1 b - - 1 34
+2025-12-26 20:19:24,933 [INFO] RECV: go infinite
+2025-12-26 20:19:24,934 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:19:34,748 [INFO] RECV: stop
+2025-12-26 20:19:34,748 [INFO] RECV: stop
+2025-12-26 20:19:34,748 [INFO] RECV: stop
+2025-12-26 20:19:34,749 [INFO] RECV: stop
+2025-12-26 20:19:34,750 [INFO] RECV: stop
+2025-12-26 20:19:34,751 [INFO] RECV: position fen 2b4k/3n2b1/3P3p/Q5p1/3P4/1q3rBP/4NP2/5RK1 b - - 1 34
+2025-12-26 20:19:34,753 [INFO] RECV: go infinite
+2025-12-26 20:19:34,754 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:19:44,149 [INFO] RECV: stop
+2025-12-26 20:19:44,150 [INFO] RECV: stop
+2025-12-26 20:19:44,150 [INFO] RECV: stop
+2025-12-26 20:19:44,150 [INFO] RECV: stop
+2025-12-26 20:19:44,152 [INFO] RECV: stop
+2025-12-26 20:19:44,152 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/1q4BP/4NP2/5RK1 w - - 2 35
+2025-12-26 20:19:44,154 [INFO] RECV: go infinite
+2025-12-26 20:19:44,154 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:20:04,020 [INFO] RECV: stop
+2025-12-26 20:20:04,021 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/1q4BP/4NP2/R5K1 b - - 3 35
+2025-12-26 20:20:04,033 [INFO] RECV: go infinite
+2025-12-26 20:20:04,033 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:20:15,052 [INFO] RECV: stop
+2025-12-26 20:20:15,052 [INFO] RECV: stop
+2025-12-26 20:20:15,052 [INFO] RECV: stop
+2025-12-26 20:20:15,052 [INFO] RECV: stop
+2025-12-26 20:20:15,055 [INFO] RECV: stop
+2025-12-26 20:20:15,055 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/1q4BP/4NP2/R5K1 b - - 3 35
+2025-12-26 20:20:15,058 [INFO] RECV: go infinite
+2025-12-26 20:20:15,058 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:20:26,177 [INFO] RECV: stop
+2025-12-26 20:20:26,177 [INFO] RECV: stop
+2025-12-26 20:20:26,177 [INFO] RECV: stop
+2025-12-26 20:20:26,177 [INFO] RECV: stop
+2025-12-26 20:20:26,178 [INFO] RECV: stop
+2025-12-26 20:20:26,178 [INFO] RECV: stop
+2025-12-26 20:20:26,178 [INFO] RECV: stop
+2025-12-26 20:20:26,178 [INFO] RECV: stop
+2025-12-26 20:20:26,180 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/6BP/2q1NP2/R5K1 w - - 4 36
+2025-12-26 20:20:26,184 [INFO] RECV: go infinite
+2025-12-26 20:20:26,184 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:20:36,047 [INFO] RECV: stop
+2025-12-26 20:20:36,047 [INFO] RECV: stop
+2025-12-26 20:20:36,047 [INFO] RECV: stop
+2025-12-26 20:20:36,047 [INFO] RECV: stop
+2025-12-26 20:20:36,047 [INFO] RECV: stop
+2025-12-26 20:20:36,047 [INFO] RECV: stop
+2025-12-26 20:20:36,050 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/1q4BP/R3NP2/6K1 w - - 6 37
+2025-12-26 20:20:36,053 [INFO] RECV: go infinite
+2025-12-26 20:20:36,053 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:20:43,913 [INFO] RECV: stop
+2025-12-26 20:20:43,913 [INFO] RECV: stop
+2025-12-26 20:20:43,913 [INFO] RECV: stop
+2025-12-26 20:20:43,918 [INFO] RECV: stop
+2025-12-26 20:20:43,918 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/Rq4BP/4NP2/6K1 b - - 7 37
+2025-12-26 20:20:43,925 [INFO] RECV: go infinite
+2025-12-26 20:20:43,925 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:20:56,553 [INFO] RECV: stop
+2025-12-26 20:20:56,553 [INFO] RECV: stop
+2025-12-26 20:20:56,553 [INFO] RECV: stop
+2025-12-26 20:20:56,553 [INFO] RECV: stop
+2025-12-26 20:20:56,553 [INFO] RECV: stop
+2025-12-26 20:20:56,553 [INFO] RECV: stop
+2025-12-26 20:20:56,554 [INFO] RECV: stop
+2025-12-26 20:20:56,554 [INFO] RECV: stop
+2025-12-26 20:20:56,554 [INFO] RECV: stop
+2025-12-26 20:20:56,556 [INFO] RECV: position fen 2b2r1k/3n2b1/3P3p/Q5p1/3P4/R5BP/4NP2/3q2K1 w - - 8 38
+2025-12-26 20:20:56,557 [INFO] RECV: go infinite
+2025-12-26 20:20:56,557 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:20:58,334 [INFO] RECV: stop
+2025-12-26 20:20:58,334 [INFO] RECV: stop
+2025-12-26 20:20:58,334 [INFO] RECV: stop
+2025-12-26 20:20:58,334 [INFO] RECV: stop
+2025-12-26 20:20:58,336 [INFO] RECV: position fen 5r1k/1b1n2b1/3P3p/Q5p1/3P4/R5BP/4NP1K/3q4 b - - 11 39
+2025-12-26 20:20:58,339 [INFO] RECV: go infinite
+2025-12-26 20:20:58,339 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:21:07,107 [INFO] RECV: stop
+2025-12-26 20:21:07,107 [INFO] RECV: stop
+2025-12-26 20:21:07,108 [INFO] RECV: stop
+2025-12-26 20:21:07,108 [INFO] RECV: stop
+2025-12-26 20:30:01,782 [INFO] RECV: uci
+2025-12-26 20:30:01,784 [INFO] RECV: isready
+2025-12-26 20:30:01,812 [INFO] RECV: ucinewgame
+2025-12-26 20:30:01,813 [INFO] RECV: stop
+2025-12-26 20:30:01,816 [INFO] RECV: position startpos
+2025-12-26 20:30:01,817 [INFO] RECV: go infinite
+2025-12-26 20:30:01,817 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:30:02,113 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 20:30:02,115 [INFO] RECV: stop
+2025-12-26 20:30:02,122 [INFO] RECV: stop
+2025-12-26 20:30:02,122 [INFO] RECV: position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26 20:30:29,360 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:30:29,361 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26 20:30:29,361 [INFO] RECV: go infinite
+2025-12-26 20:30:29,362 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:30:29,667 [INFO] Engine move selected: c2c4 (SAN  c4) with transcript length 62
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,670 [INFO] RECV: stop
+2025-12-26 20:30:29,671 [INFO] RECV: stop
+2025-12-26 20:30:29,671 [INFO] RECV: stop
+2025-12-26 20:30:29,671 [INFO] RECV: stop
+2025-12-26 20:30:29,671 [INFO] RECV: stop
+2025-12-26 20:30:29,671 [INFO] RECV: position fen rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-26 20:30:29,674 [INFO] RECV: go infinite
+2025-12-26 20:30:29,674 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:30:34,969 [INFO] RECV: stop
+2025-12-26 20:30:34,969 [INFO] RECV: stop
+2025-12-26 20:30:34,969 [INFO] RECV: stop
+2025-12-26 20:30:34,969 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,970 [INFO] RECV: stop
+2025-12-26 20:30:34,978 [INFO] RECV: position fen rnbq1rk1/ppp1ppbp/5np1/3p4/2PP1B2/3BP3/PP3PPP/RN1QK1NR w KQ - 0 6
+2025-12-26 20:30:34,980 [INFO] RECV: go infinite
+2025-12-26 20:30:34,980 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,321 [INFO] RECV: stop
+2025-12-26 20:30:43,322 [INFO] RECV: stop
+2025-12-26 20:30:43,323 [INFO] RECV: position fen rnbq1rk1/ppp1ppbp/6p1/3p3n/2PP1B2/3BPN2/PP3PPP/RN1QK2R w KQ - 2 7
+2025-12-26 20:30:43,325 [INFO] RECV: go infinite
+2025-12-26 20:30:43,325 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:31:08,429 [INFO] RECV: stop
+2025-12-26 20:31:08,451 [INFO] RECV: position fen rnbq1rk1/ppp1ppbp/6p1/3p3n/2PP1B2/3BPN2/PP3PPP/RN1Q1RK1 b - - 3 7
+2025-12-26 20:31:08,455 [INFO] RECV: go infinite
+2025-12-26 20:31:08,455 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:31:16,343 [INFO] RECV: stop
+2025-12-26 20:31:16,343 [INFO] RECV: stop
+2025-12-26 20:31:16,343 [INFO] RECV: stop
+2025-12-26 20:31:16,343 [INFO] RECV: stop
+2025-12-26 20:31:16,343 [INFO] RECV: stop
+2025-12-26 20:31:16,343 [INFO] RECV: stop
+2025-12-26 20:31:16,349 [INFO] RECV: stop
+2025-12-26 20:31:16,350 [INFO] RECV: position fen rnbq1rk1/ppp1ppbp/6p1/3p3n/2PP1B2/3BPN2/PP3PPP/RN1Q1RK1 b - - 3 7
+2025-12-26 20:31:16,352 [INFO] RECV: go infinite
+2025-12-26 20:31:16,352 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,410 [INFO] RECV: stop
+2025-12-26 20:31:23,412 [INFO] RECV: position fen r1bq1rk1/ppp1ppbp/2n3p1/3p4/2PP1P2/3B1N2/PP3PPP/RN1Q1RK1 w - - 1 9
+2025-12-26 20:31:23,414 [INFO] RECV: go infinite
+2025-12-26 20:31:23,414 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:31:29,363 [INFO] RECV: stop
+2025-12-26 20:31:29,363 [INFO] RECV: stop
+2025-12-26 20:31:29,363 [INFO] RECV: stop
+2025-12-26 20:31:29,364 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/2nq2p1/3p4/2PP1P2/3B1N2/PPQ2PPP/RN3RK1 w - - 3 10
+2025-12-26 20:31:29,366 [INFO] RECV: go infinite
+2025-12-26 20:31:29,366 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:31:36,649 [INFO] RECV: stop
+2025-12-26 20:31:36,649 [INFO] RECV: stop
+2025-12-26 20:31:36,649 [INFO] RECV: stop
+2025-12-26 20:31:36,649 [INFO] RECV: stop
+2025-12-26 20:31:36,649 [INFO] RECV: stop
+2025-12-26 20:31:36,649 [INFO] RECV: stop
+2025-12-26 20:31:36,652 [INFO] RECV: stop
+2025-12-26 20:31:36,652 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/2nq2p1/3p1P2/2PP4/3B1N2/PPQ2PPP/RN3RK1 b - - 0 10
+2025-12-26 20:31:36,654 [INFO] RECV: go infinite
+2025-12-26 20:31:36,654 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:31:43,448 [INFO] RECV: stop
+2025-12-26 20:31:43,448 [INFO] RECV: stop
+2025-12-26 20:31:43,448 [INFO] RECV: stop
+2025-12-26 20:31:43,448 [INFO] RECV: stop
+2025-12-26 20:31:43,448 [INFO] RECV: stop
+2025-12-26 20:31:43,450 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/2nq2p1/5P2/2pP4/3B1N2/PPQ2PPP/RN3RK1 w - - 0 11
+2025-12-26 20:31:43,452 [INFO] RECV: go infinite
+2025-12-26 20:31:43,452 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:31:49,971 [INFO] RECV: stop
+2025-12-26 20:31:49,971 [INFO] RECV: stop
+2025-12-26 20:31:49,971 [INFO] RECV: stop
+2025-12-26 20:31:49,971 [INFO] RECV: stop
+2025-12-26 20:31:49,972 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/2nq2p1/5P2/2pPB3/5N2/PPQ2PPP/RN3RK1 b - - 1 11
+2025-12-26 20:31:49,974 [INFO] RECV: go infinite
+2025-12-26 20:31:49,974 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:31:58,809 [INFO] RECV: stop
+2025-12-26 20:31:58,809 [INFO] RECV: stop
+2025-12-26 20:31:58,809 [INFO] RECV: stop
+2025-12-26 20:31:58,809 [INFO] RECV: stop
+2025-12-26 20:31:58,809 [INFO] RECV: stop
+2025-12-26 20:31:58,810 [INFO] RECV: stop
+2025-12-26 20:31:58,810 [INFO] RECV: stop
+2025-12-26 20:31:58,810 [INFO] RECV: stop
+2025-12-26 20:31:58,813 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/2nq4/5p2/2pPB3/5N2/PPQ2PPP/RN3RK1 w - - 0 12
+2025-12-26 20:31:58,815 [INFO] RECV: go infinite
+2025-12-26 20:31:58,815 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:32:05,676 [INFO] RECV: stop
+2025-12-26 20:32:05,676 [INFO] RECV: stop
+2025-12-26 20:32:05,676 [INFO] RECV: stop
+2025-12-26 20:32:05,677 [INFO] RECV: stop
+2025-12-26 20:32:05,677 [INFO] RECV: stop
+2025-12-26 20:32:05,677 [INFO] RECV: stop
+2025-12-26 20:32:05,677 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/3q4/5B2/1npP4/5N2/PPQ2PPP/RN3RK1 w - - 1 13
+2025-12-26 20:32:05,679 [INFO] RECV: go infinite
+2025-12-26 20:32:05,679 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:32:13,817 [INFO] RECV: stop
+2025-12-26 20:32:13,817 [INFO] RECV: stop
+2025-12-26 20:32:13,817 [INFO] RECV: stop
+2025-12-26 20:32:13,817 [INFO] RECV: stop
+2025-12-26 20:32:13,817 [INFO] RECV: stop
+2025-12-26 20:32:13,819 [INFO] RECV: stop
+2025-12-26 20:32:13,819 [INFO] RECV: position fen r1b2rk1/ppp1ppbp/3q4/5B2/1npPQ3/5N2/PP3PPP/RN3RK1 b - - 2 13
+2025-12-26 20:32:13,821 [INFO] RECV: go infinite
+2025-12-26 20:32:13,821 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,298 [INFO] RECV: stop
+2025-12-26 20:32:22,299 [INFO] RECV: position fen r1r3k1/ppp1ppb1/3q3p/8/1npPQ3/5N2/PP3PPP/RN3RK1 w - - 0 15
+2025-12-26 20:32:22,301 [INFO] RECV: go infinite
+2025-12-26 20:32:22,301 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:32:29,924 [INFO] RECV: stop
+2025-12-26 20:32:29,924 [INFO] RECV: stop
+2025-12-26 20:32:29,924 [INFO] RECV: stop
+2025-12-26 20:32:29,927 [INFO] RECV: stop
+2025-12-26 20:32:29,928 [INFO] RECV: position fen r1r3k1/ppp1ppb1/3q3p/8/1npPQ3/5N2/PP1N1PPP/R4RK1 b - - 1 15
+2025-12-26 20:32:29,934 [INFO] RECV: go infinite
+2025-12-26 20:32:29,934 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,252 [INFO] RECV: stop
+2025-12-26 20:32:39,253 [INFO] RECV: stop
+2025-12-26 20:32:39,253 [INFO] RECV: stop
+2025-12-26 20:32:39,254 [INFO] RECV: position fen r1r3k1/ppp1ppb1/7p/3q4/1npPQ3/5N2/PP1N1PPP/R4RK1 w - - 2 16
+2025-12-26 20:32:39,256 [INFO] RECV: go infinite
+2025-12-26 20:32:39,256 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,094 [INFO] RECV: stop
+2025-12-26 20:32:47,095 [INFO] RECV: position fen r1r3k1/ppp1ppb1/7p/8/2NP1n2/5N2/PP3PPP/R4RK1 w - - 1 18
+2025-12-26 20:32:47,097 [INFO] RECV: go infinite
+2025-12-26 20:32:47,097 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:33:00,450 [INFO] RECV: stop
+2025-12-26 20:33:00,451 [INFO] RECV: position fen r1r3k1/ppp1ppb1/7p/8/2NP1n2/5N2/PP3PPP/R3R1K1 b - - 2 18
+2025-12-26 20:33:00,454 [INFO] RECV: go infinite
+2025-12-26 20:33:00,454 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:33:07,256 [INFO] RECV: stop
+2025-12-26 20:33:07,256 [INFO] RECV: stop
+2025-12-26 20:33:07,256 [INFO] RECV: stop
+2025-12-26 20:33:07,259 [INFO] RECV: stop
+2025-12-26 20:33:07,259 [INFO] RECV: stop
+2025-12-26 20:33:07,259 [INFO] RECV: position fen r1r3k1/ppp1ppb1/7p/8/2NP1n2/5N2/PP3PPP/R3R1K1 b - - 2 18
+2025-12-26 20:33:07,261 [INFO] RECV: go infinite
+2025-12-26 20:33:07,261 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: stop
+2025-12-26 20:33:13,974 [INFO] RECV: position fen r1r3k1/ppp2pb1/4p2p/8/2NP1n2/5N2/PP3PPP/R3R1K1 w - - 0 19
+2025-12-26 20:33:13,977 [INFO] RECV: go infinite
+2025-12-26 20:33:13,977 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,930 [INFO] RECV: stop
+2025-12-26 20:33:20,932 [INFO] RECV: position fen r1r3k1/ppp2pb1/4p2p/8/2NP4/3n1N2/PP3PPP/2R1R1K1 w - - 2 20
+2025-12-26 20:33:20,934 [INFO] RECV: go infinite
+2025-12-26 20:33:20,934 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:33:27,356 [INFO] RECV: stop
+2025-12-26 20:33:27,356 [INFO] RECV: stop
+2025-12-26 20:33:27,356 [INFO] RECV: stop
+2025-12-26 20:33:27,356 [INFO] RECV: stop
+2025-12-26 20:33:27,357 [INFO] RECV: position fen r1r3k1/ppp2pb1/4p2p/8/2NP1n2/5N2/PP3PPP/R3R1K1 w - - 0 19
+2025-12-26 20:33:27,359 [INFO] RECV: go infinite
+2025-12-26 20:33:27,359 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:33:42,752 [INFO] RECV: uci
+2025-12-26 20:33:42,753 [INFO] RECV: isready
+2025-12-26 20:33:42,756 [INFO] RECV: ucinewgame
+2025-12-26 20:33:42,756 [INFO] RECV: stop
+2025-12-26 20:33:42,756 [INFO] RECV: position startpos moves e2e4
+2025-12-26 20:33:42,756 [INFO] Rebuilding from moves: ['e2e4']
+2025-12-26 20:33:42,757 [INFO] RECV: go infinite
+2025-12-26 20:33:42,757 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:33:42,978 [INFO] Engine move selected: e7e5 (SAN  e5) with transcript length 55
+2025-12-26 20:33:42,979 [INFO] RECV: stop
+2025-12-26 20:33:42,980 [INFO] RECV: stop
+2025-12-26 20:33:42,980 [INFO] RECV: position startpos moves e2e4
+2025-12-26 20:33:42,980 [INFO] Rebuilding from moves: ['e2e4']
+2025-12-26 20:33:42,981 [INFO] RECV: go infinite
+2025-12-26 20:33:42,981 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:33:43,195 [INFO] Engine move selected: e7e5 (SAN  e5) with transcript length 55
+2025-12-26 20:33:48,755 [INFO] RECV: stop
+2025-12-26 20:33:48,981 [INFO] RECV: stop
+2025-12-26 20:34:41,589 [INFO] RECV: uci
+2025-12-26 20:34:41,590 [INFO] RECV: isready
+2025-12-26 20:34:41,593 [INFO] RECV: ucinewgame
+2025-12-26 20:34:41,593 [INFO] RECV: stop
+2025-12-26 20:34:41,593 [INFO] RECV: position startpos
+2025-12-26 20:34:41,594 [INFO] RECV: go infinite
+2025-12-26 20:34:41,594 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:34:42,088 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 20:34:42,088 [INFO] RECV: stop
+2025-12-26 20:34:42,090 [INFO] RECV: stop
+2025-12-26 20:34:42,090 [INFO] RECV: position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26 20:35:08,968 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:35:08,969 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26 20:35:08,970 [INFO] RECV: go infinite
+2025-12-26 20:35:08,970 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:35:09,406 [INFO] Engine move selected: c2c4 (SAN  c4) with transcript length 62
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,406 [INFO] RECV: stop
+2025-12-26 20:35:09,407 [INFO] RECV: stop
+2025-12-26 20:35:09,407 [INFO] RECV: stop
+2025-12-26 20:35:09,407 [INFO] RECV: stop
+2025-12-26 20:35:09,407 [INFO] RECV: stop
+2025-12-26 20:35:09,410 [INFO] RECV: stop
+2025-12-26 20:35:09,410 [INFO] RECV: position fen rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-26 20:35:09,412 [INFO] RECV: go infinite
+2025-12-26 20:35:09,412 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,498 [INFO] RECV: stop
+2025-12-26 20:35:15,505 [INFO] RECV: position fen r1bqk2r/pppp1ppp/2n5/4P3/1bP2Bn1/5N2/PP2PPPP/RN1QKB1R w KQkq - 5 6
+2025-12-26 20:35:15,506 [INFO] Bootstrapped history from opening book for FEN r1bqk2r/pppp1ppp/2n5/4P3/1bP2Bn1/5N2/PP2PPPP/RN1QKB1R w KQkq - 5 6
+2025-12-26 20:35:15,507 [INFO] RECV: go infinite
+2025-12-26 20:35:15,507 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:35:16,310 [INFO] Engine move selected: b1d2 (SAN  Nbd2) with transcript length 108
+2025-12-26 20:35:16,311 [INFO] RECV: stop
+2025-12-26 20:35:16,311 [INFO] RECV: stop
+2025-12-26 20:35:16,311 [INFO] RECV: stop
+2025-12-26 20:35:16,313 [INFO] RECV: position fen r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/2N2N2/PP2PPPP/R2QKB1R w KQkq - 7 7
+2025-12-26 20:35:16,317 [INFO] RECV: go infinite
+2025-12-26 20:35:16,317 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:35:23,195 [INFO] RECV: stop
+2025-12-26 20:35:23,195 [INFO] RECV: stop
+2025-12-26 20:35:23,195 [INFO] RECV: stop
+2025-12-26 20:35:30,046 [INFO] RECV: stop
+2025-12-26 20:35:30,047 [INFO] RECV: position fen r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P1N2N2/1P2PPPP/R2QKB1R b KQkq - 0 7
+2025-12-26 20:35:30,052 [INFO] RECV: go infinite
+2025-12-26 20:35:30,052 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:35:40,889 [INFO] RECV: stop
+2025-12-26 20:35:40,889 [INFO] RECV: stop
+2025-12-26 20:35:40,889 [INFO] RECV: stop
+2025-12-26 20:35:40,889 [INFO] RECV: stop
+2025-12-26 20:35:40,889 [INFO] RECV: stop
+2025-12-26 20:35:40,889 [INFO] RECV: stop
+2025-12-26 20:35:40,893 [INFO] RECV: stop
+2025-12-26 20:35:40,893 [INFO] RECV: position fen r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P1N2N2/1P2PPPP/R2QKB1R b KQkq - 0 7
+2025-12-26 20:35:40,894 [INFO] RECV: go infinite
+2025-12-26 20:35:40,895 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,924 [INFO] RECV: stop
+2025-12-26 20:35:50,925 [INFO] RECV: stop
+2025-12-26 20:35:50,925 [INFO] RECV: stop
+2025-12-26 20:35:50,928 [INFO] RECV: position fen r1b1k2r/ppppqppp/8/b3P3/1nP2Bn1/P1N2N2/4PPPP/R2QKB1R w KQkq - 0 9
+2025-12-26 20:35:50,930 [INFO] RECV: go infinite
+2025-12-26 20:35:50,930 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:35:59,360 [INFO] RECV: stop
+2025-12-26 20:35:59,360 [INFO] RECV: stop
+2025-12-26 20:35:59,360 [INFO] RECV: stop
+2025-12-26 20:35:59,360 [INFO] RECV: stop
+2025-12-26 20:35:59,360 [INFO] RECV: stop
+2025-12-26 20:35:59,360 [INFO] RECV: stop
+2025-12-26 20:35:59,362 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/b3P3/1qP2Bn1/2N2N2/4PPPP/R2QKB1R w KQkq - 0 10
+2025-12-26 20:35:59,364 [INFO] RECV: go infinite
+2025-12-26 20:35:59,364 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:36:15,416 [INFO] RECV: stop
+2025-12-26 20:36:15,416 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/b3P3/1qP2Bn1/2N2N2/4PPPP/2RQKB1R b Kkq - 1 10
+2025-12-26 20:36:15,460 [INFO] RECV: go infinite
+2025-12-26 20:36:15,461 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:36:25,021 [INFO] RECV: stop
+2025-12-26 20:36:25,021 [INFO] RECV: stop
+2025-12-26 20:36:25,021 [INFO] RECV: stop
+2025-12-26 20:36:25,022 [INFO] RECV: stop
+2025-12-26 20:36:25,022 [INFO] RECV: stop
+2025-12-26 20:36:25,022 [INFO] RECV: stop
+2025-12-26 20:36:25,023 [INFO] RECV: stop
+2025-12-26 20:36:25,024 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/b3P3/1qP2Bn1/2N2N2/4PPPP/2RQKB1R b Kkq - 1 10
+2025-12-26 20:36:25,027 [INFO] RECV: go infinite
+2025-12-26 20:36:25,027 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,299 [INFO] RECV: stop
+2025-12-26 20:36:34,302 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/4P3/2P2Bn1/2b2N2/4PPPP/3QKB1R w Kkq - 0 12
+2025-12-26 20:36:34,303 [INFO] RECV: go infinite
+2025-12-26 20:36:34,303 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:36:35,741 [INFO] RECV: stop
+2025-12-26 20:36:35,742 [INFO] RECV: stop
+2025-12-26 20:36:35,742 [INFO] RECV: stop
+2025-12-26 20:36:35,743 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/4P3/2P5/2b2N2/3BPnPP/3QKB1R w Kkq - 0 13
+2025-12-26 20:36:35,744 [INFO] RECV: go infinite
+2025-12-26 20:36:35,745 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:36:41,696 [INFO] RECV: stop
+2025-12-26 20:36:41,696 [INFO] RECV: stop
+2025-12-26 20:36:41,696 [INFO] RECV: stop
+2025-12-26 20:36:41,696 [INFO] RECV: stop
+2025-12-26 20:36:41,696 [INFO] RECV: stop
+2025-12-26 20:36:41,696 [INFO] RECV: stop
+2025-12-26 20:36:41,697 [INFO] RECV: stop
+2025-12-26 20:36:41,697 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/4P3/2P5/2b2N2/3BPKPP/3Q1B1R b kq - 0 13
+2025-12-26 20:36:41,699 [INFO] RECV: go infinite
+2025-12-26 20:36:41,699 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:36:47,251 [INFO] RECV: stop
+2025-12-26 20:36:47,251 [INFO] RECV: stop
+2025-12-26 20:36:47,253 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/4b3/2P5/5N2/3BPKPP/3Q1B1R w kq - 0 14
+2025-12-26 20:36:47,255 [INFO] RECV: go infinite
+2025-12-26 20:36:47,255 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:36:54,275 [INFO] RECV: stop
+2025-12-26 20:36:54,275 [INFO] RECV: stop
+2025-12-26 20:36:54,275 [INFO] RECV: stop
+2025-12-26 20:36:58,005 [INFO] RECV: stop
+2025-12-26 20:36:58,006 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/4b3/2P5/1Q3N2/3BPKPP/5B1R b kq - 1 14
+2025-12-26 20:36:58,030 [INFO] RECV: go infinite
+2025-12-26 20:36:58,030 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:37:06,692 [INFO] RECV: stop
+2025-12-26 20:37:06,692 [INFO] RECV: stop
+2025-12-26 20:37:06,692 [INFO] RECV: stop
+2025-12-26 20:37:06,692 [INFO] RECV: stop
+2025-12-26 20:37:06,693 [INFO] RECV: stop
+2025-12-26 20:37:06,693 [INFO] RECV: stop
+2025-12-26 20:37:06,707 [INFO] RECV: stop
+2025-12-26 20:37:06,708 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/4b3/2P5/1Q3N2/3BPKPP/5B1R b kq - 1 14
+2025-12-26 20:37:06,710 [INFO] RECV: go infinite
+2025-12-26 20:37:06,710 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:37:15,046 [INFO] RECV: stop
+2025-12-26 20:37:15,046 [INFO] RECV: stop
+2025-12-26 20:37:15,046 [INFO] RECV: stop
+2025-12-26 20:37:15,046 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,047 [INFO] RECV: stop
+2025-12-26 20:37:15,051 [INFO] RECV: position fen r1b1k2r/pppp1ppp/8/2b5/2P5/1Q2BN2/4PKPP/5B1R w kq - 4 16
+2025-12-26 20:37:15,053 [INFO] RECV: go infinite
+2025-12-26 20:37:15,053 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:37:21,426 [INFO] RECV: stop
+2025-12-26 20:37:21,426 [INFO] RECV: stop
+2025-12-26 20:37:21,426 [INFO] RECV: stop
+2025-12-26 20:37:21,426 [INFO] RECV: stop
+2025-12-26 20:37:21,426 [INFO] RECV: stop
+2025-12-26 20:37:21,426 [INFO] RECV: stop
+2025-12-26 20:37:21,429 [INFO] RECV: position fen r1b1k2r/pppp2pp/5p2/2B5/2P5/1Q3N2/4PKPP/5B1R w kq - 0 17
+2025-12-26 20:37:21,431 [INFO] RECV: go infinite
+2025-12-26 20:37:21,431 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:37:31,586 [INFO] RECV: stop
+2025-12-26 20:37:31,586 [INFO] RECV: stop
+2025-12-26 20:37:31,586 [INFO] RECV: stop
+2025-12-26 20:37:31,586 [INFO] RECV: stop
+2025-12-26 20:37:31,586 [INFO] RECV: stop
+2025-12-26 20:37:31,590 [INFO] RECV: stop
+2025-12-26 20:37:31,590 [INFO] RECV: position fen r1b1k2r/pppp2pp/5p2/2B5/2P5/1Q2PN2/5KPP/5B1R b kq - 0 17
+2025-12-26 20:37:31,592 [INFO] RECV: go infinite
+2025-12-26 20:37:31,592 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,483 [INFO] RECV: stop
+2025-12-26 20:37:36,486 [INFO] RECV: position fen r1bk3r/ppp3pp/3p1p2/8/2PB4/1Q2PN2/5KPP/5B1R w - - 2 19
+2025-12-26 20:37:36,489 [INFO] RECV: go infinite
+2025-12-26 20:37:36,489 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,327 [INFO] RECV: stop
+2025-12-26 20:37:45,331 [INFO] RECV: position fen r2k3r/ppp3pp/3pbp2/2P5/3B4/1Q2PN2/5KPP/5B1R w - - 1 20
+2025-12-26 20:37:45,333 [INFO] RECV: go infinite
+2025-12-26 20:37:45,333 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:37:56,139 [INFO] RECV: stop
+2025-12-26 20:37:56,139 [INFO] RECV: stop
+2025-12-26 20:37:56,139 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,140 [INFO] RECV: stop
+2025-12-26 20:37:56,143 [INFO] RECV: position fen r2kr3/ppp3pp/3pQp2/2P5/3B4/4PN2/5KPP/5B1R w - - 1 21
+2025-12-26 20:37:56,145 [INFO] RECV: go infinite
+2025-12-26 20:37:56,145 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:38:04,784 [INFO] RECV: stop
+2025-12-26 20:38:04,784 [INFO] RECV: stop
+2025-12-26 20:38:04,784 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,785 [INFO] RECV: stop
+2025-12-26 20:38:04,786 [INFO] RECV: position fen r2k4/p1p2Qpp/1p1p1p2/2P1B3/8/4PN2/5KPP/5B1R w - - 0 23
+2025-12-26 20:38:04,788 [INFO] RECV: go infinite
+2025-12-26 20:38:04,788 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,859 [INFO] RECV: stop
+2025-12-26 20:38:18,862 [INFO] RECV: stop
+2025-12-26 20:38:18,862 [INFO] RECV: position fen r2k4/p1p2Qpp/1p1P1p2/4B3/8/4PN2/5KPP/5B1R b - - 0 23
+2025-12-26 20:38:18,863 [INFO] RECV: go infinite
+2025-12-26 20:38:18,863 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:38:22,210 [INFO] RECV: stop
+2025-12-26 20:38:22,210 [INFO] RECV: stop
+2025-12-26 20:38:22,210 [INFO] RECV: stop
+2025-12-26 20:38:22,210 [INFO] RECV: stop
+2025-12-26 20:38:22,210 [INFO] RECV: stop
+2025-12-26 20:38:22,210 [INFO] RECV: stop
+2025-12-26 20:38:22,211 [INFO] RECV: position fen r3Q3/1kP3pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R w - - 3 26
+2025-12-26 20:38:22,213 [INFO] RECV: go infinite
+2025-12-26 20:38:22,213 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:32,646 [INFO] RECV: stop
+2025-12-26 20:38:42,536 [INFO] RECV: stop
+2025-12-26 20:38:42,595 [INFO] RECV: position fen Q7/1kP3pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R b - - 0 26
+2025-12-26 20:38:42,620 [INFO] RECV: go infinite
+2025-12-26 20:38:42,620 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:38:46,101 [INFO] RECV: stop
+2025-12-26 20:38:46,101 [INFO] RECV: stop
+2025-12-26 20:38:46,102 [INFO] RECV: stop
+2025-12-26 20:38:47,226 [INFO] RECV: stop
+2025-12-26 20:38:47,229 [INFO] RECV: stop
+2025-12-26 20:38:47,230 [INFO] RECV: position fen Q7/1kP3pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R b - - 0 26
+2025-12-26 20:38:47,231 [INFO] RECV: go infinite
+2025-12-26 20:38:47,232 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:38:49,401 [INFO] RECV: stop
+2025-12-26 20:38:49,401 [INFO] RECV: stop
+2025-12-26 20:38:49,401 [INFO] RECV: stop
+2025-12-26 20:38:49,401 [INFO] RECV: stop
+2025-12-26 20:38:49,401 [INFO] RECV: stop
+2025-12-26 20:38:49,401 [INFO] RECV: stop
+2025-12-26 20:38:49,403 [INFO] RECV: position fen k1Q5/6pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R b - - 1 27
+2025-12-26 20:38:49,404 [INFO] RECV: go infinite
+2025-12-26 20:38:49,404 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:38:50,899 [INFO] RECV: stop
+2025-12-26 20:38:50,899 [INFO] RECV: stop
+2025-12-26 20:38:50,901 [INFO] RECV: position fen 2Q5/k5pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R w - - 2 28
+2025-12-26 20:38:50,903 [INFO] RECV: go infinite
+2025-12-26 20:38:50,903 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,617 [INFO] RECV: stop
+2025-12-26 20:39:03,619 [INFO] RECV: stop
+2025-12-26 20:39:03,620 [INFO] RECV: position fen 2Q5/k5pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R w - - 2 28 moves c8b8
+2025-12-26 20:39:03,620 [INFO] Rebuilding from moves: ['c8b8']
+2025-12-26 20:39:03,620 [INFO] Initializing new FEN context for GUI supplied position: 2Q5/k5pp/1p3p2/p3B3/8/4PN2/5KPP/5B1R w - - 2 28
+2025-12-26 20:39:03,623 [INFO] RECV: go infinite
+2025-12-26 20:39:03,623 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:39:09,632 [INFO] RECV: stop
+2025-12-26 20:39:29,450 [INFO] RECV: uci
+2025-12-26 20:39:29,454 [INFO] RECV: isready
+2025-12-26 20:39:29,457 [INFO] RECV: ucinewgame
+2025-12-26 20:39:29,458 [INFO] RECV: stop
+2025-12-26 20:39:29,458 [INFO] RECV: position startpos
+2025-12-26 20:39:29,458 [INFO] RECV: go infinite
+2025-12-26 20:39:29,458 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:39:29,745 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 20:39:29,746 [INFO] RECV: stop
+2025-12-26 20:39:29,747 [INFO] RECV: stop
+2025-12-26 20:39:29,747 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2
+2025-12-26 20:39:56,856 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:39:56,857 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2
+2025-12-26 20:39:56,857 [INFO] RECV: go infinite
+2025-12-26 20:39:56,858 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:39:57,164 [INFO] Engine move selected: c2c4 (SAN  c4) with transcript length 61
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,164 [INFO] RECV: stop
+2025-12-26 20:39:57,176 [INFO] RECV: stop
+2025-12-26 20:39:57,176 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2
+2025-12-26 20:39:57,177 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2
+2025-12-26 20:39:57,178 [INFO] RECV: go infinite
+2025-12-26 20:39:57,178 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:39:57,507 [INFO] Engine move selected: g8f6 (SAN  Nf6) with transcript length 66
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,508 [INFO] RECV: stop
+2025-12-26 20:39:57,835 [INFO] RECV: stop
+2025-12-26 20:39:57,837 [INFO] RECV: stop
+2025-12-26 20:39:57,842 [INFO] RECV: position fen rn2k1nr/pp2ppbp/2pp2p1/q5B1/2PP4/2NBPb2/PP3PPP/R2QK2R w KQkq - 0 8
+2025-12-26 20:39:57,862 [INFO] RECV: go infinite
+2025-12-26 20:39:57,862 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,630 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,631 [INFO] RECV: stop
+2025-12-26 20:40:06,635 [INFO] RECV: position fen rn2k1nr/pp2ppbp/2pp2p1/q5B1/2PP4/2NBPQ2/PP3PPP/R3K2R b KQkq - 0 8
+2025-12-26 20:40:06,637 [INFO] RECV: go infinite
+2025-12-26 20:40:06,637 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:40:25,330 [INFO] RECV: uci
+2025-12-26 20:40:25,330 [INFO] RECV: isready
+2025-12-26 20:40:25,333 [INFO] RECV: ucinewgame
+2025-12-26 20:40:25,334 [INFO] RECV: stop
+2025-12-26 20:40:25,335 [INFO] RECV: position startpos moves g2g3
+2025-12-26 20:40:25,335 [INFO] Rebuilding from moves: ['g2g3']
+2025-12-26 20:40:25,336 [INFO] RECV: go infinite
+2025-12-26 20:40:25,336 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:40:25,591 [INFO] Engine move selected: d7d5 (SAN  d5) with transcript length 55
+2025-12-26 20:40:25,592 [INFO] RECV: stop
+2025-12-26 20:40:25,592 [INFO] RECV: stop
+2025-12-26 20:40:25,592 [INFO] RECV: position startpos moves g2g3
+2025-12-26 20:40:25,593 [INFO] Rebuilding from moves: ['g2g3']
+2025-12-26 20:40:25,593 [INFO] RECV: go infinite
+2025-12-26 20:40:25,593 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:40:26,025 [INFO] Engine move selected: d7d5 (SAN  d5) with transcript length 55
+2025-12-26 20:40:26,352 [INFO] RECV: stop
+2025-12-26 20:40:26,352 [INFO] RECV: stop
+2025-12-26 20:40:26,352 [INFO] RECV: stop
+2025-12-26 20:40:26,352 [INFO] RECV: stop
+2025-12-26 20:40:26,353 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2
+2025-12-26 20:40:53,033 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:40:53,034 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2
+2025-12-26 20:40:53,035 [INFO] RECV: go infinite
+2025-12-26 20:40:53,035 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:40:53,358 [INFO] Engine move selected: f1g2 (SAN  Bg2) with transcript length 62
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,358 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,359 [INFO] RECV: stop
+2025-12-26 20:40:53,362 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPPBP/RNBQK1NR b KQkq - 1 2
+2025-12-26 20:40:53,363 [INFO] RECV: go infinite
+2025-12-26 20:40:53,363 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:40:53,687 [INFO] Engine move selected: g8f6 (SAN  Nf6) with transcript length 66
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,687 [INFO] RECV: stop
+2025-12-26 20:40:53,688 [INFO] RECV: stop
+2025-12-26 20:40:53,689 [INFO] RECV: position fen rn1qk2r/ppp1ppbp/3p1np1/8/3PP3/2N3P1/PPP1QPBP/R1B1K2R b KQkq - 0 7
+2025-12-26 20:40:53,691 [INFO] RECV: go infinite
+2025-12-26 20:40:53,691 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,924 [INFO] RECV: stop
+2025-12-26 20:41:00,925 [INFO] RECV: stop
+2025-12-26 20:41:00,925 [INFO] RECV: stop
+2025-12-26 20:41:00,925 [INFO] RECV: stop
+2025-12-26 20:41:00,925 [INFO] RECV: stop
+2025-12-26 20:41:00,925 [INFO] RECV: stop
+2025-12-26 20:41:00,927 [INFO] RECV: stop
+2025-12-26 20:41:00,928 [INFO] RECV: position fen rn1q1rk1/ppp1ppbp/3p1np1/8/3PP3/2N3P1/PPP1QPBP/R1B1K2R w KQ - 1 8
+2025-12-26 20:41:00,930 [INFO] RECV: go infinite
+2025-12-26 20:41:00,930 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:41:08,813 [INFO] RECV: stop
+2025-12-26 20:41:08,813 [INFO] RECV: stop
+2025-12-26 20:41:08,813 [INFO] RECV: stop
+2025-12-26 20:41:08,813 [INFO] RECV: stop
+2025-12-26 20:41:08,813 [INFO] RECV: stop
+2025-12-26 20:41:08,827 [INFO] RECV: position fen rn1q1rk1/ppp1ppbp/3p1np1/8/P2PP3/2N3P1/1PP1QPBP/R1B1K2R b KQ - 0 8
+2025-12-26 20:41:08,828 [INFO] RECV: go infinite
+2025-12-26 20:41:08,828 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:41:18,543 [INFO] RECV: stop
+2025-12-26 20:41:18,543 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/2np1np1/8/P2PP3/2N3P1/1PP1QPBP/R1B1K2R w KQ - 1 9
+2025-12-26 20:41:18,544 [INFO] RECV: go infinite
+2025-12-26 20:41:18,544 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:41:25,785 [INFO] RECV: stop
+2025-12-26 20:41:25,785 [INFO] RECV: stop
+2025-12-26 20:41:25,785 [INFO] RECV: stop
+2025-12-26 20:41:25,785 [INFO] RECV: stop
+2025-12-26 20:41:26,015 [INFO] RECV: stop
+2025-12-26 20:41:26,015 [INFO] RECV: stop
+2025-12-26 20:41:26,015 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/2np1np1/8/P2PP3/2N3P1/1PP1QPBP/R1B1K2R w KQ - 1 9
+2025-12-26 20:41:26,020 [INFO] RECV: go infinite
+2025-12-26 20:41:26,020 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,256 [INFO] RECV: stop
+2025-12-26 20:41:35,258 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p1np1/3P4/P2nP3/2N3P1/1PP1QPBP/R1B1K2R w KQ - 1 10
+2025-12-26 20:41:35,260 [INFO] RECV: go infinite
+2025-12-26 20:41:35,260 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:41:43,016 [INFO] RECV: stop
+2025-12-26 20:41:43,016 [INFO] RECV: stop
+2025-12-26 20:41:43,016 [INFO] RECV: stop
+2025-12-26 20:41:43,016 [INFO] RECV: stop
+2025-12-26 20:41:43,018 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p1np1/3P4/P2nP3/2N3P1/1PPQ1PBP/R1B1K2R b KQ - 2 10
+2025-12-26 20:41:43,020 [INFO] RECV: go infinite
+2025-12-26 20:41:43,020 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:41:54,805 [INFO] RECV: stop
+2025-12-26 20:41:54,811 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p2p1/3P4/P2nP1n1/2N3P1/1PPQ1PBP/R1B1K2R w KQ - 3 11
+2025-12-26 20:41:54,818 [INFO] RECV: go infinite
+2025-12-26 20:41:54,818 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:42:01,765 [INFO] RECV: stop
+2025-12-26 20:42:01,765 [INFO] RECV: stop
+2025-12-26 20:42:01,765 [INFO] RECV: stop
+2025-12-26 20:42:01,765 [INFO] RECV: stop
+2025-12-26 20:42:01,768 [INFO] RECV: stop
+2025-12-26 20:42:01,768 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p2p1/3P4/P2nP1n1/2N3P1/1PPQ1PBP/R1B1K2R w KQ - 3 11
+2025-12-26 20:42:01,770 [INFO] RECV: go infinite
+2025-12-26 20:42:01,770 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:42:07,618 [INFO] RECV: stop
+2025-12-26 20:42:07,619 [INFO] RECV: stop
+2025-12-26 20:42:07,620 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p2p1/3P4/P2nP1n1/2N2PP1/1PPQ2BP/R1B1K2R b KQ - 0 11
+2025-12-26 20:42:07,622 [INFO] RECV: go infinite
+2025-12-26 20:42:07,622 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:42:14,322 [INFO] RECV: stop
+2025-12-26 20:42:14,322 [INFO] RECV: stop
+2025-12-26 20:42:14,323 [INFO] RECV: stop
+2025-12-26 20:42:14,323 [INFO] RECV: stop
+2025-12-26 20:42:14,323 [INFO] RECV: stop
+2025-12-26 20:42:14,323 [INFO] RECV: stop
+2025-12-26 20:42:14,326 [INFO] RECV: stop
+2025-12-26 20:42:14,326 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p2pn/3P4/P2nP3/2N2PP1/1PPQ2BP/R1B1K2R w KQ - 1 12
+2025-12-26 20:42:14,328 [INFO] RECV: go infinite
+2025-12-26 20:42:14,328 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:42:20,768 [INFO] RECV: stop
+2025-12-26 20:42:20,768 [INFO] RECV: stop
+2025-12-26 20:42:20,769 [INFO] RECV: stop
+2025-12-26 20:42:20,769 [INFO] RECV: stop
+2025-12-26 20:42:20,769 [INFO] RECV: stop
+2025-12-26 20:42:20,772 [INFO] RECV: position fen r2q1rk1/ppp1ppbp/3p2pn/3P4/P2nP3/2N2PP1/1PP3BP/R1BQK2R b KQ - 2 12
+2025-12-26 20:42:20,774 [INFO] RECV: go infinite
+2025-12-26 20:42:20,774 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:42:49,413 [INFO] RECV: stop
+2025-12-26 20:42:49,417 [INFO] RECV: position fen r2q1rk1/ppp2pbp/3pp1pn/3P4/P2nP3/2N2PP1/1PP3BP/R1BQK2R w KQ - 0 13
+2025-12-26 20:42:49,420 [INFO] RECV: go infinite
+2025-12-26 20:42:49,420 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:42:57,320 [INFO] RECV: stop
+2025-12-26 20:42:57,320 [INFO] RECV: stop
+2025-12-26 20:42:57,320 [INFO] RECV: stop
+2025-12-26 20:42:57,320 [INFO] RECV: stop
+2025-12-26 20:42:57,322 [INFO] RECV: stop
+2025-12-26 20:42:57,322 [INFO] RECV: position fen r2q1rk1/ppp2pbp/3pp1pn/3P4/P2nP3/2N2PP1/1PP3BP/R1BQK2R w KQ - 0 13
+2025-12-26 20:42:57,324 [INFO] RECV: go infinite
+2025-12-26 20:42:57,324 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:43:03,894 [INFO] RECV: stop
+2025-12-26 20:43:03,894 [INFO] RECV: stop
+2025-12-26 20:43:03,894 [INFO] RECV: stop
+2025-12-26 20:43:03,894 [INFO] RECV: stop
+2025-12-26 20:43:03,894 [INFO] RECV: stop
+2025-12-26 20:43:03,894 [INFO] RECV: position fen r2q1rk1/ppp2pbp/3pp1pB/3P4/P2nP3/2N2PP1/1PP3BP/R2QK2R b KQ - 0 13
+2025-12-26 20:43:03,896 [INFO] RECV: go infinite
+2025-12-26 20:43:03,896 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:43:10,764 [INFO] RECV: stop
+2025-12-26 20:43:10,764 [INFO] RECV: stop
+2025-12-26 20:43:11,293 [INFO] RECV: stop
+2025-12-26 20:43:11,293 [INFO] RECV: position fen r2q1rk1/ppp2pbp/3pp1pB/3P4/P3P3/2N2PP1/1Pn3BP/R2QK2R w KQ - 0 14
+2025-12-26 20:43:11,294 [INFO] RECV: go infinite
+2025-12-26 20:43:11,294 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:43:13,846 [INFO] RECV: stop
+2025-12-26 20:43:13,846 [INFO] RECV: stop
+2025-12-26 20:43:13,847 [INFO] RECV: stop
+2025-12-26 20:43:13,847 [INFO] RECV: stop
+2025-12-26 20:43:13,848 [INFO] RECV: position fen r2q1rk1/ppp2pbp/3pp1pB/3P4/P3P3/2N2PP1/1Pn3BP/R2QK2R w KQ - 0 14
+2025-12-26 20:43:13,849 [INFO] RECV: go infinite
+2025-12-26 20:43:13,850 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:43:15,833 [INFO] RECV: stop
+2025-12-26 20:43:15,833 [INFO] RECV: stop
+2025-12-26 20:43:15,833 [INFO] RECV: stop
+2025-12-26 20:43:15,836 [INFO] RECV: position fen r2q1rk1/ppp2p1p/3pp1pb/3P4/P3P3/2NQ1PP1/1P4BP/R3K2R b KQ - 1 15
+2025-12-26 20:43:15,837 [INFO] RECV: go infinite
+2025-12-26 20:43:15,837 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:43:22,164 [INFO] RECV: stop
+2025-12-26 20:43:22,164 [INFO] RECV: stop
+2025-12-26 20:43:22,164 [INFO] RECV: stop
+2025-12-26 20:43:22,164 [INFO] RECV: stop
+2025-12-26 20:43:22,164 [INFO] RECV: stop
+2025-12-26 20:43:31,148 [INFO] RECV: stop
+2025-12-26 20:43:31,171 [INFO] RECV: position fen r2q1rk1/ppp2p1p/3p2pb/3Pp3/P3P3/2NQ1PP1/1P4BP/R3K2R w KQ - 0 16
+2025-12-26 20:43:31,176 [INFO] RECV: go infinite
+2025-12-26 20:43:31,176 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:43:38,156 [INFO] RECV: stop
+2025-12-26 20:43:38,156 [INFO] RECV: stop
+2025-12-26 20:43:38,156 [INFO] RECV: stop
+2025-12-26 20:43:38,156 [INFO] RECV: stop
+2025-12-26 20:43:38,159 [INFO] RECV: stop
+2025-12-26 20:43:38,160 [INFO] RECV: position fen r2q1rk1/ppp2p1p/3p2pb/3Pp3/P3P3/2NQ1PP1/1P4BP/R3K2R w KQ - 0 16
+2025-12-26 20:43:38,162 [INFO] RECV: go infinite
+2025-12-26 20:43:38,162 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:43:46,018 [INFO] RECV: stop
+2025-12-26 20:43:46,018 [INFO] RECV: stop
+2025-12-26 20:43:46,018 [INFO] RECV: stop
+2025-12-26 20:43:46,018 [INFO] RECV: stop
+2025-12-26 20:43:46,018 [INFO] RECV: stop
+2025-12-26 20:43:46,019 [INFO] RECV: stop
+2025-12-26 20:43:46,019 [INFO] RECV: stop
+2025-12-26 20:43:46,019 [INFO] RECV: stop
+2025-12-26 20:43:46,020 [INFO] RECV: position fen r2q1rk1/ppp2p1p/3p2pb/3Pp3/P3P3/2NQ1PP1/1P4BP/3RK2R b K - 1 16
+2025-12-26 20:43:46,022 [INFO] RECV: go infinite
+2025-12-26 20:43:46,022 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:43:51,646 [INFO] RECV: stop
+2025-12-26 20:43:51,646 [INFO] RECV: stop
+2025-12-26 20:43:51,646 [INFO] RECV: stop
+2025-12-26 20:43:51,648 [INFO] RECV: position fen r4rk1/ppp2p1p/3p2pb/3Pp1q1/P3P3/2NQ1PP1/1P4BP/3R1K1R b - - 3 17
+2025-12-26 20:43:51,650 [INFO] RECV: go infinite
+2025-12-26 20:43:51,650 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,164 [INFO] RECV: stop
+2025-12-26 20:44:00,175 [INFO] RECV: stop
+2025-12-26 20:44:00,175 [INFO] RECV: position fen r4rk1/ppp4p/3p2pb/3Pppq1/P3P3/2NQ1PP1/1P4BP/3R1K1R w - - 0 18
+2025-12-26 20:44:00,177 [INFO] RECV: go infinite
+2025-12-26 20:44:00,177 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,853 [INFO] RECV: stop
+2025-12-26 20:44:06,854 [INFO] RECV: position fen r4rk1/ppp4p/3p2pb/3Pp1q1/P3N3/3Q1PPB/1P5P/3R1K1R b - - 0 19
+2025-12-26 20:44:06,856 [INFO] RECV: go infinite
+2025-12-26 20:44:06,856 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:44:22,619 [INFO] RECV: stop
+2025-12-26 20:44:22,656 [INFO] RECV: position fen r4rk1/ppp1q2p/3p2pb/3Pp3/P3N3/3Q1PPB/1P5P/3R1K1R w - - 1 20
+2025-12-26 20:44:22,663 [INFO] RECV: go infinite
+2025-12-26 20:44:22,663 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:44:32,551 [INFO] RECV: stop
+2025-12-26 20:44:32,551 [INFO] RECV: stop
+2025-12-26 20:44:32,551 [INFO] RECV: stop
+2025-12-26 20:44:32,551 [INFO] RECV: stop
+2025-12-26 20:44:32,634 [INFO] RECV: stop
+2025-12-26 20:44:32,640 [INFO] RECV: stop
+2025-12-26 20:44:32,641 [INFO] RECV: position fen r4rk1/ppp1q2p/3p2pb/3Pp3/P3N3/3Q1PPB/1P5P/3R1K1R w - - 1 20
+2025-12-26 20:44:32,643 [INFO] RECV: go infinite
+2025-12-26 20:44:32,643 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:44:41,786 [INFO] RECV: stop
+2025-12-26 20:44:41,786 [INFO] RECV: stop
+2025-12-26 20:44:41,786 [INFO] RECV: stop
+2025-12-26 20:44:41,786 [INFO] RECV: stop
+2025-12-26 20:44:41,786 [INFO] RECV: stop
+2025-12-26 20:44:41,787 [INFO] RECV: stop
+2025-12-26 20:44:41,787 [INFO] RECV: stop
+2025-12-26 20:44:41,787 [INFO] RECV: stop
+2025-12-26 20:44:41,787 [INFO] RECV: stop
+2025-12-26 20:44:41,788 [INFO] RECV: position fen r4rk1/pp2q2p/2pp2pb/3Pp3/P3N3/3Q1PPB/1P3K1P/3R3R w - - 0 21
+2025-12-26 20:44:41,790 [INFO] RECV: go infinite
+2025-12-26 20:44:41,790 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:44:50,398 [INFO] RECV: stop
+2025-12-26 20:44:50,398 [INFO] RECV: stop
+2025-12-26 20:44:50,398 [INFO] RECV: stop
+2025-12-26 20:44:50,398 [INFO] RECV: stop
+2025-12-26 20:44:50,399 [INFO] RECV: position fen r4rk1/pp2q2p/2pp2pb/3Pp3/P3N3/1Q3PPB/1P3K1P/3R3R b - - 1 21
+2025-12-26 20:44:50,401 [INFO] RECV: go infinite
+2025-12-26 20:44:50,401 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:44:58,916 [INFO] RECV: stop
+2025-12-26 20:44:58,916 [INFO] RECV: stop
+2025-12-26 20:44:58,916 [INFO] RECV: stop
+2025-12-26 20:44:58,917 [INFO] RECV: stop
+2025-12-26 20:44:58,917 [INFO] RECV: position fen r4rk1/pp2q2p/3p2pb/2pPp3/P3N3/1Q3PPB/1P3K1P/3R3R w - - 0 22
+2025-12-26 20:44:58,919 [INFO] RECV: go infinite
+2025-12-26 20:44:58,919 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,979 [INFO] RECV: stop
+2025-12-26 20:45:08,983 [INFO] RECV: position fen r4rk1/pp2q2p/3p2pb/2pPp3/P3N3/1Q3PPB/1P3K1P/3R1R2 b - - 1 22
+2025-12-26 20:45:08,985 [INFO] RECV: go infinite
+2025-12-26 20:45:08,985 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:45:18,275 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,276 [INFO] RECV: stop
+2025-12-26 20:45:18,280 [INFO] RECV: position fen r5k1/pp2qr1p/3p2pb/2pPp3/P3N3/1Q3PPB/1P4KP/3R1R2 b - - 3 23
+2025-12-26 20:45:18,282 [INFO] RECV: go infinite
+2025-12-26 20:45:18,282 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:45:25,905 [INFO] RECV: stop
+2025-12-26 20:45:25,905 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,906 [INFO] RECV: stop
+2025-12-26 20:45:25,908 [INFO] RECV: position fen 5rk1/p3qr1p/1p1p2pb/2pPp3/P3N3/5PPB/1PQ3KP/4RR2 b - - 1 25
+2025-12-26 20:45:25,910 [INFO] RECV: go infinite
+2025-12-26 20:45:25,910 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:45:44,630 [INFO] RECV: stop
+2025-12-26 20:45:44,630 [INFO] RECV: position fen 5rk1/4qr1p/1p1p2pb/p1pPp3/P3N3/5PPB/1PQ3KP/4RR2 w - - 0 26
+2025-12-26 20:45:44,632 [INFO] RECV: go infinite
+2025-12-26 20:45:44,632 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:45:53,750 [INFO] RECV: stop
+2025-12-26 20:45:53,750 [INFO] RECV: stop
+2025-12-26 20:45:53,750 [INFO] RECV: stop
+2025-12-26 20:45:53,750 [INFO] RECV: stop
+2025-12-26 20:45:53,750 [INFO] RECV: stop
+2025-12-26 20:45:53,750 [INFO] RECV: stop
+2025-12-26 20:45:53,754 [INFO] RECV: stop
+2025-12-26 20:45:53,754 [INFO] RECV: position fen 5rk1/4qr1p/1p1p2pb/p1pPp3/P3N3/5PPB/1PQ3KP/4RR2 w - - 0 26
+2025-12-26 20:45:53,755 [INFO] RECV: go infinite
+2025-12-26 20:45:53,755 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:46:02,005 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,006 [INFO] RECV: stop
+2025-12-26 20:46:02,009 [INFO] RECV: position fen 5rk1/2q2r1p/1p1p2pb/p1pPp3/P3N3/2Q2PPB/1P4KP/4RR2 b - - 3 27
+2025-12-26 20:46:02,011 [INFO] RECV: go infinite
+2025-12-26 20:46:02,011 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:46:38,904 [INFO] RECV: stop
+2025-12-26 20:46:38,931 [INFO] RECV: position fen 5rk1/3q1r1p/1p1p2pb/p1pPp3/P3N3/2Q2PPB/1P4KP/4RR2 w - - 4 28
+2025-12-26 20:46:38,940 [INFO] RECV: go infinite
+2025-12-26 20:46:38,941 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:46:47,607 [INFO] RECV: stop
+2025-12-26 20:46:47,608 [INFO] RECV: stop
+2025-12-26 20:46:47,608 [INFO] RECV: stop
+2025-12-26 20:46:47,608 [INFO] RECV: stop
+2025-12-26 20:46:47,611 [INFO] RECV: stop
+2025-12-26 20:46:47,611 [INFO] RECV: position fen 5rk1/3q1r1p/1p1p2pb/p1pPp3/P3N3/2Q2PPB/1P4KP/4RR2 w - - 4 28
+2025-12-26 20:46:47,613 [INFO] RECV: go infinite
+2025-12-26 20:46:47,613 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,271 [INFO] RECV: stop
+2025-12-26 20:46:57,276 [INFO] RECV: position fen 5rk1/3q1r1p/1p1p2pb/p1pPp3/P3N3/5PPB/1PQ3KP/4RR2 b - - 5 28
+2025-12-26 20:46:57,278 [INFO] RECV: go infinite
+2025-12-26 20:46:57,278 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,319 [INFO] RECV: stop
+2025-12-26 20:47:05,321 [INFO] RECV: position fen 3r2k1/3B1r1p/1p1p2pb/p1pPp3/P3N3/5PP1/1PQ3KP/4RR2 b - - 0 29
+2025-12-26 20:47:05,323 [INFO] RECV: go infinite
+2025-12-26 20:47:05,323 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:47:32,583 [INFO] RECV: uci
+2025-12-26 20:47:32,584 [INFO] RECV: isready
+2025-12-26 20:47:33,213 [INFO] RECV: ucinewgame
+2025-12-26 20:47:33,213 [INFO] RECV: stop
+2025-12-26 20:47:33,214 [INFO] RECV: position startpos
+2025-12-26 20:47:33,214 [INFO] RECV: go infinite
+2025-12-26 20:47:33,214 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:47:33,556 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 20:47:33,556 [INFO] RECV: stop
+2025-12-26 20:47:33,558 [INFO] RECV: stop
+2025-12-26 20:47:33,558 [INFO] RECV: position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 20:48:01,787 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 20:48:01,788 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 20:48:01,789 [INFO] RECV: go infinite
+2025-12-26 20:48:01,789 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:48:02,483 [INFO] Engine move selected: b1c3 (SAN  Nc3) with transcript length 71
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,484 [INFO] RECV: stop
+2025-12-26 20:48:02,490 [INFO] RECV: stop
+2025-12-26 20:48:02,490 [INFO] RECV: position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3
+2025-12-26 20:48:02,493 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3
+2025-12-26 20:48:02,493 [INFO] RECV: go infinite
+2025-12-26 20:48:02,493 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:48:02,896 [INFO] Engine move selected: g8f6 (SAN  Nf6) with transcript length 75
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: stop
+2025-12-26 20:48:02,898 [INFO] RECV: position fen rnbqk2r/pp3pp1/2p2p1p/8/1b1P4/2NBPN2/PP3PPP/R2QK2R w KQkq - 2 9
+2025-12-26 20:48:02,902 [INFO] RECV: go infinite
+2025-12-26 20:48:02,902 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:48:11,918 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,919 [INFO] RECV: stop
+2025-12-26 20:48:11,920 [INFO] RECV: position fen rnbqk2r/pp3pp1/2p2p1p/8/1b1P4/2NBPN2/PP3PPP/R2Q1RK1 b kq - 3 9
+2025-12-26 20:48:11,922 [INFO] RECV: go infinite
+2025-12-26 20:48:11,922 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,485 [INFO] RECV: stop
+2025-12-26 20:48:19,486 [INFO] RECV: stop
+2025-12-26 20:48:19,487 [INFO] RECV: position fen rnbqk2r/1p2bpp1/2p2p1p/p7/3P4/P1NBPN2/1P3PPP/R2Q1RK1 w kq - 0 11
+2025-12-26 20:48:19,490 [INFO] RECV: go infinite
+2025-12-26 20:48:19,490 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:49:16,836 [INFO] RECV: stop
+2025-12-26 20:49:16,837 [INFO] RECV: position fen rnbqk2r/1p2bpp1/2p2p1p/p7/P2P4/2NBPN2/1P3PPP/R2Q1RK1 b kq - 0 11
+2025-12-26 20:49:16,840 [INFO] RECV: go infinite
+2025-12-26 20:49:16,840 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:49:24,326 [INFO] RECV: stop
+2025-12-26 20:49:24,326 [INFO] RECV: stop
+2025-12-26 20:49:24,327 [INFO] RECV: stop
+2025-12-26 20:49:24,327 [INFO] RECV: stop
+2025-12-26 20:49:24,327 [INFO] RECV: stop
+2025-12-26 20:49:24,327 [INFO] RECV: stop
+2025-12-26 20:49:24,335 [INFO] RECV: stop
+2025-12-26 20:49:24,335 [INFO] RECV: position fen rnbqk2r/1p2bpp1/2p2p1p/p7/P2P4/2NBPN2/1P3PPP/R2Q1RK1 b kq - 0 11
+2025-12-26 20:49:24,337 [INFO] RECV: go infinite
+2025-12-26 20:49:24,337 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,687 [INFO] RECV: stop
+2025-12-26 20:49:30,688 [INFO] RECV: stop
+2025-12-26 20:49:30,688 [INFO] RECV: stop
+2025-12-26 20:49:30,688 [INFO] RECV: stop
+2025-12-26 20:49:30,688 [INFO] RECV: stop
+2025-12-26 20:49:30,688 [INFO] RECV: stop
+2025-12-26 20:49:30,691 [INFO] RECV: position fen rn2k2r/1p1qbpp1/2p1bp1p/p7/P2P4/1PNBPN2/5PPP/R2Q1RK1 w kq - 1 13
+2025-12-26 20:49:30,693 [INFO] RECV: go infinite
+2025-12-26 20:49:30,693 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:49:38,190 [INFO] RECV: stop
+2025-12-26 20:49:38,190 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,191 [INFO] RECV: stop
+2025-12-26 20:49:38,193 [INFO] RECV: position fen r3k2r/1p1qbpp1/n1p1bp1p/p7/P1BP4/1PN1PN2/5PPP/R2Q1RK1 w kq - 3 14
+2025-12-26 20:49:38,195 [INFO] RECV: go infinite
+2025-12-26 20:49:38,195 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:49:45,749 [INFO] RECV: stop
+2025-12-26 20:49:45,749 [INFO] RECV: stop
+2025-12-26 20:49:45,749 [INFO] RECV: stop
+2025-12-26 20:49:45,749 [INFO] RECV: stop
+2025-12-26 20:49:45,749 [INFO] RECV: stop
+2025-12-26 20:49:45,749 [INFO] RECV: stop
+2025-12-26 20:49:45,751 [INFO] RECV: position fen r3k2r/1p2bpp1/n1p1qp1p/p7/P2P4/1PN1PN2/5PPP/R2Q1RK1 w kq - 0 15
+2025-12-26 20:49:45,753 [INFO] RECV: go infinite
+2025-12-26 20:49:45,753 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:50:09,883 [INFO] RECV: stop
+2025-12-26 20:50:09,883 [INFO] RECV: position fen r3k2r/1p2bpp1/n1p1qp1p/p2P4/P7/1PN1PN2/5PPP/R2Q1RK1 b kq - 0 15
+2025-12-26 20:50:09,888 [INFO] RECV: go infinite
+2025-12-26 20:50:09,888 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:50:18,774 [INFO] RECV: stop
+2025-12-26 20:50:18,775 [INFO] RECV: stop
+2025-12-26 20:50:18,775 [INFO] RECV: stop
+2025-12-26 20:50:18,776 [INFO] RECV: stop
+2025-12-26 20:50:18,776 [INFO] RECV: stop
+2025-12-26 20:50:18,776 [INFO] RECV: stop
+2025-12-26 20:50:18,779 [INFO] RECV: stop
+2025-12-26 20:50:18,779 [INFO] RECV: position fen r3k2r/1p2bpp1/n1p1qp1p/p2P4/P7/1PN1PN2/5PPP/R2Q1RK1 b kq - 0 15
+2025-12-26 20:50:18,782 [INFO] RECV: go infinite
+2025-12-26 20:50:18,782 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:50:27,069 [INFO] RECV: stop
+2025-12-26 20:50:27,069 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,070 [INFO] RECV: stop
+2025-12-26 20:50:27,124 [INFO] RECV: stop
+2025-12-26 20:50:27,126 [INFO] RECV: position fen r3k2r/1p2bpp1/n1q2p1p/p7/P7/1PN1PN2/5PPP/R2Q1RK1 w kq - 0 17
+2025-12-26 20:50:27,129 [INFO] RECV: go infinite
+2025-12-26 20:50:27,129 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:50:34,880 [INFO] RECV: stop
+2025-12-26 20:50:34,880 [INFO] RECV: stop
+2025-12-26 20:50:34,880 [INFO] RECV: stop
+2025-12-26 20:50:34,880 [INFO] RECV: stop
+2025-12-26 20:50:34,880 [INFO] RECV: stop
+2025-12-26 20:50:34,880 [INFO] RECV: stop
+2025-12-26 20:50:34,882 [INFO] RECV: position fen r3k2r/1p2bpp1/nq3p1p/pN6/P7/1P2PN2/5PPP/R2Q1RK1 w kq - 2 18
+2025-12-26 20:50:34,885 [INFO] RECV: go infinite
+2025-12-26 20:50:34,885 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:50:47,761 [INFO] RECV: stop
+2025-12-26 20:50:47,764 [INFO] RECV: position fen r3k2r/1p2bpp1/nq3p1p/pN1Q4/P7/1P2PN2/5PPP/R4RK1 b kq - 3 18
+2025-12-26 20:50:47,767 [INFO] RECV: go infinite
+2025-12-26 20:50:47,767 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:50:55,171 [INFO] RECV: stop
+2025-12-26 20:50:55,171 [INFO] RECV: stop
+2025-12-26 20:50:55,171 [INFO] RECV: stop
+2025-12-26 20:50:55,171 [INFO] RECV: stop
+2025-12-26 20:50:55,173 [INFO] RECV: stop
+2025-12-26 20:50:55,173 [INFO] RECV: position fen r3k2r/1p2bpp1/nq3p1p/pN1Q4/P7/1P2PN2/5PPP/R4RK1 b kq - 3 18
+2025-12-26 20:50:55,174 [INFO] RECV: go infinite
+2025-12-26 20:50:55,174 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:51:01,857 [INFO] RECV: stop
+2025-12-26 20:51:01,857 [INFO] RECV: stop
+2025-12-26 20:51:01,857 [INFO] RECV: stop
+2025-12-26 20:51:01,857 [INFO] RECV: stop
+2025-12-26 20:51:01,857 [INFO] RECV: stop
+2025-12-26 20:51:01,858 [INFO] RECV: position fen r4rk1/1p2bpp1/nq3p1p/pN1Q4/P7/1P2PN2/5PPP/R4RK1 w - - 4 19
+2025-12-26 20:51:01,860 [INFO] RECV: go infinite
+2025-12-26 20:51:01,860 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:52:40,497 [INFO] RECV: stop
+2025-12-26 20:52:40,497 [INFO] RECV: position fen r4rk1/1p2bpp1/nq3p1p/pN1Q4/P2N4/1P2P3/5PPP/R4RK1 b - - 5 19
+2025-12-26 20:52:40,501 [INFO] RECV: go infinite
+2025-12-26 20:52:40,501 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:52:47,305 [INFO] RECV: stop
+2025-12-26 20:52:47,305 [INFO] RECV: stop
+2025-12-26 20:52:47,305 [INFO] RECV: stop
+2025-12-26 20:52:47,306 [INFO] RECV: stop
+2025-12-26 20:52:47,309 [INFO] RECV: stop
+2025-12-26 20:52:47,309 [INFO] RECV: position fen r4rk1/1p2bpp1/nq3p1p/pN1Q4/P2N4/1P2P3/5PPP/R4RK1 b - - 5 19
+2025-12-26 20:52:47,311 [INFO] RECV: go infinite
+2025-12-26 20:52:47,311 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:52:54,242 [INFO] RECV: stop
+2025-12-26 20:52:54,243 [INFO] RECV: stop
+2025-12-26 20:52:54,243 [INFO] RECV: stop
+2025-12-26 20:52:54,243 [INFO] RECV: stop
+2025-12-26 20:52:54,243 [INFO] RECV: stop
+2025-12-26 20:52:54,244 [INFO] RECV: position fen r4rk1/1p3pp1/nq3p1p/pN1Q4/Pb1N4/1P2P3/5PPP/R4RK1 w - - 6 20
+2025-12-26 20:52:54,246 [INFO] RECV: go infinite
+2025-12-26 20:52:54,246 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:53:12,429 [INFO] RECV: stop
+2025-12-26 20:53:12,429 [INFO] RECV: position fen r4rk1/1p3pp1/nq3p1p/pN1Q4/Pb1N4/1P2P3/5PPP/2R2RK1 b - - 7 20
+2025-12-26 20:53:12,432 [INFO] RECV: go infinite
+2025-12-26 20:53:12,432 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:53:19,583 [INFO] RECV: stop
+2025-12-26 20:53:19,583 [INFO] RECV: stop
+2025-12-26 20:53:19,583 [INFO] RECV: stop
+2025-12-26 20:53:19,584 [INFO] RECV: stop
+2025-12-26 20:53:19,586 [INFO] RECV: stop
+2025-12-26 20:53:19,586 [INFO] RECV: position fen r4rk1/1p3pp1/nq3p1p/pN1Q4/Pb1N4/1P2P3/5PPP/2R2RK1 b - - 7 20
+2025-12-26 20:53:19,587 [INFO] RECV: go infinite
+2025-12-26 20:53:19,587 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:53:27,308 [INFO] RECV: stop
+2025-12-26 20:53:27,308 [INFO] RECV: stop
+2025-12-26 20:53:27,308 [INFO] RECV: stop
+2025-12-26 20:53:27,308 [INFO] RECV: stop
+2025-12-26 20:53:27,308 [INFO] RECV: stop
+2025-12-26 20:53:27,310 [INFO] RECV: position fen r2r2k1/1p3pp1/nq3p1p/pN1Q4/Pb1N4/1P2P3/5PPP/2R2RK1 w - - 8 21
+2025-12-26 20:53:27,313 [INFO] RECV: go infinite
+2025-12-26 20:53:27,313 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:53:37,050 [INFO] RECV: stop
+2025-12-26 20:53:37,050 [INFO] RECV: stop
+2025-12-26 20:53:37,051 [INFO] RECV: stop
+2025-12-26 20:53:37,056 [INFO] RECV: stop
+2025-12-26 20:53:37,066 [INFO] RECV: position fen r2r2k1/1p3pp1/nq3p1p/pN6/Pb1NQ3/1P2P3/5PPP/2R2RK1 b - - 9 21
+2025-12-26 20:53:37,069 [INFO] RECV: go infinite
+2025-12-26 20:53:37,069 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:53:44,672 [INFO] RECV: stop
+2025-12-26 20:53:44,672 [INFO] RECV: stop
+2025-12-26 20:53:44,672 [INFO] RECV: stop
+2025-12-26 20:53:44,672 [INFO] RECV: stop
+2025-12-26 20:53:44,672 [INFO] RECV: stop
+2025-12-26 20:53:44,675 [INFO] RECV: position fen r2r2k1/1p3pp1/1q3p1p/pNn5/Pb1NQ3/1P2P3/5PPP/2R2RK1 w - - 10 22
+2025-12-26 20:53:44,677 [INFO] RECV: go infinite
+2025-12-26 20:53:44,677 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:54:15,194 [INFO] RECV: stop
+2025-12-26 20:54:15,195 [INFO] RECV: position fen r2r2k1/1p3pp1/1q3p1p/pNn5/Pb1N1Q2/1P2P3/5PPP/2R2RK1 b - - 11 22
+2025-12-26 20:54:15,208 [INFO] RECV: go infinite
+2025-12-26 20:54:15,208 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:54:22,718 [INFO] RECV: stop
+2025-12-26 20:54:22,718 [INFO] RECV: stop
+2025-12-26 20:54:22,718 [INFO] RECV: stop
+2025-12-26 20:54:22,719 [INFO] RECV: stop
+2025-12-26 20:54:22,720 [INFO] RECV: stop
+2025-12-26 20:54:22,720 [INFO] RECV: position fen r2r2k1/1p3pp1/1q3p1p/pNn5/Pb1N1Q2/1P2P3/5PPP/2R2RK1 b - - 11 22
+2025-12-26 20:54:22,722 [INFO] RECV: go infinite
+2025-12-26 20:54:22,722 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:54:30,638 [INFO] RECV: stop
+2025-12-26 20:54:30,638 [INFO] RECV: stop
+2025-12-26 20:54:30,638 [INFO] RECV: stop
+2025-12-26 20:54:30,638 [INFO] RECV: stop
+2025-12-26 20:54:30,638 [INFO] RECV: stop
+2025-12-26 20:54:30,639 [INFO] RECV: position fen r2r2k1/1p3pp1/1q3p1p/pN6/Pb1N1Q2/1P1nP3/5PPP/2R2RK1 w - - 12 23
+2025-12-26 20:54:30,641 [INFO] RECV: go infinite
+2025-12-26 20:54:30,641 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:54:40,277 [INFO] RECV: stop
+2025-12-26 20:54:40,278 [INFO] RECV: position fen r2r2k1/1pQ2pp1/1q3p1p/pN6/Pb1N4/1P1nP3/5PPP/2R2RK1 b - - 13 23
+2025-12-26 20:54:40,283 [INFO] RECV: go infinite
+2025-12-26 20:54:40,284 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:54:49,709 [INFO] RECV: stop
+2025-12-26 20:54:49,709 [INFO] RECV: stop
+2025-12-26 20:54:49,709 [INFO] RECV: stop
+2025-12-26 20:54:49,709 [INFO] RECV: stop
+2025-12-26 20:54:49,712 [INFO] RECV: stop
+2025-12-26 20:54:49,712 [INFO] RECV: position fen r2r2k1/1pQ2pp1/1q3p1p/pN6/Pb1N4/1P1nP3/5PPP/2R2RK1 b - - 13 23
+2025-12-26 20:54:49,714 [INFO] RECV: go infinite
+2025-12-26 20:54:49,714 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:54:54,730 [INFO] Engine move selected: d3f4 (SAN  Nf4) with transcript length 320
+2025-12-26 20:54:54,732 [INFO] RECV: stop
+2025-12-26 20:54:54,732 [INFO] RECV: stop
+2025-12-26 20:54:54,733 [INFO] RECV: position fen r2r2k1/1pQ2pp1/q4p1p/pN6/Pb1N4/1P1nP3/5PPP/2R2RK1 w - - 14 24
+2025-12-26 20:54:54,736 [INFO] RECV: go infinite
+2025-12-26 20:54:54,736 [INFO] GO: side_to_move=white infinite
+2025-12-26 20:55:04,128 [INFO] RECV: stop
+2025-12-26 20:55:04,128 [INFO] RECV: stop
+2025-12-26 20:55:04,128 [INFO] RECV: stop
+2025-12-26 20:55:13,920 [INFO] RECV: stop
+2025-12-26 20:55:13,921 [INFO] RECV: position fen r2r2k1/1pQ2pp1/q4p1p/pN6/PbRN4/1P1nP3/5PPP/5RK1 b - - 15 24
+2025-12-26 20:55:13,925 [INFO] RECV: go infinite
+2025-12-26 20:55:13,925 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:55:22,579 [INFO] RECV: stop
+2025-12-26 20:55:22,579 [INFO] RECV: stop
+2025-12-26 20:55:22,579 [INFO] RECV: stop
+2025-12-26 20:55:22,580 [INFO] RECV: stop
+2025-12-26 20:55:22,580 [INFO] RECV: stop
+2025-12-26 20:55:22,581 [INFO] RECV: position fen r2r2k1/1pQ2pp1/q4p1p/pN6/PbRN4/1P1nP3/5PPP/5RK1 b - - 15 24
+2025-12-26 20:55:22,582 [INFO] RECV: go infinite
+2025-12-26 20:55:22,582 [INFO] GO: side_to_move=black infinite
+2025-12-26 20:55:30,743 [INFO] RECV: stop
+2025-12-26 20:55:30,743 [INFO] RECV: stop
+2025-12-26 20:55:30,743 [INFO] RECV: stop
+2025-12-26 20:55:30,743 [INFO] RECV: stop
+2025-12-26 20:55:30,743 [INFO] RECV: stop
+2025-12-26 20:55:30,747 [INFO] RECV: position fen r5k1/1pQ2pp1/q4p1p/pN1r4/PbRN4/1P1nP3/5PPP/5RK1 w - - 16 25
+2025-12-26 20:55:30,749 [INFO] RECV: go infinite
+2025-12-26 20:55:30,749 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:15:52,905 [INFO] RECV: uci
+2025-12-26 22:15:52,905 [INFO] RECV: isready
+2025-12-26 22:15:52,909 [INFO] RECV: ucinewgame
+2025-12-26 22:15:52,909 [INFO] RECV: stop
+2025-12-26 22:15:52,911 [INFO] RECV: position startpos
+2025-12-26 22:15:52,912 [INFO] RECV: go infinite
+2025-12-26 22:15:52,912 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:15:53,166 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 22:15:53,168 [INFO] RECV: stop
+2025-12-26 22:15:53,168 [INFO] RECV: stop
+2025-12-26 22:15:53,169 [INFO] RECV: position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26 22:16:25,386 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 22:16:25,387 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26 22:16:25,388 [INFO] RECV: go infinite
+2025-12-26 22:16:25,388 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:16:25,713 [INFO] Engine move selected: c2c4 (SAN  c4) with transcript length 62
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,714 [INFO] RECV: stop
+2025-12-26 22:16:25,715 [INFO] RECV: stop
+2025-12-26 22:16:25,721 [INFO] RECV: stop
+2025-12-26 22:16:25,721 [INFO] RECV: position fen rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2
+2025-12-26 22:16:25,722 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2
+2025-12-26 22:16:25,723 [INFO] RECV: go infinite
+2025-12-26 22:16:25,723 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:16:26,058 [INFO] Engine move selected: g7g6 (SAN  g6) with transcript length 66
+2025-12-26 22:16:26,058 [INFO] RECV: stop
+2025-12-26 22:16:26,058 [INFO] RECV: stop
+2025-12-26 22:16:26,058 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,059 [INFO] RECV: stop
+2025-12-26 22:16:26,060 [INFO] RECV: position fen rnbq1rk1/pp3pbp/3p2p1/2p5/2PP1P2/2NB1N2/PP3PPP/R2QK2R w KQ - 0 10
+2025-12-26 22:16:26,063 [INFO] RECV: go infinite
+2025-12-26 22:16:26,063 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,692 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,694 [INFO] RECV: stop
+2025-12-26 22:16:38,697 [INFO] RECV: stop
+2025-12-26 22:16:38,697 [INFO] RECV: position fen rnbq1rk1/pp3pbp/3p2p1/2P5/2P2P2/2NB1N2/PP3PPP/R2QK2R b KQ - 0 10
+2025-12-26 22:16:38,699 [INFO] RECV: go infinite
+2025-12-26 22:16:38,699 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,234 [INFO] RECV: stop
+2025-12-26 22:16:47,455 [INFO] RECV: stop
+2025-12-26 22:16:47,455 [INFO] RECV: stop
+2025-12-26 22:16:47,465 [INFO] RECV: position fen rnb1r1k1/pp3p1p/3p2p1/q1P5/2P2P2/2P2N2/P3BPPP/R2QK2R w KQ - 3 13
+2025-12-26 22:16:47,471 [INFO] RECV: go infinite
+2025-12-26 22:16:47,472 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:16:55,558 [INFO] RECV: stop
+2025-12-26 22:16:55,558 [INFO] RECV: stop
+2025-12-26 22:16:55,558 [INFO] RECV: stop
+2025-12-26 22:16:55,558 [INFO] RECV: stop
+2025-12-26 22:16:55,558 [INFO] RECV: stop
+2025-12-26 22:16:55,558 [INFO] RECV: stop
+2025-12-26 22:16:55,559 [INFO] RECV: stop
+2025-12-26 22:16:55,560 [INFO] RECV: stop
+2025-12-26 22:16:55,562 [INFO] RECV: position fen rnb1r1k1/pp3p1p/3p2p1/q1P5/2P2P2/2P2N2/P1Q1BPPP/R3K2R b KQ - 4 13
+2025-12-26 22:16:55,564 [INFO] RECV: go infinite
+2025-12-26 22:16:55,564 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:17:04,905 [INFO] RECV: stop
+2025-12-26 22:17:04,905 [INFO] RECV: stop
+2025-12-26 22:17:04,906 [INFO] RECV: stop
+2025-12-26 22:17:04,906 [INFO] RECV: stop
+2025-12-26 22:17:04,906 [INFO] RECV: stop
+2025-12-26 22:17:04,906 [INFO] RECV: stop
+2025-12-26 22:17:04,906 [INFO] RECV: stop
+2025-12-26 22:17:04,906 [INFO] RECV: stop
+2025-12-26 22:17:05,249 [INFO] RECV: stop
+2025-12-26 22:17:05,250 [INFO] RECV: stop
+2025-12-26 22:17:05,254 [INFO] RECV: position fen rn2r1k1/pp3p1p/6p1/q1p5/2P2Pb1/2P2N2/P1Q1BPPP/R4RK1 w - - 2 15
+2025-12-26 22:17:05,256 [INFO] RECV: go infinite
+2025-12-26 22:17:05,256 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:17:14,569 [INFO] RECV: stop
+2025-12-26 22:17:14,569 [INFO] RECV: stop
+2025-12-26 22:17:14,570 [INFO] RECV: stop
+2025-12-26 22:17:14,570 [INFO] RECV: stop
+2025-12-26 22:17:14,570 [INFO] RECV: stop
+2025-12-26 22:17:14,570 [INFO] RECV: stop
+2025-12-26 22:17:14,573 [INFO] RECV: position fen rn2r1k1/pp3p1p/6p1/q1p1N3/2P2Pb1/2P5/P1Q1BPPP/R4RK1 b - - 3 15
+2025-12-26 22:17:14,575 [INFO] RECV: go infinite
+2025-12-26 22:17:14,575 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:17:23,197 [INFO] RECV: stop
+2025-12-26 22:17:23,197 [INFO] RECV: stop
+2025-12-26 22:17:23,198 [INFO] RECV: stop
+2025-12-26 22:17:23,198 [INFO] RECV: stop
+2025-12-26 22:17:23,199 [INFO] RECV: position fen rn2r1k1/pp3p1p/4b1p1/q1p1N3/2P2P2/2P5/P1Q1BPPP/R4RK1 w - - 4 16
+2025-12-26 22:17:23,201 [INFO] RECV: go infinite
+2025-12-26 22:17:23,201 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:17:50,468 [INFO] RECV: stop
+2025-12-26 22:17:50,468 [INFO] RECV: position fen rn2r1k1/pp3p1p/4b1p1/q1p1N3/2P1QP2/2P5/P3BPPP/R4RK1 b - - 5 16
+2025-12-26 22:17:50,473 [INFO] RECV: go infinite
+2025-12-26 22:17:50,474 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:17:59,761 [INFO] RECV: stop
+2025-12-26 22:17:59,761 [INFO] RECV: stop
+2025-12-26 22:17:59,761 [INFO] RECV: stop
+2025-12-26 22:17:59,761 [INFO] RECV: stop
+2025-12-26 22:17:59,762 [INFO] RECV: stop
+2025-12-26 22:17:59,762 [INFO] RECV: stop
+2025-12-26 22:17:59,765 [INFO] RECV: stop
+2025-12-26 22:17:59,765 [INFO] RECV: position fen rn2r1k1/pp3p1p/4b1p1/q1p1N3/2P1QP2/2P5/P3BPPP/R4RK1 b - - 5 16
+2025-12-26 22:17:59,767 [INFO] RECV: go infinite
+2025-12-26 22:17:59,767 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,813 [INFO] RECV: stop
+2025-12-26 22:18:06,815 [INFO] RECV: position fen r3r1k1/pp3p1p/2N1b1p1/2p5/2P1QP2/q1P5/P3BPPP/R4RK1 w - - 1 18
+2025-12-26 22:18:06,817 [INFO] RECV: go infinite
+2025-12-26 22:18:06,817 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:18:27,141 [INFO] RECV: stop
+2025-12-26 22:18:27,146 [INFO] RECV: position fen r3r1k1/pp3p1p/4b1p1/2p1N3/2P1QP2/q1P5/P3BPPP/R4RK1 b - - 2 18
+2025-12-26 22:18:27,152 [INFO] RECV: go infinite
+2025-12-26 22:18:27,154 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,243 [INFO] RECV: stop
+2025-12-26 22:18:36,246 [INFO] RECV: stop
+2025-12-26 22:18:36,247 [INFO] RECV: position fen r3r1k1/pp3p1p/4b1p1/2p1N3/2P1QP2/q1P5/P3BPPP/R4RK1 b - - 2 18
+2025-12-26 22:18:36,250 [INFO] RECV: go infinite
+2025-12-26 22:18:36,250 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,002 [INFO] RECV: stop
+2025-12-26 22:18:45,003 [INFO] RECV: stop
+2025-12-26 22:18:45,003 [INFO] RECV: stop
+2025-12-26 22:18:45,003 [INFO] RECV: stop
+2025-12-26 22:18:45,003 [INFO] RECV: stop
+2025-12-26 22:18:45,003 [INFO] RECV: stop
+2025-12-26 22:18:45,003 [INFO] RECV: stop
+2025-12-26 22:18:45,020 [INFO] RECV: position fen r5k1/p2N1p1p/6p1/1Pp5/4rP2/q1P5/P3BPPP/R4RK1 w - - 0 21
+2025-12-26 22:18:45,021 [INFO] RECV: go infinite
+2025-12-26 22:18:45,022 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:19:00,557 [INFO] RECV: uci
+2025-12-26 22:19:00,557 [INFO] RECV: isready
+2025-12-26 22:19:00,560 [INFO] RECV: ucinewgame
+2025-12-26 22:19:00,560 [INFO] RECV: stop
+2025-12-26 22:19:00,560 [INFO] RECV: position startpos
+2025-12-26 22:19:00,560 [INFO] RECV: go infinite
+2025-12-26 22:19:00,560 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:19:00,856 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 22:19:00,859 [INFO] RECV: stop
+2025-12-26 22:19:00,859 [INFO] RECV: stop
+2025-12-26 22:19:00,859 [INFO] RECV: position fen rnbqkbnr/pp3ppp/2p1p3/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4
+2025-12-26 22:19:32,047 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 22:19:32,048 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp3ppp/2p1p3/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4
+2025-12-26 22:19:32,049 [INFO] RECV: go infinite
+2025-12-26 22:19:32,049 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:19:32,512 [INFO] Engine move selected: b1c3 (SAN  Nc3) with transcript length 81
+2025-12-26 22:19:32,512 [INFO] RECV: stop
+2025-12-26 22:19:32,512 [INFO] RECV: stop
+2025-12-26 22:19:32,512 [INFO] RECV: stop
+2025-12-26 22:19:32,512 [INFO] RECV: stop
+2025-12-26 22:19:32,513 [INFO] RECV: stop
+2025-12-26 22:19:32,515 [INFO] RECV: stop
+2025-12-26 22:19:32,515 [INFO] RECV: position fen rnbqkbnr/pp3ppp/2p1p3/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 4
+2025-12-26 22:19:32,517 [INFO] Bootstrapped history from opening book for FEN rnbqkbnr/pp3ppp/2p1p3/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 4
+2025-12-26 22:19:32,517 [INFO] RECV: go infinite
+2025-12-26 22:19:32,517 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:19:32,974 [INFO] Engine move selected: f8e7 (SAN  Be7) with transcript length 85
+2025-12-26 22:19:32,974 [INFO] RECV: stop
+2025-12-26 22:19:32,974 [INFO] RECV: stop
+2025-12-26 22:19:32,976 [INFO] RECV: position fen rnbqkb1r/pp3ppp/2p1pn2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 2 5
+2025-12-26 22:19:32,980 [INFO] RECV: go infinite
+2025-12-26 22:19:32,980 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:19:40,999 [INFO] RECV: stop
+2025-12-26 22:19:40,999 [INFO] RECV: stop
+2025-12-26 22:19:40,999 [INFO] RECV: stop
+2025-12-26 22:19:57,645 [INFO] RECV: stop
+2025-12-26 22:19:57,646 [INFO] RECV: position fen rnbqkb1r/pp3ppp/2p1pB2/3p4/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-26 22:19:57,648 [INFO] RECV: go infinite
+2025-12-26 22:19:57,648 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:20:06,416 [INFO] RECV: stop
+2025-12-26 22:20:06,416 [INFO] RECV: stop
+2025-12-26 22:20:06,416 [INFO] RECV: stop
+2025-12-26 22:20:06,416 [INFO] RECV: stop
+2025-12-26 22:20:06,418 [INFO] RECV: stop
+2025-12-26 22:20:06,418 [INFO] RECV: position fen rnbqkb1r/pp3ppp/2p1pB2/3p4/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-26 22:20:06,420 [INFO] RECV: go infinite
+2025-12-26 22:20:06,420 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,149 [INFO] RECV: stop
+2025-12-26 22:20:13,153 [INFO] RECV: position fen rnbqkb1r/pp3p1p/2p1pp2/3p4/2PP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 6
+2025-12-26 22:20:13,155 [INFO] RECV: go infinite
+2025-12-26 22:20:13,155 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,899 [INFO] RECV: stop
+2025-12-26 22:20:20,903 [INFO] RECV: position fen rnbqkb1r/pp3p1p/4pp2/3p4/3P4/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 7
+2025-12-26 22:20:20,906 [INFO] RECV: go infinite
+2025-12-26 22:20:20,906 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:20:27,105 [INFO] RECV: stop
+2025-12-26 22:20:27,107 [INFO] RECV: stop
+2025-12-26 22:20:27,109 [INFO] RECV: stop
+2025-12-26 22:20:27,109 [INFO] RECV: stop
+2025-12-26 22:20:27,109 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: stop
+2025-12-26 22:20:27,110 [INFO] RECV: position fen rnb1k2r/pp3p1p/4pp2/q2p4/1b1P4/2N2N2/PPQ1PPPP/R3KB1R w KQkq - 4 9
+2025-12-26 22:20:27,112 [INFO] RECV: go infinite
+2025-12-26 22:20:27,112 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:20:33,759 [INFO] RECV: stop
+2025-12-26 22:20:33,759 [INFO] RECV: stop
+2025-12-26 22:20:33,759 [INFO] RECV: stop
+2025-12-26 22:20:33,760 [INFO] RECV: stop
+2025-12-26 22:20:33,760 [INFO] RECV: stop
+2025-12-26 22:20:33,760 [INFO] RECV: stop
+2025-12-26 22:20:33,761 [INFO] RECV: position fen rn2k2r/pp1b1p1p/4pp2/q2p4/1b1P4/P1N2N2/1PQ1PPPP/R3KB1R w KQkq - 1 10
+2025-12-26 22:20:33,763 [INFO] RECV: go infinite
+2025-12-26 22:20:33,763 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:20:35,361 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 275
+2025-12-26 22:20:35,362 [INFO] RECV: stop
+2025-12-26 22:20:35,362 [INFO] RECV: stop
+2025-12-26 22:20:35,362 [INFO] RECV: stop
+2025-12-26 22:20:35,364 [INFO] RECV: stop
+2025-12-26 22:20:35,364 [INFO] RECV: position fen rn2k2r/pp1b1p1p/4pp2/q2p4/1b1P4/P1N1PN2/1PQ2PPP/R3KB1R b KQkq - 0 10
+2025-12-26 22:20:35,367 [INFO] RECV: go infinite
+2025-12-26 22:20:35,367 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:20:43,189 [INFO] RECV: stop
+2025-12-26 22:20:43,189 [INFO] RECV: stop
+2025-12-26 22:20:43,189 [INFO] RECV: stop
+2025-12-26 22:20:43,189 [INFO] RECV: stop
+2025-12-26 22:20:43,189 [INFO] RECV: stop
+2025-12-26 22:20:43,192 [INFO] RECV: position fen rn2k2r/pp1b1p2/4pp2/q2p3p/1b1P4/P1N1PN2/1PQ2PPP/R3KB1R w KQkq - 0 11
+2025-12-26 22:20:43,195 [INFO] RECV: go infinite
+2025-12-26 22:20:43,195 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:23:46,748 [INFO] RECV: stop
+2025-12-26 22:23:46,751 [INFO] RECV: position fen rn2k2r/pp1b1p2/4pp2/q2p3p/1b1P4/P1NBPN2/1PQ2PPP/R3K2R b KQkq - 1 11
+2025-12-26 22:23:46,755 [INFO] RECV: go infinite
+2025-12-26 22:23:46,755 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:23:57,612 [INFO] RECV: stop
+2025-12-26 22:23:57,612 [INFO] RECV: stop
+2025-12-26 22:23:57,612 [INFO] RECV: stop
+2025-12-26 22:23:57,613 [INFO] RECV: stop
+2025-12-26 22:23:57,613 [INFO] RECV: stop
+2025-12-26 22:23:57,613 [INFO] RECV: stop
+2025-12-26 22:23:57,613 [INFO] RECV: stop
+2025-12-26 22:23:57,613 [INFO] RECV: stop
+2025-12-26 22:23:57,622 [INFO] RECV: stop
+2025-12-26 22:23:57,623 [INFO] RECV: position fen rn2k2r/pp1b1p2/4pp2/q2p3p/1b1P4/P1NBPN2/1PQ2PPP/R3K2R b KQkq - 1 11
+2025-12-26 22:23:57,625 [INFO] RECV: go infinite
+2025-12-26 22:23:57,625 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:24:05,893 [INFO] RECV: stop
+2025-12-26 22:24:05,893 [INFO] RECV: stop
+2025-12-26 22:24:05,893 [INFO] RECV: stop
+2025-12-26 22:24:05,893 [INFO] RECV: stop
+2025-12-26 22:24:05,893 [INFO] RECV: stop
+2025-12-26 22:24:05,893 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,894 [INFO] RECV: stop
+2025-12-26 22:24:05,981 [INFO] RECV: stop
+2025-12-26 22:24:05,981 [INFO] RECV: stop
+2025-12-26 22:24:05,985 [INFO] RECV: position fen rn2k2r/pp3p2/4pp2/1q1p3p/3P4/P1P1PN2/2Q2PPP/R3K2R w KQkq - 0 14
+2025-12-26 22:24:05,999 [INFO] RECV: go infinite
+2025-12-26 22:24:05,999 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,882 [INFO] RECV: stop
+2025-12-26 22:24:16,887 [INFO] RECV: position fen rn2k2r/pp3p2/4pp2/1q1p3p/3P4/P1P1PN2/5PPP/RQ2K2R b KQkq - 1 14
+2025-12-26 22:24:16,890 [INFO] RECV: go infinite
+2025-12-26 22:24:16,890 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:24:24,814 [INFO] RECV: stop
+2025-12-26 22:24:24,814 [INFO] RECV: stop
+2025-12-26 22:24:24,815 [INFO] RECV: stop
+2025-12-26 22:24:24,815 [INFO] RECV: stop
+2025-12-26 22:24:24,815 [INFO] RECV: stop
+2025-12-26 22:24:24,815 [INFO] RECV: stop
+2025-12-26 22:24:24,815 [INFO] RECV: stop
+2025-12-26 22:24:24,815 [INFO] RECV: stop
+2025-12-26 22:24:24,816 [INFO] RECV: position fen r3k2r/pp1n1p2/2q1pp2/3p3p/3P4/P1P1PN2/5PPP/RQ3RK1 w kq - 4 16
+2025-12-26 22:24:24,818 [INFO] RECV: go infinite
+2025-12-26 22:24:24,818 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:24:35,856 [INFO] RECV: stop
+2025-12-26 22:24:35,857 [INFO] RECV: position fen r3k2r/pp1n1p2/2q1pp2/3p3p/P2P4/2P1PN2/5PPP/RQ3RK1 b kq - 0 16
+2025-12-26 22:24:35,859 [INFO] RECV: go infinite
+2025-12-26 22:24:35,860 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:24:45,949 [INFO] RECV: stop
+2025-12-26 22:24:45,949 [INFO] RECV: stop
+2025-12-26 22:24:45,949 [INFO] RECV: stop
+2025-12-26 22:24:45,949 [INFO] RECV: stop
+2025-12-26 22:24:45,949 [INFO] RECV: stop
+2025-12-26 22:24:45,949 [INFO] RECV: stop
+2025-12-26 22:24:45,956 [INFO] RECV: stop
+2025-12-26 22:24:45,956 [INFO] RECV: position fen r3k2r/pp1n1p2/2q1pp2/3p3p/P2P4/2P1PN2/5PPP/RQ3RK1 b kq - 0 16
+2025-12-26 22:24:45,958 [INFO] RECV: go infinite
+2025-12-26 22:24:45,958 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,538 [INFO] RECV: stop
+2025-12-26 22:24:53,539 [INFO] RECV: position fen r6r/pp1n1pk1/2q1pp2/P2p3p/3P4/2P1PN2/5PPP/RQ3RK1 w - - 1 18
+2025-12-26 22:24:53,541 [INFO] RECV: go infinite
+2025-12-26 22:24:53,541 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:25:09,460 [INFO] RECV: stop
+2025-12-26 22:25:09,460 [INFO] RECV: position fen r6r/pp1n1pk1/2q1pp2/P2p3p/3P4/R1P1PN2/5PPP/1Q3RK1 b - - 2 18
+2025-12-26 22:25:09,462 [INFO] RECV: go infinite
+2025-12-26 22:25:09,462 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:25:19,778 [INFO] RECV: stop
+2025-12-26 22:25:19,778 [INFO] RECV: stop
+2025-12-26 22:25:19,778 [INFO] RECV: stop
+2025-12-26 22:25:19,778 [INFO] RECV: stop
+2025-12-26 22:25:19,783 [INFO] RECV: stop
+2025-12-26 22:25:19,783 [INFO] RECV: position fen r6r/pp1n1pk1/2q1pp2/P2p3p/3P4/R1P1PN2/5PPP/1Q3RK1 b - - 2 18
+2025-12-26 22:25:19,785 [INFO] RECV: go infinite
+2025-12-26 22:25:19,785 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:25:30,081 [INFO] RECV: stop
+2025-12-26 22:25:30,081 [INFO] RECV: stop
+2025-12-26 22:25:30,082 [INFO] RECV: stop
+2025-12-26 22:25:30,082 [INFO] RECV: stop
+2025-12-26 22:25:30,082 [INFO] RECV: stop
+2025-12-26 22:25:30,082 [INFO] RECV: stop
+2025-12-26 22:25:30,082 [INFO] RECV: stop
+2025-12-26 22:25:30,082 [INFO] RECV: stop
+2025-12-26 22:25:30,084 [INFO] RECV: position fen 1r5r/pp1n1pk1/2q1pp2/P2p3p/3P4/R1P1PN2/5PPP/1Q3RK1 w - - 3 19
+2025-12-26 22:25:30,086 [INFO] RECV: go infinite
+2025-12-26 22:25:30,086 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,187 [INFO] RECV: stop
+2025-12-26 22:25:39,188 [INFO] RECV: stop
+2025-12-26 22:25:39,188 [INFO] RECV: stop
+2025-12-26 22:25:39,190 [INFO] RECV: position fen 1r4r1/pp1n1pk1/2q1pp2/P2p3p/3P4/R1P1PN2/Q4PPP/5RK1 w - - 5 20
+2025-12-26 22:25:39,192 [INFO] RECV: go infinite
+2025-12-26 22:25:39,192 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:25:47,030 [INFO] RECV: stop
+2025-12-26 22:25:47,030 [INFO] RECV: stop
+2025-12-26 22:25:47,030 [INFO] RECV: stop
+2025-12-26 22:25:47,030 [INFO] RECV: stop
+2025-12-26 22:25:47,030 [INFO] RECV: stop
+2025-12-26 22:25:47,030 [INFO] RECV: stop
+2025-12-26 22:25:47,032 [INFO] RECV: position fen 1r4r1/p2n1pk1/P1q1pp2/1p1p3p/3P4/R1P1PN2/Q4PPP/5RK1 w - - 0 21
+2025-12-26 22:25:47,034 [INFO] RECV: go infinite
+2025-12-26 22:25:47,034 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:26:08,523 [INFO] RECV: stop
+2025-12-26 22:26:08,524 [INFO] RECV: position fen 1r4r1/p2n1pk1/P1q1pp2/1p1p3p/3P4/R1P1PN2/Q4PPP/1R4K1 b - - 1 21
+2025-12-26 22:26:08,529 [INFO] RECV: go infinite
+2025-12-26 22:26:08,530 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:26:18,131 [INFO] RECV: stop
+2025-12-26 22:26:18,131 [INFO] RECV: stop
+2025-12-26 22:26:18,131 [INFO] RECV: stop
+2025-12-26 22:26:18,131 [INFO] RECV: stop
+2025-12-26 22:26:18,133 [INFO] RECV: stop
+2025-12-26 22:26:18,133 [INFO] RECV: position fen 1r4r1/p2n1pk1/P1q1pp2/1p1p3p/3P4/R1P1PN2/Q4PPP/1R4K1 b - - 1 21
+2025-12-26 22:26:18,136 [INFO] RECV: go infinite
+2025-12-26 22:26:18,136 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:26:27,489 [INFO] RECV: stop
+2025-12-26 22:26:27,489 [INFO] RECV: stop
+2025-12-26 22:26:27,489 [INFO] RECV: stop
+2025-12-26 22:26:27,489 [INFO] RECV: stop
+2025-12-26 22:26:27,489 [INFO] RECV: stop
+2025-12-26 22:26:27,489 [INFO] RECV: stop
+2025-12-26 22:26:27,490 [INFO] RECV: stop
+2025-12-26 22:26:27,490 [INFO] RECV: stop
+2025-12-26 22:26:27,492 [INFO] RECV: position fen 6r1/p2n1pk1/Prq1pp2/1p1p3p/3P4/R1P1PN2/Q4PPP/1R4K1 w - - 2 22
+2025-12-26 22:26:27,496 [INFO] RECV: go infinite
+2025-12-26 22:26:27,496 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,670 [INFO] RECV: stop
+2025-12-26 22:26:37,673 [INFO] RECV: position fen 5nr1/p4pk1/Prq1pp2/1p1p3p/3P4/R1P1PN1P/Q4PP1/1R4K1 w - - 1 23
+2025-12-26 22:26:37,676 [INFO] RECV: go infinite
+2025-12-26 22:26:37,676 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:26:45,326 [INFO] RECV: stop
+2025-12-26 22:26:45,326 [INFO] RECV: stop
+2025-12-26 22:26:45,326 [INFO] RECV: stop
+2025-12-26 22:26:45,326 [INFO] RECV: stop
+2025-12-26 22:26:45,326 [INFO] RECV: stop
+2025-12-26 22:26:45,326 [INFO] RECV: stop
+2025-12-26 22:26:45,328 [INFO] RECV: position fen 6r1/p4pk1/Prq1ppn1/1p1p3p/3P4/R1P1P2P/Q2N1PP1/1R4K1 w - - 3 24
+2025-12-26 22:26:45,330 [INFO] RECV: go infinite
+2025-12-26 22:26:45,330 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:26:54,924 [INFO] RECV: stop
+2025-12-26 22:26:54,924 [INFO] RECV: stop
+2025-12-26 22:26:54,924 [INFO] RECV: stop
+2025-12-26 22:26:54,930 [INFO] RECV: stop
+2025-12-26 22:26:54,930 [INFO] RECV: position fen 6r1/p4pk1/Prq1ppn1/Rp1p3p/3P4/2P1P2P/Q2N1PP1/1R4K1 b - - 4 24
+2025-12-26 22:26:54,932 [INFO] RECV: go infinite
+2025-12-26 22:26:54,932 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:27:02,732 [INFO] RECV: stop
+2025-12-26 22:27:02,732 [INFO] RECV: stop
+2025-12-26 22:27:02,732 [INFO] RECV: stop
+2025-12-26 22:27:02,732 [INFO] RECV: stop
+2025-12-26 22:27:02,732 [INFO] RECV: stop
+2025-12-26 22:27:02,733 [INFO] RECV: position fen 1r6/p4pk1/Prq1ppn1/Rp1p3p/3P4/2P1P2P/Q2N1PP1/1R4K1 w - - 5 25
+2025-12-26 22:27:02,735 [INFO] RECV: go infinite
+2025-12-26 22:27:02,735 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:27:12,186 [INFO] RECV: stop
+2025-12-26 22:27:12,186 [INFO] RECV: stop
+2025-12-26 22:27:12,186 [INFO] RECV: stop
+2025-12-26 22:27:12,189 [INFO] RECV: stop
+2025-12-26 22:27:12,189 [INFO] RECV: position fen 1r6/p4pk1/Prq1ppn1/Rp1p3p/3P4/2P1PP1P/Q2N2P1/1R4K1 b - - 0 25
+2025-12-26 22:27:12,192 [INFO] RECV: go infinite
+2025-12-26 22:27:12,192 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:27:20,619 [INFO] RECV: stop
+2025-12-26 22:27:20,619 [INFO] RECV: stop
+2025-12-26 22:27:20,619 [INFO] RECV: stop
+2025-12-26 22:27:20,619 [INFO] RECV: stop
+2025-12-26 22:27:20,619 [INFO] RECV: stop
+2025-12-26 22:27:20,622 [INFO] RECV: position fen 1r6/p4pk1/Pr2ppn1/Rp1p3p/3P4/2q1PP1P/Q2N2P1/1R4K1 w - - 0 26
+2025-12-26 22:27:20,624 [INFO] RECV: go infinite
+2025-12-26 22:27:20,624 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:35:14,691 [INFO] RECV: stop
+2025-12-26 22:35:14,692 [INFO] RECV: position fen 1r6/p4pk1/Pr2ppn1/1p1p3p/3P4/R1q1PP1P/Q2N2P1/1R4K1 b - - 1 26
+2025-12-26 22:35:14,697 [INFO] RECV: go infinite
+2025-12-26 22:35:14,698 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:35:27,083 [INFO] RECV: stop
+2025-12-26 22:35:27,083 [INFO] RECV: stop
+2025-12-26 22:35:27,083 [INFO] RECV: stop
+2025-12-26 22:35:27,083 [INFO] RECV: stop
+2025-12-26 22:35:27,083 [INFO] RECV: stop
+2025-12-26 22:35:27,083 [INFO] RECV: stop
+2025-12-26 22:35:27,087 [INFO] RECV: stop
+2025-12-26 22:35:27,088 [INFO] RECV: position fen 1r6/p4pk1/Pr2ppn1/1p1p3p/3P4/R1q1PP1P/Q2N2P1/1R4K1 b - - 1 26
+2025-12-26 22:35:27,090 [INFO] RECV: go infinite
+2025-12-26 22:35:27,090 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,554 [INFO] RECV: stop
+2025-12-26 22:35:36,555 [INFO] RECV: position fen 1r6/p1q2pk1/P1r1ppn1/1p1p3p/3P4/1R2PP1P/Q2N2P1/1R4K1 w - - 4 28
+2025-12-26 22:35:36,557 [INFO] RECV: go infinite
+2025-12-26 22:35:36,557 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:35:57,088 [INFO] RECV: stop
+2025-12-26 22:35:57,091 [INFO] RECV: position fen 1r6/p1q2pk1/P1r1ppn1/1R1p3p/3P4/4PP1P/Q2N2P1/1R4K1 b - - 0 28
+2025-12-26 22:35:57,094 [INFO] RECV: go infinite
+2025-12-26 22:35:57,094 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:36:07,573 [INFO] RECV: stop
+2025-12-26 22:36:07,573 [INFO] RECV: stop
+2025-12-26 22:36:07,573 [INFO] RECV: stop
+2025-12-26 22:36:07,573 [INFO] RECV: stop
+2025-12-26 22:36:07,575 [INFO] RECV: stop
+2025-12-26 22:36:07,575 [INFO] RECV: position fen 1r6/p1q2pk1/P1r1ppn1/1R1p3p/3P4/4PP1P/Q2N2P1/1R4K1 b - - 0 28
+2025-12-26 22:36:07,577 [INFO] RECV: go infinite
+2025-12-26 22:36:07,577 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:36:17,921 [INFO] RECV: stop
+2025-12-26 22:36:17,921 [INFO] RECV: stop
+2025-12-26 22:36:17,921 [INFO] RECV: stop
+2025-12-26 22:36:17,922 [INFO] RECV: stop
+2025-12-26 22:36:17,922 [INFO] RECV: stop
+2025-12-26 22:36:17,922 [INFO] RECV: stop
+2025-12-26 22:36:17,922 [INFO] RECV: stop
+2025-12-26 22:36:17,922 [INFO] RECV: stop
+2025-12-26 22:36:17,923 [INFO] RECV: position fen 1r6/p1q2pk1/P3ppn1/1R1p3p/3P4/4PP1P/Q2N2P1/1Rr3K1 w - - 1 29
+2025-12-26 22:36:17,924 [INFO] RECV: go infinite
+2025-12-26 22:36:17,924 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:36:19,753 [INFO] RECV: stop
+2025-12-26 22:36:19,753 [INFO] RECV: stop
+2025-12-26 22:36:19,753 [INFO] RECV: stop
+2025-12-26 22:36:19,755 [INFO] RECV: position fen 2r5/p1q2pk1/P3ppn1/1R1p3p/3P4/4PP1P/Q2N1KP1/1Rr5 w - - 3 30
+2025-12-26 22:36:19,757 [INFO] RECV: go infinite
+2025-12-26 22:36:19,757 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:36:30,464 [INFO] RECV: stop
+2025-12-26 22:36:30,464 [INFO] RECV: stop
+2025-12-26 22:36:30,464 [INFO] RECV: stop
+2025-12-26 22:36:30,464 [INFO] RECV: stop
+2025-12-26 22:36:30,464 [INFO] RECV: stop
+2025-12-26 22:36:30,464 [INFO] RECV: stop
+2025-12-26 22:36:30,467 [INFO] RECV: stop
+2025-12-26 22:36:30,467 [INFO] RECV: position fen 2r5/p1q2pk1/P3ppn1/1R1p3p/3P4/4PP1P/Q2N1KP1/2R5 b - - 0 30
+2025-12-26 22:36:30,469 [INFO] RECV: go infinite
+2025-12-26 22:36:30,469 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:36:38,087 [INFO] RECV: stop
+2025-12-26 22:36:38,088 [INFO] RECV: stop
+2025-12-26 22:36:38,088 [INFO] RECV: stop
+2025-12-26 22:36:38,088 [INFO] RECV: stop
+2025-12-26 22:36:38,088 [INFO] RECV: stop
+2025-12-26 22:36:38,088 [INFO] RECV: position fen 2r5/p4pk1/P3ppn1/1R1p3p/3P4/4PP1P/Q2N1KP1/2q5 w - - 0 31
+2025-12-26 22:36:38,089 [INFO] RECV: go infinite
+2025-12-26 22:36:38,090 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:37:05,290 [INFO] RECV: stop
+2025-12-26 22:37:05,291 [INFO] RECV: position fen 2r5/p4pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/1Rq5 b - - 1 31
+2025-12-26 22:37:05,303 [INFO] RECV: go infinite
+2025-12-26 22:37:05,303 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:37:14,860 [INFO] RECV: stop
+2025-12-26 22:37:14,860 [INFO] RECV: stop
+2025-12-26 22:37:14,860 [INFO] RECV: stop
+2025-12-26 22:37:14,860 [INFO] RECV: stop
+2025-12-26 22:37:14,863 [INFO] RECV: stop
+2025-12-26 22:37:14,863 [INFO] RECV: position fen 2r5/p4pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/1Rq5 b - - 1 31
+2025-12-26 22:37:14,865 [INFO] RECV: go infinite
+2025-12-26 22:37:14,865 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:37:21,814 [INFO] RECV: stop
+2025-12-26 22:37:21,815 [INFO] RECV: stop
+2025-12-26 22:37:21,815 [INFO] RECV: stop
+2025-12-26 22:37:21,815 [INFO] RECV: stop
+2025-12-26 22:37:21,815 [INFO] RECV: stop
+2025-12-26 22:37:21,818 [INFO] RECV: position fen 2r5/p1q2pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/1R6 w - - 2 32
+2025-12-26 22:37:21,820 [INFO] RECV: go infinite
+2025-12-26 22:37:21,820 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:37:31,558 [INFO] RECV: stop
+2025-12-26 22:37:31,558 [INFO] RECV: stop
+2025-12-26 22:37:31,558 [INFO] RECV: stop
+2025-12-26 22:37:31,561 [INFO] RECV: stop
+2025-12-26 22:37:31,561 [INFO] RECV: position fen 2r5/pRq2pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/8 b - - 3 32
+2025-12-26 22:37:31,563 [INFO] RECV: go infinite
+2025-12-26 22:37:31,563 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:37:40,840 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,841 [INFO] RECV: stop
+2025-12-26 22:37:40,845 [INFO] RECV: position fen 2r5/pR3pk1/P3ppn1/3p3p/3P4/2q1PP1P/Q2N1KP1/8 w - - 4 33
+2025-12-26 22:37:40,846 [INFO] RECV: go infinite
+2025-12-26 22:37:40,846 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:37:48,760 [INFO] RECV: stop
+2025-12-26 22:37:48,760 [INFO] RECV: stop
+2025-12-26 22:37:48,760 [INFO] RECV: stop
+2025-12-26 22:37:48,761 [INFO] RECV: stop
+2025-12-26 22:37:48,761 [INFO] RECV: stop
+2025-12-26 22:37:48,761 [INFO] RECV: stop
+2025-12-26 22:37:48,762 [INFO] RECV: position fen 2r5/R4pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/2q5 w - - 1 34
+2025-12-26 22:37:48,764 [INFO] RECV: go infinite
+2025-12-26 22:37:48,764 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:38:55,287 [INFO] RECV: stop
+2025-12-26 22:38:55,288 [INFO] RECV: position fen 2r5/1R3pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/2q5 b - - 2 34
+2025-12-26 22:38:55,292 [INFO] RECV: go infinite
+2025-12-26 22:38:55,293 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:39:05,817 [INFO] RECV: stop
+2025-12-26 22:39:05,818 [INFO] RECV: stop
+2025-12-26 22:39:05,818 [INFO] RECV: stop
+2025-12-26 22:39:05,818 [INFO] RECV: stop
+2025-12-26 22:39:05,822 [INFO] RECV: stop
+2025-12-26 22:39:05,822 [INFO] RECV: position fen 2r5/1R3pk1/P3ppn1/3p3p/3P4/4PP1P/Q2N1KP1/2q5 b - - 2 34
+2025-12-26 22:39:05,825 [INFO] RECV: go infinite
+2025-12-26 22:39:05,825 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:39:14,821 [INFO] RECV: stop
+2025-12-26 22:39:14,821 [INFO] RECV: stop
+2025-12-26 22:39:14,821 [INFO] RECV: stop
+2025-12-26 22:39:14,821 [INFO] RECV: stop
+2025-12-26 22:39:14,822 [INFO] RECV: stop
+2025-12-26 22:39:14,824 [INFO] RECV: position fen 8/1R3pk1/P3ppn1/3p3p/3P4/4PP1P/Q1rN1KP1/2q5 w - - 3 35
+2025-12-26 22:39:14,826 [INFO] RECV: go infinite
+2025-12-26 22:39:14,826 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:39:37,988 [INFO] RECV: stop
+2025-12-26 22:39:37,990 [INFO] RECV: position fen 8/1R3pk1/P3ppn1/Q2p3p/3P4/4PP1P/2rN1KP1/2q5 b - - 4 35
+2025-12-26 22:39:37,998 [INFO] RECV: go infinite
+2025-12-26 22:39:37,998 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:39:50,284 [INFO] RECV: stop
+2025-12-26 22:39:50,285 [INFO] RECV: stop
+2025-12-26 22:39:50,286 [INFO] RECV: stop
+2025-12-26 22:39:50,286 [INFO] RECV: stop
+2025-12-26 22:39:50,286 [INFO] RECV: stop
+2025-12-26 22:39:50,286 [INFO] RECV: stop
+2025-12-26 22:39:50,288 [INFO] RECV: stop
+2025-12-26 22:39:50,289 [INFO] RECV: position fen 8/1R3pk1/P3ppn1/Q2p3p/3P4/4PP1P/2rN1KP1/2q5 b - - 4 35
+2025-12-26 22:39:50,291 [INFO] RECV: go infinite
+2025-12-26 22:39:50,291 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,235 [INFO] RECV: stop
+2025-12-26 22:39:58,239 [INFO] RECV: position fen 8/1R3pk1/P3ppn1/Q2p3p/3P4/4PPKP/2r3P1/2q5 w - - 2 37
+2025-12-26 22:39:58,243 [INFO] RECV: go infinite
+2025-12-26 22:39:58,243 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:40:08,257 [INFO] RECV: stop
+2025-12-26 22:40:08,257 [INFO] RECV: stop
+2025-12-26 22:40:08,257 [INFO] RECV: stop
+2025-12-26 22:40:08,257 [INFO] RECV: stop
+2025-12-26 22:40:08,258 [INFO] RECV: stop
+2025-12-26 22:40:08,258 [INFO] RECV: stop
+2025-12-26 22:40:08,258 [INFO] RECV: stop
+2025-12-26 22:40:08,258 [INFO] RECV: stop
+2025-12-26 22:40:08,260 [INFO] RECV: position fen 8/4Rpk1/P3ppn1/Q2p3p/3P4/4PPKP/2r3P1/5q2 w - - 4 38
+2025-12-26 22:40:08,262 [INFO] RECV: go infinite
+2025-12-26 22:40:08,262 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:40:16,129 [INFO] RECV: stop
+2025-12-26 22:40:16,129 [INFO] RECV: stop
+2025-12-26 22:40:16,129 [INFO] RECV: stop
+2025-12-26 22:40:16,130 [INFO] RECV: stop
+2025-12-26 22:40:16,155 [INFO] RECV: position fen 3Q4/4Rpk1/P3ppn1/3p3p/3P4/4PPKP/2r3P1/5q2 b - - 5 38
+2025-12-26 22:40:16,162 [INFO] RECV: go infinite
+2025-12-26 22:40:16,162 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:40:29,594 [INFO] RECV: uci
+2025-12-26 22:40:29,595 [INFO] RECV: isready
+2025-12-26 22:40:29,596 [INFO] RECV: ucinewgame
+2025-12-26 22:40:29,596 [INFO] RECV: stop
+2025-12-26 22:40:29,597 [INFO] RECV: position startpos
+2025-12-26 22:40:29,598 [INFO] RECV: go infinite
+2025-12-26 22:40:29,598 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:40:29,907 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 22:40:29,908 [INFO] RECV: stop
+2025-12-26 22:40:29,909 [INFO] RECV: stop
+2025-12-26 22:40:29,910 [INFO] RECV: position fen rnbqkbnr/pppp2pp/4p3/5p2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 22:41:00,083 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 22:41:00,086 [INFO] RECV: go infinite
+2025-12-26 22:41:00,086 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,697 [INFO] RECV: stop
+2025-12-26 22:41:06,698 [INFO] RECV: stop
+2025-12-26 22:41:06,698 [INFO] RECV: stop
+2025-12-26 22:41:06,698 [INFO] RECV: stop
+2025-12-26 22:41:06,698 [INFO] RECV: stop
+2025-12-26 22:41:06,714 [INFO] RECV: stop
+2025-12-26 22:41:06,715 [INFO] RECV: position fen rnbqkbnr/pppp2pp/4p3/5p2/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3
+2025-12-26 22:41:06,716 [INFO] RECV: go infinite
+2025-12-26 22:41:06,716 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,788 [INFO] RECV: stop
+2025-12-26 22:41:12,790 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,791 [INFO] RECV: stop
+2025-12-26 22:41:12,792 [INFO] RECV: stop
+2025-12-26 22:41:12,792 [INFO] RECV: stop
+2025-12-26 22:41:12,792 [INFO] RECV: position fen r1bqk2r/p1ppn3/1p2pp1p/5p2/2PP4/2P1PN2/P3BPPP/R2Q1RK1 w kq - 4 11
+2025-12-26 22:41:12,794 [INFO] RECV: go infinite
+2025-12-26 22:41:12,794 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:41:53,177 [INFO] RECV: stop
+2025-12-26 22:41:53,184 [INFO] RECV: position fen r1bqk2r/p1ppn3/1p2pp1p/5p2/2PP3N/2P1P3/P3BPPP/R2Q1RK1 b kq - 5 11
+2025-12-26 22:41:53,186 [INFO] RECV: go infinite
+2025-12-26 22:41:53,186 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:42:00,791 [INFO] RECV: stop
+2025-12-26 22:42:00,791 [INFO] RECV: stop
+2025-12-26 22:42:00,791 [INFO] RECV: stop
+2025-12-26 22:42:00,791 [INFO] RECV: stop
+2025-12-26 22:42:00,791 [INFO] RECV: stop
+2025-12-26 22:42:00,792 [INFO] RECV: stop
+2025-12-26 22:42:00,795 [INFO] RECV: stop
+2025-12-26 22:42:00,795 [INFO] RECV: position fen r1bqk2r/p1ppn3/1p2pp1p/5p2/2PP3N/2P1P3/P3BPPP/R2Q1RK1 b kq - 5 11
+2025-12-26 22:42:00,797 [INFO] RECV: go infinite
+2025-12-26 22:42:00,797 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,581 [INFO] RECV: stop
+2025-12-26 22:42:09,845 [INFO] RECV: stop
+2025-12-26 22:42:09,848 [INFO] RECV: position fen r2q1k1r/pbppn3/1p2pp1p/5p1B/2PP3N/2P1P3/P4PPP/R2Q1RK1 w - - 8 13
+2025-12-26 22:42:09,870 [INFO] RECV: go infinite
+2025-12-26 22:42:09,870 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,470 [INFO] RECV: stop
+2025-12-26 22:42:23,471 [INFO] RECV: stop
+2025-12-26 22:42:23,471 [INFO] RECV: stop
+2025-12-26 22:42:23,471 [INFO] RECV: stop
+2025-12-26 22:42:23,471 [INFO] RECV: stop
+2025-12-26 22:42:23,471 [INFO] RECV: stop
+2025-12-26 22:42:23,491 [INFO] RECV: position fen r2q1kr1/pbpp4/1p2ppBp/5p1Q/2PP4/2P1P3/P4PPP/R4RK1 b - - 2 15
+2025-12-26 22:42:23,493 [INFO] RECV: go infinite
+2025-12-26 22:42:23,493 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,523 [INFO] RECV: stop
+2025-12-26 22:42:30,528 [INFO] RECV: position fen r4k2/pbpp2r1/1p2ppB1/5p2/2PP4/2P1P3/P4PPP/R4RK1 w - - 0 18
+2025-12-26 22:42:30,529 [INFO] RECV: go infinite
+2025-12-26 22:42:30,530 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:42:37,329 [INFO] RECV: stop
+2025-12-26 22:42:37,329 [INFO] RECV: stop
+2025-12-26 22:42:37,329 [INFO] RECV: stop
+2025-12-26 22:42:37,329 [INFO] RECV: stop
+2025-12-26 22:42:37,329 [INFO] RECV: stop
+2025-12-26 22:42:37,329 [INFO] RECV: stop
+2025-12-26 22:42:37,331 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5prB/2PP4/2P1P3/P4PPP/R4RK1 w - - 2 19
+2025-12-26 22:42:37,333 [INFO] RECV: go infinite
+2025-12-26 22:42:37,333 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:42:45,702 [INFO] RECV: stop
+2025-12-26 22:42:45,702 [INFO] RECV: stop
+2025-12-26 22:42:45,702 [INFO] RECV: stop
+2025-12-26 22:42:45,705 [INFO] RECV: stop
+2025-12-26 22:42:45,706 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5pr1/2PP4/2P1P3/P3BPPP/R4RK1 b - - 3 19
+2025-12-26 22:42:45,707 [INFO] RECV: go infinite
+2025-12-26 22:42:45,707 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:42:57,150 [INFO] RECV: stop
+2025-12-26 22:42:57,150 [INFO] RECV: stop
+2025-12-26 22:42:57,150 [INFO] RECV: stop
+2025-12-26 22:42:57,151 [INFO] RECV: stop
+2025-12-26 22:42:57,151 [INFO] RECV: stop
+2025-12-26 22:42:57,154 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5p2/2PP4/2P1P3/P3BPrP/R4RK1 w - - 0 20
+2025-12-26 22:42:57,156 [INFO] RECV: go infinite
+2025-12-26 22:42:57,156 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:43:05,685 [INFO] RECV: stop
+2025-12-26 22:43:05,685 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5p2/2PP4/2P1P3/P3BPrP/R4R1K b - - 1 20
+2025-12-26 22:43:05,688 [INFO] RECV: go infinite
+2025-12-26 22:43:05,688 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:43:18,113 [INFO] RECV: stop
+2025-12-26 22:43:18,113 [INFO] RECV: stop
+2025-12-26 22:43:18,113 [INFO] RECV: stop
+2025-12-26 22:43:18,113 [INFO] RECV: stop
+2025-12-26 22:43:18,113 [INFO] RECV: stop
+2025-12-26 22:43:18,113 [INFO] RECV: stop
+2025-12-26 22:43:18,248 [INFO] RECV: stop
+2025-12-26 22:43:18,250 [INFO] RECV: stop
+2025-12-26 22:43:18,251 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5p2/2PP4/2P1P3/P3BPrP/R4R1K b - - 1 20
+2025-12-26 22:43:18,263 [INFO] RECV: go infinite
+2025-12-26 22:43:18,264 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,284 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: stop
+2025-12-26 22:43:30,287 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5p2/2PP4/2P1P3/P3B1rP/R4R1K b - - 3 22
+2025-12-26 22:43:30,289 [INFO] RECV: go infinite
+2025-12-26 22:43:30,289 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,473 [INFO] RECV: stop
+2025-12-26 22:43:38,475 [INFO] RECV: position fen r4k2/pbpp4/1p2pp2/5p2/2PP4/2P1P3/P1r4P/R4RK1 w - - 2 24
+2025-12-26 22:43:38,477 [INFO] RECV: go infinite
+2025-12-26 22:43:38,477 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:45:58,236 [INFO] RECV: uci
+2025-12-26 22:45:58,240 [INFO] RECV: isready
+2025-12-26 22:45:58,243 [INFO] RECV: ucinewgame
+2025-12-26 22:45:58,244 [INFO] RECV: stop
+2025-12-26 22:45:58,244 [INFO] RECV: position startpos
+2025-12-26 22:45:58,245 [INFO] RECV: go infinite
+2025-12-26 22:45:58,245 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:45:58,601 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 22:45:58,604 [INFO] RECV: stop
+2025-12-26 22:45:58,605 [INFO] RECV: stop
+2025-12-26 22:45:58,605 [INFO] RECV: position fen rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 22:46:26,205 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 22:46:26,205 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 22:46:26,206 [INFO] RECV: go infinite
+2025-12-26 22:46:26,206 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:46:26,612 [INFO] Engine move selected: b1c3 (SAN  Nc3) with transcript length 72
+2025-12-26 22:46:26,613 [INFO] RECV: stop
+2025-12-26 22:46:26,613 [INFO] RECV: stop
+2025-12-26 22:46:26,613 [INFO] RECV: stop
+2025-12-26 22:46:26,614 [INFO] RECV: stop
+2025-12-26 22:46:26,614 [INFO] RECV: stop
+2025-12-26 22:46:26,614 [INFO] RECV: stop
+2025-12-26 22:46:26,614 [INFO] RECV: stop
+2025-12-26 22:46:26,614 [INFO] RECV: stop
+2025-12-26 22:46:26,614 [INFO] RECV: stop
+2025-12-26 22:46:26,615 [INFO] RECV: stop
+2025-12-26 22:46:26,616 [INFO] RECV: position fen rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26 22:46:26,617 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26 22:46:26,618 [INFO] RECV: go infinite
+2025-12-26 22:46:26,618 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:46:26,974 [INFO] Engine move selected: f8e7 (SAN  Be7) with transcript length 76
+2025-12-26 22:46:26,975 [INFO] RECV: stop
+2025-12-26 22:46:26,975 [INFO] RECV: stop
+2025-12-26 22:46:26,975 [INFO] RECV: stop
+2025-12-26 22:46:26,975 [INFO] RECV: stop
+2025-12-26 22:46:26,975 [INFO] RECV: stop
+2025-12-26 22:46:26,975 [INFO] RECV: stop
+2025-12-26 22:46:26,984 [INFO] RECV: position fen rnb1k2r/pp1p1ppp/4pn2/q1P3B1/1bP5/2N5/PP2PPPP/R2QKBNR w KQkq - 1 6
+2025-12-26 22:46:26,986 [INFO] RECV: go infinite
+2025-12-26 22:46:26,986 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,979 [INFO] RECV: stop
+2025-12-26 22:46:35,986 [INFO] RECV: stop
+2025-12-26 22:46:35,986 [INFO] RECV: position fen rnb1k2r/pp1p1ppp/4pn2/q1P3B1/1bP5/2N5/PPQ1PPPP/R3KBNR b KQkq - 2 6
+2025-12-26 22:46:35,988 [INFO] RECV: go infinite
+2025-12-26 22:46:35,988 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:46:43,524 [INFO] RECV: stop
+2025-12-26 22:46:43,524 [INFO] RECV: stop
+2025-12-26 22:46:43,524 [INFO] RECV: stop
+2025-12-26 22:46:43,524 [INFO] RECV: stop
+2025-12-26 22:46:43,525 [INFO] RECV: stop
+2025-12-26 22:46:43,746 [INFO] RECV: stop
+2025-12-26 22:46:43,747 [INFO] RECV: stop
+2025-12-26 22:46:43,747 [INFO] RECV: position fen rnb1k2r/pp1p1ppp/4p3/q1P3B1/1bP1n3/2N5/PPQ1PPPP/R3KBNR w KQkq - 3 7
+2025-12-26 22:46:43,749 [INFO] RECV: go infinite
+2025-12-26 22:46:43,749 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:46:47,830 [INFO] Engine move selected: e2e3 (SAN  e3) with transcript length 277
+2025-12-26 22:46:47,830 [INFO] RECV: stop
+2025-12-26 22:46:47,830 [INFO] RECV: stop
+2025-12-26 22:46:47,830 [INFO] RECV: stop
+2025-12-26 22:46:47,830 [INFO] RECV: stop
+2025-12-26 22:46:47,831 [INFO] RECV: stop
+2025-12-26 22:46:47,831 [INFO] RECV: stop
+2025-12-26 22:46:47,833 [INFO] RECV: position fen rnb1k2r/pp1p1ppp/4p3/q1P5/1bP1n3/2N5/PPQBPPPP/R3KBNR b KQkq - 4 7
+2025-12-26 22:46:47,835 [INFO] RECV: go infinite
+2025-12-26 22:46:47,835 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:46:57,502 [INFO] RECV: stop
+2025-12-26 22:46:57,502 [INFO] RECV: stop
+2025-12-26 22:46:57,502 [INFO] RECV: stop
+2025-12-26 22:46:57,502 [INFO] RECV: stop
+2025-12-26 22:46:57,502 [INFO] RECV: stop
+2025-12-26 22:46:57,502 [INFO] RECV: stop
+2025-12-26 22:46:57,504 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,505 [INFO] RECV: stop
+2025-12-26 22:46:57,507 [INFO] RECV: position fen rnb1k2r/pp1p1ppp/4p3/q1P5/2P5/2n5/PPQ1PPPP/R3KBNR w KQkq - 0 9
+2025-12-26 22:46:57,509 [INFO] RECV: go infinite
+2025-12-26 22:46:57,509 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,614 [INFO] RECV: stop
+2025-12-26 22:47:03,616 [INFO] RECV: position fen r1b1k2r/pp1p1ppp/4p3/q1P5/1nP5/2P1P3/P1Q2PPP/R3KBNR w KQkq - 1 11
+2025-12-26 22:47:03,618 [INFO] RECV: go infinite
+2025-12-26 22:47:03,618 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:47:12,971 [INFO] RECV: stop
+2025-12-26 22:47:12,971 [INFO] RECV: stop
+2025-12-26 22:47:12,971 [INFO] RECV: stop
+2025-12-26 22:47:12,971 [INFO] RECV: stop
+2025-12-26 22:47:12,971 [INFO] RECV: stop
+2025-12-26 22:47:12,973 [INFO] RECV: stop
+2025-12-26 22:47:12,974 [INFO] RECV: position fen r1b1k2r/pp1p1ppp/4p3/q1P5/1PP5/4P3/P1Q2PPP/R3KBNR b KQkq - 0 11
+2025-12-26 22:47:12,976 [INFO] RECV: go infinite
+2025-12-26 22:47:12,976 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,182 [INFO] RECV: stop
+2025-12-26 22:47:21,183 [INFO] RECV: stop
+2025-12-26 22:47:21,186 [INFO] RECV: position fen r1b2rk1/pp1p1ppp/4p3/2P5/1qP5/4P3/P1Q2PPP/R2K1BNR w - - 2 13
+2025-12-26 22:47:21,188 [INFO] RECV: go infinite
+2025-12-26 22:47:21,188 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:47:28,546 [INFO] Engine move selected: g1h3 (SAN  Nh3) with transcript length 260
+2025-12-26 22:47:28,547 [INFO] RECV: stop
+2025-12-26 22:47:28,547 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,548 [INFO] RECV: stop
+2025-12-26 22:47:28,549 [INFO] RECV: position fen r4rk1/pp1b1ppp/4p3/2PP4/1q6/3BP3/P1Q2PPP/R2K2NR w - - 1 15
+2025-12-26 22:47:28,551 [INFO] RECV: go infinite
+2025-12-26 22:47:28,551 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,340 [INFO] RECV: stop
+2025-12-26 22:47:38,341 [INFO] RECV: stop
+2025-12-26 22:47:38,341 [INFO] RECV: stop
+2025-12-26 22:47:38,343 [INFO] RECV: position fen r4r1k/pp1b1ppB/4p3/2PP4/1q6/4P3/P1Q2PPP/R2K2NR w - - 1 16
+2025-12-26 22:47:38,344 [INFO] RECV: go infinite
+2025-12-26 22:47:38,344 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:47:47,822 [INFO] RECV: stop
+2025-12-26 22:47:47,822 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:47,823 [INFO] RECV: stop
+2025-12-26 22:47:48,184 [INFO] RECV: stop
+2025-12-26 22:47:48,185 [INFO] RECV: position fen r4r1k/pp3ppB/4P3/2P5/bq6/4P3/P1Q2PPP/R2K2NR w - - 1 17
+2025-12-26 22:47:48,186 [INFO] RECV: go infinite
+2025-12-26 22:47:48,186 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:47:55,047 [INFO] RECV: stop
+2025-12-26 22:47:55,047 [INFO] RECV: stop
+2025-12-26 22:47:55,047 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,048 [INFO] RECV: stop
+2025-12-26 22:47:55,365 [INFO] RECV: position fen r4r1k/pp3pp1/4P3/2P5/1q6/4P3/P1B2PPP/R2K2NR b - - 0 18
+2025-12-26 22:47:55,368 [INFO] RECV: go infinite
+2025-12-26 22:47:55,368 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:48:04,847 [INFO] RECV: stop
+2025-12-26 22:48:04,847 [INFO] RECV: stop
+2025-12-26 22:48:04,847 [INFO] RECV: stop
+2025-12-26 22:48:04,847 [INFO] RECV: stop
+2025-12-26 22:48:05,234 [INFO] RECV: position fen r4r1k/pp4p1/4p3/2P5/1q6/4P3/P1B2PPP/R2K2NR w - - 0 19
+2025-12-26 22:48:05,236 [INFO] RECV: go infinite
+2025-12-26 22:48:05,236 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:48:15,571 [INFO] RECV: uci
+2025-12-26 22:48:15,573 [INFO] RECV: isready
+2025-12-26 22:48:15,585 [INFO] RECV: ucinewgame
+2025-12-26 22:48:15,586 [INFO] RECV: stop
+2025-12-26 22:48:15,586 [INFO] RECV: position startpos
+2025-12-26 22:48:15,587 [INFO] RECV: go infinite
+2025-12-26 22:48:15,587 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:48:16,022 [INFO] Engine move selected: e2e4 (SAN  e4) with transcript length 52
+2025-12-26 22:48:16,023 [INFO] RECV: stop
+2025-12-26 22:48:16,024 [INFO] RECV: stop
+2025-12-26 22:48:16,025 [INFO] RECV: position fen rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 22:48:46,291 [INFO] Loaded 23433 opening positions for FEN bootstrapping
+2025-12-26 22:48:46,292 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26 22:48:46,292 [INFO] RECV: go infinite
+2025-12-26 22:48:46,292 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:48:47,224 [INFO] Engine move selected: b1c3 (SAN  Nc3) with transcript length 72
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,225 [INFO] RECV: stop
+2025-12-26 22:48:47,226 [INFO] RECV: stop
+2025-12-26 22:48:47,226 [INFO] RECV: stop
+2025-12-26 22:48:47,226 [INFO] RECV: stop
+2025-12-26 22:48:47,231 [INFO] RECV: stop
+2025-12-26 22:48:47,231 [INFO] RECV: position fen rnbqkb1r/pppppp1p/5np1/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26 22:48:47,233 [INFO] Bootstrapped history from opening book for FEN rnbqkb1r/pppppp1p/5np1/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26 22:48:47,233 [INFO] RECV: go infinite
+2025-12-26 22:48:47,233 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:48:47,651 [INFO] Engine move selected: f8g7 (SAN  Bg7) with transcript length 76
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,652 [INFO] RECV: stop
+2025-12-26 22:48:47,654 [INFO] RECV: position fen rnbq1rk1/pp2ppb1/3p2pp/2P4n/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 2 9
+2025-12-26 22:48:47,657 [INFO] RECV: go infinite
+2025-12-26 22:48:47,657 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:49:00,735 [INFO] RECV: stop
+2025-12-26 22:49:00,735 [INFO] RECV: stop
+2025-12-26 22:49:00,735 [INFO] RECV: stop
+2025-12-26 22:49:00,735 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,736 [INFO] RECV: stop
+2025-12-26 22:49:00,739 [INFO] RECV: stop
+2025-12-26 22:49:00,741 [INFO] RECV: position fen rnbq1rk1/pp2ppb1/3p2pp/2P4n/2P2B2/2NBPN2/PP3PPP/R2QK2R b KQ - 3 9
+2025-12-26 22:49:00,743 [INFO] RECV: go infinite
+2025-12-26 22:49:00,743 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,431 [INFO] RECV: stop
+2025-12-26 22:49:12,433 [INFO] RECV: position fen rn1q1rk1/pp3pb1/3p2pp/7n/2P2Bb1/2NBPN2/PP3PPP/R2QK2R w KQ - 0 11
+2025-12-26 22:49:12,435 [INFO] RECV: go infinite
+2025-12-26 22:49:12,435 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:49:45,615 [INFO] RECV: stop
+2025-12-26 22:49:45,637 [INFO] RECV: position fen rn1q1rk1/pp3pb1/3p2pp/7n/2P1BBb1/2N1PN2/PP3PPP/R2QK2R b KQ - 1 11
+2025-12-26 22:49:45,690 [INFO] RECV: go infinite
+2025-12-26 22:49:45,690 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,937 [INFO] RECV: stop
+2025-12-26 22:49:57,941 [INFO] RECV: stop
+2025-12-26 22:49:57,941 [INFO] RECV: position fen rn1q1rk1/pp3pb1/3p2pp/7n/2P1BBb1/2N1PN2/PP3PPP/R2QK2R b KQ - 1 11
+2025-12-26 22:49:57,943 [INFO] RECV: go infinite
+2025-12-26 22:49:57,943 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,414 [INFO] RECV: stop
+2025-12-26 22:50:08,415 [INFO] RECV: stop
+2025-12-26 22:50:08,415 [INFO] RECV: stop
+2025-12-26 22:50:08,415 [INFO] RECV: stop
+2025-12-26 22:50:08,417 [INFO] RECV: position fen rn2r1k1/pBq2p2/3p2pp/7n/2P2Bb1/2P1PN2/P4PPP/R2QK2R w KQ - 1 14
+2025-12-26 22:50:08,420 [INFO] RECV: go infinite
+2025-12-26 22:50:08,420 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:50:18,995 [INFO] RECV: stop
+2025-12-26 22:50:18,995 [INFO] RECV: stop
+2025-12-26 22:50:18,995 [INFO] RECV: stop
+2025-12-26 22:50:18,995 [INFO] RECV: stop
+2025-12-26 22:50:18,996 [INFO] RECV: stop
+2025-12-26 22:50:18,996 [INFO] RECV: stop
+2025-12-26 22:50:18,996 [INFO] RECV: stop
+2025-12-26 22:50:18,996 [INFO] RECV: stop
+2025-12-26 22:50:18,997 [INFO] RECV: stop
+2025-12-26 22:50:19,077 [INFO] RECV: stop
+2025-12-26 22:50:19,111 [INFO] RECV: position fen B3r1k1/p1qn1p2/3p2pp/7n/2P2Bb1/2P1PN2/P4PPP/R2QK2R w KQ - 1 15
+2025-12-26 22:50:19,132 [INFO] RECV: go infinite
+2025-12-26 22:50:19,132 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,807 [INFO] RECV: stop
+2025-12-26 22:50:30,808 [INFO] RECV: stop
+2025-12-26 22:50:30,808 [INFO] RECV: stop
+2025-12-26 22:50:30,808 [INFO] RECV: stop
+2025-12-26 22:50:30,808 [INFO] RECV: stop
+2025-12-26 22:50:30,808 [INFO] RECV: stop
+2025-12-26 22:50:30,815 [INFO] RECV: position fen 4r1k1/p1q2p2/3p2pp/3BB2n/2P3b1/2P1PN2/P4PPP/R2QK2R b KQ - 0 16
+2025-12-26 22:50:30,818 [INFO] RECV: go infinite
+2025-12-26 22:50:30,818 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,303 [INFO] RECV: stop
+2025-12-26 22:50:40,304 [INFO] RECV: position fen 4r1k1/p1q2p2/6pp/3B3n/2P1p1b1/2P1PN2/P4PPP/R2Q1RK1 w - - 0 18
+2025-12-26 22:50:40,306 [INFO] RECV: go infinite
+2025-12-26 22:50:40,306 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:50:51,052 [INFO] RECV: stop
+2025-12-26 22:50:51,053 [INFO] RECV: position fen 4r1k1/p1q2p2/6pp/7n/2P1B1b1/2P1PN2/P4PPP/R2Q1RK1 b - - 0 18
+2025-12-26 22:50:51,056 [INFO] RECV: go infinite
+2025-12-26 22:50:51,056 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:51:03,581 [INFO] RECV: stop
+2025-12-26 22:51:03,581 [INFO] RECV: stop
+2025-12-26 22:51:03,582 [INFO] RECV: stop
+2025-12-26 22:51:03,582 [INFO] RECV: stop
+2025-12-26 22:51:03,582 [INFO] RECV: stop
+2025-12-26 22:51:03,582 [INFO] RECV: stop
+2025-12-26 22:51:03,585 [INFO] RECV: stop
+2025-12-26 22:51:03,585 [INFO] RECV: position fen 4r1k1/p1q2p2/6pp/7n/2P1B1b1/2P1PN2/P4PPP/R2Q1RK1 b - - 0 18
+2025-12-26 22:51:03,587 [INFO] RECV: go infinite
+2025-12-26 22:51:03,587 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,748 [INFO] RECV: stop
+2025-12-26 22:51:17,749 [INFO] RECV: stop
+2025-12-26 22:51:17,749 [INFO] RECV: stop
+2025-12-26 22:51:17,752 [INFO] RECV: position fen 6k1/p1q2p2/6pp/8/2P1rPb1/2P2N2/P4PPP/R2Q1RK1 w - - 0 20
+2025-12-26 22:51:17,754 [INFO] RECV: go infinite
+2025-12-26 22:51:17,754 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:51:25,991 [INFO] RECV: stop
+2025-12-26 22:51:25,991 [INFO] RECV: stop
+2025-12-26 22:51:25,991 [INFO] RECV: stop
+2025-12-26 22:51:25,991 [INFO] RECV: stop
+2025-12-26 22:51:25,991 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: stop
+2025-12-26 22:51:25,994 [INFO] RECV: position fen 6k1/pq3p2/6pp/8/2P1rP2/2P2N1P/P4P2/R2Q1RK1 w - - 1 22
+2025-12-26 22:51:25,997 [INFO] RECV: go infinite
+2025-12-26 22:51:25,997 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:51:33,035 [INFO] RECV: stop
+2025-12-26 22:51:33,035 [INFO] RECV: stop
+2025-12-26 22:51:33,035 [INFO] RECV: stop
+2025-12-26 22:51:33,035 [INFO] RECV: stop
+2025-12-26 22:51:33,035 [INFO] RECV: stop
+2025-12-26 22:51:33,035 [INFO] RECV: stop
+2025-12-26 22:51:33,036 [INFO] RECV: stop
+2025-12-26 22:51:33,036 [INFO] RECV: stop
+2025-12-26 22:51:33,036 [INFO] RECV: stop
+2025-12-26 22:51:33,038 [INFO] RECV: position fen 6k1/p3qp2/6pp/8/2P1rP2/2P2N1P/P4P2/1R1Q1RK1 w - - 3 23
+2025-12-26 22:51:33,040 [INFO] RECV: go infinite
+2025-12-26 22:51:33,040 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,154 [INFO] RECV: stop
+2025-12-26 22:51:45,743 [INFO] RECV: stop
+2025-12-26 22:51:45,744 [INFO] RECV: position fen 6k1/p4p2/5qpp/8/2P1rP2/2P2N1P/P4P2/1R1QR1K1 w - - 5 24
+2025-12-26 22:51:45,757 [INFO] RECV: go infinite
+2025-12-26 22:51:45,757 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:51:58,680 [INFO] RECV: stop
+2025-12-26 22:51:58,680 [INFO] RECV: stop
+2025-12-26 22:51:58,680 [INFO] RECV: stop
+2025-12-26 22:51:58,680 [INFO] RECV: stop
+2025-12-26 22:51:58,680 [INFO] RECV: stop
+2025-12-26 22:51:58,680 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,681 [INFO] RECV: stop
+2025-12-26 22:51:58,684 [INFO] RECV: position fen 6k1/p4p2/4R1pp/8/2P2P2/2P2N1P/P4P2/1R1Q2K1 b - - 0 25
+2025-12-26 22:51:58,685 [INFO] RECV: go infinite
+2025-12-26 22:51:58,685 [INFO] GO: side_to_move=black infinite
+2025-12-26 22:52:01,800 [INFO] RECV: stop
+2025-12-26 22:52:01,800 [INFO] RECV: stop
+2025-12-26 22:52:01,800 [INFO] RECV: stop
+2025-12-26 22:52:01,800 [INFO] RECV: stop
+2025-12-26 22:52:01,800 [INFO] RECV: stop
+2025-12-26 22:52:01,800 [INFO] RECV: stop
+2025-12-26 22:52:01,801 [INFO] RECV: position fen 4R3/p4p2/6pk/7p/2PQ1P2/2P2N1P/P4P2/1R4K1 w - - 4 28
+2025-12-26 22:52:01,804 [INFO] RECV: go infinite
+2025-12-26 22:52:01,804 [INFO] GO: side_to_move=white infinite
+2025-12-26 22:52:14,483 [INFO] RECV: stop
+2025-12-26 22:52:14,484 [INFO] RECV: stop
+2025-12-26 22:52:14,484 [INFO] RECV: stop
+2025-12-26 22:52:14,484 [INFO] RECV: stop
+2025-12-26 22:52:14,484 [INFO] RECV: stop
+2025-12-26 22:52:14,484 [INFO] RECV: stop

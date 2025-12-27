@@ -1,0 +1,293 @@
+game_id,transcript,result,player_one,player_two,player_one_time,player_two_time,player_one_score,player_two_score,player_one_illegal_moves,player_two_illegal_moves,player_one_legal_moves,player_two_legal_moves,player_one_resignation,player_two_resignation,player_one_failed_to_find_legal_move,player_two_failed_to_find_legal_move,game_title,number_of_moves,time_taken,total_moves,illegal_moves
+1765852767-9787,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Rb8 6. Be3 d6 7. Bc4 Nf6",*,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.5,0.5,0,0,7,7,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,8,4.281988859176636,7,0
+1765853018-5724,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 d5 4. exd5 Nxd5 5. Nxd5 Qxd5 6. d3 Nc6 7. Be2 f6 8. O-O Bg4 9. h3 Bf5 10. Nh4 Bc8 11. Bf3 Qb5 12. Bxc6+ bxc6 13. Nf3 Be6 14. c4 Qb7 15. b3 c5 16. Be3 O-O-O 17. Qc2 g5 18. Rad1 g4 19. hxg4 h5 20. gxh5 a5 21. Nh2 f5 22. Bg5 Rd4 23. Bf6 Rg8 24. Bxe5 Qxg2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,24,24,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,25,19.49164080619812,24,0
+1765853179-7138,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 a5 3. Nf3 g6 4. Bc4 d5 5. exd5 b5 6. Bd3 cxd5 7. Bxb5+ Bd7 8. Bxd7+ Nxd7 9. O-O e6 10. Re1 Ngf6 11. Bg5 h6 12. Bh4 Bb4 13. c3 Bf8 14. Ne5 Qc7 15. Nxd7 Nxd7 16. Bg3 Qb6 17. Qc2 Be7 18. Nd2 O-O 19. Nf3 a4 20. Ne5 Nxe5 21. Bxe5 Rfe8 22. Qd2 Bd6 23. Bxd6 Ra7 24. Bc5 Qb8 25. Bxa7 Qb7 26. Bc5 Qc8 27. Qxh6 e5 28. Rxe5 Qc6 29. Rxe8+ Qxe8 30. h3 f6 31. Qf4 Kg7 32. Qc7+ Kh6 33. Qf4+ g5 34. Qxf6+ Kh7 35. Qxg5 Qg6 36. Qxg6+ Kxg6 37. Re1 Kf5 38. Re5+ Kf4 39. Rxd5 a3 40. Bxa3 Ke4 41. Re5+ Kd3 42. h4 Kd2 43. h5 Kc1 44. h6 Kb1 45. h7 Kxa2 46. h8=Q Kb1 47. Qh7+ Kc1 48. Re1+ Kd2 49. Qh6+ Kxe1 50. Qe3+ Kd1 51. Qd3+ Ke1 52. Qf1+ Kd2 53. Bb4 Kc2 54. Qe2+ Kb3 55. Qd1+ Kxb2 56. Qd2+ Kb3 57. Qd1+ Kb2 58. Qd2+ Ka1 59. Qc1+ Ka2 60. Qc2+ Ka1 61. Qc1+ Ka2 62. Qc2+ Ka1 63. Qc1+ Ka2 64. Qc2+ Ka1 65. Qc1+ Ka2 66. Qc2+ Ka1 67. Qc1+",1/2-1/2,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1/2,1/2,0,0,67,67,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,67,161.868590593338,67,0
+1765853227-9871,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 d5 4. exd5 Bd6 5. d3 h6 6. Be2 c6 7. dxc6 Nxc6 8. O-O Be6 9. Ne4 O-O 10. Nxd6 Nb4 11. Ne4 Rc8 12. Nxf6+ Qxf6 13. c3 Nc6 14. Be3 Rfd8 15. Qc2 Bf5 16. Rad1 b5 17. Qb3 Be6 18. Qxb5 Qg6 19. Nh4 a6 20. Nxg6 axb5 21. Nh4 f5 22. Bc5 f4 23. d4 g5 24. Nf3 g4 25. Nxe5 Bxa2 26. Nxc6 Rd5 27. Ne7+ Kf7 28. Nxd5 Rxc5 29. dxc5 f3 30. gxf3 Bxd5 31. Rxd5 b4 32. cxb4 Kg8 33. Rd7 gxf3 34. Bxf3 Kh8 35. Re1 h5 36. Re8#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,36,36,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,36,47.712329387664795,36,0
+1765853280-8191,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 a6 5. Ng5 f6 6. Nf7 Qe7 7. Nxh8 Be6 8. Bxe6 Qxe6 9. Qh5+ Kd7 10. Qxh7 Kd8 11. Ng6 Qg4 12. O-O Nce7 13. Nxf8 Nh6 14. Bxh6 gxh6 15. Qxh6 Ke8 16. Qxf6 c6 17. Ne6 Ng8 18. Qf8+ Kd7 19. Qxa8 c5 20. Qxb7+ Ke8 21. Nc7+ Ke7 22. Nd5+ Ke6 23. Qc8+ Kf7 24. Qxg4 Nh6 25. Qh5+ Ke6 26. Qxh6+ Kd7 27. Nb6+ Kd8 28. Qxd6+ Ke8 29. Qxe5+ Kf7 30. Qxc5 Kg7 31. Qc6 Kg8 32. Qc7 Kf8 33. Nd5 Kg8 34. Nf6+ Kf8 35. Nh7+ Ke8 36. Nc3 a5 37. Nd5 a4 38. Ndf6#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,38,38,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,38,52.76282453536987,38,0
+1765853336-9263,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 e6 3. Nf3 d5 4. e5 Qc7 5. Bd3 Ne7 6. O-O a6 7. c3 Nd7 8. Bg5 a5 9. Nbd2 b6 10. Re1 Ba6 11. Bxa6 h6 12. Bxe7 g5 13. Bxf8 Kxf8 14. Bd3 Rd8 15. Nf1 g4 16. Nh4 c5 17. Qxg4 h5 18. Qg5 a4 19. Ng6+ Ke8 20. Nxh8 a3 21. bxa3 Rc8 22. Qg8+ Nf8 23. Nxf7 Qxf7 24. Qxf7+ Kd8 25. Qxf8+ Kc7 26. Qd6+ Kb7 27. Qxe6 Rh8 28. Qxd5+ Kc8 29. Bf5+ Kb8 30. Qd6+ Kb7 31. Qd7+ Kb8 32. Qd6+ Ka7 33. Qc7+ Ka6 34. Bd3+ b5 35. Qc6+ Ka7 36. Qxb5 Rh6 37. Qxc5+ Kb8 38. Rab1+ Ka8 39. Qc8+ Ka7 40. Qb7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,40,40,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,40,56.314695596694946,40,0
+1765853481-8837,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Qb6 5. Nf3 Nc6 6. Be2 Nh6 7. O-O Bd7 8. a3 cxd4 9. cxd4 Na5 10. b4 Nc4 11. Nbd2 Nf5 12. Nxc4 dxc4 13. Bxc4 Rc8 14. Bb3 Ne7 15. Be3 Qc6 16. Rc1 Qa6 17. Rxc8+ Bxc8 18. Qc2 Bd7 19. Rc1 h6 20. Qc4 Qxc4 21. Bxc4 b5 22. Bb3 Kd8 23. Nd2 Nf5 24. Ne4 Rg8 25. Nc5 Kc7 26. Nxd7+ Kxd7 27. d5 g5 28. dxe6+ fxe6 29. Bxa7 Ne7 30. Bc5 Nd5 31. Bxd5 exd5 32. Bxf8 Rxf8 33. Rc5 d4 34. Rd5+ Kc6 35. Rxd4 Rf5 36. Re4 Rf8 37. e6 Ra8 38. e7 Re8 39. Re6+ Kc7 40. Rxh6 Rxe7 41. g3 g4 42. Rg6 Re1+ 43. Kg2 Ra1 44. Rxg4 Ra2 45. Rg5 Kd7 46. Rxb5 Kc6 47. Ra5 Rd2 48. h4 Rd5 49. Rxd5 Kxd5 50. h5 Ke6 51. h6 Kf7 52. b5 Ke6 53. b6 Kd5 54. b7 Kc4 55. b8=Q Kc3 56. Qb4+ Kd3 57. a4 Ke2 58. a5 Kd3 59. a6 Ke2 60. a7 Kd3 61. a8=Q Ke2 62. Qaa3 Kd1 63. Qbb2 Ke1 64. Qaa1#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,64,64,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,64,145.21001291275024,64,0
+1765853569-8015,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 a6 3. d4 e6 4. d5 Nf6 5. Nc3 d6 6. Bg5 Be7 7. Bc4 b5 8. Be2 h6 9. Bxf6 Bxf6 10. O-O Qc7 11. Re1 O-O 12. Bd3 Nd7 13. dxe6 fxe6 14. Qe2 c4 15. e5 Nxe5 16. Nxe5 Bxe5 17. Be4 Rb8 18. Qh5 b4 19. Ne2 Qf7 20. Qxf7+ Kxf7 21. Rab1 Kf6 22. Ng3 Ke7 23. Re3 g5 24. Rf3 d5 25. Bg6 a5 26. Rxf8 Kxf8 27. Nh5 Bd4 28. c3 Bc5 29. Re1 bxc3 30. bxc3 Rb2 31. Rf1 Rxa2 32. Nf6 Rb2 33. Nh7+ Ke7 34. h3 Bd7 35. Kh2 Bb6 36. f4 Bc7 37. Kg3 a4 38. Kg4 gxf4 39. Rxf4 Bxf4 40. Kxf4 Rxg2 41. Kf3 Rxg6 42. Nf6 Kxf6 43. Ke3 Ke7 44. Kd4 a3 45. Kc5 a2 46. Kb6 a1=Q 47. Kc7 Qa7#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,3,0,46,47,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,48,87.64368844032288,47,0
+1765853607-2469,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Bd6 6. d3 O-O 7. Nc3 h6 8. Nge4 Nxe4 9. dxe4 Nd7 10. O-O f5 11. exf5 Nf6 12. Bd3 Re8 13. Ne4 Nxe4 14. Bxe4 a5 15. Qg4 Qf6 16. Be3 a4 17. a3 b5 18. Rad1 Re7 19. Rd3 b4 20. axb4 Rf7 21. Ra3 Bxb4 22. Ra2 Bd6 23. c4 Bxf5 24. Bxf5 Kh8 25. Be6 Re7 26. c5 Rb8 27. cxd6 cxd6 28. Rxa4 Rxb2 29. Ra8+ Qf8 30. Rxf8+ Kh7 31. Bf5+ g6 32. Qxg6+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,32,32,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,32,38.01140308380127,32,0
+1765853692-8889,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Qc7 3. d4 e6 4. d5 d6 5. c4 Nf6 6. Nc3 e5 7. Bd3 a6 8. O-O b6 9. a4 Nbd7 10. Bg5 Be7 11. Nh4 Ng8 12. Bxe7 Nxe7 13. f4 Qd8 14. f5 Bb7 15. Qg4 g6 16. f6 Nc8 17. Qg5 h6 18. Qg3 Na7 19. Nf5 Qxf6 20. Nxd6+ Qxd6 21. Rf2 Qe7 22. Raf1 O-O 23. Qh3 Nc8 24. Qxh6 f6 25. Qxg6+ Qg7 26. Qf5 Qe7 27. Rf3 Kf7 28. Rg3 Rg8 29. Rxg8 Kxg8 30. Rf3 Nd6 31. Rg3+ Kf8 32. Qh5 Nf7 33. Qh7 Ng5 34. Qh8+ Kf7 35. Qh5+ Kg7 36. h4 Qf7 37. Qg4 Nf8 38. hxg5 Ng6 39. gxf6+ Qxf6 40. Qd7+ Kf8 41. Qxb7 Qh4 42. Qxa8+ Ke7 43. Qb7+ Kd8 44. Rxg6 Qe1+ 45. Bf1 Qe3+ 46. Kh1 Qf3 47. Rg8+ Qf8 48. Rxf8#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,48,48,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,48,85.31298208236694,48,0
+1765853753-7586,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 c5 3. d5 exd5 4. exd5 h6 5. Nf3 Nf6 6. Bc4 Qe7+ 7. Be3 d6 8. O-O g5 9. Re1 Bg7 10. Bxc5 Ne4 11. Bd4 Kf8 12. Bxg7+ Kxg7 13. Nc3 Nxc3 14. Rxe7 Nxd1 15. Rxd1 Rd8 16. Rde1 a6 17. Re8 Nc6 18. dxc6 Rxe8 19. Rxe8 bxc6 20. Re7 Bg4 21. Rxf7+ Kg6 22. Rc7 Rc8 23. Rxc8 Kf6 24. Rxc6 Bxf3 25. gxf3 Ke5 26. Rxa6 h5 27. Ra5+ d5 28. Rxd5+ Ke6 29. Rxg5+ Kf6 30. Rxh5 Ke7 31. Rh6 Kf8 32. Rh7 Ke8 33. Ra7 Kd8 34. h4 Kc8 35. h5 Kb8 36. Rh7 Kc8 37. h6 Kb8 38. Rg7 Ka8 39. h7 Kb8 40. h8=Q#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,40,40,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,40,60.670998334884644,40,0
+1765853774-2024,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 a6 2. d4 e6 3. Nf3 Nc6 4. Nc3 h6 5. Bc4 Nf6 6. O-O d6 7. d5 Ne5 8. Nxe5 exd5 9. Nxd5 Nxd5 10. Bxd5 Qf6 11. Nxf7 Rg8 12. Nxd6+ cxd6 13. Bxg8 Bh3 14. gxh3 Qh4 15. Qf3 Kd8 16. Qg3 Qxe4 17. Bf4 Qc6 18. Rad1 g5 19. Bxd6 Bg7 20. Bf8+ Ke8 21. Bxg7 Qc5 22. Rfe1+ Qe5 23. Rxe5+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,23,23,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,23,21.12686538696289,23,0
+1765853860-6042,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Nxd5 Qxd5 5. Nf3 Bf5 6. d3 e6 7. Be2 Be7 8. O-O c5 9. c4 Qd8 10. Bf4 O-O 11. Ne5 g5 12. Bg3 f6 13. Nf3 Bg6 14. h3 Nc6 15. Nh2 f5 16. f4 Bd6 17. Qd2 gxf4 18. Bxf4 Bxf4 19. Qxf4 Kg7 20. Rad1 Qf6 21. b3 Rad8 22. Nf3 e5 23. Qg3 Rfe8 24. Nh4 f4 25. Qg4 Nd4 26. Nxg6 hxg6 27. Bf3 b6 28. Be4 Kh6 29. Rf2 Qg5 30. Qxg5+ Kxg5 31. Rdf1 Nf5 32. Bxf5 gxf5 33. Rd1 Rd4 34. Rfd2 Red8 35. Kf2 e4 36. Ke2 e3 37. Rc2 Kf6 38. Rc3 Ke5 39. a3 Rg8 40. Rg1 Rg3 41. b4 Rd8 42. bxc5 bxc5 43. Rb3 Rdg8 44. Rb7 a6 45. Re7+ Kd6 46. Ra7 Rxg2+ 47. Rxg2 Rxg2+ 48. Kf3 Rf2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,48,48,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,49,85.91120290756226,48,0
+1765853932-7808,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Qe7 3. Bc4 c5 4. d3 h6 5. Nc3 Nc6 6. Nd5 Qd6 7. O-O Na5 8. Bb5 Ne7 9. Nxe7 Bxe7 10. Bd2 a6 11. Bxa5 axb5 12. Bc3 Bf6 13. a3 O-O 14. b4 b6 15. bxc5 bxc5 16. Qb1 Qe6 17. Qxb5 Qd6 18. Qc4 Ba6 19. Qd5 Qe7 20. Rfb1 Rfd8 21. Ba5 Rdc8 22. Bb6 c4 23. dxc4 Rab8 24. Ba7 Ra8 25. Be3 Qe8 26. Rb6 Rxc4 27. Rxa6 Rac8 28. Ra7 Rc3 29. Rxd7 Qf8 30. Rd1 Be7 31. Nxe5 Rxa3 32. Ng6 Bb4 33. Nxf8 Be7 34. Rxe7 Kh8 35. Rxf7 Rxc2 36. Rd7 Rca2 37. Rd8 Ra5 38. Ng6+ Kh7 39. Qg8+ Kxg6 40. R8d6+ Kh5 41. Qxg7 Rg5 42. Qxh6+ Kg4 43. Qxg5#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,43,43,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,43,71.49843144416809,43,0
+1765853942-4302,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Qe7 5. Nxf7 Rg8 6. Ng5 d6 7. Bxg8 Nxg8 8. Nxh7 Qh4 9. Nxf8 Qxe4+ 10. Qe2 Qxg2 11. Rf1 Nd4 12. Qh5+ Kxf8 13. c3 Bh3 14. Qd1 Qe4+ 15. Qe2 Qxe2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,15,15,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,16,10.873701810836792,15,0
+1765854188-9915,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nc6 4. d3 h6 5. Nc3 Be7 6. Nd5 Nf6 7. Nxe7 Nxe7 8. O-O c5 9. Be3 b6 10. c3 O-O 11. d4 cxd4 12. cxd4 exd4 13. Bxd4 Nxe4 14. Qd3 Nc5 15. Bxc5 Bf5 16. Qd4 bxc5 17. Qd2 Qc7 18. Rad1 Rad8 19. Nh4 Bh7 20. Qf4 Nc6 21. Nf5 Bxf5 22. Qxf5 Ne5 23. Bd5 Rb8 24. b3 Nd7 25. Be4 g6 26. Qh3 Nf6 27. Bd5 h5 28. Qf3 Nxd5 29. Rxd5 Qc6 30. Rfd1 Rb6 31. Qf6 Re8 32. h3 Re6 33. Qd8+ Re8 34. Qf6 Re6 35. Qd8+ Kg7 36. Qg5 Qe8 37. Qd2 Re2 38. Qc3+ Kh7 39. Rxd6 Qe4 40. Rxb6 axb6 41. Rd7 Qf5 42. Qg3 Qxd7 43. Qf3 Re1+ 44. Kh2 b5 45. Qc3 Rd1 46. Qxc5 Qd6+ 47. Qxd6 Rxd6 48. Kg3 h4+ 49. Kxh4 Rd4+ 50. Kg3 Rb4 51. Kf3 f6 52. Ke3 Kh6 53. Kd3 g5 54. Kc3 Re4 55. Kd3 Re1 56. Kd2 Re6 57. Kd3 Re5 58. Kd4 Kg6 59. Kd3 Kg7 60. Kd4 Kf7 61. Kd3 Kf8 62. Kd4 Re1 63. Kd3 b4 64. Kc4 Re2 65. Kxb4 Rxa2 66. Kc3 Ra6 67. b4 Ke8 68. Kc4 Ra3 69. b5 Ra1 70. Kc5 Kd7 71. b6 Re1 72. Kb5 Rb1+ 73. Ka6 Rb2 74. b7 Kc6 75. Ka7 Rxb7+ 76. Ka6 Rb8 77. Ka7 Rb4 78. Ka6 Ra4#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,78,78,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,79,245.09726691246033,78,0
+1765854398-4052,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Be7 4. d4 Nf6 5. dxe5 Nxe4 6. exd6 Qxd6 7. Qxd6 cxd6 8. O-O Nf6 9. Re1 Nc6 10. Bg5 Be6 11. Bxe6 fxe6 12. Rxe6 O-O-O 13. Nc3 Kd7 14. Rae1 Rde8 15. Bxf6 Bxf6 16. Rxe8 Rxe8 17. Rxe8 Kxe8 18. Nd5 Bxb2 19. Ng5 h6 20. Ne6 Nd4 21. Nxg7+ Kd8 22. Nf5 Nxf5 23. g4 Nh4 24. f4 Bh8 25. Kf2 Kc8 26. Kg3 Ng6 27. f5 Ne5 28. Kf4 Nf7 29. h4 Bb2 30. g5 hxg5+ 31. hxg5 Bc1+ 32. Kg4 Nxg5 33. f6 Nh7 34. Kf5 b5 35. Kg6 Nxf6 36. Kxf6 Kd7 37. Kf5 Ba3 38. Ke4 Kc6 39. Kd4 a6 40. c4 Bc5+ 41. Kc3 Bg1 42. Nb4+ Kb6 43. cxb5 axb5 44. Nd5+ Kc5 45. Nc7 b4+ 46. Kb3 Bf2 47. Ne6+ Kd5 48. Nf4+ Ke4 49. Ne2 Kf3 50. Nc1 Bd4 51. Kxb4 Be3 52. Nd3 Ba7 53. a4 d5 54. a5 Ke4 55. Nc5+ Ke3 56. Nb7 Bb8 57. a6 Kd3 58. Nc5+ Kd2 59. Nd7 Ba7 60. Ne5 Ke2 61. Nc6 Bg1 62. a7 Bxa7 63. Nxa7 d4 64. Nb5 d3 65. Nc3+ Kd2 66. Kc4 Ke3 67. Nd1+ Ke2 68. Kc3 Kxd1 69. Kxd3",1/2-1/2,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1/2,1/2,0,0,69,69,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,69,210.0495584011078,69,0
+1765854418-2580,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 Na5 5. Bb3 c5 6. Ng5 f5 7. Nf7 Qh4 8. Nxh8 Nf6 9. Nf7 c4 10. Bxc4 Nxc4 11. dxc4 Qxe4+ 12. Be3 Qxg2 13. Rf1 f4 14. Nxd6+ Bxd6 15. Qxd6 Bg4 16. Qxe5+ Kf7 17. Qxf4 h6 18. Nc3 g5 19. Qc7+ Kf8 20. Bc5+ Ke8 21. Qe7+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,21,21,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,21,20.493396282196045,21,0
+1765854448-9449,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 Ng4 5. exd6 cxd6 6. Bb5+ Bd7 7. Bxd7+ Qxd7 8. Nf3 Nf6 9. O-O h6 10. e5 Nh7 11. exd6 Ng5 12. Nxg5 Na6 13. Re1+ Be7 14. Rxe7+ Kd8 15. Rxd7+ Kxd7 16. Nxf7 Ke8 17. Nxh8 Rd8 18. Qe2+ Kf8 19. Qe7+ Kg8 20. Qxd8+ Kh7 21. Nf7 Nc5 22. Qh8+ Kg6 23. Ne5+ Kh5 24. Qxg7 b5 25. Qxh6+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,25,25,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,25,29.401707887649536,25,0
+1765854539-2185,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 e6 3. d4 Be7 4. d5 Nf6 5. d6 Bxd6 6. Qxd6 Nxe4 7. Qe5 d5 8. Qxg7 Rf8 9. Bh6 Nd7 10. Qxh7 Ndf6 11. Qg7 Rg8 12. Qxg8+ Nxg8 13. Bf4 Qb6 14. b3 f6 15. Bd3 Qb4+ 16. Nbd2 e5 17. Be3 Ne7 18. O-O Nc3 19. a3 Qa5 20. b4 Qd8 21. Bxc5 Be6 22. Bb5+ Bd7 23. Bxd7+ Kxd7 24. Rfe1 b6 25. Bxe7 Qxe7 26. Nb3 Rc8 27. Nfd4 Qg7 28. Nf5 Qg6 29. Ng3 Qh7 30. Rac1 d4 31. Ne4 Qg7 32. Nxc3 Qh6 33. Ne4 Qf4 34. Ng3 Rc3 35. Ne2 Qg4 36. Nxc3 dxc3 37. Rcd1+ Kc6 38. Rd3 Kb5 39. Rxc3 f5 40. Rxe5+ Ka6 41. Ree3 Qd1+ 42.",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,5,0,41,42,False,False,True,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,42,91.92200493812561,42,0
+1765854691-8002,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Be6 5. Bxe6 fxe6 6. d4 Nc6 7. dxe5 h6 8. exd6 a6 9. dxc7 Qxc7 10. O-O Bc5 11. Nc3 Nf6 12. Re1 Nd7 13. Be3 Rd8 14. Bxc5 Nxc5 15. Qe2 b5 16. Rad1 Rxd1 17. Rxd1 O-O 18. e5 Rf5 19. Rd6 Nxe5 20. Nxe5 Qxd6 21. Nf3 Rf7 22. Ne4 Qc7 23. Nxc5 Qxc5 24. Qxe6 Qf5 25. Qxa6 Kh7 26. Qc6 Rf6 27. Qc3 Qd5 28. Qd3+ Qxd3 29. cxd3 Ra6 30. a3 Rc6 31. Nd4 Rc5 32. Kf1 b4 33. axb4 Re5 34. b5 Kh8 35. b6 Re7 36. Nc6 Rd7 37. b7 Rxb7 38. Ne5 Rb3 39. Nf7+ Kg8 40. Ne5 Rxb2 41. d4 h5 42. d5 Kf8 43. d6 g5 44. d7 Ke7 45. Nc6+ Kxd7 46. Ne5+ Ke6 47. Nf3 g4 48. hxg4 Kf6 49. gxh5 Rb1+ 50. Ke2 Kf5 51. h6 Kg6 52. h7 Rb2+ 53. Ke3 Kg7 54. Ng5 Ra2 55. f4 Kh8 56. f5 Rxg2 57. Kf4 Rg1 58. f6 Rg4+ 59. Kxg4",1/2-1/2,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1/2,1/2,0,0,59,59,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,59,151.14787197113037,59,0
+1765854720-5391,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Qe7 5. Nxf7 Na5 6. Nxh8 d5 7. exd5 Bg4 8. f3 Qc5 9. fxg4 Nxc4 10. d3 Ne4 11. dxe4 Ne3 12. Bxe3 Qxe3+ 13. Qe2 Qc1+ 14. Qd1 Qe3+ 15. Qe2 Qb6 16. Nc3 Bb4 17. Qf3 Qh6 18. Qf7+ Kd8 19. Qg8+ Ke7 20. Qxa8 Qe3+ 21. Kd1 b5 22. Qxa7 Qxa7 23. Nxb5 Qb6 24. a4 Qe3 25. Nxc7 Qd2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,25,25,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,26,29.14200234413147,25,0
+1765854770-3255,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. d4 exd4 5. Nxd4 Nf6 6. Nc3 Ne5 7. Bb3 O-O 8. O-O d6 9. f4 Neg4 10. h3 c5 11. Nf3 b5 12. hxg4 Bxg4 13. Nd5 c4 14. Nxf6+ gxf6 15. Bxc4 bxc4 16. Qd5 f5 17. exf5 Re8 18. Nd4 Bf6 19. c3 h5 20. Qxc4 d5 21. Qd3 Qb6 22. Kh1 Kh7 23. Be3 Rab8 24. b3 Re4 25. Rae1 Rc8 26. Nc2 Rxc3 27. Bxb6 axb6 28. Qxd5 Rxe1 29. Qxf7+ Kh8 30. Rxe1 Be5 31. Rxe5 Rh3+ 32. gxh3 Bf3+ 33. Kh2 Bd5 34. Re8+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,34,34,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,34,50.4783251285553,34,0
+1765854848-5077,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 d6 4. Bc4 Bg4 5. h3 Bxf3 6. Qxf3 Nbd7 7. d3 Nc5 8. Bg5 Rb8 9. Bxf6 Qxf6 10. Qxf6 gxf6 11. O-O Bh6 12. Nd5 O-O 13. Nxf6+ Kg7 14. Nd5 Ne6 15. Nxc7 Nxc7 16. Rad1 Rfd8 17. d4 Rbc8 18. dxe5 dxe5 19. Rxd8 Rxd8 20. Re1 b5 21. Bb3 a5 22. a4 Rd2 23. axb5 Nxb5 24. Ba4 Nd6 25. b3 Rd4 26. c4 Nc8 27. c5 Kf6 28. c6 Bd2 29. Rd1 Ke7 30. c7 Kd6 31. Bb5 Kxc7 32. Ba6 Ne7 33. Bc4 f6 34. f3 h5 35. g4 hxg4 36. hxg4 Bf4 37. Rxd4 Be3+ 38. Kg2 Bxd4 39. Kg3 Ng6 40. Bf7 Nf4 41. Bc4 Bc3 42. Kh4 Be1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,42,42,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,43,78.27322578430176,42,0
+1765854886-1983,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bd6 4. Bc4 Qe7 5. d3 Bb4 6. Bd2 Bxc3 7. Bxc3 O-O 8. Nxe5 a5 9. O-O Ne8 10. Qg4 d5 11. Qg3 dxc4 12. Nxc4 a4 13. a3 f6 14. Rfe1 Na6 15. e5 Qd8 16. exf6 Rf7 17. fxg7 b5 18. Ne5 Re7 19. Nc6 Rxe1+ 20. Rxe1 b4 21. Nxd8 Bd7 22. Ne6 Bc6 23. Nd4 Bxg2 24. Qxg2 Rd8 25. Ne6 Nc5 26. Nxd8 Ne4 27. Rxe4 Nf6 28. Re8+ Nxe8 29. Qd5+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,29,29,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,29,37.126492500305176,29,0
+1765854921-1137,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 d6 3. Nc3 Nd7 4. Nf3 e5 5. Bc4 Be7 6. O-O b5 7. Bb3 a5 8. a4 exd4 9. Nxd4 Ne5 10. f4 Ng4 11. Nxc6 Bb7 12. Nxd8 Kxd8 13. Qxg4 bxa4 14. Qxg7 axb3 15. Qxh8 Kc7 16. cxb3 Nf6 17. Qg7 Rg8 18. Qxf7 Kd7 19. e5 Rxg2+ 20. Kh1 Rf2+ 21. Kg1 Rc2 22. exf6 Rg2+ 23. Kh1 h5 24. Qxe7+ Kc8 25. Qe8+ Kc7 26. Nb5+ Kb6 27. Be3+ Ka6 28. Nc7+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,28,28,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,28,35.026461601257324,28,0
+1765854953-2085,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 e6 3. Nf3 Be7 4. Bd3 c5 5. c3 h6 6. O-O a6 7. Be3 Qc7 8. Nbd2 cxd4 9. cxd4 b5 10. Rc1 Nc6 11. d5 exd5 12. exd5 Ne5 13. Rxc7 d6 14. Nxe5 Bh3 15. gxh3 h5 16. Nc6 Rc8 17. Rxc8+ Kd7 18. Ra8 Rh6 19. Bxh6 Nxh6 20. Ra7+ Kc8 21. Rxe7 g6 22. Qe2 Ng8 23. Re8+ Kd7 24. Rxg8 h4 25. Rg7 g5 26. Rxf7+ Kc8 27. Qe8+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,27,27,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,27,32.09526205062866,27,0
+1765855197-5250,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d5 2. exd5 c6 3. dxc6 Nxc6 4. Nf3 Bg4 5. Be2 Nf6 6. O-O e6 7. d3 Bd6 8. Nc3 h6 9. h3 Bh5 10. Ne4 Be7 11. Nxf6+ Bxf6 12. c3 Qc7 13. d4 Rc8 14. Be3 O-O 15. Nd2 Bxe2 16. Qxe2 Rfe8 17. Ne4 Qe7 18. Nxf6+ Qxf6 19. Rad1 Red8 20. Qg4 b6 21. Rfe1 b5 22. a3 a6 23. Bf4 Rd5 24. Be5 Nxe5 25. dxe5 Rxe5 26. Rxe5 Qxe5 27. Qd4 Qe2 28. Rd2 Qc4 29. Qxc4 bxc4 30. Rd6 Rb8 31. Rxa6 Rxb2 32. Ra8+ Kh7 33. a4 h5 34. a5 g6 35. a6 Rc2 36. a7 Ra2 37. Kf1 e5 38. Ke1 h4 39. Kd1 Kg7 40. Kc1 Kf6 41. Kb1 Ra6 42. Kb2 Kf5 43. Rf8 Rxa7 44. Rc8 Rb7+ 45. Kc2 Ra7 46. Rxc4 Ra2+ 47. Kd3 Rxf2 48. Rxh4 Rxg2 49. Rh7 Kf6 50. c4 Ke6 51. Ke4 Re2+ 52. Kd3 Re1 53. Kd2 Re4 54. Kd3 f5 55. Rh6 Kf6 56. Rh8 Kg7 57. Re8 Rd4+ 58. Kc3 Rd7 59. Rxe5 Kf6 60. Re1 Rd8 61. c5 g5 62. Kc4 f4 63. c6 Rc8 64. Kc5 g4 65. hxg4 f3 66. Kd6 Kg5 67. Kd7 Ra8 68. c7 Kf4 69. c8=Q Rxc8 70. Kxc8 Kxg4 71. Kd7 Kh4 72. Ke6 Kg3 73. Ke5 f2 74. Rf1 Kg2 75. Rxf2+ Kxf2",1/2-1/2,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1/2,1/2,0,0,75,75,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,76,244.27958607673645,75,0
+1765855230-4606,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d6 2. d4 g6 3. Nc3 Nd7 4. Be3 Bg7 5. Qd2 Ngf6 6. f3 c6 7. O-O-O Nh5 8. g4 Qa5 9. gxh5 b5 10. Kb1 h6 11. hxg6 b4 12. Nce2 Kd8 13. gxf7 Qa4 14. Nc1 Rb8 15. Bc4 Bf6 16. Bb3 Qa5 17. Nge2 Rf8 18. Ng3 Kc7 19. Nf5 Nb6 20. Nxh6 Na4 21. Nf5 Bh8 22. Nxe7 Nc3+ 23. bxc3 bxc3 24. Qd3 Be6 25. d5 Bxf7 26. Nxc6 Qa3 27. Qc4 Qb2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,27,27,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,28,32.52503991127014,27,0
+1765855303-1644,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 h6 6. Be3 Nf6 7. Be2 Bb4 8. f3 Qe7 9. O-O d6 10. a3 Bxc3 11. bxc3 e5 12. Nb5 g5 13. Nxd6+ Kf8 14. Bc5 b6 15. Nxc8 Qxc5+ 16. Kh1 Rxc8 17. Qd3 Ne7 18. Rfd1 Kg7 19. Qa6 Qxc3 20. Qxa7 Rc7 21. Qxb6 Rhc8 22. Bd3 Ng6 23. a4 Nf8 24. a5 Ne6 25. a6 Nd7 26. Qb5 Ra7 27. Rab1 Rc6 28. Qb7 Rc7 29. Qb5 Qa3 30. Ra1 Qf8 31. Rdb1 Ra8 32. Qa5 h5 33. Rb7 Rxb7 34. axb7 Rxa5 35. Rxa5 Qb4 36. Ra1 Qb2 37. Rf1 Nb8 38. Rd1 Qb4 39. Ra1 g4 40. Ra8 Qb1+ 41. Bf1 Qxf1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,41,41,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,42,73.03312087059021,41,0
+1765855670-4535,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 d5 3. e5 h6 4. Nf3 Bd7 5. Bd3 c5 6. c3 Nc6 7. O-O Qc7 8. Be3 cxd4 9. cxd4 Nge7 10. Nc3 Na5 11. Rc1 Qd8 12. Nb5 Bxb5 13. Bxb5+ Nac6 14. Qa4 Qd7 15. Rc2 Rd8 16. Rfc1 Rb8 17. Qxa7 Nxa7 18. Bxd7+ Kxd7 19. Rc7+ Ke8 20. b4 Nac6 21. b5 Na5 22. Bd2 Nc4 23. Bb4 Nc8 24. Bxf8 Kxf8 25. a4 g6 26. Ne1 Kg7 27. Nd3 N8b6 28. Nc5 Rhe8 29. Nxb7 Ra8 30. Nc5 Nxa4 31. Nxa4 Rxa4 32. Rb1 Raa8 33. b6 Rab8 34. b7 Nd2 35. Rb2 Ne4 36. f3 Nc3 37. Rxc3 Rf8 38. Rc7 g5 39. Ra2 Rfd8 40. Ra7 Kg6 41. Kf2 Rf8 42. Kg3 h5 43. h4 Rg8 44. hxg5 Kxg5 45. Rxf7 Rge8 46. Rg7+ Kh6 47. Rh7+ Kxh7 48. Kh4 Re7 49. Kxh5 Rc7 50. Kg5 Kg7 51. Ra6 Kf7 52. Ra7 Rcxb7 53. Rxb7+ Rxb7 54. g4 Rb4 55. f4 Rb3 56. f5 Rb4 57. fxe6+ Ke7 58. Kf5 Rb1 59. g5 Re1 60. g6 Rg1 61. g7 Rg2 62. g8=Q Rxg8 63. Kf4 Kxe6 64. Ke3 Rg7 65. Kd3 Rg3+ 66. Kc2 Rg6 67. Kb3 Rg4 68. Kb4 Rxd4+ 69. Kc5 Rf4 70. Kc6 d4 71. Kc7 d3 72. Kd8 Rf8+ 73. Kc7 Kxe5 74. Kc6 d2 75. Kc5 Rd8 76. Kc4 Rf8 77. Kc3 d1=Q 78. Kb2 Qd6 79. Kc3 Rb8 80. Kc4 Qd2 81. Kc5 Qc1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,81,81,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,82,367.0303158760071,81,0
+1765856035-9807,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 e5 5. Nb3 Nf6 6. Nc3 Nc6 7. Bg5 Rb8 8. Bb5 Be7 9. O-O O-O 10. Bxf6 Bxf6 11. Nd5 Bg5 12. c3 f5 13. exf5 a6 14. Bxc6 bxc6 15. Ne3 Bf4 16. Qd3 d5 17. Rad1 e4 18. Qd4 Bxf5 19. Nxf5 Rxf5 20. g3 Bc7 21. Nc5 Qe7 22. Nxa6 Bb6 23. Qb4 Bxf2+ 24. Rxf2 Rxb4 25. Nxb4 Rf7 26. Rdf1 Rf6 27. Rxf6 gxf6 28. Nxc6 Qc7 29. Nd4 Qb6 30. Rf2 Qa6 31. a3 Qd3 32. Kg2 Kg7 33. Nf5+ Kg6 34. Ne7+ Kf7 35. Nf5 Kg6 36. Ne7+ Kh6 37. Nf5+ Kg5 38. Ne7 e3 39. Rf5+ Kh6 40. Rxf6+ Kg7 41. Rf3 Qd2+ 42. Kh3 e2 43. Nf5+ Kg8 44. Ne7+ Kg7 45. Nf5+ Kg8 46. Ne7+ Kg7 47. Nf5+ Kg8 48. Ne7+ Kg7 49. Nf5+ Kh8 50. Ne7 e1=N 51. Rf8+ Kg7 52. Rf4 Qe2 53. Nf5+ Kg6 54. Nh4+ Kh6 55. Rf6+ Kg7 56. Rf4 Nd3 57. Rg4+ Kf8 58. Rf4+ Kg8 59. Rg4+ Kf7 60. Rf4+ Nxf4+ 61. gxf4 h5 62. Kg3 Qg4+ 63. Kf2 Qd1 64. Ke3 d4+ 65. Ke4 Qe1+ 66. Kxd4 Qf2+ 67. Ke4 Qe1+ 68. Kd4 Qxh4 69. Ke4 Qf2 70. Kd3 Qxf4 71. Kc2 Qf5+ 72. Kb3 Kg6 73. Ka2 Kf7 74. Kb3 h4 75. Ka2 Kg6 76. Kb3 Kf7 77. Ka2 Qc2 78. Ka1 h3 79. Ka2 Qg2 80. Kb3 Qc6 81. Ka2 Qg6 82. Kb3 Qg4 83. Ka2 Qc4+ 84. Kb1 Qf4 85. Ka2 Qd6 86. Kb3 Qxh2 87. Ka2 Qc2 88. Ka1 Qf5 89. Ka2 Qe4 90. Ka1 h2",*,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.5,0.5,0,0,90,90,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,91,365.6933605670929,90,0
+1765856080-9147,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 a6 3. Nf3 d5 4. e5 Be7 5. Bd3 c5 6. c3 Bd7 7. O-O Nc6 8. Be3 f6 9. Nbd2 Qc7 10. Rc1 O-O-O 11. a3 fxe5 12. dxe5 c4 13. Bb1 Nh6 14. Bxh6 Kb8 15. Be3 h6 16. b3 Bxa3 17. Rc2 Rhf8 18. bxc4 Be8 19. cxd5 exd5 20. Nd4 Qxe5 21. Nxc6+ Bxc6 22. Nf3 Qe7 23. Re2 Bb5 24. Bf4+ Ka7 25. Rxe7 Bxe7 26. Be3+ Ka8 27. Re1 Rc8 28. Bd4 Rc4 29. Rxe7 Ba4 30. Qe2 Rf4 31. Bd3 Rc8 32. Bxa6 Bd1 33. Bxb7+ Kb8 34. Qb5 Rc5 35. Qxc5 g5 36. Qa7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,36,36,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,36,44.93486309051514,36,0
+1765856376-9224,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 a6 3. Nf3 Be7 4. Bd3 d6 5. O-O c5 6. c3 Nd7 7. Be3 Ngf6 8. h3 Qc7 9. Nbd2 b6 10. Rc1 Bb7 11. Re1 b5 12. Bb1 O-O 13. Qc2 cxd4 14. Bxd4 g6 15. Qd3 e5 16. Be3 d5 17. exd5 Nxd5 18. Bh6 Nc5 19. Qe2 Rfd8 20. Nxe5 Bf6 21. Ng4 Bg7 22. Bxg7 Kxg7 23. Qe5+ Qxe5 24. Nxe5 Rac8 25. Ndf3 f6 26. Ng4 Na4 27. Re2 h5 28. Ne3 Nf4 29. Ree1 Nxb2 30. Nd4 Kh6 31. g3 Nd5 32. Nxd5 Bxd5 33. Re7 Na4 34. Ra7 h4 35. Rxa6 Nxc3 36. Rxf6 Rg8 37. Rb6 Rc4 38. Nxb5 Ne2+ 39. Kf1 Nxg3+ 40. fxg3 Rxc1+ 41. Ke2 Rxb1 42. gxh4 Kh7 43. Rd6 Ba8 44. Nc3 Re8+ 45. Kd2 Rh1 46. Rd7+ Kh6 47. Ra7 Bg2 48. Ne2 Rxh3 49. Nf4 Rd8+ 50. Ke2 Rh2 51. Kf2 Rxh4 52. Nxg2 Rhd4 53. Ne3 Rf8+ 54. Ke2 g5 55. Ra6+ Kg7 56. Ra7+ Kh6 57. Ra6+ Kg7 58. Ra7+ Kg6 59. Ra6+ Rf6 60. Ra8 Kg7 61. Ra7+ Kg8 62. Ra8+ Kh7 63. Ra7+ Kg6 64. Ra8 Kh6 65. Rh8+ Kg7 66. Ra8 Rdf4 67. Ra7+ Kh6 68. Ra8 Rf8 69. Ra6+ Kh5 70. Ra7 Rf2+ 71. Kd3 R2f7 72. Ra5 Rf6 73. Ra7 Rf3 74. Rh7+ Kg6 75. Ra7 Re8 76. Ra6+ Kh5 77. Ra7 Kh6 78. Ra6+ Kh5 79. Ra7 Rexe3+ 80. Kd4 Re8 81. Rh7+ Kg6 82. Ra7 Rf4+ 83. Kd3 Rf2 84. Ra6+ Rf6 85. Ra7 g4 86. Ra8 Rd6+ 87. Kc4 Rxa8 88. Kc5 Rf6 89. Kd5 g3 90. Ke4 Rf2",*,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.5,0.5,0,0,90,90,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,91,296.1627061367035,90,0
+1765856432-5123,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 d5 3. e5 a6 4. Nf3 c5 5. c3 Ne7 6. Bd3 Qc7 7. O-O Nec6 8. Be3 Be7 9. Nbd2 Bd7 10. Rc1 O-O 11. Bb1 Be8 12. Qc2 g6 13. Bh6 a5 14. Bxf8 Bxf8 15. Ng5 h6 16. Ngf3 Qb6 17. Nh4 Be7 18. Nxg6 fxg6 19. Qd3 cxd4 20. cxd4 Nd7 21. Nf3 Qxb2 22. Rc2 Qb6 23. Rfc1 Bf7 24. Qe3 Kg7 25. Qf4 Rf8 26. Qg4 Bd8 27. h4 Ne7 28. h5 Rh8 29. hxg6 Nxg6 30. Nh4 Bxh4 31. g3 Bg5 32. f4 Bd8 33. f5 Nxe5 34. Qf4 exf5 35. Qxf5 Qxd4+ 36. Kg2 Nc4 37. Rf1 Ne3+ 38. Kh3 Rf8 39. Qd7 Nxf1 40. Rf2 Qxf2 41. Qg4+ Qh2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,41,41,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,42,55.477389335632324,41,0
+1765856529-2121,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 e5 6. Nb3 Be6 7. Be3 Be7 8. Be2 h6 9. O-O Qd7 10. f4 Qd8 11. f5 Bd7 12. Nd5 Nf6 13. Nxe7 Qxe7 14. Bf3 a5 15. a4 O-O 16. Qd2 Rfc8 17. Rad1 Nb4 18. c3 Nc6 19. Qxd6 Be8 20. Qxe7 Nxe7 21. Nc5 b5 22. axb5 Rab8 23. c4 Nc6 24. b6 a4 25. Nxa4 Ne7 26. b3 h5 27. Nc5 h4 28. b7 Rc6 29. Ra1 Rc7 30. Ra8 Rcxb7 31. Nxb7 Rxa8 32. Nd6 Rb8 33. Rb1 Ba4 34. b4 Ne8 35. Nxe8 h3 36. Nd6 Bc2 37. Rb2 Ra8 38. Rxc2 Nc6 39. b5 Ra1+ 40. Kf2 Na5 41. b6 hxg2 42. Bxg2 Nc6 43. b7 f6 44. c5 g5 45. fxg6 Kg7 46. Bh3 Kxg6 47. Bf5+ Kh5 48. Rb2 Nb4 49. Rxb4 Rh1 50. b8=Q Rxh2+ 51. Kg3 Rg2+ 52. Kxg2 Kh4 53. Qh8#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,53,53,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,53,97.24427771568298,53,0
+1765856581-9525,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 Be7 5. Nc3 a6 6. Nd5 Nf6 7. Nxe7 Nxe7 8. Bg5 Nc6 9. Bxf6 Qxf6 10. O-O Bg4 11. h3 Bxf3 12. Qxf3 Qxf3 13. gxf3 Rf8 14. Kh2 Nd4 15. c3 Nxf3+ 16. Kg3 Nd2 17. Rfd1 b5 18. Bd5 Kd7 19. Bxa8 f5 20. Rxd2 b4 21. Bd5 bxc3 22. bxc3 fxe4 23. dxe4 a5 24. Rb1 a4 25. Rb7 Rf6 26. Ra7 Rf8 27. Rxa4 Rb8 28. Ra7 h6 29. Rd3 h5 30. Rf3 g5 31. Rf7+ Kd8 32. Raxc7 Rb1 33. Ra7 Rg1+ 34. Kh2 Rh1+ 35. Kxh1 Kc8 36. Ra8#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,36,36,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,36,52.3059024810791,36,0
+1765856677-6357,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 Nc6 2. Nf3 e5 3. Bc4 a6 4. d3 h6 5. Nc3 Na5 6. Bb3 Nc6 7. Be3 Bb4 8. Qd2 Nf6 9. a3 Ba5 10. O-O O-O 11. Bxh6 gxh6 12. Qxh6 Ng4 13. Qg6+ Kh8 14. Qxg4 Bxc3 15. bxc3 f5 16. exf5 Rb8 17. Qh5+ Kg7 18. Qg6+ Kh8 19. Ng5 e4 20. Nf7+ Rxf7 21. Bxf7 Qf8 22. Qh5+ Kg7 23. Qg6+ Kh8 24. Qh5+ Kg7 25. Bg6 Qf6 26. Qh7+ Kf8 27. dxe4 d6 28. Rad1 b6 29. Rd3 Qg7 30. Qh5 Ke7 31. Rg3 Bb7 32. Qg5+ Qf6 33. Qh6 Rh8 34. Qe3 Kd8 35. Rd1 Kc8 36. Qd3 Ne7 37. Qc4 Kb8 38. a4 Nc6 39. Qd5 Rh4 40. Qg8+ Qd8 41. Qxd8+ Nxd8 42. Re1 Rh8 43. e5 Rh4 44. e6 Ka7 45. e7 Rf4 46. exd8=Q Rxf2 47. Kxf2 c6 48. Qc7 c5 49. Re7 d5 50. Qxb7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,50,50,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,50,95.06438446044922,50,0
+1765856761-9295,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 b6 3. Nc3 d5 4. e5 Ne7 5. Nf3 c5 6. Be3 Nec6 7. Bb5 Ba6 8. O-O Bxb5 9. Nxb5 h6 10. c3 Qd7 11. a4 Be7 12. Qd2 cxd4 13. cxd4 a6 14. Nc3 Na5 15. Qc2 O-O 16. Nd2 Nbc6 17. f4 Rad8 18. f5 exf5 19. Rxf5 Nb4 20. Qb1 Ra8 21. Rf3 Nac6 22. Rg3 Kh8 23. Nf3 Nd8 24. Qc1 Kh7 25. Ne2 Rc8 26. Qd2 Ne6 27. Nf4 a5 28. Nh5 f5 29. exf6 Bxf6 30. Ne5 Bxe5 31. dxe5 Rf5 32. Bxb6 Rxh5 33. Bxa5 Qa7+ 34. Kh1 Qxa5 35. Qd3+ Nxd3 36. Rxd3 Rh4 37. Rad1 Rf8 38. h3 d4 39. b3 Qxe5 40. R3d2 Rf5 41. Rd3 Ng5 42. R3d2 Nxh3 43. gxh3 Rxh3+ 44. Kg1 Rg5+ 45. Kf1 Rh1+ 46. Kf2 Qe3#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,46,46,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,47,84.8086941242218,46,0
+1765856835-5460,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 e6 3. d4 Be7 4. d5 d6 5. c4 Bf6 6. Nc3 Bd7 7. Bd3 h6 8. O-O Bxc3 9. bxc3 e5 10. Be3 Bg4 11. h3 Bc8 12. Nh2 Ne7 13. f4 Ng6 14. f5 Nf4 15. Bxf4 exf4 16. Rxf4 Nd7 17. Qg4 O-O 18. Raf1 b5 19. cxb5 f6 20. c4 Qa5 21. Qe2 Qc3 22. Rg4 Rd8 23. Rg3 Qe5 24. Rg4 Qd4+ 25. Kh1 Re8 26. Rf3 a6 27. Rfg3 Re7 28. Qd2 Ne5 29. Rh4 Nxd3 30. Rxd3 Qa1+ 31. Nf1 axb5 32. Rg3 Kf8 33. Rxh6 gxh6 34. Qxh6+ Ke8 35. Rg8+ Kd7 36. Qxf6 Qxf6 37. Rg6 Qh8 38. Ng3 Qf8 39. Nh5 b4 40. Nf6+ Qxf6 41. Rxf6 Rxa2 42. Re6 Rxe6 43. fxe6+ Kc7 44. g4 b3 45. g5 b2 46. g6 b1=R#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,46,46,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,47,74.08473205566406,46,0
+1765856884-5863,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 a6 3. Nf3 h6 4. Bc4 d5 5. exd5 b5 6. Bb3 Bb4+ 7. c3 Be7 8. dxe6 Bxe6 9. Bxe6 g5 10. Bb3 c5 11. dxc5 Nf6 12. Qxd8+ Kxd8 13. O-O Nbd7 14. Rd1 Ne4 15. Bxf7 Rf8 16. Bd5 Bxc5 17. Bxa8 Nxf2 18. Rd5 Ng4+ 19. Kf1 Kc7 20. Bxg5 hxg5 21. Rxg5 Nde5 22. Rg7+ Kb8 23. Be4 Re8 24. Nxe5 Nxh2+ 25. Ke2 Ng4 26. Nd7+ Ka7 27. Nxc5+ Kb6 28. Nd7+ Kc7 29. Nf6+ Kd8 30. Nxe8 a5 31. Rxg4 Kxe8 32. Rg7 b4 33. cxb4 Kd8 34. bxa5 Kc8 35. a6 Kd8 36. a7 Kc8 37. a8=Q#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,37,37,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,37,49.09489178657532,37,0
+1765856950-1966,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 e5 5. Nb3 a6 6. Nc3 Nf6 7. Bg5 Be7 8. Bxf6 Bxf6 9. Nd5 O-O 10. Be2 Be7 11. O-O Nc6 12. c3 Be6 13. Nxe7+ Qxe7 14. Qd2 Rad8 15. Rad1 b5 16. Qe3 h6 17. Qb6 Qd7 18. Qxa6 Ne7 19. Qxb5 Qxb5 20. Bxb5 Ng6 21. g3 Bh3 22. Rfe1 Be6 23. Na5 Rb8 24. a4 Bd7 25. Bxd7 Ne7 26. b4 f5 27. exf5 h5 28. Be6+ Rf7 29. Bxf7+ Kxf7 30. Rxd6 Nxf5 31. Rd7+ Ke6 32. Ra7 Rc8 33. Ra6+ Kd7 34. Rxe5 Nh4 35. Ra7+ Kd6 36. Ree7 Rc7 37. Raxc7 g5 38. Red7+ Ke6 39. Re7+ Kd5 40. Rcd7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,40,40,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,40,65.91268062591553,40,0
+1765857000-3980,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 c5 3. d5 d6 4. c4 h6 5. Nc3 g6 6. Bd3 Nf6 7. Nge2 exd5 8. exd5 Na6 9. a3 Qe7 10. O-O Nc7 11. Re1 Bd7 12. Nf4 Ng4 13. Rxe7+ Kxe7 14. Qe2+ Kd8 15. h3 g5 16. hxg4 Bc8 17. Nh5 b5 18. cxb5 f5 19. gxf5 c4 20. Bxc4 Bxf5 21. Be3 Rg8 22. Nf6 Na6 23. Nxg8 Nc5 24. Bxc5 dxc5 25. Nf6 Be7 26. Nfe4 Bg4 27. Qxg4 h5 28. Qxh5 Rc8 29. Qh8+ Bf8 30. Qxf8+ Kc7 31. Qxc5+ Kb8 32. Qd6+ Ka8 33. Qd7 a5 34. Qxc8+ Ka7 35. Qc7+ Ka8 36. b6 g4 37. Qa7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1,0,0,0,37,37,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,37,50.027698278427124,37,0
+1765857079-2964,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 e6 6. Be3 Nd7 7. Be2 Ngf6 8. O-O h6 9. f4 Be7 10. Bf3 Nb6 11. Qe2 O-O 12. Rad1 Qc7 13. g4 Nc4 14. Bc1 Nh7 15. b3 Ne5 16. Bg2 Qxc3 17. fxe5 dxe5 18. Nf3 Rd8 19. Bd2 Qxc2 20. Nxe5 Ng5 21. h4 Qc5+ 22. Be3 Qxe5 23. hxg5 Bxg5 24. Rxd8+ Bxd8 25. Qf3 Bf6 26. Bf4 Qb5 27. e5 Bh4 28. Bxh6 f6 29. exf6 gxh6 30. f7+ Kf8 31. Qc3 e5 32. Qc7 Be7 33. Rf5 Bxf5 34. gxf5 Rd8 35. Qc3 Qe2 36. Qg3 Bc5+ 37. Kh2 Qh5+ 38. Bh3 Rd2+ 39. Kh1 Qd1+ 40. Bf1 Qxf1+ 41. Qg1 Qh3+ 42. Qh2 Qf1+ 43. Qg1 Qf3+ 44. Qg2 Qh5+ 45. Qh2 Qd1+ 46. Qg1 Qxg1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,46,46,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,47,78.84258127212524,46,0
+1765857442-7467,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 a6 3. d4 Nf6 4. e5 Nd5 5. c4 Nb6 6. d5 e6 7. d6 h6 8. Bd3 g5 9. O-O Nc6 10. Nc3 Rg8 11. Ne4 Rg6 12. Nxc5 Rg8 13. Bh7 Nxc4 14. Bxg8 N4xe5 15. Nxe5 Nxe5 16. Qh5 Bg7 17. Bxf7+ Kf8 18. Bxe6 dxe6 19. Nxe6+ Bxe6 20. Be3 Qe8 21. Qe2 Qb5 22. Qxb5 axb5 23. Rac1 Nc6 24. Rfd1 Bxb2 25. Rc2 Be5 26. d7 Ke7 27. Bc5+ Kf6 28. Rcd2 Kf7 29. d8=Q Nxd8 30. Rxd8 Rxd8 31. Rxd8 g4 32. Rf8+ Kg6 33. Re8 Kf6 34. Re7 b6 35. Rb7 bxc5 36. Rxb5 Bd4 37. Rb6 h5 38. a4 Kf5 39. a5 Bd5 40. a6 c4 41. Rb5 Ke5 42. Rxd5+ Kxd5 43. a7 Bxa7 44. Kf1 c3 45. Ke2 Kd4 46. Kd1 Bb6 47. Kc2 Kc4 48. f3 gxf3 49. gxf3 Bc5 50. f4 Ba7 51. f5 Bd4 52. f6 Bxf6 53. h3 Bd4 54. h4 Bf6 55. Kc1 Kd4 56. Kc2 Be5 57. Kc1 Bg3 58. Kc2 Bxh4 59. Kc1 Kd3 60. Kd1 c2+ 61. Kc1 Bd8 62. Kb2 Bg5 63. Kb3 c1=Q 64. Kb4 h4 65. Kb5 Qc4+ 66. Kb6 h3 67. Kb7 Qc5 68. Ka6 Qc4+ 69. Kb7 Be3 70. Kb8 h2 71. Kb7 h1=Q+ 72. Kb8 Bc1 73. Ka7 Be3+ 74. Kb8 Bf4+ 75. Ka7 Qb3 76. Ka6 Qa8#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0,1,0,0,76,76,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,77,213.19166493415833,76,0
+1765857650-8321,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Bg4 5. Be2 g6 6. O-O Bg7 7. d3 Nc6 8. Ne4 Qd7 9. c3 Nf6 10. Nc5 Qf5 11. Nxb7 Rb8 12. Nc5 Qxc5 13. d4 Qd6 14. h3 Bxf3 15. Bxf3 h6 16. Qa4 O-O 17. Bxc6 Rb6 18. Bf3 Nd5 19. Qxa7 Bxd4 20. cxd4 Rfb8 21. Bxd5 Rxb2 22. Bxb2 Rxb2 23. Qa8+ Kg7 24. Rab1 Rd2 25. Rb8 Rxf2 26. Rg8+ Kf6 27. Rxf2+ Qf4 28. Rxf4+ Kg5 29. Rxf7 e6 30. Bxe6 c5 31. dxc5 Kh5 32. c6 Kg5 33. c7 h5 34. c8=Q h4 35. Qc5+ Kh6 36. Rh7# Kxh7 37. Qaa7+ Kh6 38. Qe3+ g5 39. Qa6 Kh7 40. Qxg5",1/2-1/2,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,-10000000000.0,-10000000000.0,4,0,38,40,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,40,75.42890620231628,40,0
+1765858002-8284,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 cxd4 5. Qxd4 d6 6. Nc3 Nf6 7. Bg5 a6 8. O-O-O e5 9. Qd2 Be6 10. f4 Qa5 11. f5 Bd7 12. Bxf6 gxf6 13. Nd5 Qd8 14. g4 Bc6 15. Bc4 Rg8 16. h3 h5 17. Rhg1 Rc8 18. Bb3 Bxd5 19. Qxd5 Qd7 20. Qd3 Ke7 21. Kb1 Bh6 22. Qd5 Rgf8 23. Rd3 Qc6 24. Rgd1 hxg4 25. hxg4 b5 26. Qxc6 Rxc6 27. Bd5 Rc7 28. Ra3 Rg8 29. Rxa6 Be3 30. Rd3 Bc5 31. Rb3 Bd4 32. Rxb5 Rxg4 33. a4 Rf4 34. Rb3 Rg4 35. Ra8 Kd7 36. Rf8 Rxc2 37. Rxf7+ Kd8 38. Rb8+ Rc8 39. Rf8+ Kd7 40. Be6+ Kc7 41. Rbxc8+ Kb7 42. Rb8+ Ka6 43. Ra8+ Kb7 44. Rfb8+ Kc6 45. Bd5+ Kc7 46. Rc8+ Kd7 47. Ra7+ Kxc8 48. Ra8+ Kd7 49. Ra7+ Bxa7 50. Ka2 Rg1 51. Kb3 Be3 52. Kc4 Ra1 53. Kb5 Bf2 54. b4 Be3 55. a5 Kc7 56. a6 Bd4 57. Kc4 Bf2 58. b5 Bd4 59. Kb4 Ba7 60. Kc4 Rb1 61. Kc3 Rxb5 62. Kc4 Kb6 63. Kc3 Ra5 64. Kc4 Rb5 65. Kc3 Kxa6 66. Kc4 Rb1 67. Kc3 Rc1+ 68. Kb3 Bd4 69. Ka2 Ba7 70. Kb3 Rd1 71. Ka2 Bg1 72. Kb3 Rxd5 73. Ka2 Rd1 74. Kb3 Rd4 75. Ka2 Rc4 76. Kb3 Kb5 77. Ka2 Rc6 78. Kb3 Bd4 79. Ka2 Ka4 80. Kb1 Kb5 81. Ka2 Rc7 82. Kb1 Kc4 83. Ka2 Rh7 84. Kb1 Ra7 85. Kc2 Bc3 86. Kd1 Ba5 87. Ke2 Ra8 88. Kf3 Rh8 89. Kg4 Ra8 90. Kh5 Kd4",*,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.5,0.5,0,0,90,90,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,91,351.4342083930969,90,0
+1765858055-8366,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Nxd4 d6 5. Nc3 Nf6 6. Be3 Bd7 7. f3 e6 8. Qd2 Be7 9. O-O-O h5 10. h3 Qc7 11. g4 g6 12. g5 Nh7 13. h4 b5 14. f4 Nc6 15. Bg2 Rc8 16. Kb1 Na5 17. f5 b4 18. Nce2 e5 19. Nb3 Nxb3 20. cxb3 O-O 21. Rc1 Qb7 22. f6 Bxf6 23. gxf6 Nxf6 24. Bg5 Nxe4 25. Bxe4 Qxe4+ 26. Ka1 Rxc1+ 27. Rxc1 f6 28. Bh6 Rc8 29. Rxc8+ Bxc8 30. Ng3 Qf3 31. Ne2 Kh7 32. Be3 d5 33. Bc5 a5 34. Bb6 Bg4 35. Nc1 Qe4 36. Bxa5 Bf5 37. Bxb4 Qb1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,37,37,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,38,52.72998094558716,37,0
+1765858152-1238,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 d6 7. Bc4 Nf6 8. f3 Bd7 9. Qd2 Rc8 10. Bb3 a6 11. O-O-O Na5 12. Kb1 h5 13. h3 Qc7 14. g4 Nc4 15. Bxc4 Qxc4 16. g5 Nh7 17. f4 b5 18. f5 Bc6 19. fxg6 fxg6 20. Rhf1 Bb7 21. Nd5 Rf8 22. Rxf8+ Nxf8 23. Nb6 Qc7 24. Nxc8 Bxc8 25. Qc3 Qxc3 26. bxc3 Bb7 27. Rf1 e5 28. Nb3 Bxe4 29. Rd1 Ke7 30. Nd2 Ba8 31. c4 Bg2 32. cxb5 axb5 33. h4 Bc6 34. c4 Ke6 35. cxb5 Bd7 36. b6 d5 37. b7 Bb5 38. b8=Q Nd7 39. Qxb5 Ke7 40. Qxd5 Nf6 41. Bc5+ Ke8 42. Qe6# Kd8 43. Qe7+ Kc8 44. gxf6 Bf8 45. Qxf8+ Kc7 46. Qd6+ Kc8 47. f7 g5 48. f8=Q+ Kb7 49. Qfe7+ Ka8 50. Qdd8#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,50,50,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,50,96.9184639453888,50,0
+1765858187-9000,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. dxe5 Ng4 5. exd6 Qh4 6. g3 Qd8 7. dxc7 Qxc7 8. Bf4 Qc6 9. Bb5 Qxb5 10. Nxb5 Nxf2 11. Kxf2 Bc5+ 12. Kg2 Bxg1 13. Rxg1 Na6 14. Nd6+ Ke7 15. Nxc8+ Raxc8 16. Qd6+ Ke8 17. Rad1 Rxc2+ 18. Kh1 f6 19. Qd7+ Kf8 20. Qd8+ Kf7 21. Qxh8 Nc7 22. Rd7+ Ke6 23. Rxc7 Rxc7 24. Bxc7 Kd7 25. Qd8+ Ke6 26. Rd1 Kf7 27. Qd7+ Kf8 28. Bd6+ Kg8 29. Qe8+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,29,29,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,29,35.73337912559509,29,0
+1765858204-5030,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d6 2. d4 c6 3. Nc3 Nf6 4. f4 e6 5. Nf3 Be7 6. Bd3 Na6 7. O-O Nb4 8. Be2 c5 9. a3 Nc6 10. d5 Nd4 11. Nxd4 cxd4 12. Qxd4 h6 13. Bb5+ Bd7 14. Bxd7+ Nxd7 15. Qxg7 Qb6+ 16. Kh1 Bf6 17. Qg3 Bxc3 18. Qxc3 Qb5 19. Qxh8+ Ke7 20. Qxa8 Qxf1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,20,20,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,21,16.987743377685547,20,0
+1765858303-4634,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 Be7 3. Nc3 d5 4. e5 c5 5. f4 Bd7 6. Nf3 Qb6 7. Be3 Nh6 8. Be2 Nf5 9. Bf2 Qxb2 10. Na4 Bxa4 11. Rb1 Qxc2 12. Qxc2 Bxc2 13. Rxb7 c4 14. O-O Be4 15. Ng5 Bd8 16. Nxf7 O-O 17. Nxd8 Rxd8 18. g4 Nh6 19. Bh4 Rd7 20. Rxd7 Nxd7 21. f5 Kf7 22. fxe6+ Kxe6 23. g5 Rg8 24. gxh6 gxh6+ 25. Bg3 a5 26. Kf2 Rf8+ 27. Ke3 Rg8 28. Rb1 Bxb1 29. Bf3 c3 30. Bd1 Nf8 31. Bb3 Rg6 32. Be1 h5 33. Bxc3 Rg1 34. Bxa5 Be4 35. Bb4 Ng6 36. Bd6 Ra1 37. a4 Rb1 38. Bd1 Rxd1 39. a5 Ra1 40. Bc7 Kd7 41. Bb6 Ra2 42. h4 Ke6 43. Bc7 Bb1 44. Bb6 Be4 45. Bc7 Kf5 46. Bb6 Bb1 47. Bc7 Nf4 48. Bd6 h6 49. Bc7 Kg4 50. Bd6 Ng2#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,50,50,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,51,99.03034949302673,50,0
+1765858371-9861,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 cxd4 5. Qxd4 a6 6. Nc3 h6 7. Bc4 d6 8. O-O e6 9. Be3 Bd7 10. Rad1 Nf6 11. f4 Bc6 12. e5 Ng4 13. exd6 Qxd6 14. Qxd6 Nxe3 15. Qd3 h5 16. Qxe3 g5 17. fxg5 b6 18. Bxe6 Bc5 19. Bxf7+ Kf8 20. Bd5+ Kg7 21. Bxc6 Ra7 22. Qxc5 bxc5 23. Rd7+ Rxd7 24. Bxd7 h4 25. Ne4 Ra8 26. Nxc5 Re8 27. Bxe8 Kh7 28. Rf7+ Kg8 29. Ra7 Kh8 30. Rxa6 Kh7 31. Rh6+ Kg7 32. Rxh4 Kg8 33. Rf4 Kh8 34. g6 Kg8 35. Rf7 Kh8 36. g7+ Kh7 37. g8=Q+ Kxg8 38. a4 Kh8 39. a5 Kg8 40. a6 Kh8 41. a7 Kg8 42. a8=Q Kh8 43. Bb5#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,43,43,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,43,68.09871506690979,43,0
+1765858441-1801,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 d5 3. e5 c5 4. c3 e6 5. Nf3 Qb6 6. Bd3 h6 7. O-O Bd7 8. a3 Na6 9. b4 cxd4 10. cxd4 Qd8 11. Nc3 Nc7 12. Be3 Ne7 13. Rc1 Nf5 14. Bxf5 exf5 15. Qb3 Be6 16. Na4 Bd7 17. Nc5 Bc6 18. a4 Bxc5 19. bxc5 Rb8 20. Rb1 O-O 21. Qc2 Bd7 22. Rb2 Re8 23. Rfb1 Ne6 24. Rxb7 Rxb7 25. Rxb7 Qc8 26. Rxa7 Nd8 27. Qb3 Nc6 28. Rb7 Na5 29. Qb6 Nxb7 30. a5 Kh7 31. a6 Bc6 32. a7 Re6 33. Nh4 Nd8 34. Nxf5 Qd7 35. Nd6 Re7 36. a8=Q Bxa8 37. Qb8 Bc6 38. Qb1+ g6 39. Qc1 Ne6 40. Bxh6 Nxd4 41. Bg5 Re6 42. Qf4 Nf5 43. Qg4 Rxe5 44. Qh3+ Kg7 45. Bf4 Re1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,45,45,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,46,69.50552678108215,45,0
+1765858481-6516,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Qe7 3. Bc4 a6 4. d3 Nf6 5. Ng5 h6 6. Nxf7 Rg8 7. Nxe5 d5 8. Bxd5 g5 9. Bxg8 Bg7 10. Ng6 Qd6 11. e5 Qb6 12. exf6 Be6 13. fxg7 Bxg8 14. Qe2+ Kf7 15. Ne5+ Kxg7 16. Nc4 Bxc4 17. dxc4 Nd7 18. O-O Qf6 19. Nc3 Qxc3 20. bxc3 Nb6 21. Qe7+ Kg8 22. Qxc7 Rc8 23. Qxb6 a5 24. Qxb7 Rd8 25. Qb6 Rd6 26. Qxd6 Kf7 27. Qxh6 a4 28. Qxg5 a3 29. Bxa3 Ke6 30. Rfe1+ Kd7 31. Rad1+ Kc7 32. Qe7+ Kb6 33. Rd6+ Ka5 34. Qa7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,34,34,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,34,40.37691068649292,34,0
+1765858551-2260,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 d6 3. Nc3 Nd7 4. Nf3 Qc7 5. Bd3 e5 6. O-O Ngf6 7. Bg5 a6 8. a4 exd4 9. Nxd4 g6 10. Qf3 Bg7 11. Rfe1 O-O 12. Rad1 Qb6 13. Nb3 h6 14. Be3 Qc7 15. Bf4 b5 16. axb5 Ne5 17. Bxe5 dxe5 18. bxc6 Rb8 19. Nd5 Qd6 20. Nxf6+ Bxf6 21. Bxa6 Qxc6 22. Bxc8 Rfxc8 23. Rd2 Bg5 24. Rde2 Qa8 25. g3 Rb6 26. h4 Rf6 27. Qd3 Bxh4 28. gxh4 Qb7 29. Qg3 Rf8 30. Qxe5 Rc6 31. Nd4 Rc4 32. c3 Rc5 33. Qf4 Ra8 34. Qxh6 Re5 35. Qf4 Raa5 36. Nf3 Rh5 37. Ng5 Qe7 38. e5 Ra2 39. e6 Kg7 40. exf7 Qxg5+ 41. Qxg5 Rxh4 42. Qxh4 g5 43. Qxg5+ Kxf7 44. Re7+ Kf8 45. Qg7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,45,45,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,45,69.45889520645142,45,0
+1765858752-7659,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 Nf6 2. e5 d5 3. exf6 Nc6 4. fxg7 Bxg7 5. Nf3 Bg4 6. Be2 Qd7 7. O-O Rg8 8. d4 Bxd4 9. Nxd4 Nxd4 10. Bxg4 Rxg4 11. Be3 h5 12. Bxd4 Rxg2+ 13. Kxg2 O-O-O 14. Kh1 Qf5 15. Rg1 Qf4 16. Qd2 Qxd4 17. Qxd4 e5 18. Qxe5 h4 19. Qf5+ Kb8 20. Qxf7 a6 21. Rg8 Rxg8 22. Qxg8+ Ka7 23. Qxd5 b5 24. Qd4+ Kb8 25. Qxh4 Kb7 26. Qh7 b4 27. Qxc7+ Ka8 28. Qb7+ Kxb7 29. c3 b3 30. axb3 Ka7 31. Rxa6+ Kxa6 32. c4 Ka5 33. c5 Ka6 34. c6 Ka5 35. c7 Ka6 36. c8=Q+ Ka5 37. Qc5+ Ka6 38. Qb6+ Kxb6 39. b4 Kb5 40. Nc3+ Kc6 41. Nd5 Kxd5 42. b5 Ke4 43. b6 Kf3 44. b7 Kxf2 45. b8=Q Ke2 46. Qg3 Kd2 47. Qg2+ Ke3 48. h3 Kd4 49. h4 Ke5 50. h5 Kf6 51. h6 Kf7 52. h7 Ke6 53. h8=Q Ke7 54. Qhh3 Kf7 55. Qhf3+ Ke7 56. Qge2+ Kd8 57. Qfd3+ Kc8 58. Qec2+ Kb8 59. Qdb3+ Ka7 60. Qcc3 Ka8 61. Qa3+ Kb8 62. Qcb3+ Kc8 63. Qbb4 Kd8 64. Qac3 Ke8 65. Qbc4 Kf8 66. Q4d4 Kf7 67. Qce3 Kf8 68. Qdf4+ Kg7 69. Qeg3+ Kh7 70. Qfh4#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,8,0,67,70,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,70,200.81795978546143,70,0
+1765858907-9461,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 g6 3. Nc3 d6 4. Be3 Nf6 5. f3 Nbd7 6. Qd2 b5 7. O-O-O Qa5 8. Kb1 Nb6 9. Nce2 Qxd2 10. Rxd2 a5 11. Nc1 Bg7 12. g4 Nc4 13. Bxc4 bxc4 14. Nge2 Nd7 15. h4 f5 16. gxf5 Nb6 17. fxg6 O-O 18. gxh7+ Kxh7 19. f4 c3 20. Nxc3 Nc4 21. Re2 a4 22. Nd3 Bh8 23. Rg1 Rb8 24. Kc1 Nxe3 25. Rxe3 Bxd4 26. Rgg3 Rg8 27. Rxg8 Bxe3+ 28. Kd1 Kxg8 29. Ke2 Ba7 30. Kf3 Kh7 31. e5 a3 32. b3 d5 33. Ne2 c5 34. Ng3 Kg7 35. f5 c4 36. Nf4 cxb3 37. cxb3 Bb6 38. Nxd5 Bc5 39. Ke4 Kf8 40. Ne2 Bf2 41. h5 Rb5 42. Nef4 Ba7 43. Ne6+ Bxe6 44. fxe6 Bg1 45. Nc7 Rb7 46. Nd5 Kg7 47. Kf5 Bc5 48. Nf4 Rb8 49. Ng6 Kh7 50. Nf4 Kh6 51. Nd5 Kh7 52. Nf4 Rd8 53. Ng6 Rd2 54. Nf8+ Kg8 55. Nd7 Rxa2 56. Nxc5 Rf2+ 57. Kg6 a2 58. Nd7 a1=Q 59. Nf6+ Kh8 60. Ng4 Qg1 61. Kg5 Kh7 62. h6 Rg2 63. Kf5 Qb1+ 64. Kf4 Qf1+ 65. Ke4 Qb1+ 66. Kf4 Qf1+ 67. Ke4 Rxg4+ 68. Kd5 Qb5#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,68,68,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,69,155.8527410030365,68,0
+1765858958-9281,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d3 d6 5. Bd2 c5 6. a3 Ba5 7. Be2 h6 8. O-O Be6 9. Nb5 Bc7 10. Nxc7+ Qxc7 11. c4 Nc6 12. b4 Nd7 13. b5 Ncb8 14. a4 a5 15. bxa6 b6 16. a5 O-O 17. axb6 Nxb6 18. Ba5 Nc6 19. Bxb6 Qxb6 20. Qb1 Qc7 21. Qb7 Qxb7 22. axb7 Ra5 23. Rxa5 Nxa5 24. Ra1 Nb3 25. Ra8 Rxa8 26. bxa8=Q+ Bc8 27. Qxc8+ Kh7 28. Qd7 Nc1 29. Qxf7 d5 30. exd5 Kh8 31. Nxe5 Nxe2+ 32. Kf1 Ng3+ 33. hxg3 Kh7 34. Qg6+ Kg8 35. d6 Kh8 36. d7 Kg8 37. d8=Q#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,37,37,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,37,50.66865372657776,37,0
+1765859071-7825,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 b5 6. Be3 Nf6 7. f3 Bb7 8. Qd2 d6 9. O-O-O Qc7 10. g4 b4 11. Nce2 Bg7 12. h4 h5 13. g5 Nh7 14. Nf4 Nc6 15. Nd5 Qd8 16. Nxc6 Bxc6 17. Bb6 b3 18. Bxd8 bxa2 19. Qa5 Bxd5 20. exd5 a1=Q+ 21. Qxa1 Nxg5 22. hxg5 a5 23. Bb5+ Kf8 24. Bb6 f5 25. Qa4 Be5 26. Bd4 Rh6 27. Bxe5 h4 28. Bf4 Rh7 29. Be3 Rh8 30. Bd4 Kf7 31. Bxh8 Rxh8 32. Qxa5 Ra8 33. Qxa8 f4 34. Qe8+ Kg7 35. Qxe7+ Kg8 36. Qf6 h3 37. Rxh3",1/2-1/2,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,-10000000000.0,-10000000000.0,4,0,36,37,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,37,56.48904347419739,37,0
+1765859180-1858,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 d5 4. exd5 Nxd5 5. Nxd5 Qxd5 6. d3 f6 7. Be2 Be6 8. O-O Nc6 9. c4 Qd7 10. Be3 Bf7 11. a3 a5 12. Qc2 f5 13. Rad1 Be7 14. d4 e4 15. Ne5 Nxe5 16. dxe5 Qc8 17. f4 a4 18. c5 Be6 19. Bc4 Kf7 20. Bxe6+ Qxe6 21. Qc3 Rad8 22. Rd4 Rxd4 23. Bxd4 Qd5 24. Rd1 h6 25. Qb4 Rd8 26. Qxa4 b6 27. cxb6 cxb6 28. Qc2 Kg8 29. Qc3 g5 30. g3 Bc5 31. Qe3 Kh7 32. b4 Qxd4 33. Rxd4 Bxd4 34. Qxd4 Rxd4 35. Kf2 Rc4 36. Ke3 Rc3+ 37. Kd4 Rd3+ 38. Kc4 gxf4 39. gxf4 b5+ 40. Kxb5 e3 41. Kc4 Rd2 42. Kc3 Rd8 43. b5 h5 44. a4 e2 45. b6 e1=Q+ 46. Kc4 Rd1 47. Kb5 Qf1+ 48. Kc6 Qc4+ 49. Kb7 Qd3 50. Ka7 Qd7+ 51. b7 Rb1 52. a5 Qxb7#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,52,52,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,53,109.28630948066711,52,0
+1765859255-8051,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3 cxd4 7. cxd4 Bb4+ 8. Nc3 Nxd4 9. Nxd4 Ne7 10. Nf3 d4 11. Nxd4 Nc6 12. Nxc6 Bxc3+ 13. bxc3 O-O 14. Nd4 Qa5 15. Bd2 Qxe5+ 16. Qe2 Qxe2+ 17. Bxe2 Re8 18. O-O g6 19. Bf3 e5 20. Nb3 Bd7 21. Bxb7 Rad8 22. Be3 Bb5 23. Rfd1 f5 24. Rxd8 Rxd8 25. Bxa7 Bc4 26. Bb6 Rd6 27. Bc5 Rd3 28. Bb4 e4 29. Nc5 Rd8 30. a4 Rd2 31. a5 Kh8 32. a6 Kg7 33. a7 Bf1 34. a8=Q Bxg2 35. Kxg2 f4 36. Qe8 Rxf2+ 37. Kxf2 e3+ 38. Kf3 g5 39. Qe7+ Kh6 40. Qf6+ Kh5 41. Qf7+ Kh4 42. Qxh7#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,42,42,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,42,75.47051239013672,42,0
+1765859298-7798,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 Nc6 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qd7 5. Bb5 a6 6. Ba4 b5 7. Bb3 Bb7 8. O-O O-O-O 9. d3 Kb8 10. Be3 e5 11. a4 b4 12. Ne4 Nf6 13. Nc5 Bxc5 14. Bxc5 h5 15. Qe2 Rhe8 16. Rfe1 Nd5 17. Qd2 Nf4 18. Bxb4 Qg4 19. Nh4 Nxb4 20. Qxb4 Ne2+ 21. Kf1 Qxb4 22. Rxe2 Qxh4 23. Bxf7 Rf8 24. Bc4 Qf6 25. Rae1 Ka8 26. b4 g5 27. b5 Bxg2+ 28. Kxg2 e4 29. bxa6 h4 30. Rb1 Qf3+ 31. Kf1 Qh1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,31,31,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,32,42.521331787109375,31,0
+1765861463-6016,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 Be7 3. Nc3 d6 4. Nf3 Nc6 5. Bd3 a6 6. Be3 Nf6 7. Qd2 Nb4 8. O-O-O b5 9. a3 Nxd3+ 10. Qxd3 Ng4 11. h3 Nf6",*,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.5,0.5,0,0,11,11,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,12,7.431511640548706,11,0
+1765861544-9632,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 Nf6 4. d5 Nb8 5. e5 Ng4 6. h3 Nh6 7. Bxh6 Qc7 8. Bf4 h6 9. Bc4 a6 10. a4 b5 11. axb5 Qa7 12. bxa6 Bxa6 13. Bxa6 Nxa6 14. O-O g5 15. Be3 e6 16. d6 Qb7 17. b3 Bg7 18. Nc3 Nb8 19. Rxa8 Qxa8 20. Bxc5 f5 21. exf6 O-O 22. fxg7 Rxf3 23. Qxf3 Nc6 24. Ne4 g4 25. Qxg4 Ne5 26. Nf6+ Kf7 27. Qh5+ Kxg7 28. Qxe5 Qf3 29. Nxd7+ Kh7 30. Qxe6 Qf4 31. Nf6+ Kg7 32. Nh5+ Kh8 33. Nxf4 h5 34. Qf7 h4 35. Ng6#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,35,35,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,35,50.50081825256348,35,0
+1765861750-1405,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 d5 3. exd5 Bg4 4. Be2 Bd6 5. d3 Nf6 6. Nc3 Bh5 7. Bg5 h6 8. Bh4 O-O 9. O-O Na6 10. Ne4 Re8 11. Nxf6+ gxf6 12. Qd2 Bf8 13. c4 c6 14. dxc6 Nc5 15. cxb7 Nxb7 16. Rad1 Nc5 17. b4 Rb8 18. bxc5 Qe7 19. Qe3 Qd8 20. d4 exd4 21. Qxd4 Qc8 22. Bxf6 Rxe2 23. Qh4 Bxf3 24. gxf3 Qe6 25. Qg3+ Kh7 26. Bd4 Rc8 27. Be3 Qxc4 28. Rd4 Qe6 29. Rg4 a5 30. Rg8 f6 31. Rg6 Qf7 32. Rg4 h5 33. Rh4 Bxc5 34. Bxc5 Rg8 35. Qxg8+ Qxg8+ 36. Kh1 Qg6 37. Rg1 Qh6 38. Rhg4 Rc2 39. Rg7+ Qxg7 40. Rxg7+ Kxg7 41. Be3 Rxa2 42. Kg2 a4 43. Kg3 Ra3 44. Kf4 Rb3 45. Ke4 Kf7 46. Kd4 h4 47. Kc4 Ke6 48. Bd4 h3 49. Bc3 Rb1 50. Bd4 a3 51. Bc3 Kf5 52. Bd4 Rb8 53. Bc3 a2 54. Bd4 Rb7 55. Bc3 Rb8 56. Bd4 Rb1 57. Bc3 Rb8 58. Bd4 Rd8 59. Bc3 Rc8+ 60. Kb3 Rxc3+ 61. Kxc3 a1=Q+ 62. Kd3 Kf4 63. Ke2 Qb1 64. Kd2 Kxf3 65. Kc3 Qb8 66. Kd4 Qe5+ 67. Kd3 Qc5 68. Kd2 Qc4 69. Ke1 Qd4 70. Kf1 Qc3 71. Kg1 Qe1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,71,71,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,72,205.87823605537415,71,0
+1765861791-8921,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 Qf6 3. Bc4 Nc6 4. d3 Bc5 5. Bg5 Qg6 6. O-O Be7 7. Bxe7 Ngxe7 8. Nc3 d6 9. Nd5 Nxd5 10. Bxd5 Ne7 11. Bb3 a5 12. a4 h5 13. Nh4 Qf6 14. g3 c6 15. Qf3 Rh6 16. Qxf6 Rxf6 17. f4 Bh3 18. Rf2 Be6 19. Bxe6 Rxe6 20. f5 Rh6 21. Raf1 f6 22. Ng2 O-O-O 23. Ne3 Rhh8 24. h4 Kc7 25. c4 c5 26. Nd5+ Nxd5 27. cxd5 b5 28. axb5 Rdg8 29. Ra1 g5 30. hxg5 Rxg5 31. Kh2 h4 32. gxh4 Rxh4#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,32,32,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,33,40.925562143325806,32,0
+1765861818-5799,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 a6 4. d4 cxd4 5. Nxd4 Qc7 6. Be3 d6 7. Be2 e6 8. O-O Bd7 9. f4 h5 10. Bf3 h4 11. Qe2 e5 12. Nf5 h3 13. g3 exf4 14. Bxf4 Bxf5 15. exf5+ Be7 16. Rfe1 Kf8 17. Nd5 Qb6+ 18. Nxb6 Nc6 19. Nxa8 Nd5 20. Bxd5 g5 21. Bxc6 Rh6 22. Qxe7+ Kg8 23. Bxd6 Kg7 24. Qf8+ Kh7 25. Qxf7+ Kh8 26. Re8+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,26,26,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,26,27.514082670211792,26,0
+1765861906-6000,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c6 2. d4 d6 3. Nc3 Nf6 4. f4 g6 5. Nf3 Nbd7 6. Bd3 Bg7 7. O-O O-O 8. e5 Ne8 9. Ne4 Nb6 10. c3 Bf5 11. Qe2 Qd7 12. Ng3 e6 13. Nxf5 exf5 14. Bd2 Nc7 15. Rae1 Rae8 16. Qf2 Nc8 17. Qh4 Ne7 18. Ng5 h6 19. Nf3 b5 20. Qg3 dxe5 21. fxe5 c5 22. Be3 cxd4 23. cxd4 Ned5 24. Bd2 Rb8 25. Nh4 Ne7 26. Bc3 Ne6 27. Nf3 Rb7 28. Qf2 Rc7 29. Rd1 Rb8 30. a3 Rb6 31. Ba5 Qc6 32. Bxb6 Qxb6 33. Bb1 Rd7 34. Ba2 Nd5 35. Bxd5 Bxe5 36. Bxe6 Rxd4 37. Nxd4 Bxh2+ 38. Kxh2 Qd6+ 39. Kg1 fxe6 40. Nf3 Qe7 41. Qd4 Kf7 42. Qd8 Qc5+ 43. Qd4 Qb6 44. Qxb6 Kg7 45. Rd7+ Kf8 46. Qb8#",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,46,46,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,46,88.22384929656982,46,0
+1765861953-4330,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 d6 2. d4 c6 3. Nc3 e5 4. dxe5 Be6 5. exd6 Nd7 6. Nf3 Qa5 7. Bd2 Qb6 8. Be3 Qa5 9. Bd3 Bg4 10. O-O Bxf3 11. Qxf3 Bxd6 12. Bc4 Ne5 13. Qe2 Nf6 14. Bb3 Neg4 15. h3 Bh2+ 16. Kh1 Qh5 17. f3 Nxe3 18. Qxe3 Bb8 19. f4 a5 20. e5 Ng8 21. a4 Ne7 22. Ne4 O-O 23. Ng3 Ba7 24. Nxh5 Bxe3 25. Rae1 Ba7 26. f5 g6 27. fxg6 hxg6 28. Nf6+ Kh8 29. Rf4 b5 30. Rh4+ Kg7 31. Rh7+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,31,31,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,31,46.81689381599426,31,0
+1765862017-4429,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 a6 4. d4 e6 5. d5 Be7 6. d6 Nxe4 7. dxe7 Qxe7 8. Nxe4 Nc6 9. Nd6+ Qxd6 10. Qxd6 Nd4 11. Nxd4 b6 12. Nf3 f6 13. Be3 g5 14. O-O-O b5 15. Bxc5 Kf7 16. Qe7+ Kg6 17. Bd3+ f5 18. Ne5+ Kh5 19. Be2+ g4 20. h3 a5 21. hxg4+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,1.0,0.0,0,0,21,21,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,21,18.72847032546997,21,0
+1765862586-9079,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 Nf6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 e6 6. Be3 Bd7 7. Be2 a6 8. O-O Be7 9. f4 Nc6 10. Bf3 h6 11. Qe2 O-O 12. Rad1 Nxd4 13. Bxd4 Bc6 14. e5 Bxf3 15. Qxf3 Nd7 16. exd6 Bf6 17. Bxf6 Qa5 18. Be7 Rfb8 19. Qg3 Re8 20. Bh4 Rec8 21. Be7 Rc6 22. Rf3 Qb6+ 23. Kh1 Rac8 24. Rfd3 Qxb2 25. Ne4 f5 26. Nf2 Qxa2 27. R3d2 Rxc2 28. Rxc2 Rxc2 29. Rf1 Qd5 30. Qd3 Rxf2 31. Qxd5 Rxf1#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,31,31,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,32,37.941243410110474,31,0
+1765862613-1669,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Bc5 6. d6 Bxf2+ 7. Kxf2 Qxd6 8. Nxf7 Qd4+ 9. Ke1 Qh4+ 10. g3 Qxc4 11. Nxh8 Qe4+ 12. Qe2 Qxh1+ 13. Qf1 Qe4+ 14. Qe2 Qxc2 15. Na3 Qc6 16. Qxe5+ Kf8 17. d4 Qh1+ 18. Kd2 Nc6 19. Qc5+ Ne7 20. Qxc7 Qg2+ 21. Kc3 Bf5 22. Bg5 Ned5+ 23. Kc4 Qe2+ 24. Kc5 b6+ 25. Kd6 Qe6#",0-1,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Stockfish 1,,0.1,0.0,1.0,0,0,25,25,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Stockfish 1,26,27.16290307044983,25,0

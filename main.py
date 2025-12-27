@@ -847,7 +847,7 @@ player_two_recording_name = os.environ.get(
     "PLAYER_TWO_RECORDING_NAME", "stockfish_level_4_2s"
 )
 if __name__ == "__main__":
-    num_games = 35
+    num_games = 17
     player_one = NanoGptPlayer(
         model_name="lichess_200k_bins_16layers_ckpt_with_optimizer.pt"
     )

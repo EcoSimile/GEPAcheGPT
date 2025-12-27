@@ -1,0 +1,52 @@
+2025-12-01 21:42:38,015 [INFO] RECV: uci
+2025-12-01 21:42:38,015 [INFO] RECV: position startpos moves e2e4 d7d6
+2025-12-01 21:42:38,015 [INFO] Rebuilding from moves: ['e2e4', 'd7d6']
+2025-12-01 21:42:38,016 [INFO] RECV: go
+2025-12-01 21:42:38,090 [INFO] Engine move selected: d2d4 (SAN  d4) with transcript length 61
+2025-12-01 21:42:38,090 [INFO] RECV: quit
+2025-12-01 21:42:38,090 [INFO] Received quit command
+2025-12-01 21:43:48,995 [INFO] RECV: uci
+2025-12-01 21:43:53,960 [INFO] RECV: uci
+2025-12-01 21:43:53,960 [INFO] RECV: isready
+2025-12-01 21:43:53,961 [INFO] RECV: ucinewgame
+2025-12-01 21:43:57,874 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5
+2025-12-01 21:43:57,874 [INFO] Rebuilding from moves: ['c7c5']
+2025-12-01 21:43:57,874 [INFO] RECV: go wtime 299733 winc 0 btime 296695 binc 0
+2025-12-01 21:43:57,951 [INFO] Engine move selected: e7e5 (SAN  e5) with transcript length 58
+2025-12-01 21:50:15,785 [INFO] RECV: uci
+2025-12-01 21:50:15,785 [INFO] RECV: position startpos moves d2d4 d7d6 g1f3 c7c5
+2025-12-01 21:50:15,785 [INFO] Rebuilding from moves: ['d2d4', 'd7d6', 'g1f3', 'c7c5']
+2025-12-01 21:50:15,786 [INFO] RECV: go
+2025-12-01 21:50:15,926 [INFO] Engine move selected: d4c5 (SAN  dxc5) with transcript length 73
+2025-12-01 21:50:15,926 [INFO] RECV: quit
+2025-12-01 21:50:15,926 [INFO] Received quit command
+2025-12-01 21:50:25,837 [INFO] Rebuilding from moves: ['c7c5']
+2025-12-01 21:50:35,743 [INFO] RECV: uci
+2025-12-01 21:50:35,743 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5
+2025-12-01 21:50:35,743 [INFO] Rebuilding from moves: ['c7c5']
+2025-12-01 21:50:35,744 [INFO] RECV: go
+2025-12-01 21:50:36,760 [INFO] RECV: quit
+2025-12-01 21:50:36,760 [INFO] Received quit command
+2025-12-01 21:52:24,630 [INFO] RECV: uci
+2025-12-01 21:52:24,630 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5
+2025-12-01 21:52:24,630 [INFO] Rebuilding from moves: ['c7c5']
+2025-12-01 21:52:24,630 [INFO] RECV: go
+2025-12-01 21:57:38,917 [INFO] RECV: uci
+2025-12-01 22:03:03,339 [INFO] RECV: uci
+2025-12-01 22:03:03,342 [INFO] RECV: isready
+2025-12-01 22:03:03,343 [INFO] RECV: ucinewgame
+2025-12-01 22:03:13,462 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5
+2025-12-01 22:03:13,463 [INFO] Rebuilding from moves: ['c7c5']
+2025-12-01 22:03:13,464 [INFO] RECV: go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-01 22:10:38,888 [INFO] RECV: uci
+2025-12-01 22:10:38,889 [INFO] RECV: position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5
+2025-12-01 22:10:38,890 [INFO] Rebuilding from moves: ['c7c5']
+2025-12-01 22:10:38,890 [INFO] RECV: go
+2025-12-02 14:07:15,333 [INFO] RECV: uci
+2025-12-02 14:07:44,414 [INFO] RECV: uci
+2025-12-02 14:07:44,415 [INFO] RECV: isready
+2025-12-02 14:07:44,415 [INFO] RECV: ucinewgame
+2025-12-02 14:07:57,942 [INFO] RECV: position fen rnbqk2r/ppppppbp/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4 moves c1g5
+2025-12-02 14:07:57,943 [INFO] Rebuilding from moves: ['c1g5']
+2025-12-02 14:07:57,943 [INFO] FEN resume without matching history; building minimal transcript from FEN context
+2025-12-02 14:07:57,944 [INFO] RECV: go wtime 289415 winc 0 btime 299406 binc 0

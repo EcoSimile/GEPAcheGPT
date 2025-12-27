@@ -1,0 +1,1327 @@
+### Failed game 1 (v0.1) ###
+2025-12-02T01:20:42 >>> ucinewgame
+2025-12-02T01:20:53 >>> position fen rnbqkb1r/pp1ppppp/2p2n2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3 moves c1g5
+2025-12-02T01:20:53 >>> go wtime 291647 winc 0 btime 299512 binc 0
+2025-12-02T01:20:54 <<< info string Error parsing move : invalid san: ''
+2025-12-02T01:20:54 <<< info string Error parsing move : invalid san: ''
+2025-12-02T01:20:54 <<< info string Error parsing move : invalid san: ''
+2025-12-02T01:20:54 <<< info string Error parsing move : invalid san: ''
+2025-12-02T01:20:54 <<< info string Error parsing move : invalid san: ''
+2025-12-02T01:20:54 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f43a6f3c6e0> provided illegal moves for 5 attempts.
+2025-12-02T01:20:54 <<< info string model produced illegal moves for 5 attempts
+2025-12-02T01:20:54 <<< bestmove 0000
+2025-12-02T01:21:32 >>> uci
+2025-12-02T01:21:32 <<< id name ChessGPT Logger
+2025-12-02T01:21:32 <<< id author ChessGPT
+2025-12-02T01:21:32 <<< uciok
+2025-12-02T01:21:32 >>> isready
+2025-12-02T01:21:34 <<< info string number of parameters: 50.36M
+2025-12-02T01:21:34 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T01:21:34 <<< readyok
+
+### Failed game 2 (v0.1) ###
+2025-12-02T10:07:58 >>> ucinewgame
+2025-12-02T10:13:08 >>> position fen rn1qkbnr/pp3ppp/2p1p1b1/8/3P1P2/6N1/PPP3PP/R1BQKBNR w KQkq - 0 7 moves f1d3
+2025-12-02T10:13:08 >>> go wtime 281503 winc 0 btime 298778 binc 0
+2025-12-02T10:13:22 <<< bestmove e6e5
+2025-12-02T10:13:30 >>> position fen rn1qkbnr/pp3ppp/2p1p1b1/8/3P1P2/6N1/PPP3PP/R1BQKBNR w KQkq - 0 7 moves f1d3 e6e5 d3g6
+2025-12-02T10:13:30 >>> go wtime 273330 winc 0 btime 284737 binc 0
+2025-12-02T10:13:31 <<< bestmove h7g6
+2025-12-02T10:13:33 >>> position fen rn1qkbnr/pp3ppp/2p1p1b1/8/3P1P2/6N1/PPP3PP/R1BQKBNR w KQkq - 0 7 moves f1d3 e6e5 d3g6 h7g6 f4e5
+2025-12-02T10:13:33 >>> go wtime 271312 winc 0 btime 284220 binc 0
+2025-12-02T10:13:34 <<< info string Error parsing move Nc6: illegal san: 'Nc6' in rn1qkbnr/pp3pp1/2p3p1/4P3/3P4/6N1/PPP3PP/R1BQK1NR b KQkq - 0 9
+2025-12-02T10:13:34 <<< info string Error parsing move Bg7: illegal san: 'Bg7' in rn1qkbnr/pp3pp1/2p3p1/4P3/3P4/6N1/PPP3PP/R1BQK1NR b KQkq - 0 9
+2025-12-02T10:13:34 <<< info string Error parsing move d6: illegal san: 'd6' in rn1qkbnr/pp3pp1/2p3p1/4P3/3P4/6N1/PPP3PP/R1BQK1NR b KQkq - 0 9
+2025-12-02T10:13:34 <<< info string Error parsing move Nc6: illegal san: 'Nc6' in rn1qkbnr/pp3pp1/2p3p1/4P3/3P4/6N1/PPP3PP/R1BQK1NR b KQkq - 0 9
+2025-12-02T10:13:34 <<< info string Error parsing move Nc6: illegal san: 'Nc6' in rn1qkbnr/pp3pp1/2p3p1/4P3/3P4/6N1/PPP3PP/R1BQK1NR b KQkq - 0 9
+2025-12-02T10:13:34 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f7a5b244830> provided illegal moves for 5 attempts.
+2025-12-02T10:13:34 <<< info string model produced illegal moves for 5 attempts
+2025-12-02T10:13:34 <<< bestmove 0000
+2025-12-02T11:18:24 >>> uci
+2025-12-02T11:18:24 <<< id name ChessGPT Logger
+2025-12-02T11:18:24 <<< id author ChessGPT
+2025-12-02T11:18:24 <<< uciok
+2025-12-02T11:18:24 >>> isready
+2025-12-02T11:18:26 <<< info string number of parameters: 50.36M
+2025-12-02T11:18:26 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T11:18:26 <<< readyok
+
+### Failed game 3 (v0.1) ###
+2025-12-02T11:18:26 >>> ucinewgame
+2025-12-02T11:19:13 >>> position fen rnbqk2r/pp1p1ppp/4pn2/2p3B1/1bPP4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 5 moves d4c5
+2025-12-02T11:19:13 >>> go wtime 256548 winc 0 btime 299080 binc 0
+2025-12-02T11:19:29 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-02T11:19:29 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-02T11:19:29 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-02T11:19:29 <<< info string Error parsing move 1a6: illegal san: '1a6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:19:29 <<< info string Error parsing move 1d6: illegal san: '1d6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:19:29 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f680d644830> provided illegal moves for 5 attempts.
+2025-12-02T11:19:29 <<< info string model produced illegal moves for 5 attempts
+2025-12-02T11:19:29 <<< bestmove 0000
+2025-12-02T11:25:33 >>> uci
+2025-12-02T11:25:33 <<< id name Test
+2025-12-02T11:25:33 <<< id author Test
+2025-12-02T11:25:33 <<< uciok
+2025-12-02T11:25:33 >>> isready
+
+### Failed game 4 (v0.1) ###
+2025-12-02T11:25:57 >>> ucinewgame
+2025-12-02T11:25:57 >>> position fen rnbqk2r/pp1p1ppp/4pn2/2p3B1/1bPP4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 5 moves d4c5
+2025-12-02T11:25:57 >>> go
+2025-12-02T11:25:57 >>> quit
+2025-12-02T11:25:59 <<< info string number of parameters: 50.36M
+2025-12-02T11:25:59 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T11:25:59 <<< readyok
+2025-12-02T11:26:14 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:26:14 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:26:14 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:26:14 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:26:14 <<< bestmove b8c6
+2025-12-02T11:28:05 >>> uci
+2025-12-02T11:28:05 <<< id name Test
+2025-12-02T11:28:05 <<< id author Test
+2025-12-02T11:28:05 <<< uciok
+2025-12-02T11:28:05 >>> isready
+
+### Failed game 5 (v0.1) ###
+2025-12-02T11:28:05 >>> ucinewgame
+2025-12-02T11:28:05 >>> position fen rnbqk2r/pp1p1ppp/4pn2/2p3B1/1bPP4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 5 moves d4c5
+2025-12-02T11:28:05 >>> go
+2025-12-02T11:28:08 <<< info string number of parameters: 50.36M
+2025-12-02T11:28:08 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T11:28:08 <<< readyok
+2025-12-02T11:28:23 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:28:23 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:28:23 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:28:23 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-02T11:28:23 <<< bestmove b8c6
+2025-12-02T11:28:23 >>> quit
+2025-12-02T11:32:08 >>> uci
+2025-12-02T11:32:08 <<< id name ChessGPT Logger
+2025-12-02T11:32:08 <<< id author ChessGPT
+2025-12-02T11:32:08 <<< uciok
+2025-12-02T11:32:08 >>> isready
+2025-12-02T11:32:10 <<< info string number of parameters: 50.36M
+2025-12-02T11:32:10 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T11:32:10 <<< readyok
+
+### Failed game 6 (v0.1) ###
+2025-12-02T11:32:10 >>> ucinewgame
+2025-12-02T11:33:12 >>> position fen rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4 moves d4c5
+2025-12-02T11:33:12 >>> go wtime 281138 winc 0 btime 299234 binc 0
+2025-12-02T11:33:26 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqkb1r/pp1p1ppp/4pn2/2P3B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 4
+2025-12-02T11:33:26 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqkb1r/pp1p1ppp/4pn2/2P3B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 4
+2025-12-02T11:33:26 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqkb1r/pp1p1ppp/4pn2/2P3B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 4
+2025-12-02T11:33:26 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqkb1r/pp1p1ppp/4pn2/2P3B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 4
+2025-12-02T11:33:26 <<< bestmove d7d6
+2025-12-02T11:33:41 >>> position fen rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4 moves d4c5 d7d6 c5d6
+2025-12-02T11:33:41 >>> go wtime 267032 winc 0 btime 284026 binc 0
+2025-12-02T11:33:42 <<< info string Error parsing move d5: illegal san: 'd5' in rnbqkb1r/pp3ppp/3Ppn2/6B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-02T11:33:42 <<< info string Error parsing move Nf6: illegal san: 'Nf6' in rnbqkb1r/pp3ppp/3Ppn2/6B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-02T11:33:42 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqkb1r/pp3ppp/3Ppn2/6B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-02T11:33:42 <<< info string Error parsing move d6: illegal san: 'd6' in rnbqkb1r/pp3ppp/3Ppn2/6B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-02T11:33:42 <<< info string Error parsing move d5: illegal san: 'd5' in rnbqkb1r/pp3ppp/3Ppn2/6B1/8/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 5
+2025-12-02T11:33:42 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f1d7184c830> provided illegal moves for 5 attempts.
+2025-12-02T11:33:42 <<< info string model produced illegal moves for 5 attempts
+2025-12-02T11:33:42 <<< bestmove 0000
+2025-12-02T14:15:46 >>> uci
+2025-12-02T14:15:46 <<< id name ChessGPT Logger
+2025-12-02T14:15:46 <<< id author ChessGPT
+2025-12-02T14:15:46 <<< uciok
+2025-12-02T14:15:46 >>> quit
+2025-12-02T14:15:48 <<< info string number of parameters: 50.36M
+2025-12-02T14:15:48 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T14:15:48 >>> uci
+2025-12-02T14:15:48 <<< id name ChessGPT Logger
+2025-12-02T14:15:48 <<< id author ChessGPT
+2025-12-02T14:15:48 <<< uciok
+2025-12-02T14:16:23 >>> uci
+2025-12-02T14:16:23 <<< id name ChessGPT Logger
+2025-12-02T14:16:23 <<< id author ChessGPT
+2025-12-02T14:16:23 <<< uciok
+2025-12-02T14:16:23 >>> isready
+2025-12-02T14:16:25 <<< info string number of parameters: 50.36M
+2025-12-02T14:16:25 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T14:16:25 <<< readyok
+
+### Failed game 7 (v0.1) ###
+2025-12-02T14:16:25 >>> ucinewgame
+2025-12-02T14:16:51 >>> position fen r1bqk2r/pp1n1ppp/4pn2/2pp2B1/1bPP4/2N1PN2/PP3PPP/R2QKB1R w KQkq - 0 7 moves d4c5
+2025-12-02T14:16:51 >>> go wtime 277101 winc 0 btime 298768 binc 0
+2025-12-02T14:17:05 <<< info string Error parsing move Nc4: illegal san: 'Nc4' in r1bqk2r/pp1n1ppp/4pn2/2Pp2B1/1bP5/2N1PN2/PP3PPP/R2QKB1R b KQkq - 0 7
+2025-12-02T14:17:05 <<< info string Error parsing move Nc4: illegal san: 'Nc4' in r1bqk2r/pp1n1ppp/4pn2/2Pp2B1/1bP5/2N1PN2/PP3PPP/R2QKB1R b KQkq - 0 7
+2025-12-02T14:17:05 <<< info string Error parsing move Nc4: illegal san: 'Nc4' in r1bqk2r/pp1n1ppp/4pn2/2Pp2B1/1bP5/2N1PN2/PP3PPP/R2QKB1R b KQkq - 0 7
+2025-12-02T14:17:05 <<< info string Error parsing move Nc4: illegal san: 'Nc4' in r1bqk2r/pp1n1ppp/4pn2/2Pp2B1/1bP5/2N1PN2/PP3PPP/R2QKB1R b KQkq - 0 7
+2025-12-02T14:17:05 <<< info string Error parsing move d6: illegal san: 'd6' in r1bqk2r/pp1n1ppp/4pn2/2Pp2B1/1bP5/2N1PN2/PP3PPP/R2QKB1R b KQkq - 0 7
+2025-12-02T14:17:05 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7fa061b3c830> provided illegal moves for 5 attempts.
+2025-12-02T14:17:05 <<< info string model produced illegal moves for 5 attempts
+2025-12-02T14:17:05 <<< bestmove 0000
+2025-12-02T14:18:43 >>> uci
+2025-12-02T14:18:43 <<< id name ChessGPT Logger
+2025-12-02T14:18:43 <<< id author ChessGPT
+2025-12-02T14:18:43 <<< uciok
+2025-12-02T14:18:43 >>> isready
+2025-12-02T14:18:45 <<< info string number of parameters: 50.36M
+2025-12-02T14:18:45 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T14:18:45 <<< readyok
+
+### Failed game 8 (v0.1) ###
+2025-12-02T14:22:16 >>> ucinewgame
+2025-12-02T14:22:23 >>> position fen rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1 moves f7f5
+2025-12-02T14:22:23 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:22:37 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-02T14:22:37 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-02T14:22:37 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-02T14:22:37 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+2025-12-02T14:22:37 <<< bestmove g1f3
+2025-12-02T14:22:46 >>> position fen rnbqkb1r/ppppp1pp/5n2/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 0 4 moves e4d3
+2025-12-02T14:22:46 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:22:47 <<< info string Error parsing move d4: illegal san: 'd4' in rnbqkb1r/ppppp1pp/5n2/6N1/8/3p4/PPP2PPP/RNBQKB1R w KQkq - 0 5
+2025-12-02T14:22:47 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkb1r/ppppp1pp/5n2/6N1/8/3p4/PPP2PPP/RNBQKB1R w KQkq - 0 5
+2025-12-02T14:22:47 <<< bestmove g5f3
+2025-12-02T14:22:50 >>> position fen rnbqkb1r/ppppp1pp/5n2/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 0 4 moves e4d3 g5f3 d3c2
+2025-12-02T14:22:50 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:22:51 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkb1r/ppppp1pp/5n2/8/8/5N2/PPp2PPP/RNBQKB1R w KQkq - 0 6
+2025-12-02T14:22:51 <<< info string Error parsing move e3: illegal san: 'e3' in rnbqkb1r/ppppp1pp/5n2/8/8/5N2/PPp2PPP/RNBQKB1R w KQkq - 0 6
+2025-12-02T14:22:51 <<< bestmove b1c3
+2025-12-02T14:22:56 >>> position fen rnbqkb1r/ppppp1pp/5n2/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 0 4 moves e4d3 g5f3 d3c2 b1c3 c2d1q
+2025-12-02T14:22:56 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:22:58 <<< info string Error parsing move e3: illegal san: 'e3' in rnbqkb1r/ppppp1pp/5n2/8/8/2N2N2/PP3PPP/R1BqKB1R w KQkq - 0 7
+2025-12-02T14:22:58 <<< info string Error parsing move e3: illegal san: 'e3' in rnbqkb1r/ppppp1pp/5n2/8/8/2N2N2/PP3PPP/R1BqKB1R w KQkq - 0 7
+2025-12-02T14:22:58 <<< info string Error parsing move Nd3: illegal san: 'Nd3' in rnbqkb1r/ppppp1pp/5n2/8/8/2N2N2/PP3PPP/R1BqKB1R w KQkq - 0 7
+2025-12-02T14:22:58 <<< info string Error parsing move Q+: invalid san: 'Q+'
+2025-12-02T14:22:58 <<< info string Error parsing move Q+: invalid san: 'Q+'
+2025-12-02T14:22:58 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f8bb864c830> provided illegal moves for 5 attempts.
+2025-12-02T14:22:58 <<< info string model produced illegal moves for 5 attempts
+2025-12-02T14:22:58 <<< bestmove 0000
+2025-12-02T14:23:12 >>> uci
+2025-12-02T14:23:12 <<< id name ChessGPT Logger
+2025-12-02T14:23:12 <<< id author ChessGPT
+2025-12-02T14:23:12 <<< uciok
+2025-12-02T14:23:12 >>> isready
+2025-12-02T14:23:14 <<< info string number of parameters: 50.36M
+2025-12-02T14:23:14 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T14:23:14 <<< readyok
+
+### Failed game 9 (v0.1) ###
+2025-12-03T23:45:35 >>> ucinewgame
+2025-12-03T23:46:00 >>> position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5
+2025-12-03T23:46:00 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-03T23:46:13 <<< bestmove b1c3
+2025-12-03T23:46:23 >>> position fen rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2 moves c7c5 b1c3 g8f6
+2025-12-03T23:46:23 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-03T23:46:24 <<< info string Error parsing move dxc3: illegal san: 'dxc3' in rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4
+2025-12-03T23:46:24 <<< info string Error parsing move dxc3: illegal san: 'dxc3' in rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4
+2025-12-03T23:46:24 <<< info string Error parsing move bxc3: illegal san: 'bxc3' in rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4
+2025-12-03T23:46:24 <<< info string Error parsing move dxc3: illegal san: 'dxc3' in rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4
+2025-12-03T23:46:24 <<< info string Error parsing move dxc3: illegal san: 'dxc3' in rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4
+2025-12-03T23:46:24 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7fca7793c830> provided illegal moves for 5 attempts.
+2025-12-03T23:46:24 <<< info string model produced illegal moves for 5 attempts
+2025-12-03T23:46:24 <<< bestmove 0000
+
+### Failed game 10 (v0.1) ###
+2025-12-05T22:04:17 ### failure=fallback move d7c7: backend resigned (bestmove 0000) version=0.1
+2025-12-05T22:03:56 >>> ucinewgame
+2025-12-05T22:03:56 >>> stop
+2025-12-05T22:03:56 >>> position startpos moves d2d4 d7d5 c2c4 c7c6 c1g5 g8f6 e2e3 e7e6 f1d3 f8e7 g1f3 b8d7 e1g1 e8g8 b1c3 h7h6 g5f6 d7f6 f3e5 e7d6 d1b3 d6e5 d4e5 f6d7 f2f4 d7c5 b3c2 c5d3 c2d3 d5c4 d3c4 d8b6 c4e2 c8d7 b2b3 a8d8 c3e4 d7c8 e4d6 d8d7 a1d1 f8d8 d1d3 b6a6 f1d1 b7b6 a2a4 c6c5 d6b5 d7d3 d1d3 d8d3 e2d3 c8b7 d3d7 a6a5
+2025-12-05T22:03:56 >>> go infinite
+2025-12-05T22:03:56 >>> stop
+2025-12-05T22:03:56 <<< info string prompt_context stage=before-go fen="6k1/pb1Q1pp1/1p2p2p/qNp1P3/P4P2/1P2P3/6PP/6K1 w - - 3 29" fen_only=False pgn="1. d4 d5 2. c4 c6 3. Bg5 Nf6 4. e3 e6 5. Bd3 Be7 6. Nf3 Nbd7 7. O-O O-O 8. Nc3 h6 9. Bxf6 Nxf6 10. Ne5 Bd6 11. Qb3 Bxe5 12. dxe5 Nd7 13. f4 Nc5 14. Qc2 Nxd3 15. Qxd3 dxc4 16. Qxc4 Qb6 17. Qe2 Bd7 18. b3 Rad8 19. Ne4 Bc8 20. Nd6 Rd7 21. Rad1 Rfd8 22. Rd3 Qa6 23. Rfd1 b6 24. a4 c5 25. Nb5 Rxd3 26. Rxd3 Rxd3 27. Qxd3 Bb7 28. Qd7 Qa5" uci="d2d4 d7d5 c2c4 c7c6 c1g5 g8f6 e2e3 e7e6 f1d3 f8e7 g1f3 b8d7 e1g1 e8g8 b1c3 h7h6 g5f6 d7f6 f3e5 e7d6 d1b3 d6e5 d4e5 f6d7 f2f4 d7c5 b3c2 c5d3 c2d3 d5c4 d3c4 d8b6 c4e2 c8d7 b2b3 a8d8 c3e4 d7c8 e4d6 d8d7 a1d1 f8d8 d1d3 b6a6 f1d1 b7b6 a2a4 c6c5 d6b5 d7d3 d1d3 d8d3 e2d3 c8b7 d3d7 a6a5"
+2025-12-05T22:03:58 <<< bestmove d7b7
+2025-12-05T22:03:58 >>> stop
+2025-12-05T22:03:58 >>> position fen 2br2k1/p2r1pp1/qp2p2p/1Np1P3/P4P2/1P1RP3/4Q1PP/3R2K1 b - - 1 25
+2025-12-05T22:03:58 >>> go infinite
+2025-12-05T22:03:59 >>> stop
+2025-12-05T22:04:01 >>> stop
+2025-12-05T22:04:13 <<< info string prompt_context stage=before-go fen="2br2k1/p2r1pp1/qp2p2p/1Np1P3/P4P2/1P1RP3/4Q1PP/3R2K1 b - - 1 25" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-05T22:04:17 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:04:17 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:04:17 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:04:17 <<< info string Error parsing move 1d6: illegal san: '1d6' in 2br2k1/p2r1pp1/qp2p2p/1Np1P3/P4P2/1P1RP3/4Q1PP/3R2K1 b - - 1 25
+2025-12-05T22:04:17 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:04:17 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f92ab93c830> provided illegal moves for 5 attempts.
+2025-12-05T22:04:17 <<< info string model produced illegal moves for 5 attempts
+2025-12-05T22:04:17 <<< info string fallback move d7c7 injected because backend resigned (bestmove 0000)
+2025-12-05T22:04:17 <<< bestmove d7c7
+
+### Failed game 11 (v0.1) ###
+2025-12-05T22:06:31 ### failure=fallback move h6h5: backend resigned (bestmove 0000) version=0.1
+2025-12-05T22:06:11 >>> ucinewgame
+2025-12-05T22:06:11 >>> stop
+2025-12-05T22:06:11 >>> position startpos moves d2d4 d7d5 c2c4 c7c6 c1g5 g8f6 e2e3 e7e6 f1d3 f8e7 g1f3 b8d7 e1g1 e8g8 b1c3 h7h6 g5f6 d7f6 f3e5 e7d6 d1b3 d6e5 d4e5 f6d7 f2f4 d7c5 b3c2 c5d3 c2d3 d5c4 d3c4 d8b6 c4e2 c8d7 b2b3 a8d8 c3e4 d7c8 e4d6 d8d7 a1d1 f8d8 d1d3 b6a6 f1d1 b7b6 a2a4 c6c5 d6b5 d7d3 d1d3 d8d3 e2d3 c8b7 d3d7 a6a5
+2025-12-05T22:06:11 >>> go infinite
+2025-12-05T22:06:11 >>> stop
+2025-12-05T22:06:11 <<< info string prompt_context stage=before-go fen="6k1/pb1Q1pp1/1p2p2p/qNp1P3/P4P2/1P2P3/6PP/6K1 w - - 3 29" fen_only=False pgn="1. d4 d5 2. c4 c6 3. Bg5 Nf6 4. e3 e6 5. Bd3 Be7 6. Nf3 Nbd7 7. O-O O-O 8. Nc3 h6 9. Bxf6 Nxf6 10. Ne5 Bd6 11. Qb3 Bxe5 12. dxe5 Nd7 13. f4 Nc5 14. Qc2 Nxd3 15. Qxd3 dxc4 16. Qxc4 Qb6 17. Qe2 Bd7 18. b3 Rad8 19. Ne4 Bc8 20. Nd6 Rd7 21. Rad1 Rfd8 22. Rd3 Qa6 23. Rfd1 b6 24. a4 c5 25. Nb5 Rxd3 26. Rxd3 Rxd3 27. Qxd3 Bb7 28. Qd7 Qa5" uci="d2d4 d7d5 c2c4 c7c6 c1g5 g8f6 e2e3 e7e6 f1d3 f8e7 g1f3 b8d7 e1g1 e8g8 b1c3 h7h6 g5f6 d7f6 f3e5 e7d6 d1b3 d6e5 d4e5 f6d7 f2f4 d7c5 b3c2 c5d3 c2d3 d5c4 d3c4 d8b6 c4e2 c8d7 b2b3 a8d8 c3e4 d7c8 e4d6 d8d7 a1d1 f8d8 d1d3 b6a6 f1d1 b7b6 a2a4 c6c5 d6b5 d7d3 d1d3 d8d3 e2d3 c8b7 d3d7 a6a5"
+2025-12-05T22:06:13 <<< bestmove d7b7
+2025-12-05T22:06:13 >>> stop
+2025-12-05T22:06:13 >>> position fen 2br2k1/p2r1pp1/qp2p2p/1Np1P3/P4P2/1P1RP3/4Q1PP/3R2K1 b - - 1 25
+2025-12-05T22:06:13 >>> go infinite
+2025-12-05T22:06:14 >>> stop
+2025-12-05T22:06:16 >>> stop
+2025-12-05T22:06:27 <<< info string prompt_context stage=before-go fen="2br2k1/p2r1pp1/qp2p2p/1Np1P3/P4P2/1P1RP3/4Q1PP/3R2K1 b - - 1 25" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-05T22:06:31 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:31 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:31 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:31 <<< info string Error parsing move 1d6: illegal san: '1d6' in 2br2k1/p2r1pp1/qp2p2p/1Np1P3/P4P2/1P1RP3/4Q1PP/3R2K1 b - - 1 25
+2025-12-05T22:06:31 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:31 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f1145734830> provided illegal moves for 5 attempts.
+2025-12-05T22:06:31 <<< info string model produced illegal moves for 5 attempts
+2025-12-05T22:06:31 <<< info string fallback move h6h5 injected because backend resigned (bestmove 0000)
+2025-12-05T22:06:31 <<< bestmove h6h5
+
+### Failed game 11 (v0.1) ###
+2025-12-05T22:06:48 ### failure=fallback move d8a5: backend resigned (bestmove 0000) version=0.1
+2025-12-05T22:06:11 >>> ucinewgame
+2025-12-05T22:06:11 >>> stop
+2025-12-05T22:06:11 >>> position startpos moves d2d4 d7d5 c2c4 c7c6
+2025-12-05T22:06:11 >>> go infinite
+2025-12-05T22:06:11 >>> stop
+2025-12-05T22:06:11 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 d5 2. c4 c6" uci="d2d4 d7d5 c2c4 c7c6"
+2025-12-05T22:06:12 <<< bestmove b1c3
+2025-12-05T22:06:12 >>> stop
+2025-12-05T22:06:12 >>> position startpos moves d2d4 d7d5 c2c4 c7c6
+2025-12-05T22:06:12 >>> go infinite
+2025-12-05T22:06:12 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 d5 2. c4 c6" uci="d2d4 d7d5 c2c4 c7c6"
+2025-12-05T22:06:12 <<< bestmove b1c3
+2025-12-05T22:06:14 >>> stop
+2025-12-05T22:06:15 >>> stop
+2025-12-05T22:06:25 >>> stop
+2025-12-05T22:06:25 >>> position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3
+2025-12-05T22:06:25 >>> go infinite
+2025-12-05T22:06:25 >>> stop
+2025-12-05T22:06:25 >>> stop
+2025-12-05T22:06:28 >>> stop
+2025-12-05T22:06:28 >>> stop
+2025-12-05T22:06:42 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3" fen_only=False pgn="1. d4 d5 2. c4 c6 3. Nf3" uci="d2d4 d7d5 c2c4 c7c6 g1f3"
+2025-12-05T22:06:43 <<< bestmove g8f6
+2025-12-05T22:06:43 >>> stop
+2025-12-05T22:06:43 >>> position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3
+2025-12-05T22:06:43 >>> go infinite
+2025-12-05T22:06:43 >>> stop
+2025-12-05T22:06:43 >>> stop
+2025-12-05T22:06:43 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3" fen_only=False pgn="1. d4 d5 2. c4 c6 3. Nf3" uci="d2d4 d7d5 c2c4 c7c6 g1f3"
+2025-12-05T22:06:43 <<< bestmove g8f6
+2025-12-05T22:06:43 >>> position fen rnbqkb1r/pp2pppp/2p2n2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 3 4
+2025-12-05T22:06:43 >>> go infinite
+2025-12-05T22:06:43 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pp2pppp/2p2n2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 3 4" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-05T22:06:46 >>> stop
+2025-12-05T22:06:46 >>> stop
+2025-12-05T22:06:46 >>> stop
+2025-12-05T22:06:46 >>> stop
+2025-12-05T22:06:46 >>> stop
+2025-12-05T22:06:48 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:48 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:48 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkb1r/pp2pppp/2p2n2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 3 4
+2025-12-05T22:06:48 <<< info string Error parsing move 16: invalid san: '16'
+2025-12-05T22:06:48 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkb1r/pp2pppp/2p2n2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 3 4
+2025-12-05T22:06:48 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f918cb40830> provided illegal moves for 5 attempts.
+2025-12-05T22:06:48 <<< info string model produced illegal moves for 5 attempts
+2025-12-05T22:06:48 <<< info string fallback move d8a5 injected because backend resigned (bestmove 0000)
+2025-12-05T22:06:48 <<< bestmove d8a5
+
+### Failed game 13 (v0.1) ###
+2025-12-05T22:40:41 ### failure=fallback move f7f5: illegal san threshold reached version=0.1
+2025-12-05T22:40:21 >>> ucinewgame
+2025-12-05T22:40:21 >>> stop
+2025-12-05T22:40:21 >>> position startpos
+2025-12-05T22:40:21 >>> go infinite
+2025-12-05T22:40:21 >>> stop
+2025-12-05T22:40:21 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-05T22:40:21 <<< bestmove e2e4
+2025-12-05T22:40:21 >>> stop
+2025-12-05T22:40:21 >>> position startpos
+2025-12-05T22:40:21 >>> go infinite
+2025-12-05T22:40:21 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-05T22:40:21 <<< bestmove e2e4
+2025-12-05T22:40:24 >>> stop
+2025-12-05T22:40:24 >>> stop
+2025-12-05T22:40:24 >>> stop
+2025-12-05T22:40:24 >>> position fen rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-05T22:40:24 >>> go infinite
+2025-12-05T22:40:24 >>> stop
+2025-12-05T22:40:24 >>> stop
+2025-12-05T22:40:27 >>> stop
+2025-12-05T22:40:38 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-05T22:40:41 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-05T22:40:41 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-05T22:40:41 <<< info string fallback move f7f5 injected because illegal san threshold reached
+2025-12-05T22:40:41 <<< bestmove f7f5
+
+### Failed game 14 (v0.1) ###
+2025-12-05T22:49:14 ### failure=fallback move f7f5: illegal san threshold reached version=0.1
+2025-12-05T22:48:31 >>> ucinewgame
+2025-12-05T22:48:31 >>> stop
+2025-12-05T22:48:31 >>> position startpos
+2025-12-05T22:48:31 >>> go infinite
+2025-12-05T22:48:31 >>> stop
+2025-12-05T22:48:31 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-05T22:48:31 <<< bestmove e2e4
+2025-12-05T22:48:31 >>> stop
+2025-12-05T22:48:31 >>> position startpos
+2025-12-05T22:48:31 >>> go infinite
+2025-12-05T22:48:31 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-05T22:48:32 <<< bestmove e2e4
+2025-12-05T22:48:33 >>> stop
+2025-12-05T22:48:33 >>> position fen rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-05T22:48:33 >>> go infinite
+2025-12-05T22:48:33 >>> stop
+2025-12-05T22:48:33 >>> stop
+2025-12-05T22:48:34 >>> stop
+2025-12-05T22:48:34 >>> stop
+2025-12-05T22:48:36 >>> stop
+2025-12-05T22:48:39 >>> stop
+2025-12-05T22:48:39 >>> stop
+2025-12-05T22:49:07 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-05T22:49:14 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-05T22:49:14 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-05T22:49:14 <<< info string fallback move f7f5 injected because illegal san threshold reached
+2025-12-05T22:49:14 <<< bestmove f7f5
+
+### Failed game 15 (v0.1) ###
+2025-12-12T10:13:35 ### failure=fallback move g7g6: illegal san threshold reached version=0.1
+2025-12-12T10:12:43 >>> ucinewgame
+2025-12-12T10:12:43 >>> stop
+2025-12-12T10:12:43 >>> position startpos
+2025-12-12T10:12:43 >>> go infinite
+2025-12-12T10:12:43 >>> stop
+2025-12-12T10:12:43 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-12T10:12:44 <<< bestmove e2e4
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 >>> position startpos
+2025-12-12T10:12:45 >>> go infinite
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 >>> stop
+2025-12-12T10:12:45 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-12T10:12:45 <<< bestmove e2e4
+2025-12-12T10:12:45 >>> position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-12T10:12:45 >>> go infinite
+2025-12-12T10:12:46 >>> stop
+2025-12-12T10:12:48 >>> stop
+2025-12-12T10:12:48 >>> stop
+2025-12-12T10:12:48 >>> stop
+2025-12-12T10:12:48 >>> stop
+2025-12-12T10:12:49 >>> stop
+2025-12-12T10:12:49 >>> stop
+2025-12-12T10:12:49 >>> stop
+2025-12-12T10:12:58 >>> stop
+2025-12-12T10:12:58 >>> stop
+2025-12-12T10:13:02 >>> stop
+2025-12-12T10:13:02 >>> stop
+2025-12-12T10:13:11 >>> stop
+2025-12-12T10:13:24 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-12T10:13:25 <<< bestmove c2c4
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> position fen rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-12T10:13:25 >>> go infinite
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 >>> stop
+2025-12-12T10:13:25 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:28 >>> stop
+2025-12-12T10:13:35 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-12T10:13:35 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-12T10:13:35 <<< info string fallback move g7g6 injected because illegal san threshold reached
+2025-12-12T10:13:35 >>> position fen rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-12T10:13:35 <<< bestmove g7g6
+
+### Failed game 15 (v0.1) ###
+2025-12-12T10:14:04 ### failure=fallback move f6e4: illegal san threshold reached version=0.1
+2025-12-12T10:11:56 >>> ucinewgame
+2025-12-12T10:13:11 >>> position fen rnbqk2r/pp1p1ppp/4pn2/2p3B1/1bPP4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 5 moves d4c5
+2025-12-12T10:13:11 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-12T10:14:01 <<< info string prompt_context stage=before-go fen="rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5" fen_only=False pgn="5. dxc5" uci="d4c5"
+2025-12-12T10:14:04 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-12T10:14:04 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-12T10:14:04 <<< info string fallback move f6e4 injected because illegal san threshold reached
+2025-12-12T10:14:04 <<< bestmove f6e4
+
+### Failed game 17 (v0.1) ###
+2025-12-12T10:28:53 ### failure=fallback move b1d2: illegal san threshold reached version=0.1
+2025-12-12T10:28:09 >>> ucinewgame
+2025-12-12T10:28:09 >>> stop
+2025-12-12T10:28:09 >>> position startpos
+2025-12-12T10:28:09 >>> go infinite
+2025-12-12T10:28:09 >>> stop
+2025-12-12T10:28:09 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-12T10:28:09 <<< bestmove e2e4
+2025-12-12T10:28:09 >>> stop
+2025-12-12T10:28:09 >>> position fen rnbqk2r/pppp1ppp/4pn2/6B1/1bPP4/8/PP2PPPP/RN1QKBNR w KQkq - 2 4
+2025-12-12T10:28:09 >>> go infinite
+2025-12-12T10:28:11 >>> stop
+2025-12-12T10:28:11 >>> stop
+2025-12-12T10:28:11 >>> stop
+2025-12-12T10:28:12 >>> stop
+2025-12-12T10:28:12 >>> stop
+2025-12-12T10:28:15 >>> stop
+2025-12-12T10:28:48 <<< info string prompt_context stage=before-go fen="rnbqk2r/pppp1ppp/4pn2/6B1/1bPP4/8/PP2PPPP/RN1QKBNR w KQkq - 2 4" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-12T10:28:53 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqk2r/pppp1ppp/4pn2/6B1/1bPP4/8/PP2PPPP/RN1QKBNR w KQkq - 2 4
+2025-12-12T10:28:53 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqk2r/pppp1ppp/4pn2/6B1/1bPP4/8/PP2PPPP/RN1QKBNR w KQkq - 2 4
+2025-12-12T10:28:53 <<< info string fallback move b1d2 injected because illegal san threshold reached
+2025-12-12T10:28:53 <<< bestmove b1d2
+
+### Failed game 17 (v0.1) ###
+2025-12-12T10:29:07 ### failure=fallback move d7d5: illegal san threshold reached version=0.1
+2025-12-12T10:28:00 >>> ucinewgame
+2025-12-12T10:28:15 >>> position fen rnbqk2r/pp1p1ppp/4pn2/2p3B1/1bPP4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 5 moves d4c5
+2025-12-12T10:28:15 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-12T10:29:03 <<< info string prompt_context stage=before-go fen="rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5" fen_only=False pgn="5. dxc5" uci="d4c5"
+2025-12-12T10:29:07 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-12T10:29:07 <<< info string Error parsing move e6: illegal san: 'e6' in rnbqk2r/pp1p1ppp/4pn2/2P3B1/1bP5/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5
+2025-12-12T10:29:07 <<< info string fallback move d7d5 injected because illegal san threshold reached
+2025-12-12T10:29:07 <<< bestmove d7d5
+
+### Failed game 19 (v0.1) ###
+2025-12-12T10:37:27 ### failure=fallback move h7h6: illegal san threshold reached version=0.1
+2025-12-12T10:36:41 >>> ucinewgame
+2025-12-12T10:36:41 >>> stop
+2025-12-12T10:36:41 >>> position startpos moves d2d4 g8f6 c2c4 e7e6 c1g5 f8b4 b1c3 c7c5 d4c5 d7d5 c4d5 g7g6
+2025-12-12T10:36:41 >>> go infinite
+2025-12-12T10:36:41 >>> stop
+2025-12-12T10:36:41 <<< info string prompt_context stage=before-go fen="rnbqk2r/pp3p1p/4pnp1/2PP2B1/1b6/2N5/PP2PPPP/R2QKBNR w KQkq - 0 7" fen_only=False pgn="1. d4 Nf6 2. c4 e6 3. Bg5 Bb4+ 4. Nc3 c5 5. dxc5 d5 6. cxd5 g6" uci="d2d4 g8f6 c2c4 e7e6 c1g5 f8b4 b1c3 c7c5 d4c5 d7d5 c4d5 g7g6"
+2025-12-12T10:36:43 <<< bestmove d5e6
+2025-12-12T10:36:43 >>> stop
+2025-12-12T10:36:43 >>> position fen rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-12T10:36:43 >>> go infinite
+2025-12-12T10:36:44 >>> stop
+2025-12-12T10:36:46 >>> stop
+2025-12-12T10:37:20 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-12T10:37:27 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-12T10:37:27 <<< info string Error parsing move e4: illegal san: 'e4' in rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-12-12T10:37:27 <<< info string fallback move h7h6 injected because illegal san threshold reached
+2025-12-12T10:37:27 <<< bestmove h7h6
+
+### Failed game 20 (v1.0) ###
+2025-12-16T07:48:30 ### failure=illegal SAN reported by backend version=1.0
+2025-12-16T07:48:10 >>> ucinewgame
+2025-12-16T07:48:10 >>> stop
+2025-12-16T07:48:10 >>> position startpos moves e2e4 d7d5 e4d5 c8f5 b1c3 c7c6 d5c6 b8c6 g1f3 a7a6 d2d4 a8c8 f1d3 f5g6 d3g6 h7g6 c1e3 e7e6 d1d2 g8f6 e1c1 d8a5 c1b1 f8b4 d2d3 b4c3 d3c3 a5f5 c3d3 f5g4 h1g1 c6b4 d3b3 f6d5 h2h3 g4h5 a2a3 c8c2 a3b4 c2c8 d1c1 e8g8 c1c8 h5f5 b1a2 d5b4 b3b4 f8c8 b4b7 f5a5 a2b1 c8c4 f3e5 c4c7 b7b8 g8h7 e5f7 a5f5 b1a1 f5a5 a1b1 a5f5 b1a1 f5a5 a1b1 a5f5 b1a1 c7f7 b8g3 f5a5 a1b1 f7c7 g3h4 h7g8 h4d8 g8f7 d8c7 a5c7 g1c1
+2025-12-16T07:48:10 >>> go infinite
+2025-12-16T07:48:10 >>> stop
+2025-12-16T07:48:10 <<< info string prompt_context stage=position fen="8/2q2kp1/p3p1p1/8/3P4/4B2P/1P3PP1/1KR5 b - - 1 40" fen_only=False pgn="1. e4 d5 2. exd5 Bf5 3. Nc3 c6 4. dxc6 Nxc6 5. Nf3 a6 6. d4 Rc8 7. Bd3 Bg6 8. Bxg6 hxg6 9. Be3 e6 10. Qd2 Nf6 11. O-O-O Qa5 12. Kb1 Bb4 13. Qd3 Bxc3 14. Qxc3 Qf5 15. Qd3 Qg4 16. Rhg1 Nb4 17. Qb3 Nfd5 18. h3 Qh5 19. a3 Rxc2 20. axb4 Rc8 21. Rc1 O-O 22. Rxc8 Qf5+ 23. Ka2 Nxb4+ 24. Qxb4 Rxc8 25. Qxb7 Qa5+ 26. Kb1 Rc4 27. Ne5 Rc7 28. Qb8+ Kh7 29. Nxf7 Qf5+ 30. Ka1 Qa5+ 31. Kb1 Qf5+ 32. Ka1 Qa5+ 33. Kb1 Qf5+ 34. Ka1 Rxf7 35. Qg3 Qa5+ 36. Kb1 Rc7 37. Qh4+ Kg8 38. Qd8+ Kf7 39. Qxc7+ Qxc7 40. Rc1" uci="e2e4 d7d5 e4d5 c8f5 b1c3 c7c6 d5c6 b8c6 g1f3 a7a6 d2d4 a8c8 f1d3 f5g6 d3g6 h7g6 c1e3 e7e6 d1d2 g8f6 e1c1 d8a5 c1b1 f8b4 d2d3 b4c3 d3c3 a5f5 c3d3 f5g4 h1g1 c6b4 d3b3 f6d5 h2h3 g4h5 a2a3 c8c2 a3b4 c2c8 d1c1 e8g8 c1c8 h5f5 b1a2 d5b4 b3b4 f8c8 b4b7 f5a5 a2b1 c8c4 f3e5 c4c7 b7b8 g8h7 e5f7 a5f5 b1a1 f5a5 a1b1 a5f5 b1a1 f5a5 a1b1 a5f5 b1a1 c7f7 b8g3 f5a5 a1b1 f7c7 g3h4 h7g8 h4d8 g8f7 d8c7 a5c7 g1c1"
+2025-12-16T07:48:10 <<< info string prompt_context stage=before-go fen="8/2q2kp1/p3p1p1/8/3P4/4B2P/1P3PP1/1KR5 b - - 1 40" fen_only=False pgn="1. e4 d5 2. exd5 Bf5 3. Nc3 c6 4. dxc6 Nxc6 5. Nf3 a6 6. d4 Rc8 7. Bd3 Bg6 8. Bxg6 hxg6 9. Be3 e6 10. Qd2 Nf6 11. O-O-O Qa5 12. Kb1 Bb4 13. Qd3 Bxc3 14. Qxc3 Qf5 15. Qd3 Qg4 16. Rhg1 Nb4 17. Qb3 Nfd5 18. h3 Qh5 19. a3 Rxc2 20. axb4 Rc8 21. Rc1 O-O 22. Rxc8 Qf5+ 23. Ka2 Nxb4+ 24. Qxb4 Rxc8 25. Qxb7 Qa5+ 26. Kb1 Rc4 27. Ne5 Rc7 28. Qb8+ Kh7 29. Nxf7 Qf5+ 30. Ka1 Qa5+ 31. Kb1 Qf5+ 32. Ka1 Qa5+ 33. Kb1 Qf5+ 34. Ka1 Rxf7 35. Qg3 Qa5+ 36. Kb1 Rc7 37. Qh4+ Kg8 38. Qd8+ Kf7 39. Qxc7+ Qxc7 40. Rc1" uci="e2e4 d7d5 e4d5 c8f5 b1c3 c7c6 d5c6 b8c6 g1f3 a7a6 d2d4 a8c8 f1d3 f5g6 d3g6 h7g6 c1e3 e7e6 d1d2 g8f6 e1c1 d8a5 c1b1 f8b4 d2d3 b4c3 d3c3 a5f5 c3d3 f5g4 h1g1 c6b4 d3b3 f6d5 h2h3 g4h5 a2a3 c8c2 a3b4 c2c8 d1c1 e8g8 c1c8 h5f5 b1a2 d5b4 b3b4 f8c8 b4b7 f5a5 a2b1 c8c4 f3e5 c4c7 b7b8 g8h7 e5f7 a5f5 b1a1 f5a5 a1b1 a5f5 b1a1 f5a5 a1b1 a5f5 b1a1 c7f7 b8g3 f5a5 a1b1 f7c7 g3h4 h7g8 h4d8 g8f7 d8c7 a5c7 g1c1"
+2025-12-16T07:48:12 >>> stop
+2025-12-16T07:48:12 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 <<< bestmove c7h2
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> position fen 1Q6/2r2Npk/p3p1p1/5q2/3P4/4B2P/1P3PP1/1K4R1 w - - 5 32
+2025-12-16T07:48:13 >>> go infinite
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:13 >>> stop
+2025-12-16T07:48:15 >>> stop
+2025-12-16T07:48:15 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:16 >>> stop
+2025-12-16T07:48:17 >>> stop
+2025-12-16T07:48:17 >>> stop
+2025-12-16T07:48:18 >>> stop
+2025-12-16T07:48:19 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:20 >>> stop
+2025-12-16T07:48:21 >>> stop
+2025-12-16T07:48:23 >>> stop
+2025-12-16T07:48:23 >>> stop
+2025-12-16T07:48:23 >>> stop
+2025-12-16T07:48:24 >>> stop
+2025-12-16T07:48:24 >>> stop
+2025-12-16T07:48:24 >>> stop
+2025-12-16T07:48:24 >>> stop
+2025-12-16T07:48:24 >>> stop
+2025-12-16T07:48:25 >>> stop
+2025-12-16T07:48:25 >>> stop
+2025-12-16T07:48:25 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:27 >>> stop
+2025-12-16T07:48:28 >>> stop
+2025-12-16T07:48:28 >>> stop
+2025-12-16T07:48:28 >>> stop
+2025-12-16T07:48:28 >>> stop
+2025-12-16T07:48:29 >>> stop
+2025-12-16T07:48:29 <<< info string prompt_context stage=position fen="1Q6/2r2Npk/p3p1p1/5q2/3P4/4B2P/1P3PP1/1K4R1 w - - 5 32" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-16T07:48:29 <<< info string prompt_context stage=before-go fen="1Q6/2r2Npk/p3p1p1/5q2/3P4/4B2P/1P3PP1/1K4R1 w - - 5 32" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-16T07:48:29 >>> stop
+
+### Failed game 21 (v1.0) ###
+2025-12-20T21:39:21 ### failure=illegal SAN reported by backend version=1.0
+2025-12-20T21:38:47 >>> ucinewgame
+2025-12-20T21:39:07 >>> position fen rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3 moves g1f3
+2025-12-20T21:39:07 >>> go wtime 286237 winc 0 btime 299517 binc 0
+2025-12-20T21:39:21 <<< info string prompt_context stage=position fen="rnbqkbnr/pp2pppp/2p5/3p4/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 3" fen_only=False pgn="3. Nf3" uci="g1f3"
+2025-12-20T21:39:21 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 3" fen_only=False pgn="3. Nf3" uci="g1f3"
+
+### Failed game 22 (v1.0) ###
+2025-12-25T22:02:52 ### failure=illegal SAN reported by backend version=1.0
+2025-12-25T22:02:15 >>> ucinewgame
+2025-12-25T22:02:15 >>> stop
+2025-12-25T22:02:15 >>> position startpos
+2025-12-25T22:02:15 >>> go infinite
+2025-12-25T22:02:15 >>> stop
+2025-12-25T22:02:15 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-25T22:02:15 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-25T22:02:15 <<< bestmove e2e4
+2025-12-25T22:02:15 >>> stop
+2025-12-25T22:02:15 >>> position fen rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-12-25T22:02:15 >>> go infinite
+2025-12-25T22:02:21 >>> stop
+2025-12-25T22:02:21 >>> stop
+2025-12-25T22:02:39 >>> stop
+2025-12-25T22:02:39 >>> stop
+2025-12-25T22:02:46 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-25T22:02:46 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1" fen_only=True pgn="<empty>" uci="<empty>"
+
+### Failed game 23 (v1.0) ###
+2025-12-26T20:04:00 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T20:03:21 >>> ucinewgame
+2025-12-26T20:03:21 >>> stop
+2025-12-26T20:03:21 >>> position startpos
+2025-12-26T20:03:21 >>> go infinite
+2025-12-26T20:03:21 >>> stop
+2025-12-26T20:03:21 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:03:21 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:03:22 <<< bestmove e2e4
+2025-12-26T20:03:22 >>> stop
+2025-12-26T20:03:22 >>> position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26T20:03:22 >>> go infinite
+2025-12-26T20:03:26 >>> stop
+2025-12-26T20:03:26 >>> stop
+2025-12-26T20:03:26 >>> stop
+2025-12-26T20:03:27 >>> stop
+2025-12-26T20:03:28 >>> stop
+2025-12-26T20:03:29 >>> stop
+2025-12-26T20:03:29 >>> stop
+2025-12-26T20:03:36 >>> stop
+2025-12-26T20:03:36 >>> stop
+2025-12-26T20:03:53 <<< info string prompt_context stage=position fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 d5 2. c4 c6" uci="d2d4 d7d5 c2c4 c7c6"
+2025-12-26T20:03:53 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 d5 2. c4 c6" uci="d2d4 d7d5 c2c4 c7c6"
+2025-12-26T20:03:53 <<< bestmove b1c3
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 >>> position fen rnbqkbnr/pp2pppp/2p5/3p2B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26T20:03:53 >>> go infinite
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 >>> stop
+2025-12-26T20:03:53 <<< info string prompt_context stage=position fen="rnbqkbnr/pp2pppp/2p5/3p2B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:03:53 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p2B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:03:59 >>> stop
+2025-12-26T20:03:59 >>> stop
+2025-12-26T20:03:59 >>> stop
+2025-12-26T20:03:59 >>> stop
+2025-12-26T20:03:59 >>> stop
+2025-12-26T20:03:59 >>> stop
+2025-12-26T20:03:59 >>> stop
+
+### Failed game 24 (v1.0) ###
+2025-12-26T20:05:46 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T20:05:05 >>> ucinewgame
+2025-12-26T20:05:05 >>> stop
+2025-12-26T20:05:05 >>> position startpos
+2025-12-26T20:05:05 >>> go infinite
+2025-12-26T20:05:05 >>> stop
+2025-12-26T20:05:05 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:05:05 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:05:06 <<< bestmove e2e4
+2025-12-26T20:05:06 >>> stop
+2025-12-26T20:05:06 >>> position fen rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2
+2025-12-26T20:05:06 >>> go infinite
+2025-12-26T20:05:12 >>> stop
+2025-12-26T20:05:12 >>> stop
+2025-12-26T20:05:12 >>> stop
+2025-12-26T20:05:12 >>> stop
+2025-12-26T20:05:12 >>> stop
+2025-12-26T20:05:16 >>> stop
+2025-12-26T20:05:16 >>> stop
+2025-12-26T20:05:24 >>> stop
+2025-12-26T20:05:25 >>> stop
+2025-12-26T20:05:32 >>> stop
+2025-12-26T20:05:32 >>> stop
+2025-12-26T20:05:35 >>> stop
+2025-12-26T20:05:35 >>> stop
+2025-12-26T20:05:39 <<< info string prompt_context stage=position fen="rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:05:39 <<< info string prompt_context stage=before-go fen="rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:05:40 >>> stop
+2025-12-26T20:05:41 >>> stop
+2025-12-26T20:05:45 >>> stop
+2025-12-26T20:05:45 >>> stop
+
+### Failed game 25 (v1.0) ###
+2025-12-26T20:30:34 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T20:30:01 >>> ucinewgame
+2025-12-26T20:30:01 >>> stop
+2025-12-26T20:30:01 >>> position startpos
+2025-12-26T20:30:01 >>> go infinite
+2025-12-26T20:30:01 >>> stop
+2025-12-26T20:30:01 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:30:01 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:30:02 <<< bestmove e2e4
+2025-12-26T20:30:02 >>> stop
+2025-12-26T20:30:02 >>> position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26T20:30:02 >>> go infinite
+2025-12-26T20:30:07 >>> stop
+2025-12-26T20:30:08 >>> stop
+2025-12-26T20:30:11 >>> stop
+2025-12-26T20:30:11 >>> stop
+2025-12-26T20:30:11 >>> stop
+2025-12-26T20:30:20 >>> stop
+2025-12-26T20:30:20 >>> stop
+2025-12-26T20:30:24 >>> stop
+2025-12-26T20:30:25 >>> stop
+2025-12-26T20:30:27 >>> stop
+2025-12-26T20:30:27 >>> stop
+2025-12-26T20:30:29 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-26T20:30:29 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-26T20:30:29 <<< bestmove c2c4
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> position fen rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-26T20:30:29 >>> go infinite
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:30:29 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:29 >>> stop
+2025-12-26T20:30:31 >>> stop
+2025-12-26T20:30:31 >>> stop
+2025-12-26T20:30:32 >>> stop
+
+### Failed game 26 (v1.0) ###
+2025-12-26T20:35:15 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T20:34:41 >>> ucinewgame
+2025-12-26T20:34:41 >>> stop
+2025-12-26T20:34:41 >>> position startpos
+2025-12-26T20:34:41 >>> go infinite
+2025-12-26T20:34:41 >>> stop
+2025-12-26T20:34:41 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:34:41 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:34:42 >>> stop
+2025-12-26T20:34:42 >>> position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26T20:34:42 >>> go infinite
+2025-12-26T20:34:42 <<< bestmove e2e4
+2025-12-26T20:34:47 >>> stop
+2025-12-26T20:34:48 >>> stop
+2025-12-26T20:34:48 >>> stop
+2025-12-26T20:34:48 >>> stop
+2025-12-26T20:34:48 >>> stop
+2025-12-26T20:34:57 >>> stop
+2025-12-26T20:34:57 >>> stop
+2025-12-26T20:35:02 >>> stop
+2025-12-26T20:35:02 >>> stop
+2025-12-26T20:35:08 >>> stop
+2025-12-26T20:35:08 >>> stop
+2025-12-26T20:35:08 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-26T20:35:08 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-26T20:35:09 <<< bestmove c2c4
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> position fen rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2
+2025-12-26T20:35:09 >>> go infinite
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 >>> stop
+2025-12-26T20:35:09 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:35:09 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:35:13 >>> stop
+2025-12-26T20:35:13 >>> stop
+2025-12-26T20:35:13 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+2025-12-26T20:35:15 >>> stop
+
+### Failed game 27 (v1.0) ###
+2025-12-26T20:40:06 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T20:39:29 >>> ucinewgame
+2025-12-26T20:39:29 >>> stop
+2025-12-26T20:39:29 >>> position startpos
+2025-12-26T20:39:29 >>> go infinite
+2025-12-26T20:39:29 >>> stop
+2025-12-26T20:39:29 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:39:29 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:39:29 <<< bestmove e2e4
+2025-12-26T20:39:29 >>> stop
+2025-12-26T20:39:29 >>> position fen rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2
+2025-12-26T20:39:29 >>> go infinite
+2025-12-26T20:39:32 >>> stop
+2025-12-26T20:39:32 >>> stop
+2025-12-26T20:39:32 >>> stop
+2025-12-26T20:39:35 >>> stop
+2025-12-26T20:39:35 >>> stop
+2025-12-26T20:39:38 >>> stop
+2025-12-26T20:39:38 >>> stop
+2025-12-26T20:39:42 >>> stop
+2025-12-26T20:39:42 >>> stop
+2025-12-26T20:39:45 >>> stop
+2025-12-26T20:39:45 >>> stop
+2025-12-26T20:39:50 >>> stop
+2025-12-26T20:39:50 >>> stop
+2025-12-26T20:39:53 >>> stop
+2025-12-26T20:39:53 >>> stop
+2025-12-26T20:39:56 <<< info string prompt_context stage=position fen="rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2" fen_only=False pgn="1. d4 d6" uci="d2d4 d7d6"
+2025-12-26T20:39:56 <<< info string prompt_context stage=before-go fen="rnbqkbnr/ppp1pppp/3p4/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2" fen_only=False pgn="1. d4 d6" uci="d2d4 d7d6"
+2025-12-26T20:39:57 <<< bestmove c2c4
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> position fen rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2
+2025-12-26T20:39:57 >>> go infinite
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 <<< info string prompt_context stage=position fen="rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2" fen_only=False pgn="1. d4 d6 2. Nf3" uci="d2d4 d7d6 g1f3"
+2025-12-26T20:39:57 <<< info string prompt_context stage=before-go fen="rnbqkbnr/ppp1pppp/3p4/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2" fen_only=False pgn="1. d4 d6 2. Nf3" uci="d2d4 d7d6 g1f3"
+2025-12-26T20:39:57 <<< bestmove g8f6
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> position fen rn2k1nr/pp2ppbp/2pp2p1/q5B1/2PP4/2NBPb2/PP3PPP/R2QK2R w KQkq - 0 8
+2025-12-26T20:39:57 <<< info string prompt_context stage=position fen="rn2k1nr/pp2ppbp/2pp2p1/q5B1/2PP4/2NBPb2/PP3PPP/R2QK2R w KQkq - 0 8" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:39:57 >>> go infinite
+2025-12-26T20:39:57 <<< info string prompt_context stage=before-go fen="rn2k1nr/pp2ppbp/2pp2p1/q5B1/2PP4/2NBPb2/PP3PPP/R2QK2R w KQkq - 0 8" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:57 >>> stop
+2025-12-26T20:39:58 >>> stop
+2025-12-26T20:39:58 >>> stop
+2025-12-26T20:40:02 >>> stop
+2025-12-26T20:40:02 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+2025-12-26T20:40:03 >>> stop
+
+### Failed game 28 (v1.0) ###
+2025-12-26T20:41:00 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T20:40:25 >>> ucinewgame
+2025-12-26T20:40:25 >>> stop
+2025-12-26T20:40:25 >>> position startpos moves g2g3
+2025-12-26T20:40:25 >>> go infinite
+2025-12-26T20:40:25 >>> stop
+2025-12-26T20:40:25 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1" fen_only=False pgn="1. g3" uci="g2g3"
+2025-12-26T20:40:25 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1" fen_only=False pgn="1. g3" uci="g2g3"
+2025-12-26T20:40:25 <<< bestmove d7d5
+2025-12-26T20:40:25 >>> stop
+2025-12-26T20:40:25 >>> position startpos moves g2g3
+2025-12-26T20:40:25 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1" fen_only=False pgn="1. g3" uci="g2g3"
+2025-12-26T20:40:25 >>> go infinite
+2025-12-26T20:40:25 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1" fen_only=False pgn="1. g3" uci="g2g3"
+2025-12-26T20:40:26 <<< bestmove d7d5
+2025-12-26T20:40:26 >>> stop
+2025-12-26T20:40:26 >>> stop
+2025-12-26T20:40:26 >>> stop
+2025-12-26T20:40:26 >>> stop
+2025-12-26T20:40:26 >>> position fen rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2
+2025-12-26T20:40:26 >>> go infinite
+2025-12-26T20:40:26 >>> stop
+2025-12-26T20:40:26 >>> stop
+2025-12-26T20:40:31 >>> stop
+2025-12-26T20:40:31 >>> stop
+2025-12-26T20:40:31 >>> stop
+2025-12-26T20:40:31 >>> stop
+2025-12-26T20:40:31 >>> stop
+2025-12-26T20:40:32 >>> stop
+2025-12-26T20:40:32 >>> stop
+2025-12-26T20:40:32 >>> stop
+2025-12-26T20:40:33 >>> stop
+2025-12-26T20:40:33 >>> stop
+2025-12-26T20:40:36 >>> stop
+2025-12-26T20:40:37 >>> stop
+2025-12-26T20:40:47 >>> stop
+2025-12-26T20:40:47 >>> stop
+2025-12-26T20:40:51 >>> stop
+2025-12-26T20:40:51 >>> stop
+2025-12-26T20:40:53 <<< info string prompt_context stage=position fen="rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2" fen_only=False pgn="1. g3 d6" uci="g2g3 d7d6"
+2025-12-26T20:40:53 <<< info string prompt_context stage=before-go fen="rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2" fen_only=False pgn="1. g3 d6" uci="g2g3 d7d6"
+2025-12-26T20:40:53 <<< bestmove f1g2
+2025-12-26T20:40:53 >>> position fen rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPPBP/RNBQK1NR b KQkq - 1 2
+2025-12-26T20:40:53 >>> go infinite
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 >>> stop
+2025-12-26T20:40:53 <<< info string prompt_context stage=position fen="rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPPBP/RNBQK1NR b KQkq - 1 2" fen_only=False pgn="1. g3 d6 2. Bg2" uci="g2g3 d7d6 f1g2"
+2025-12-26T20:40:53 <<< info string prompt_context stage=before-go fen="rnbqkbnr/ppp1pppp/3p4/8/8/6P1/PPPPPPBP/RNBQK1NR b KQkq - 1 2" fen_only=False pgn="1. g3 d6 2. Bg2" uci="g2g3 d7d6 f1g2"
+2025-12-26T20:40:53 <<< bestmove g8f6
+2025-12-26T20:40:53 >>> position fen rn1qk2r/ppp1ppbp/3p1np1/8/3PP3/2N3P1/PPP1QPBP/R1B1K2R b KQkq - 0 7
+2025-12-26T20:40:53 >>> go infinite
+2025-12-26T20:40:53 <<< info string prompt_context stage=position fen="rn1qk2r/ppp1ppbp/3p1np1/8/3PP3/2N3P1/PPP1QPBP/R1B1K2R b KQkq - 0 7" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:40:53 <<< info string prompt_context stage=before-go fen="rn1qk2r/ppp1ppbp/3p1np1/8/3PP3/2N3P1/PPP1QPBP/R1B1K2R b KQkq - 0 7" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:40:59 >>> stop
+2025-12-26T20:41:00 >>> stop
+
+### Failed game 29 (v1.0) ###
+2025-12-26T20:48:11 ### failure=backend returned bestmove 0000 version=1.0
+2025-12-26T20:47:33 >>> ucinewgame
+2025-12-26T20:47:33 >>> stop
+2025-12-26T20:47:33 >>> position startpos
+2025-12-26T20:47:33 >>> go infinite
+2025-12-26T20:47:33 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:47:33 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T20:47:33 >>> stop
+2025-12-26T20:47:33 <<< bestmove e2e4
+2025-12-26T20:47:33 >>> stop
+2025-12-26T20:47:33 >>> position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26T20:47:33 >>> go infinite
+2025-12-26T20:47:39 >>> stop
+2025-12-26T20:47:40 >>> stop
+2025-12-26T20:47:40 >>> stop
+2025-12-26T20:47:40 >>> stop
+2025-12-26T20:47:40 >>> stop
+2025-12-26T20:47:43 >>> stop
+2025-12-26T20:47:43 >>> stop
+2025-12-26T20:47:46 >>> stop
+2025-12-26T20:47:46 >>> stop
+2025-12-26T20:47:50 >>> stop
+2025-12-26T20:47:50 >>> stop
+2025-12-26T20:47:56 >>> stop
+2025-12-26T20:47:56 >>> stop
+2025-12-26T20:48:01 <<< info string prompt_context stage=position fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 d5 2. c4 c6" uci="d2d4 d7d5 c2c4 c7c6"
+2025-12-26T20:48:01 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 d5 2. c4 c6" uci="d2d4 d7d5 c2c4 c7c6"
+2025-12-26T20:48:01 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 <<< bestmove b1c3
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> position fen rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3
+2025-12-26T20:48:02 >>> go infinite
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 >>> stop
+2025-12-26T20:48:02 <<< info string prompt_context stage=position fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3" fen_only=False pgn="1. d4 d5 2. c4 c6 3. Nf3" uci="d2d4 d7d5 c2c4 c7c6 g1f3"
+2025-12-26T20:48:02 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3" fen_only=False pgn="1. d4 d5 2. c4 c6 3. Nf3" uci="d2d4 d7d5 c2c4 c7c6 g1f3"
+2025-12-26T20:48:02 <<< bestmove g8f6
+2025-12-26T20:48:02 >>> position fen rnbqk2r/pp3pp1/2p2p1p/8/1b1P4/2NBPN2/PP3PPP/R2QK2R w KQkq - 2 9
+2025-12-26T20:48:02 >>> go infinite
+2025-12-26T20:48:02 <<< info string prompt_context stage=position fen="rnbqk2r/pp3pp1/2p2p1p/8/1b1P4/2NBPN2/PP3PPP/R2QK2R w KQkq - 2 9" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:48:02 <<< info string prompt_context stage=before-go fen="rnbqk2r/pp3pp1/2p2p1p/8/1b1P4/2NBPN2/PP3PPP/R2QK2R w KQkq - 2 9" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T20:48:05 >>> stop
+2025-12-26T20:48:05 >>> stop
+2025-12-26T20:48:05 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:08 >>> stop
+2025-12-26T20:48:09 >>> stop
+2025-12-26T20:48:10 >>> stop
+2025-12-26T20:48:11 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T20:48:11 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T20:48:11 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T20:48:11 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T20:48:11 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T20:48:11 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7fd544e38830> provided illegal moves for 5 attempts.
+2025-12-26T20:48:11 <<< info string model produced illegal moves for 5 attempts
+
+### Failed game 30 (v1.0) ###
+2025-12-26T22:16:38 ### failure=backend returned bestmove 0000 version=1.0
+2025-12-26T22:15:52 >>> ucinewgame
+2025-12-26T22:15:52 >>> stop
+2025-12-26T22:15:52 >>> position startpos
+2025-12-26T22:15:52 >>> go infinite
+2025-12-26T22:15:52 >>> stop
+2025-12-26T22:15:52 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:15:52 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:15:53 <<< bestmove e2e4
+2025-12-26T22:15:53 >>> stop
+2025-12-26T22:15:53 >>> position fen rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2
+2025-12-26T22:15:53 >>> go infinite
+2025-12-26T22:15:58 >>> stop
+2025-12-26T22:16:00 >>> stop
+2025-12-26T22:16:00 >>> stop
+2025-12-26T22:16:00 >>> stop
+2025-12-26T22:16:00 >>> stop
+2025-12-26T22:16:02 >>> stop
+2025-12-26T22:16:02 >>> stop
+2025-12-26T22:16:04 >>> stop
+2025-12-26T22:16:05 >>> stop
+2025-12-26T22:16:10 >>> stop
+2025-12-26T22:16:10 >>> stop
+2025-12-26T22:16:12 >>> stop
+2025-12-26T22:16:12 >>> stop
+2025-12-26T22:16:15 >>> stop
+2025-12-26T22:16:15 >>> stop
+2025-12-26T22:16:17 >>> stop
+2025-12-26T22:16:17 >>> stop
+2025-12-26T22:16:23 >>> stop
+2025-12-26T22:16:24 >>> stop
+2025-12-26T22:16:25 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-26T22:16:25 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2" fen_only=False pgn="1. d4 Nf6" uci="d2d4 g8f6"
+2025-12-26T22:16:25 <<< bestmove c2c4
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> position fen rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2
+2025-12-26T22:16:25 >>> go infinite
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 >>> stop
+2025-12-26T22:16:25 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2" fen_only=False pgn="1. d4 Nf6 2. Nf3" uci="d2d4 g8f6 g1f3"
+2025-12-26T22:16:25 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2" fen_only=False pgn="1. d4 Nf6 2. Nf3" uci="d2d4 g8f6 g1f3"
+2025-12-26T22:16:26 <<< bestmove g7g6
+2025-12-26T22:16:26 >>> position fen rnbq1rk1/pp3pbp/3p2p1/2p5/2PP1P2/2NB1N2/PP3PPP/R2QK2R w KQ - 0 10
+2025-12-26T22:16:26 >>> go infinite
+2025-12-26T22:16:26 <<< info string prompt_context stage=position fen="rnbq1rk1/pp3pbp/3p2p1/2p5/2PP1P2/2NB1N2/PP3PPP/R2QK2R w KQ - 0 10" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:16:26 <<< info string prompt_context stage=before-go fen="rnbq1rk1/pp3pbp/3p2p1/2p5/2PP1P2/2NB1N2/PP3PPP/R2QK2R w KQ - 0 10" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:16:27 >>> stop
+2025-12-26T22:16:27 >>> stop
+2025-12-26T22:16:28 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:31 >>> stop
+2025-12-26T22:16:36 >>> stop
+2025-12-26T22:16:37 >>> stop
+2025-12-26T22:16:38 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:16:38 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:16:38 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:16:38 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:16:38 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:16:38 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f7a17938830> provided illegal moves for 5 attempts.
+2025-12-26T22:16:38 <<< info string model produced illegal moves for 5 attempts
+
+### Failed game 31 (v1.0) ###
+2025-12-26T22:19:40 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T22:19:00 >>> ucinewgame
+2025-12-26T22:19:00 >>> stop
+2025-12-26T22:19:00 >>> position startpos
+2025-12-26T22:19:00 >>> go infinite
+2025-12-26T22:19:00 >>> stop
+2025-12-26T22:19:00 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:19:00 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:19:00 >>> stop
+2025-12-26T22:19:00 >>> position fen rnbqkbnr/pp3ppp/2p1p3/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4
+2025-12-26T22:19:00 >>> go infinite
+2025-12-26T22:19:00 <<< bestmove e2e4
+2025-12-26T22:19:02 >>> stop
+2025-12-26T22:19:02 >>> stop
+2025-12-26T22:19:02 >>> stop
+2025-12-26T22:19:06 >>> stop
+2025-12-26T22:19:06 >>> stop
+2025-12-26T22:19:32 <<< info string prompt_context stage=position fen="rnbqkbnr/pp3ppp/2p1p3/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4" fen_only=False pgn="1. d4 d5 2. c4 e6 3. Nf3 c6" uci="d2d4 d7d5 c2c4 e7e6 g1f3 c7c6"
+2025-12-26T22:19:32 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp3ppp/2p1p3/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4" fen_only=False pgn="1. d4 d5 2. c4 e6 3. Nf3 c6" uci="d2d4 d7d5 c2c4 e7e6 g1f3 c7c6"
+2025-12-26T22:19:32 <<< bestmove b1c3
+2025-12-26T22:19:32 >>> stop
+2025-12-26T22:19:32 >>> position fen rnbqkbnr/pp3ppp/2p1p3/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 4
+2025-12-26T22:19:32 >>> go infinite
+2025-12-26T22:19:32 >>> stop
+2025-12-26T22:19:32 >>> stop
+2025-12-26T22:19:32 <<< info string prompt_context stage=position fen="rnbqkbnr/pp3ppp/2p1p3/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 4" fen_only=False pgn="1. d4 d5 2. c4 e6 3. Nf3 c6 4. Bg5" uci="d2d4 d7d5 c2c4 e7e6 g1f3 c7c6 c1g5"
+2025-12-26T22:19:32 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pp3ppp/2p1p3/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 4" fen_only=False pgn="1. d4 d5 2. c4 e6 3. Nf3 c6 4. Bg5" uci="d2d4 d7d5 c2c4 e7e6 g1f3 c7c6 c1g5"
+2025-12-26T22:19:32 <<< bestmove f8e7
+2025-12-26T22:19:32 >>> position fen rnbqkb1r/pp3ppp/2p1pn2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 2 5
+2025-12-26T22:19:32 >>> go infinite
+2025-12-26T22:19:32 <<< info string prompt_context stage=position fen="rnbqkb1r/pp3ppp/2p1pn2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 2 5" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:19:32 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pp3ppp/2p1pn2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 2 5" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:19:38 >>> stop
+2025-12-26T22:19:38 >>> stop
+2025-12-26T22:19:38 >>> stop
+2025-12-26T22:19:40 <<< info string Error parsing move 1: invalid san: '1'
+
+### Failed game 32 (v1.0) ###
+2025-12-26T22:41:06 ### failure=illegal SAN reported by backend version=1.0
+2025-12-26T22:40:29 >>> ucinewgame
+2025-12-26T22:40:29 >>> stop
+2025-12-26T22:40:29 >>> position startpos
+2025-12-26T22:40:29 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:40:29 >>> go infinite
+2025-12-26T22:40:29 >>> stop
+2025-12-26T22:40:29 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:40:29 <<< bestmove e2e4
+2025-12-26T22:40:29 >>> stop
+2025-12-26T22:40:29 >>> position fen rnbqkbnr/pppp2pp/4p3/5p2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26T22:40:29 >>> go infinite
+2025-12-26T22:40:34 >>> stop
+2025-12-26T22:40:34 >>> stop
+2025-12-26T22:40:34 >>> stop
+2025-12-26T22:40:35 >>> stop
+2025-12-26T22:40:35 >>> stop
+2025-12-26T22:40:36 >>> stop
+2025-12-26T22:40:37 >>> stop
+2025-12-26T22:40:43 >>> stop
+2025-12-26T22:40:43 >>> stop
+2025-12-26T22:40:47 >>> stop
+2025-12-26T22:40:47 >>> stop
+2025-12-26T22:40:49 >>> stop
+2025-12-26T22:40:50 >>> stop
+2025-12-26T22:40:52 >>> stop
+2025-12-26T22:40:53 >>> stop
+2025-12-26T22:40:54 >>> stop
+2025-12-26T22:40:54 >>> stop
+2025-12-26T22:40:57 >>> stop
+2025-12-26T22:40:57 >>> stop
+2025-12-26T22:41:00 <<< info string prompt_context stage=position fen="rnbqkbnr/pppp2pp/4p3/5p2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:41:00 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppp2pp/4p3/5p2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:41:06 <<< info string Error parsing move 13: invalid san: '13'
+2025-12-26T22:41:06 <<< info string Error parsing move 13: invalid san: '13'
+
+### Failed game 33 (v1.0) ###
+2025-12-26T22:46:35 ### failure=backend returned bestmove 0000 version=1.0
+2025-12-26T22:45:58 >>> ucinewgame
+2025-12-26T22:45:58 >>> stop
+2025-12-26T22:45:58 >>> position startpos
+2025-12-26T22:45:58 >>> go infinite
+2025-12-26T22:45:58 >>> stop
+2025-12-26T22:45:58 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:45:58 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:45:58 <<< bestmove e2e4
+2025-12-26T22:45:58 >>> stop
+2025-12-26T22:45:58 >>> position fen rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26T22:45:58 >>> go infinite
+2025-12-26T22:46:04 >>> stop
+2025-12-26T22:46:04 >>> stop
+2025-12-26T22:46:10 >>> stop
+2025-12-26T22:46:10 >>> stop
+2025-12-26T22:46:10 >>> stop
+2025-12-26T22:46:14 >>> stop
+2025-12-26T22:46:14 >>> stop
+2025-12-26T22:46:17 >>> stop
+2025-12-26T22:46:17 >>> stop
+2025-12-26T22:46:26 <<< info string prompt_context stage=position fen="rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 Nf6 2. c4 e6" uci="d2d4 g8f6 c2c4 e7e6"
+2025-12-26T22:46:26 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 Nf6 2. c4 e6" uci="d2d4 g8f6 c2c4 e7e6"
+2025-12-26T22:46:26 <<< bestmove b1c3
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 >>> position fen rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26T22:46:26 <<< info string prompt_context stage=position fen="rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3" fen_only=False pgn="1. d4 Nf6 2. c4 e6 3. Bg5" uci="d2d4 g8f6 c2c4 e7e6 c1g5"
+2025-12-26T22:46:26 >>> go infinite
+2025-12-26T22:46:26 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3" fen_only=False pgn="1. d4 Nf6 2. c4 e6 3. Bg5" uci="d2d4 g8f6 c2c4 e7e6 c1g5"
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 >>> stop
+2025-12-26T22:46:26 <<< bestmove f8e7
+2025-12-26T22:46:26 >>> position fen rnb1k2r/pp1p1ppp/4pn2/q1P3B1/1bP5/2N5/PP2PPPP/R2QKBNR w KQkq - 1 6
+2025-12-26T22:46:26 <<< info string prompt_context stage=position fen="rnb1k2r/pp1p1ppp/4pn2/q1P3B1/1bP5/2N5/PP2PPPP/R2QKBNR w KQkq - 1 6" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:46:26 >>> go infinite
+2025-12-26T22:46:26 <<< info string prompt_context stage=before-go fen="rnb1k2r/pp1p1ppp/4pn2/q1P3B1/1bP5/2N5/PP2PPPP/R2QKBNR w KQkq - 1 6" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:46:30 >>> stop
+2025-12-26T22:46:30 >>> stop
+2025-12-26T22:46:30 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:32 >>> stop
+2025-12-26T22:46:35 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:46:35 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:46:35 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:46:35 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:46:35 <<< info string Error parsing move 14: invalid san: '14'
+2025-12-26T22:46:35 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7fca9b734830> provided illegal moves for 5 attempts.
+2025-12-26T22:46:35 <<< info string model produced illegal moves for 5 attempts
+
+### Failed game 34 (v1.0) ###
+2025-12-26T22:49:00 ### failure=backend returned bestmove 0000 version=1.0
+2025-12-26T22:48:15 >>> ucinewgame
+2025-12-26T22:48:15 >>> stop
+2025-12-26T22:48:15 >>> position startpos
+2025-12-26T22:48:15 >>> go infinite
+2025-12-26T22:48:15 >>> stop
+2025-12-26T22:48:15 <<< info string prompt_context stage=position fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:48:15 <<< info string prompt_context stage=before-go fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" fen_only=False pgn="<empty>" uci="<empty>"
+2025-12-26T22:48:16 <<< bestmove e2e4
+2025-12-26T22:48:16 >>> stop
+2025-12-26T22:48:16 >>> position fen rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3
+2025-12-26T22:48:16 >>> go infinite
+2025-12-26T22:48:20 >>> stop
+2025-12-26T22:48:20 >>> stop
+2025-12-26T22:48:20 >>> stop
+2025-12-26T22:48:21 >>> stop
+2025-12-26T22:48:21 >>> stop
+2025-12-26T22:48:22 >>> stop
+2025-12-26T22:48:22 >>> stop
+2025-12-26T22:48:26 >>> stop
+2025-12-26T22:48:26 >>> stop
+2025-12-26T22:48:28 >>> stop
+2025-12-26T22:48:28 >>> stop
+2025-12-26T22:48:31 >>> stop
+2025-12-26T22:48:31 >>> stop
+2025-12-26T22:48:37 >>> stop
+2025-12-26T22:48:38 >>> stop
+2025-12-26T22:48:46 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 Nf6 2. c4 g6" uci="d2d4 g8f6 c2c4 g7g6"
+2025-12-26T22:48:46 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3" fen_only=False pgn="1. d4 Nf6 2. c4 g6" uci="d2d4 g8f6 c2c4 g7g6"
+2025-12-26T22:48:47 <<< bestmove b1c3
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> position fen rnbqkb1r/pppppp1p/5np1/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3
+2025-12-26T22:48:47 >>> go infinite
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 >>> stop
+2025-12-26T22:48:47 <<< info string prompt_context stage=position fen="rnbqkb1r/pppppp1p/5np1/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3" fen_only=False pgn="1. d4 Nf6 2. c4 g6 3. Bg5" uci="d2d4 g8f6 c2c4 g7g6 c1g5"
+2025-12-26T22:48:47 <<< info string prompt_context stage=before-go fen="rnbqkb1r/pppppp1p/5np1/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3" fen_only=False pgn="1. d4 Nf6 2. c4 g6 3. Bg5" uci="d2d4 g8f6 c2c4 g7g6 c1g5"
+2025-12-26T22:48:47 <<< bestmove f8g7
+2025-12-26T22:48:47 >>> position fen rnbq1rk1/pp2ppb1/3p2pp/2P4n/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 2 9
+2025-12-26T22:48:47 >>> go infinite
+2025-12-26T22:48:47 <<< info string prompt_context stage=position fen="rnbq1rk1/pp2ppb1/3p2pp/2P4n/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 2 9" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:48:47 <<< info string prompt_context stage=before-go fen="rnbq1rk1/pp2ppb1/3p2pp/2P4n/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 2 9" fen_only=True pgn="<empty>" uci="<empty>"
+2025-12-26T22:48:48 >>> stop
+2025-12-26T22:48:48 >>> stop
+2025-12-26T22:48:49 >>> stop
+2025-12-26T22:48:52 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:48:53 >>> stop
+2025-12-26T22:49:00 <<< info string Error parsing move 1: invalid san: '1'
+2025-12-26T22:49:00 <<< info string Error parsing move 1: invalid san: '1'
+2025-12-26T22:49:00 <<< info string Error parsing move 1: invalid san: '1'
+2025-12-26T22:49:00 <<< info string Error parsing move 1Nc5: invalid san: '1Nc5'
+2025-12-26T22:49:00 <<< info string Error parsing move 1KBh5: invalid san: '1KBh5'
+2025-12-26T22:49:00 <<< info string <nanogpt.nanogpt_module.NanoGptPlayer object at 0x7f8dba338830> provided illegal moves for 5 attempts.
+2025-12-26T22:49:00 <<< info string model produced illegal moves for 5 attempts
+

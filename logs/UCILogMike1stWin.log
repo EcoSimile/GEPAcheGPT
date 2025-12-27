@@ -1,0 +1,102 @@
+2025-12-02T14:23:12 >>> uci
+2025-12-02T14:23:12 <<< id name ChessGPT Logger
+2025-12-02T14:23:12 <<< id author ChessGPT
+2025-12-02T14:23:12 <<< uciok
+2025-12-02T14:23:12 >>> isready
+2025-12-02T14:23:14 <<< info string number of parameters: 50.36M
+2025-12-02T14:23:14 <<< info string Loading meta from nanogpt/out/meta.pkl...
+2025-12-02T14:23:14 <<< readyok
+2025-12-02T14:23:14 >>> ucinewgame
+2025-12-02T14:23:47 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3
+2025-12-02T14:23:47 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:24:00 <<< bestmove e7e6
+2025-12-02T14:24:13 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3
+2025-12-02T14:24:13 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:24:14 <<< bestmove f6e4
+2025-12-02T14:24:18 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4
+2025-12-02T14:24:18 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:24:21 <<< bestmove d7f6
+2025-12-02T14:24:38 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3
+2025-12-02T14:24:38 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:24:41 <<< bestmove f8e7
+2025-12-02T14:24:48 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1
+2025-12-02T14:24:48 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:24:51 <<< bestmove e8g8
+2025-12-02T14:25:15 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4
+2025-12-02T14:25:15 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:25:18 <<< bestmove b7b6
+2025-12-02T14:25:22 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5
+2025-12-02T14:25:22 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:25:25 <<< bestmove c8b7
+2025-12-02T14:25:30 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5
+2025-12-02T14:25:30 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:25:33 <<< bestmove h7h6
+2025-12-02T14:25:37 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6
+2025-12-02T14:25:37 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:25:40 <<< bestmove h6g5
+2025-12-02T14:25:44 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7
+2025-12-02T14:25:44 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:25:48 <<< bestmove d8e7
+2025-12-02T14:26:01 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3
+2025-12-02T14:26:01 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:26:04 <<< bestmove a8d8
+2025-12-02T14:26:27 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3
+2025-12-02T14:26:27 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:26:32 <<< bestmove c6c5
+2025-12-02T14:26:37 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2
+2025-12-02T14:26:37 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:26:41 <<< bestmove g7g6
+2025-12-02T14:27:06 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1
+2025-12-02T14:27:06 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:27:11 <<< bestmove c5d4
+2025-12-02T14:27:14 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4
+2025-12-02T14:27:14 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:27:18 <<< bestmove d8d6
+2025-12-02T14:27:25 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1
+2025-12-02T14:27:25 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:27:30 <<< bestmove f8d8
+2025-12-02T14:27:44 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3
+2025-12-02T14:27:44 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:27:48 <<< bestmove e7c7
+2025-12-02T14:28:08 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7
+2025-12-02T14:28:08 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:28:14 <<< bestmove c7c6
+2025-12-02T14:28:23 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4
+2025-12-02T14:28:23 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:28:28 <<< bestmove c6c7
+2025-12-02T14:28:32 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7
+2025-12-02T14:28:32 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:28:38 <<< bestmove c7b7
+2025-12-02T14:28:40 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7
+2025-12-02T14:28:40 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:28:45 <<< bestmove d6d4
+2025-12-02T14:28:47 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4
+2025-12-02T14:28:47 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:28:53 <<< bestmove d8d4
+2025-12-02T14:29:05 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1
+2025-12-02T14:29:05 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:29:11 <<< bestmove d4d2
+2025-12-02T14:29:24 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1
+2025-12-02T14:29:24 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:29:30 <<< bestmove g8g7
+2025-12-02T14:29:52 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4
+2025-12-02T14:29:52 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:29:58 <<< bestmove g7f6
+2025-12-02T14:30:09 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4 g7f6 b2b4
+2025-12-02T14:30:09 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:30:15 <<< bestmove d2a2
+2025-12-02T14:30:20 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4 g7f6 b2b4 d2a2 b7c6
+2025-12-02T14:30:20 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:30:27 <<< bestmove f6e5
+2025-12-02T14:30:48 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4 g7f6 b2b4 d2a2 b7c6 f6e5 c6b5
+2025-12-02T14:30:48 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:30:55 <<< bestmove e5d4
+2025-12-02T14:31:06 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4 g7f6 b2b4 d2a2 b7c6 f6e5 c6b5 e5d4 b1b3
+2025-12-02T14:31:06 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:31:13 <<< bestmove f7f5
+2025-12-02T14:31:18 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4 g7f6 b2b4 d2a2 b7c6 f6e5 c6b5 e5d4 b1b3 f7f5 g2g3
+2025-12-02T14:31:18 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:31:25 <<< bestmove e6e5
+2025-12-02T14:35:45 >>> position fen r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 3 6 moves d1f3 e7e6 g1h3 f6e4 f3e4 d7f6 e4d3 f8e7 e1g1 e8g8 c1f4 b7b6 f4e5 c8b7 h3g5 h7h6 e5f6 h6g5 f6e7 d8e7 c2c3 a8d8 c4b3 c6c5 b3c2 g7g6 a1d1 c5d4 c3d4 d8d6 f1e1 f8d8 d3a3 e7c7 a3a7 c7c6 c2e4 c6c7 a7b7 c7b7 e4b7 d6d4 d1d4 d8d4 g1f1 d4d2 e1b1 g8g7 a2a4 g7f6 b2b4 d2a2 b7c6 f6e5 c6b5 e5d4 b1b3 f7f5 g2g3 e6e5 b3d3
+2025-12-02T14:35:45 >>> go wtime 60000 winc 0 btime 60000 binc 0
+2025-12-02T14:35:48 <<< bestmove d4e4

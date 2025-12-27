@@ -1,0 +1,9 @@
+game_id,transcript,result,player_one,player_two,player_one_time,player_two_time,player_one_score,player_two_score,player_one_illegal_moves,player_two_illegal_moves,player_one_legal_moves,player_two_legal_moves,player_one_resignation,player_two_resignation,player_one_failed_to_find_legal_move,player_two_failed_to_find_legal_move,game_title,number_of_moves,time_taken,total_moves,illegal_moves
+1764508461-9445,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 e6 2. d4 f5 3. exf5 exf5 4. Nf3 Bb4 5. c3 Ba5 6. Bd3 Nf6 7. Bxf5 g6 8. Bd3 d6 9. O-O Be6 10. Re1 Nc6 11. Rxe6+ Kd7 12. Re1 Qg8 13. Bg5 Qf7 14. Nbd2 h6 15. Bxf6 g5 16. Bxh8 Rxh8 17. Nc4 b6 18. Nxa5 bxa5 19. Qa4 Qd5 20. Be4 Qc5 21. dxc5 dxc5 22. Bxc6+ Kc8 23. Qxa5 Rd8 24. Qxa7 Rf8 25. Qa8+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Human,,,1,0,0,4,25,21,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Human,25,43037.47146129608,25,0
+1764615242-3739,"[White ""Magnus Carlsen""]
+[Black ""Stockfish""]
+
+1. e4 c5 2. Nf3 d6 3. d4 Qa5 4. Bd2 Qb6 5. dxc5 dxc5 6. Nc3 Qxb2 7. Rb1 Qa3 8. Bb5+ Nd7 9. Nd5 Rb8 10. Nc7+ Kd8 11. Nd5 e6 12. Nf4 Ng8f6 13. O-O a6 14. Bxd7 Bxd7 15. Ne5 Ke7 16. Nxd7 Nxd7 17. Re1 g6 18. Nd5+ Kd8 19. Bg5+ Kc8 20. Nf6 Nxf6 21. Bxf6 Rg8 22. Qd8+",1-0,lichess_200k_bins_16layers_ckpt_with_optimizer.pt,Human,,,1,0,4,4,21,20,False,False,False,False,lichess_200k_bins_16layers_ckpt_with_optimizer.pt vs. Human,22,2191.05055475235,22,0

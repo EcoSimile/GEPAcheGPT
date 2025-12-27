@@ -1,0 +1,20 @@
+[Event "Local Event"]
+[Site "Local Site"]
+[Date "2025.12.02"]
+[Round "1"]
+[White "Chris Kar"]
+[Black "ChessGPT Logger"]
+[Result "1-0"]
+[PlyCount "73"]
+[Termination "normal"]
+[ECO "B17"]
+[Opening "Caro-Kann Defense"]
+[Variation "Karpov Variation"]
+
+1. e4 c6 2. Nc3 d5 3. d4 dxe4 4. Nxe4 Nd7 5. Bc4 Ngf6 6. Qf3 e6 7. Nh3 Nxe4 8.
+Qxe4 Nf6 9. Qd3 Be7 10. O-O O-O 11. Bf4 b6 12. Be5 Bb7 13. Ng5 h6 14. Bxf6 hxg5
+15. Bxe7 Qxe7 16. c3 Rad8 17. Bb3 c5 18. Bc2 g6 19. Rad1 cxd4 20. cxd4 Rd6 21.
+Rfe1 Rfd8 22. Qa3 Qc7 23. Qxa7 Qc6 24. Be4 Qc7 25. Qxb7 Qxb7 26. Bxb7 Rxd4 27.
+Rxd4 Rxd4 28. Kf1 Rd2 29. Rb1 Kg7 30. a4 Kf6 31. b4 Ra2 32. Bc6 Ke5 33. Bb5 Kd4
+34. Rb3 f5 35. g3 e5 36. Rd3+ Ke4 37. f3# 1-0
+
